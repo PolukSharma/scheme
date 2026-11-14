@@ -1,0 +1,1698 @@
+{
+  "byStudent": [
+    {
+      "studentId": "demo-nova",
+      "audits": [
+        {
+          "studentId": "demo-nova",
+          "programId": "demo-applied-widgets",
+          "satisfied": false,
+          "unitsApplied": 4,
+          "unitsRemaining": 16,
+          "coursesRemaining": [
+            "DEMO 201",
+            "DEMO 301",
+            "DEMO 360",
+            "DEMO 370"
+          ],
+          "requirements": [
+            {
+              "nodeId": "aw-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 101"
+              ],
+              "remainingUnits": 16,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Applied Widgets major."
+              }
+            },
+            {
+              "nodeId": "aw-101",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 101"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-101",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 101 Introduction to Widgets."
+              }
+            },
+            {
+              "nodeId": "aw-201",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-201",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 201 Widget Structures."
+              }
+            },
+            {
+              "nodeId": "aw-301",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-301",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 301 Applied Widget Design."
+              }
+            },
+            {
+              "nodeId": "aw-choose",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-choose",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: choose two options totaling at least 8 units from the studios or a 400-level set."
+              }
+            },
+            {
+              "nodeId": "aw-360",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-360",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 360 Capstone Studio I."
+              }
+            },
+            {
+              "nodeId": "aw-370",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-370",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 370 Capstone Studio II."
+              }
+            },
+            {
+              "nodeId": "aw-400",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above, at least 4 units, may fill this choice."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        },
+        {
+          "studentId": "demo-nova",
+          "programId": "demo-widget-policy",
+          "satisfied": false,
+          "unitsApplied": 0,
+          "unitsRemaining": 16,
+          "coursesRemaining": [
+            "DEMO 210",
+            "DEMO 220",
+            "DEMO 230",
+            "DEMO 240"
+          ],
+          "requirements": [
+            {
+              "nodeId": "wp-all",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 16,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Widget Policy minor."
+              }
+            },
+            {
+              "nodeId": "wp-210",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-210",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 210 Widget Policy."
+              }
+            },
+            {
+              "nodeId": "wp-choose",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-choose",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: choose two policy courses, at least 6 units, with at most 4 units shared with the major."
+              }
+            },
+            {
+              "nodeId": "wp-220",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-220",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 220 Rules of Assembly."
+              }
+            },
+            {
+              "nodeId": "wp-230",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-230",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 230 Public Gadgets."
+              }
+            },
+            {
+              "nodeId": "wp-240",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-240",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 240 Ethics of Automation."
+              }
+            },
+            {
+              "nodeId": "wp-300",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-300",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: at least 4 units of DEMO courses numbered 300 through 399."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        },
+        {
+          "studentId": "demo-nova",
+          "programId": "demo-widget-systems",
+          "satisfied": false,
+          "unitsApplied": 2,
+          "unitsRemaining": 12,
+          "coursesRemaining": [
+            "DEMO 110",
+            "DEMO 320",
+            "DEMO 330",
+            "DEMO 340",
+            "DEMO 350"
+          ],
+          "requirements": [
+            {
+              "nodeId": "ws-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 102"
+              ],
+              "remainingUnits": 12,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Widget Systems major."
+              }
+            },
+            {
+              "nodeId": "ws-102",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 102"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-102",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 102 Widget Studio."
+              }
+            },
+            {
+              "nodeId": "ws-110",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-110",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 110 Discrete Gadgets."
+              }
+            },
+            {
+              "nodeId": "ws-track",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-track",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete one of the two nested tracks."
+              }
+            },
+            {
+              "nodeId": "ws-operating",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-operating",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the operating-gadgets track is DEMO 320 and DEMO 330."
+              }
+            },
+            {
+              "nodeId": "ws-320",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-320",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 320 Operating Gadgets."
+              }
+            },
+            {
+              "nodeId": "ws-330",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-330",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 330 Gadget Networks."
+              }
+            },
+            {
+              "nodeId": "ws-compiled",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-compiled",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the compiled-widgets track is DEMO 340 and DEMO 350."
+              }
+            },
+            {
+              "nodeId": "ws-340",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-340",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 340 Compiled Widgets."
+              }
+            },
+            {
+              "nodeId": "ws-350",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-350",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 350 Widget Runtimes."
+              }
+            },
+            {
+              "nodeId": "ws-400",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        }
+      ],
+      "addOns": [
+        {
+          "coursesThatStopCounting": [],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "add_on",
+          "studentId": "demo-nova",
+          "programId": "demo-widget-policy",
+          "extraTerms": 3,
+          "extraUnits": 14,
+          "bindingConstraint": "Stub: DEMO 210 is fall-only in this fixture, and DEMO 220 and DEMO 230 come after it.",
+          "coursesThatCount": [],
+          "remainingCourses": [
+            "DEMO 210",
+            "DEMO 220",
+            "DEMO 230",
+            "DEMO 301"
+          ],
+          "crossSchool": true,
+          "transfer": {
+            "rule": {
+              "id": "transfer-college-of-examples",
+              "school": "College of Examples",
+              "summary": "Invented fixture: the College of Examples asks for DEMO 101 and DEMO 210 on its form. Not a USC rule, and it says nothing about admission.",
+              "prerequisiteCourses": [
+                "DEMO 101",
+                "DEMO 210"
+              ],
+              "gpaText": null,
+              "timingText": "Invented fixture: file the form before the term you want to enter.",
+              "applicationSteps": [
+                "Open the invented form on the fixture page.",
+                "List DEMO 101 and DEMO 210. This is not a USC form."
+              ],
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/transfer/college-of-examples",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture, not a USC rule: list DEMO 101 and DEMO 210. This page does not predict admission."
+              },
+              "dateChecked": "2026-11-14",
+              "confirmed": true
+            },
+            "prerequisitesHave": [
+              "DEMO 101"
+            ],
+            "prerequisitesLack": [
+              "DEMO 210"
+            ]
+          }
+        },
+        {
+          "coursesThatStopCounting": [],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "add_on",
+          "studentId": "demo-nova",
+          "programId": "demo-widget-systems",
+          "extraTerms": 4,
+          "extraUnits": 16,
+          "bindingConstraint": "Stub: DEMO 330 is spring-only and follows DEMO 320, which is fall-only in this fixture.",
+          "coursesThatCount": [
+            "DEMO 102"
+          ],
+          "remainingCourses": [
+            "DEMO 110",
+            "DEMO 320",
+            "DEMO 330",
+            "DEMO 401"
+          ],
+          "crossSchool": false,
+          "transfer": null
+        }
+      ],
+      "switches": [
+        {
+          "coursesThatStopCounting": [
+            "DEMO 101"
+          ],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "switch",
+          "studentId": "demo-nova",
+          "programId": "demo-widget-systems",
+          "extraTerms": 2,
+          "extraUnits": 16,
+          "bindingConstraint": "Stub: switching drops DEMO 101. DEMO 320 then DEMO 330 is a two-term chain.",
+          "coursesThatCount": [
+            "DEMO 102"
+          ],
+          "remainingCourses": [
+            "DEMO 110",
+            "DEMO 320",
+            "DEMO 330",
+            "DEMO 401"
+          ],
+          "crossSchool": false,
+          "transfer": null
+        }
+      ],
+      "plan": {
+        "studentId": "demo-nova",
+        "programIds": [
+          "demo-applied-widgets"
+        ],
+        "terms": [
+          {
+            "label": "Spring 2026",
+            "season": "spring",
+            "year": 2026,
+            "courses": [
+              {
+                "code": "DEMO 201",
+                "units": 4,
+                "title": "Widget Structures"
+              }
+            ],
+            "units": 4
+          },
+          {
+            "label": "Fall 2026",
+            "season": "fall",
+            "year": 2026,
+            "courses": [
+              {
+                "code": "DEMO 301",
+                "units": 4,
+                "title": "Applied Widget Design"
+              }
+            ],
+            "units": 4
+          },
+          {
+            "label": "Spring 2027",
+            "season": "spring",
+            "year": 2027,
+            "courses": [
+              {
+                "code": "DEMO 360",
+                "units": 4,
+                "title": "Capstone Studio I"
+              }
+            ],
+            "units": 4
+          },
+          {
+            "label": "Fall 2027",
+            "season": "fall",
+            "year": 2027,
+            "courses": [
+              {
+                "code": "DEMO 370",
+                "units": 4,
+                "title": "Capstone Studio II"
+              }
+            ],
+            "units": 4
+          }
+        ],
+        "assumptions": [
+          {
+            "ruleId": "demo-term-unit-cap",
+            "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+          }
+        ],
+        "totalUnits": 16
+      }
+    },
+    {
+      "studentId": "demo-quill",
+      "audits": [
+        {
+          "studentId": "demo-quill",
+          "programId": "demo-applied-widgets",
+          "satisfied": true,
+          "unitsApplied": 20,
+          "unitsRemaining": 0,
+          "coursesRemaining": [
+            "DEMO 370"
+          ],
+          "requirements": [
+            {
+              "nodeId": "aw-all",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 101",
+                "DEMO 201",
+                "DEMO 301",
+                "DEMO 360",
+                "DEMO 401"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Applied Widgets major."
+              }
+            },
+            {
+              "nodeId": "aw-101",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 101"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-101",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 101 Introduction to Widgets."
+              }
+            },
+            {
+              "nodeId": "aw-201",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 201"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-201",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 201 Widget Structures."
+              }
+            },
+            {
+              "nodeId": "aw-301",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 301"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-301",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 301 Applied Widget Design."
+              }
+            },
+            {
+              "nodeId": "aw-choose",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 360",
+                "DEMO 401"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-choose",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: choose two options totaling at least 8 units from the studios or a 400-level set."
+              }
+            },
+            {
+              "nodeId": "aw-360",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 360"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-360",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 360 Capstone Studio I."
+              }
+            },
+            {
+              "nodeId": "aw-370",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-370",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 370 Capstone Studio II."
+              }
+            },
+            {
+              "nodeId": "aw-400",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 401"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above, at least 4 units, may fill this choice."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        },
+        {
+          "studentId": "demo-quill",
+          "programId": "demo-widget-policy",
+          "satisfied": false,
+          "unitsApplied": 15,
+          "unitsRemaining": 4,
+          "coursesRemaining": [
+            "DEMO 230",
+            "DEMO 240"
+          ],
+          "requirements": [
+            {
+              "nodeId": "wp-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 210",
+                "DEMO 220",
+                "DEMO 301",
+                "DEMO 360"
+              ],
+              "remainingUnits": 4,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Widget Policy minor."
+              }
+            },
+            {
+              "nodeId": "wp-210",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 210"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-210",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 210 Widget Policy."
+              }
+            },
+            {
+              "nodeId": "wp-choose",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 220"
+              ],
+              "remainingUnits": 4,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-choose",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: choose two policy courses, at least 6 units, with at most 4 units shared with the major."
+              }
+            },
+            {
+              "nodeId": "wp-220",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 220"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-220",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 220 Rules of Assembly."
+              }
+            },
+            {
+              "nodeId": "wp-230",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-230",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 230 Public Gadgets."
+              }
+            },
+            {
+              "nodeId": "wp-240",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-240",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 240 Ethics of Automation."
+              }
+            },
+            {
+              "nodeId": "wp-300",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 301",
+                "DEMO 360"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-300",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: at least 4 units of DEMO courses numbered 300 through 399."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        },
+        {
+          "studentId": "demo-quill",
+          "programId": "demo-widget-systems",
+          "satisfied": false,
+          "unitsApplied": 10,
+          "unitsRemaining": 4,
+          "coursesRemaining": [
+            "DEMO 320",
+            "DEMO 330",
+            "DEMO 340",
+            "DEMO 350"
+          ],
+          "requirements": [
+            {
+              "nodeId": "ws-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 102",
+                "DEMO 110",
+                "DEMO 401"
+              ],
+              "remainingUnits": 4,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Widget Systems major."
+              }
+            },
+            {
+              "nodeId": "ws-102",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 102"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-102",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 102 Widget Studio."
+              }
+            },
+            {
+              "nodeId": "ws-110",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 110"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-110",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 110 Discrete Gadgets."
+              }
+            },
+            {
+              "nodeId": "ws-track",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-track",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete one of the two nested tracks."
+              }
+            },
+            {
+              "nodeId": "ws-operating",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-operating",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the operating-gadgets track is DEMO 320 and DEMO 330."
+              }
+            },
+            {
+              "nodeId": "ws-320",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-320",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 320 Operating Gadgets."
+              }
+            },
+            {
+              "nodeId": "ws-330",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-330",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 330 Gadget Networks."
+              }
+            },
+            {
+              "nodeId": "ws-compiled",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-compiled",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the compiled-widgets track is DEMO 340 and DEMO 350."
+              }
+            },
+            {
+              "nodeId": "ws-340",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-340",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 340 Compiled Widgets."
+              }
+            },
+            {
+              "nodeId": "ws-350",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-350",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 350 Widget Runtimes."
+              }
+            },
+            {
+              "nodeId": "ws-400",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 401"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        }
+      ],
+      "addOns": [
+        {
+          "coursesThatStopCounting": [],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "add_on",
+          "studentId": "demo-quill",
+          "programId": "demo-widget-policy",
+          "extraTerms": 1,
+          "extraUnits": 3,
+          "bindingConstraint": "Stub: DEMO 230 is fall-only in this fixture and is the remaining policy choice.",
+          "coursesThatCount": [
+            "DEMO 210",
+            "DEMO 220",
+            "DEMO 301"
+          ],
+          "remainingCourses": [
+            "DEMO 230"
+          ],
+          "crossSchool": true,
+          "transfer": {
+            "rule": {
+              "id": "transfer-college-of-examples",
+              "school": "College of Examples",
+              "summary": "Invented fixture: the College of Examples asks for DEMO 101 and DEMO 210 on its form. Not a USC rule, and it says nothing about admission.",
+              "prerequisiteCourses": [
+                "DEMO 101",
+                "DEMO 210"
+              ],
+              "gpaText": null,
+              "timingText": "Invented fixture: file the form before the term you want to enter.",
+              "applicationSteps": [
+                "Open the invented form on the fixture page.",
+                "List DEMO 101 and DEMO 210. This is not a USC form."
+              ],
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/transfer/college-of-examples",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture, not a USC rule: list DEMO 101 and DEMO 210. This page does not predict admission."
+              },
+              "dateChecked": "2026-11-14",
+              "confirmed": true
+            },
+            "prerequisitesHave": [
+              "DEMO 101",
+              "DEMO 210"
+            ],
+            "prerequisitesLack": []
+          }
+        },
+        {
+          "coursesThatStopCounting": [],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "add_on",
+          "studentId": "demo-quill",
+          "programId": "demo-widget-systems",
+          "extraTerms": 2,
+          "extraUnits": 8,
+          "bindingConstraint": "Stub: DEMO 320 is fall-only and DEMO 330 follows it in the spring.",
+          "coursesThatCount": [
+            "DEMO 102",
+            "DEMO 110",
+            "DEMO 401"
+          ],
+          "remainingCourses": [
+            "DEMO 320",
+            "DEMO 330"
+          ],
+          "crossSchool": false,
+          "transfer": null
+        }
+      ],
+      "switches": [
+        {
+          "coursesThatStopCounting": [
+            "DEMO 101",
+            "DEMO 201",
+            "DEMO 210",
+            "DEMO 220",
+            "DEMO 301",
+            "DEMO 360"
+          ],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "switch",
+          "studentId": "demo-quill",
+          "programId": "demo-widget-systems",
+          "extraTerms": 2,
+          "extraUnits": 8,
+          "bindingConstraint": "Stub: the current major is already satisfied, so the systems track adds two terms.",
+          "coursesThatCount": [
+            "DEMO 102",
+            "DEMO 110",
+            "DEMO 401"
+          ],
+          "remainingCourses": [
+            "DEMO 320",
+            "DEMO 330"
+          ],
+          "crossSchool": false,
+          "transfer": null
+        }
+      ],
+      "plan": {
+        "studentId": "demo-quill",
+        "programIds": [
+          "demo-applied-widgets"
+        ],
+        "terms": [],
+        "assumptions": [
+          {
+            "ruleId": "demo-term-unit-cap",
+            "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+          },
+          {
+            "ruleId": "demo-term-unit-cap",
+            "text": "Stub: Applied Widgets is already satisfied for Quill, so this plan has no further terms. DEMO 370 is in progress and is not required by the stub tally."
+          }
+        ],
+        "totalUnits": 0
+      }
+    },
+    {
+      "studentId": "demo-pebble",
+      "audits": [
+        {
+          "studentId": "demo-pebble",
+          "programId": "demo-applied-widgets",
+          "satisfied": false,
+          "unitsApplied": 8,
+          "unitsRemaining": 12,
+          "coursesRemaining": [
+            "DEMO 301",
+            "DEMO 360",
+            "DEMO 370"
+          ],
+          "requirements": [
+            {
+              "nodeId": "aw-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 101",
+                "DEMO 201"
+              ],
+              "remainingUnits": 12,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Applied Widgets major."
+              }
+            },
+            {
+              "nodeId": "aw-101",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 101"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-101",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 101 Introduction to Widgets."
+              }
+            },
+            {
+              "nodeId": "aw-201",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 201"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-201",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 201 Widget Structures."
+              }
+            },
+            {
+              "nodeId": "aw-301",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-301",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 301 Applied Widget Design."
+              }
+            },
+            {
+              "nodeId": "aw-choose",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-choose",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: choose two options totaling at least 8 units from the studios or a 400-level set."
+              }
+            },
+            {
+              "nodeId": "aw-360",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-360",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 360 Capstone Studio I."
+              }
+            },
+            {
+              "nodeId": "aw-370",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-370",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 370 Capstone Studio II."
+              }
+            },
+            {
+              "nodeId": "aw-400",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above, at least 4 units, may fill this choice."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        },
+        {
+          "studentId": "demo-pebble",
+          "programId": "demo-widget-policy",
+          "satisfied": false,
+          "unitsApplied": 4,
+          "unitsRemaining": 12,
+          "coursesRemaining": [
+            "DEMO 210",
+            "DEMO 220",
+            "DEMO 230",
+            "DEMO 240"
+          ],
+          "requirements": [
+            {
+              "nodeId": "wp-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 320"
+              ],
+              "remainingUnits": 12,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Widget Policy minor."
+              }
+            },
+            {
+              "nodeId": "wp-210",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-210",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 210 Widget Policy."
+              }
+            },
+            {
+              "nodeId": "wp-choose",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-choose",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: choose two policy courses, at least 6 units, with at most 4 units shared with the major."
+              }
+            },
+            {
+              "nodeId": "wp-220",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-220",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 220 Rules of Assembly."
+              }
+            },
+            {
+              "nodeId": "wp-230",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-230",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 230 Public Gadgets."
+              }
+            },
+            {
+              "nodeId": "wp-240",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 3,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-240",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 240 Ethics of Automation."
+              }
+            },
+            {
+              "nodeId": "wp-300",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 320"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-300",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: at least 4 units of DEMO courses numbered 300 through 399."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        },
+        {
+          "studentId": "demo-pebble",
+          "programId": "demo-widget-systems",
+          "satisfied": false,
+          "unitsApplied": 6,
+          "unitsRemaining": 8,
+          "coursesRemaining": [
+            "DEMO 330",
+            "DEMO 340",
+            "DEMO 350"
+          ],
+          "requirements": [
+            {
+              "nodeId": "ws-all",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 102",
+                "DEMO 110"
+              ],
+              "remainingUnits": 8,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-all",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete every child of the Widget Systems major."
+              }
+            },
+            {
+              "nodeId": "ws-102",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 102"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-102",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 102 Widget Studio."
+              }
+            },
+            {
+              "nodeId": "ws-110",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 110"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-110",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 110 Discrete Gadgets."
+              }
+            },
+            {
+              "nodeId": "ws-track",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: a choose-group tally. It is not a cheapest remaining set.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-track",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: complete one of the two nested tracks."
+              }
+            },
+            {
+              "nodeId": "ws-operating",
+              "satisfied": false,
+              "appliedCourses": [
+                "DEMO 320"
+              ],
+              "remainingUnits": 4,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-operating",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the operating-gadgets track is DEMO 320 and DEMO 330."
+              }
+            },
+            {
+              "nodeId": "ws-320",
+              "satisfied": true,
+              "appliedCourses": [
+                "DEMO 320"
+              ],
+              "remainingUnits": 0,
+              "note": "Stub: this completed course is applied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-320",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 320 Operating Gadgets."
+              }
+            },
+            {
+              "nodeId": "ws-330",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-330",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 330 Gadget Networks."
+              }
+            },
+            {
+              "nodeId": "ws-compiled",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 8,
+              "note": "Stub: every child of this group must be satisfied.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-compiled",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the compiled-widgets track is DEMO 340 and DEMO 350."
+              }
+            },
+            {
+              "nodeId": "ws-340",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-340",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 340 Compiled Widgets."
+              }
+            },
+            {
+              "nodeId": "ws-350",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: this course is not completed. In-progress courses do not count.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-350",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 350 Widget Runtimes."
+              }
+            },
+            {
+              "nodeId": "ws-400",
+              "satisfied": false,
+              "appliedCourses": [],
+              "remainingUnits": 4,
+              "note": "Stub: course-set match against completed DEMO courses. Not an assignment solver.",
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above."
+              }
+            }
+          ],
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ]
+        }
+      ],
+      "addOns": [
+        {
+          "coursesThatStopCounting": [],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "add_on",
+          "studentId": "demo-pebble",
+          "programId": "demo-widget-systems",
+          "extraTerms": 2,
+          "extraUnits": 8,
+          "bindingConstraint": "Stub: DEMO 330 is spring-only and follows the completed DEMO 320.",
+          "coursesThatCount": [
+            "DEMO 102",
+            "DEMO 110",
+            "DEMO 320"
+          ],
+          "remainingCourses": [
+            "DEMO 330",
+            "DEMO 401"
+          ],
+          "crossSchool": false,
+          "transfer": null
+        },
+        {
+          "coursesThatStopCounting": [],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "add_on",
+          "studentId": "demo-pebble",
+          "programId": "demo-widget-policy",
+          "extraTerms": 3,
+          "extraUnits": 14,
+          "bindingConstraint": "Stub: DEMO 210 is fall-only, then DEMO 220, DEMO 230, and a 300-level course remain.",
+          "coursesThatCount": [],
+          "remainingCourses": [
+            "DEMO 210",
+            "DEMO 220",
+            "DEMO 230",
+            "DEMO 301"
+          ],
+          "crossSchool": true,
+          "transfer": {
+            "rule": {
+              "id": "transfer-college-of-examples",
+              "school": "College of Examples",
+              "summary": "Invented fixture: the College of Examples asks for DEMO 101 and DEMO 210 on its form. Not a USC rule, and it says nothing about admission.",
+              "prerequisiteCourses": [
+                "DEMO 101",
+                "DEMO 210"
+              ],
+              "gpaText": null,
+              "timingText": "Invented fixture: file the form before the term you want to enter.",
+              "applicationSteps": [
+                "Open the invented form on the fixture page.",
+                "List DEMO 101 and DEMO 210. This is not a USC form."
+              ],
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/transfer/college-of-examples",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture, not a USC rule: list DEMO 101 and DEMO 210. This page does not predict admission."
+              },
+              "dateChecked": "2026-11-14",
+              "confirmed": true
+            },
+            "prerequisitesHave": [
+              "DEMO 101"
+            ],
+            "prerequisitesLack": [
+              "DEMO 210"
+            ]
+          }
+        }
+      ],
+      "switches": [
+        {
+          "coursesThatStopCounting": [
+            "DEMO 101",
+            "DEMO 201"
+          ],
+          "verified": false,
+          "assumptions": [
+            {
+              "ruleId": "demo-term-unit-cap",
+              "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+            }
+          ],
+          "mode": "switch",
+          "studentId": "demo-pebble",
+          "programId": "demo-widget-systems",
+          "extraTerms": 0,
+          "extraUnits": -4,
+          "bindingConstraint": "Stub: finishing Widget Systems is the same number of terms as finishing Applied Widgets, and 4 fewer units, in this fixture.",
+          "coursesThatCount": [
+            "DEMO 102",
+            "DEMO 110",
+            "DEMO 320"
+          ],
+          "remainingCourses": [
+            "DEMO 330",
+            "DEMO 401"
+          ],
+          "crossSchool": false,
+          "transfer": null
+        }
+      ],
+      "plan": {
+        "studentId": "demo-pebble",
+        "programIds": [
+          "demo-applied-widgets"
+        ],
+        "terms": [
+          {
+            "label": "Fall 2026",
+            "season": "fall",
+            "year": 2026,
+            "courses": [
+              {
+                "code": "DEMO 301",
+                "units": 4,
+                "title": "Applied Widget Design"
+              }
+            ],
+            "units": 4
+          },
+          {
+            "label": "Fall 2027",
+            "season": "fall",
+            "year": 2027,
+            "courses": [
+              {
+                "code": "DEMO 360",
+                "units": 4,
+                "title": "Capstone Studio I"
+              }
+            ],
+            "units": 4
+          },
+          {
+            "label": "Spring 2028",
+            "season": "spring",
+            "year": 2028,
+            "courses": [
+              {
+                "code": "DEMO 370",
+                "units": 4,
+                "title": "Capstone Studio II"
+              }
+            ],
+            "units": 4
+          }
+        ],
+        "assumptions": [
+          {
+            "ruleId": "demo-term-unit-cap",
+            "text": "Stub tally for the skeleton. Not a degree audit. The invented DEMO cap is 16 units."
+          }
+        ],
+        "totalUnits": 12
+      }
+    }
+  ]
+}

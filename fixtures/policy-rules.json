@@ -1,0 +1,38 @@
+[
+  {
+    "id": "demo-term-unit-cap",
+    "name": "DEMO term unit cap",
+    "summary": "Invented DEMO fixture cap of 16 units in a term. Not a USC rule.",
+    "value": 16,
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/policy/term-cap",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC rule: a DEMO term lists at most 16 units."
+    },
+    "confirmed": true
+  },
+  {
+    "id": "demo-minor-unique-units",
+    "name": "Units unique to a minor",
+    "summary": "TO SOURCE: how many units must be unique to a minor. Left unset in this fixture.",
+    "value": null,
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/policy/minor-unique-units",
+      "catalogueYear": "2026-2027",
+      "text": "TO SOURCE: units that must be unique to a minor. This fixture does not invent a number."
+    },
+    "confirmed": false
+  },
+  {
+    "id": "demo-catalogue-year",
+    "name": "Catalogue year for a continuing student",
+    "summary": "TO SOURCE: which catalogue year applies to a continuing student. Left unset.",
+    "value": null,
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/policy/catalogue-year",
+      "catalogueYear": "2026-2027",
+      "text": "TO SOURCE: which catalogue year applies to a continuing student."
+    },
+    "confirmed": false
+  }
+]

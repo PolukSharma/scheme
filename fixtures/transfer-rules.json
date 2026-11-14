@@ -1,0 +1,42 @@
+[
+  {
+    "id": "transfer-school-of-demonstration",
+    "school": "School of Demonstration",
+    "summary": "Invented fixture: the School of Demonstration lists no extra coursework on this page. Not a USC rule.",
+    "prerequisiteCourses": [],
+    "gpaText": null,
+    "timingText": null,
+    "applicationSteps": [
+      "Read the invented DEMO school page at example.edu. This step is not a USC process."
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/transfer/school-of-demonstration",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC rule: the School of Demonstration publishes no extra prerequisite courses."
+    },
+    "dateChecked": "2026-11-14",
+    "confirmed": true
+  },
+  {
+    "id": "transfer-college-of-examples",
+    "school": "College of Examples",
+    "summary": "Invented fixture: the College of Examples asks for DEMO 101 and DEMO 210 on its form. Not a USC rule, and it says nothing about admission.",
+    "prerequisiteCourses": [
+      "DEMO 101",
+      "DEMO 210"
+    ],
+    "gpaText": null,
+    "timingText": "Invented fixture: file the form before the term you want to enter.",
+    "applicationSteps": [
+      "Open the invented form on the fixture page.",
+      "List DEMO 101 and DEMO 210. This is not a USC form."
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/transfer/college-of-examples",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC rule: list DEMO 101 and DEMO 210. This page does not predict admission."
+    },
+    "dateChecked": "2026-11-14",
+    "confirmed": true
+  }
+]

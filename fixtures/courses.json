@@ -1,0 +1,871 @@
+[
+  {
+    "code": "DEMO 101",
+    "title": "Introduction to Widgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": null,
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-101",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 101 Introduction to Widgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 102",
+    "title": "Widget Studio",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 101"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-102",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 102 Widget Studio is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 110",
+    "title": "Discrete Gadgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": null,
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-110",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 110 Discrete Gadgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 120",
+    "title": "Gadget Laboratory",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 110"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-120",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 120 Gadget Laboratory is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 130",
+    "title": "Linear Planks",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 101"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-130",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 130 Linear Planks is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 140",
+    "title": "Plank Laboratory",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 130"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-140",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 140 Plank Laboratory is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 150",
+    "title": "Proofs for Widgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 110"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-150",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 150 Proofs for Widgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 160",
+    "title": "Widget Writing",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 100,
+    "prerequisites": null,
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring",
+      "summer"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-160",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 160 Widget Writing is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 201",
+    "title": "Widget Structures",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 101"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-201",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 201 Widget Structures is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 202",
+    "title": "Structures Laboratory",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 201"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-202",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 202 Structures Laboratory is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 210",
+    "title": "Widget Policy",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 101"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-210",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 210 Widget Policy is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 220",
+    "title": "Rules of Assembly",
+    "units": 3,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 210"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-220",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 220 Rules of Assembly is 3 units."
+    }
+  },
+  {
+    "code": "DEMO 230",
+    "title": "Public Gadgets",
+    "units": 3,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 210"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-230",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 230 Public Gadgets is 3 units."
+    }
+  },
+  {
+    "code": "DEMO 240",
+    "title": "Ethics of Automation",
+    "units": 3,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 160"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring",
+      "summer"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-240",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 240 Ethics of Automation is 3 units."
+    }
+  },
+  {
+    "code": "DEMO 250",
+    "title": "Counting Arguments",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 110"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 130"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-250",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 250 Counting Arguments is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 260",
+    "title": "Probability for Demos",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 130"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-260",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 260 Probability for Demos is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 270",
+    "title": "Graphical Widgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 201"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-270",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 270 Graphical Widgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 280",
+    "title": "Systems Survey",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 200,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 102"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 110"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-280",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 280 Systems Survey is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 301",
+    "title": "Applied Widget Design",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 201"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-301",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 301 Applied Widget Design is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 310",
+    "title": "Design Critique",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 301"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-310",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 310 Design Critique is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 320",
+    "title": "Operating Gadgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 201"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 110"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-320",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 320 Operating Gadgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 330",
+    "title": "Gadget Networks",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 320"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-330",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 330 Gadget Networks is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 340",
+    "title": "Compiled Widgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 201"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-340",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 340 Compiled Widgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 350",
+    "title": "Widget Runtimes",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 340"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-350",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 350 Widget Runtimes is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 360",
+    "title": "Capstone Studio I",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 301"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-360",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 360 Capstone Studio I is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 370",
+    "title": "Capstone Studio II",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 360"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-370",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 370 Capstone Studio II is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 380",
+    "title": "Data Widgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 201"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 260"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-380",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 380 Data Widgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 390",
+    "title": "Learning Gadgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 300,
+    "prerequisites": {
+      "type": "n_of",
+      "minCount": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 260"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 380"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-390",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 390 Learning Gadgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 401",
+    "title": "Advanced Widget Theory",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 301"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-401",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 401 Advanced Widget Theory is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 410",
+    "title": "Widget Research",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 301"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 250"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-410",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 410 Widget Research is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 420",
+    "title": "Secure Gadgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 320"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-420",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 420 Secure Gadgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 430",
+    "title": "Distributed Demos",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 330"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-430",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 430 Distributed Demos is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 440",
+    "title": "Language Gadgets",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 340"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-440",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 440 Language Gadgets is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 450",
+    "title": "Interface Systems",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 280"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-450",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 450 Interface Systems is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 460",
+    "title": "Policy Workshop",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 220"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 230"
+        }
+      ]
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-460",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 460 Policy Workshop is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 470",
+    "title": "Field Methods",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 210"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring",
+      "summer"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-470",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 470 Field Methods is 4 units."
+    }
+  },
+  {
+    "code": "DEMO 480",
+    "title": "Irregular Topics",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 301"
+    },
+    "corequisites": [],
+    "offerings": [
+      "irregular"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-480",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 480 Irregular Topics is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 490",
+    "title": "Directed Demo",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 401"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall",
+      "spring",
+      "summer"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-490",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 490 Directed Demo is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 495",
+    "title": "Honors Seminar",
+    "units": 2,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 301"
+    },
+    "corequisites": [],
+    "offerings": [
+      "fall"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-495",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 495 Honors Seminar is 2 units."
+    }
+  },
+  {
+    "code": "DEMO 499",
+    "title": "Honors Thesis",
+    "units": 4,
+    "dept": "DEMO",
+    "level": 400,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 495"
+    },
+    "corequisites": [],
+    "offerings": [
+      "spring"
+    ],
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/courses/demo-499",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture, not a USC course: DEMO 499 Honors Thesis is 4 units."
+    }
+  }
+]

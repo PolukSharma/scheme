@@ -1,0 +1,177 @@
+[
+  {
+    "id": "demo-nova",
+    "label": "Nova",
+    "school": "School of Demonstration",
+    "startYear": 2025,
+    "startTerm": "2025-fall",
+    "catalogueYear": "2026-2027",
+    "majorId": "demo-applied-widgets",
+    "declaredProgramIds": [
+      "demo-applied-widgets"
+    ],
+    "courses": [
+      {
+        "code": "DEMO 101",
+        "units": 4,
+        "grade": "A",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 102",
+        "units": 2,
+        "grade": "A-",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 201",
+        "units": 4,
+        "grade": null,
+        "term": "2026-spring",
+        "status": "in_progress"
+      }
+    ]
+  },
+  {
+    "id": "demo-quill",
+    "label": "Quill",
+    "school": "School of Demonstration",
+    "startYear": 2023,
+    "startTerm": "2023-fall",
+    "catalogueYear": "2026-2027",
+    "majorId": "demo-applied-widgets",
+    "declaredProgramIds": [
+      "demo-applied-widgets"
+    ],
+    "courses": [
+      {
+        "code": "DEMO 101",
+        "units": 4,
+        "grade": "A",
+        "term": "2023-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 102",
+        "units": 2,
+        "grade": "A-",
+        "term": "2023-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 110",
+        "units": 4,
+        "grade": "A",
+        "term": "2024-spring",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 201",
+        "units": 4,
+        "grade": "A-",
+        "term": "2024-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 210",
+        "units": 4,
+        "grade": "B+",
+        "term": "2024-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 220",
+        "units": 3,
+        "grade": "A-",
+        "term": "2025-spring",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 301",
+        "units": 4,
+        "grade": "A",
+        "term": "2025-spring",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 360",
+        "units": 4,
+        "grade": "A",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 401",
+        "units": 4,
+        "grade": "B+",
+        "term": "2026-spring",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 370",
+        "units": 4,
+        "grade": null,
+        "term": "2026-fall",
+        "status": "in_progress"
+      }
+    ]
+  },
+  {
+    "id": "demo-pebble",
+    "label": "Pebble",
+    "school": "School of Demonstration",
+    "startYear": 2022,
+    "startTerm": "2022-fall",
+    "catalogueYear": "2026-2027",
+    "majorId": "demo-applied-widgets",
+    "declaredProgramIds": [
+      "demo-applied-widgets"
+    ],
+    "courses": [
+      {
+        "code": "DEMO 101",
+        "units": 4,
+        "grade": "A",
+        "term": "2022-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 102",
+        "units": 2,
+        "grade": "A",
+        "term": "2022-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 110",
+        "units": 4,
+        "grade": "A-",
+        "term": "2023-spring",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 201",
+        "units": 4,
+        "grade": "A",
+        "term": "2023-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 320",
+        "units": 4,
+        "grade": "A-",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "DEMO 301",
+        "units": 4,
+        "grade": null,
+        "term": "2026-fall",
+        "status": "in_progress"
+      }
+    ]
+  }
+]
