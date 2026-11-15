@@ -7,6 +7,11 @@
    PERTINENT DATA SECTION:
 
    Term of USC Entrance 20233  Current Class Level Senior
+   Expected Graduation 20271
+
+   PRIMARY POST:  DEGREE  MAJOR  UNIT  EFFECTIVE TERM
+
+       1003        BS     CSBA   ENGR       20233
 
    MINOR:  Law and Regulation of Artificial Intelligence       20261
 
@@ -18,3 +23,26 @@
          20261 WRIT150       4.0 A-    Invented writing
          20261 LAW 210     P 4.0 A     Invented legal foundations
          20263 WRIT340       4.0 RG >IPInvented advanced writing
+
+   UNIT SUMMARY
+   Earned 24.0
+   In-process 4.0
+   Transfer 0.0
+
+   REQUIREMENTS
+   OK  Writing requirement
+   +        20261 WRIT150       4.0 A-    Invented writing
+   IP  Advanced writing
+   +        20263 WRIT340       4.0 RG >IPInvented advanced writing
+   NO  Further mathematics
+   -        NEEDS: 4.0 UNITS
+            SELECT FROM: MATH 225, MATH 226g
+
+   CURRENT REGISTRATION
+         20263 WRIT340       4.0 RG >IPInvented advanced writing
+
+   FREE ELECTIVES
+   Earned 0.0
+
+   EXCESS ELECTIVES
+   None

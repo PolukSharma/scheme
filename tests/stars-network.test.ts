@@ -171,6 +171,15 @@ describe("STARS drop zone", () => {
     await drop("early.html", "text/html");
     await drop("early.pdf", "application/pdf");
 
+    const beforePaste = await page.locator("#stars-result").getAttribute("data-generation");
+    await page.locator("#stars-paste").fill(early.toString("utf8"));
+    await page.getByRole("button", { name: "Read pasted text" }).click();
+    await expect
+      .poll(async () => page!.locator("#stars-result").getAttribute("data-generation"), { timeout: 20_000 })
+      .not.toBe(beforePaste);
+    expect(await page.locator("#stars-result").innerText()).toContain("computer-science-bs 3");
+    expect(await page.locator("#stars-paste").inputValue()).toBe("");
+
     const beforeRequests = count();
     await input.setInputFiles({ name: "notes.txt", mimeType: "text/plain", buffer: Buffer.from("not a report") });
     await page.getByRole("button", { name: "Enter courses by hand" }).waitFor();
