@@ -1,0 +1,234 @@
+{
+  "id": "artificial-intelligence-applications-minor",
+  "name": "Artificial Intelligence Applications Minor",
+  "school": "USC Viterbi School of Engineering",
+  "kind": "minor",
+  "description": "AI is a rapidly advancing discipline at the intersection of computer science, technology, cognitive science, and data science.",
+  "catalogueYear": "2026-2027",
+  "totalUnits": 18,
+  "requirements": {
+    "type": "all_of",
+    "children": [
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "course",
+            "code": "TAC 259",
+            "id": "artificial-intelligence-applications-minor-1",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 259 Basics of Artificial Intelligence Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 359",
+            "id": "artificial-intelligence-applications-minor-2",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 359 Applied Neural Networks Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 459",
+            "id": "artificial-intelligence-applications-minor-3",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 459 Applied Natural Language Processing and Generative AI Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "id": "artificial-intelligence-applications-minor-4",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+          "catalogueYear": "2026-2027",
+          "text": "Core Requirements (12 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 2,
+        "child": {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "all_of",
+              "children": [
+                {
+                  "type": "course",
+                  "code": "CSCI 113x",
+                  "id": "artificial-intelligence-applications-minor-5",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                    "catalogueYear": "2026-2027",
+                    "text": "CSCI 113x Programming Fundamentals for Computing Units: 4"
+                  },
+                  "verified": true
+                }
+              ],
+              "id": "artificial-intelligence-applications-minor-6",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                "catalogueYear": "2026-2027",
+                "text": "CSCI course:"
+              },
+              "verified": true
+            },
+            {
+              "type": "all_of",
+              "children": [
+                {
+                  "type": "n_of",
+                  "n": 1,
+                  "children": [
+                    {
+                      "type": "course",
+                      "code": "TAC 115",
+                      "id": "artificial-intelligence-applications-minor-7",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                        "catalogueYear": "2026-2027",
+                        "text": "TAC 115 Programming in Python Units: 2"
+                      },
+                      "verified": true
+                    },
+                    {
+                      "type": "course",
+                      "code": "TAC 116",
+                      "id": "artificial-intelligence-applications-minor-8",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                        "catalogueYear": "2026-2027",
+                        "text": "TAC 116 Accelerated Programming in Python Units: 2"
+                      },
+                      "verified": true
+                    }
+                  ],
+                  "id": "artificial-intelligence-applications-minor-10-or",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                    "catalogueYear": "2026-2027",
+                    "text": "TAC 115 Programming in Python Units: 2 or TAC 116 Accelerated Programming in Python Units: 2"
+                  },
+                  "verified": true
+                },
+                {
+                  "type": "course",
+                  "code": "TAC 216",
+                  "id": "artificial-intelligence-applications-minor-9",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                    "catalogueYear": "2026-2027",
+                    "text": "TAC 216 Applied Python Units: 2"
+                  },
+                  "verified": true
+                }
+              ],
+              "id": "artificial-intelligence-applications-minor-10",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                "catalogueYear": "2026-2027",
+                "text": "TAC sequence: TAC 115 or TAC 116 may be waived with demonstrated prior Python programming experience."
+              },
+              "verified": false
+            }
+          ],
+          "id": "artificial-intelligence-applications-minor-11",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+            "catalogueYear": "2026-2027",
+            "text": "Programming Fundamentals (2-4 units) Choose either the CSCI course or the TAC sequence:"
+          },
+          "verified": false
+        },
+        "id": "artificial-intelligence-applications-minor-11-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+          "catalogueYear": "2026-2027",
+          "text": "Programming Fundamentals (2-4 units) Choose either the CSCI course or the TAC sequence:"
+        },
+        "verified": false
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 4,
+        "child": {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "EIS 370",
+              "id": "artificial-intelligence-applications-minor-12",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                "catalogueYear": "2026-2027",
+                "text": "EIS 370 Ethical Issues in Artificial Intelligence Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "TAC 429",
+              "id": "artificial-intelligence-applications-minor-13",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                "catalogueYear": "2026-2027",
+                "text": "TAC 429 Embodied Artificial Intelligence Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "PHIL 265g",
+              "id": "artificial-intelligence-applications-minor-14",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+                "catalogueYear": "2026-2027",
+                "text": "PHIL 265g Ethics, Technology and Value Units: 4"
+              },
+              "verified": true
+            }
+          ],
+          "id": "artificial-intelligence-applications-minor-15",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+            "catalogueYear": "2026-2027",
+            "text": "Electives (4 units) Choose one of the following:"
+          },
+          "verified": false
+        },
+        "id": "artificial-intelligence-applications-minor-15-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+          "catalogueYear": "2026-2027",
+          "text": "Electives (4 units) Choose one of the following:"
+        },
+        "verified": false
+      }
+    ],
+    "id": "artificial-intelligence-applications-minor-all",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+      "catalogueYear": "2026-2027",
+      "text": "The minor requires a minimum of 18-20 units."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792",
+    "catalogueYear": "2026-2027",
+    "text": "The minor requires a minimum of 18-20 units."
+  },
+  "verified": false
+}

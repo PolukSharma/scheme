@@ -1,0 +1,944 @@
+{
+  "id": "computational-neuroscience-bs",
+  "name": "Computational Neuroscience (BS)",
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "kind": "major",
+  "description": "The computational neuroscience major is designed for those students with an interest in applying mathematical and computational methodologies toward understanding the structure and functioning of the nervous system.",
+  "catalogueYear": "2026-2027",
+  "totalUnits": 128,
+  "requirements": {
+    "type": "all_of",
+    "children": [
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "BISC 220Lg",
+                    "id": "computational-neuroscience-bs-1",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "BISC 221Lg",
+                    "id": "computational-neuroscience-bs-2",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computational-neuroscience-bs-21-orsuffix",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4 or BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "CHEM 103Lgx",
+                    "id": "computational-neuroscience-bs-3",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 103Lgx General Chemistry for the Environment and Life Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "CHEM 105aLg",
+                    "id": "computational-neuroscience-bs-4",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 105aLg General Chemistry Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computational-neuroscience-bs-21-orsuffix-2",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "CHEM 103Lgx General Chemistry for the Environment and Life Units: 4 or CHEM 105aLg General Chemistry Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "MATH 125g",
+                "id": "computational-neuroscience-bs-5",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 125g Calculus I Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "MATH 126g",
+                "id": "computational-neuroscience-bs-6",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 126g Calculus II Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "PHYS 135aLg",
+                    "id": "computational-neuroscience-bs-7",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 135aLg Physics for the Life Sciences Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "PHYS 151Lg",
+                    "id": "computational-neuroscience-bs-8",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computational-neuroscience-bs-21-orsuffix-3",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "PHYS 135aLg Physics for the Life Sciences Units: 4 or PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "PHYS 135bL",
+                    "id": "computational-neuroscience-bs-9",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 135bL Physics for the Life Sciences Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "PHYS 152L",
+                    "id": "computational-neuroscience-bs-10",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computational-neuroscience-bs-21-orsuffix-4",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "PHYS 135bL Physics for the Life Sciences Units: 4 or PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computational-neuroscience-bs-21",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "Core Requirements (45 units) General Science Requirements (24 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "unit_min",
+            "minUnits": 4,
+            "child": {
+              "type": "n_of",
+              "n": 1,
+              "children": [
+                {
+                  "type": "course",
+                  "code": "HP 340Lg",
+                  "id": "computational-neuroscience-bs-11",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                    "catalogueYear": "2026-2027",
+                    "text": "HP 340Lg Health Behavior Statistical Methods Units: 4"
+                  },
+                  "verified": true
+                },
+                {
+                  "type": "course",
+                  "code": "MATH 208x",
+                  "id": "computational-neuroscience-bs-12",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                    "catalogueYear": "2026-2027",
+                    "text": "MATH 208x Elementary Probability and Statistics Units: 4"
+                  },
+                  "verified": true
+                },
+                {
+                  "type": "course",
+                  "code": "MATH 307",
+                  "id": "computational-neuroscience-bs-13",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                    "catalogueYear": "2026-2027",
+                    "text": "MATH 307 Statistical Inference and Data Analysis I Units: 4"
+                  },
+                  "verified": true
+                },
+                {
+                  "type": "course",
+                  "code": "PSYC 274Lg",
+                  "id": "computational-neuroscience-bs-14",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                    "catalogueYear": "2026-2027",
+                    "text": "PSYC 274Lg Statistics Units: 4"
+                  },
+                  "verified": true
+                },
+                {
+                  "type": "course",
+                  "code": "QBIO 305g",
+                  "id": "computational-neuroscience-bs-15",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                    "catalogueYear": "2026-2027",
+                    "text": "QBIO 305g Statistics for Biological Sciences Units: 4"
+                  },
+                  "verified": true
+                }
+              ],
+              "id": "computational-neuroscience-bs-22",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "Statistics Requirement, Choose One (4 units)"
+              },
+              "verified": true
+            },
+            "id": "computational-neuroscience-bs-22-2",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "Statistics Requirement, Choose One (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "course",
+                "code": "BISC 421",
+                "id": "computational-neuroscience-bs-16",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 421 Neurobiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "NEUR 199",
+                "id": "computational-neuroscience-bs-17",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "NEUR 199 Neuroscience Colloquium Units: 1"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "PSYC 100Lg",
+                "id": "computational-neuroscience-bs-18",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 100Lg Introduction to Psychology Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computational-neuroscience-bs-23",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "Neuroscience Requirements (9 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "course",
+                "code": "BISC 407",
+                "id": "computational-neuroscience-bs-19",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 407 Cellular and Molecular Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "NEUR 408",
+                "id": "computational-neuroscience-bs-20",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                  "catalogueYear": "2026-2027",
+                  "text": "NEUR 408 Systems Neuroscience: From Synapses to Perception Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computational-neuroscience-bs-24",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "Upper-division Core Courses (8 units)"
+            },
+            "verified": true
+          }
+        ],
+        "id": "computational-neuroscience-bs-25",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+          "catalogueYear": "2026-2027",
+          "text": "Core Requirements (45 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "n_of",
+        "n": 3,
+        "children": [
+          {
+            "type": "course",
+            "code": "BISC 444",
+            "id": "computational-neuroscience-bs-26",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 444 Practical Analysis of Biological Data in R Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "CSCI 103L",
+            "id": "computational-neuroscience-bs-27",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 103L Object Oriented Programming Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "CSCI 455x",
+            "id": "computational-neuroscience-bs-28",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 455x Introduction to Programming Systems Design Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "EE 155L",
+            "id": "computational-neuroscience-bs-29",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "EE 155L Introduction to Computer Programming for Electrical Engineers Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 115",
+            "id": "computational-neuroscience-bs-30",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 115 Programming in Python Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 116",
+            "id": "computational-neuroscience-bs-31",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 116 Accelerated Programming in Python Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 168",
+            "id": "computational-neuroscience-bs-32",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 168 Introduction to MATLAB Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 249",
+            "id": "computational-neuroscience-bs-33",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 249 Introduction to Data Analytics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "BISC 406L",
+            "id": "computational-neuroscience-bs-35",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 406L Biotechnology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "BME 202",
+            "id": "computational-neuroscience-bs-36",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "BME 202 Control and Communication in the Nervous System Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "BME 210",
+            "id": "computational-neuroscience-bs-37",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "BME 210 Biomedical Computer Simulation Methods Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "BISC 461",
+            "id": "computational-neuroscience-bs-38",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 461 Seminar in Molecular and Computational Biology Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "CSCI 360",
+            "id": "computational-neuroscience-bs-39",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "CSCI 445L",
+            "id": "computational-neuroscience-bs-40",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 445L Foundations of Robotics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "CSCI 467",
+            "id": "computational-neuroscience-bs-41",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 467 Foundations of Machine Learning Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "DSCI 352",
+            "id": "computational-neuroscience-bs-42",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "DSCI 352 Applied Machine Learning and Data Mining Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 310",
+            "id": "computational-neuroscience-bs-43",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 310 Design for User Experience Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 365",
+            "id": "computational-neuroscience-bs-44",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 365 Data Structures in C++ Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "TAC 449",
+            "id": "computational-neuroscience-bs-45",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 449 Applications of Machine Learning Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "MATH 308",
+            "id": "computational-neuroscience-bs-46",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "MATH 308 Statistical Inference and Data Analysis II Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "PSYC 434",
+            "id": "computational-neuroscience-bs-47",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 434 Intelligence, Problem Solving and Creativity Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "PSYC 450",
+            "id": "computational-neuroscience-bs-48",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "QBIO 401",
+            "id": "computational-neuroscience-bs-49",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "QBIO 478",
+            "id": "computational-neuroscience-bs-50",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 478 Computational Genome Analysis Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "QBIO 481",
+            "id": "computational-neuroscience-bs-51",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "id": "computational-neuroscience-bs-53",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+          "catalogueYear": "2026-2027",
+          "text": "Computational Area Students are to take a total of three courses. The courses are listed in the table according to the programming language of the courses. It is not obligatory that all courses be from the same programming language, but the student should be aware that knowledge of a different language will likely be assumed in the advanced courses. Only one introductory programming course will be counted toward the major."
+        },
+        "verified": false
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 4,
+        "child": {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 423",
+              "id": "computational-neuroscience-bs-54",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "BISC 423 Epilepsy to Ecstasy: Biological Basis of Neurological Disorders Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "BISC 424",
+              "id": "computational-neuroscience-bs-55",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "BISC 424 Brain Architecture Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "BISC 461",
+              "id": "computational-neuroscience-bs-56",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "BISC 461 Seminar in Molecular and Computational Biology Units: 2"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "BISC 462",
+              "id": "computational-neuroscience-bs-57",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "BISC 462 Seminar in Neurobiology Units: 2"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "BISC 490x",
+              "id": "computational-neuroscience-bs-58",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "BISC 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8"
+              },
+              "verified": false
+            },
+            {
+              "type": "course",
+              "code": "GERO 414",
+              "id": "computational-neuroscience-bs-59",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "GERO 414 Neurobiology of Aging Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "HBIO 435",
+              "id": "computational-neuroscience-bs-60",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "HBIO 435 Neurobiology of Feeding Behavior and Obesity Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "HP 409",
+              "id": "computational-neuroscience-bs-61",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "HP 409 Environmental Impacts on the Brain Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "MEDS 330",
+              "id": "computational-neuroscience-bs-62",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "MEDS 330 Bionics: Solutions to Enable the Disabled Units: 2"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "MEDS 340",
+              "id": "computational-neuroscience-bs-63",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "MEDS 340 The Brain in Health and Disease Units: 2"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "QBIO 481",
+              "id": "computational-neuroscience-bs-64",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "RXRS 403",
+              "id": "computational-neuroscience-bs-65",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "RXRS 403 Neuropharmacology in Health and Disease Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "RXRS 405",
+              "id": "computational-neuroscience-bs-66",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "RXRS 405 Breaking Brains: The Pharmacology of Addiction Units: 4"
+              },
+              "verified": true
+            }
+          ],
+          "id": "computational-neuroscience-bs-67",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+            "catalogueYear": "2026-2027",
+            "text": "Biological Area (4 units) Choose one to two courses from the options listed below."
+          },
+          "verified": false
+        },
+        "id": "computational-neuroscience-bs-67-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+          "catalogueYear": "2026-2027",
+          "text": "Biological Area (4 units) Choose one to two courses from the options listed below."
+        },
+        "verified": false
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 4,
+        "child": {
+          "type": "course_set",
+          "minCount": 1,
+          "codes": [
+            "ECON 405",
+            "LING 385Lg",
+            "MEDS 330",
+            "MEDS 340",
+            "PSYC 301L",
+            "PSYC 304L",
+            "PSYC 326",
+            "PSYC 420",
+            "PSYC 424",
+            "PSYC 425",
+            "PSYC 426",
+            "PSYC 437",
+            "PSYC 438",
+            "PSYC 440",
+            "RXRS 405"
+          ],
+          "id": "computational-neuroscience-bs-83-pool",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+            "catalogueYear": "2026-2027",
+            "text": "Behavioral Area (4 units)"
+          },
+          "verified": false
+        },
+        "id": "computational-neuroscience-bs-83-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+          "catalogueYear": "2026-2027",
+          "text": "Behavioral Area (4 units)"
+        },
+        "verified": false
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 4,
+        "child": {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CSCI 170",
+              "id": "computational-neuroscience-bs-84",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "CSCI 170 Discrete Methods in Computer Science Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "MATH 225",
+              "id": "computational-neuroscience-bs-85",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "MATH 226g",
+              "id": "computational-neuroscience-bs-86",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "MATH 226g Calculus III Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "MATH 245",
+              "id": "computational-neuroscience-bs-87",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "MATH 245 Mathematics of Physics and Engineering I Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "NEUR 490x",
+              "id": "computational-neuroscience-bs-88",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+                "catalogueYear": "2026-2027",
+                "text": "NEUR 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8"
+              },
+              "verified": false
+            }
+          ],
+          "id": "computational-neuroscience-bs-89",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+            "catalogueYear": "2026-2027",
+            "text": "Other Electives (4 units) Take one additional course from the Computational, Biological or Behavioral area, or complete 4 units of Neuroscience research (NEUR 490x )."
+          },
+          "verified": false
+        },
+        "id": "computational-neuroscience-bs-89-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+          "catalogueYear": "2026-2027",
+          "text": "Other Electives (4 units) Take one additional course from the Computational, Biological or Behavioral area, or complete 4 units of Neuroscience research (NEUR 490x )."
+        },
+        "verified": false
+      }
+    ],
+    "id": "computational-neuroscience-bs-all",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+      "catalogueYear": "2026-2027",
+      "text": "The major requires twelve core courses (45 units) and six or seven electives (minimum 22 units) for a minimum total of 67 units. The degree requires a minimum of 128 units."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+    "catalogueYear": "2026-2027",
+    "text": "The major requires twelve core courses (45 units) and six or seven electives (minimum 22 units) for a minimum total of 67 units. The degree requires a minimum of 128 units."
+  },
+  "verified": false
+}

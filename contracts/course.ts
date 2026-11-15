@@ -1,10 +1,14 @@
 import { z } from "zod";
 import { sourceSchema } from "./source";
 
-/** Department prefix plus catalogue number, for example DEMO 101. */
+/**
+ * Department prefix plus catalogue number, as the 2026-2027 catalogue prints it.
+ * A suffix may include a sequence letter and markers such as L, g, or x
+ * (CHEM 105aLg, CSCI 103L). DEMO 101 still matches.
+ */
 export const courseCodeSchema = z
   .string()
-  .regex(/^[A-Z]{2,8} \d{3}[A-Z]?$/, "course code, for example DEMO 101");
+  .regex(/^[A-Z]{2,8} \d{3}[A-Za-z]{0,4}$/, "course code, for example DEMO 101 or CHEM 105aLg");
 
 export type CourseCode = z.infer<typeof courseCodeSchema>;
 
@@ -51,7 +55,11 @@ export const prerequisiteSchema: z.ZodType<PrerequisiteNode> = z.lazy(() =>
 export const courseSchema = z.object({
   code: courseCodeSchema,
   title: z.string().min(1),
-  units: z.number().positive(),
+  /**
+   * Catalogue units. Zero is a printed value: ENGR 495 Practicum is 0 units.
+   * A course whose page prints a range stores the lowest printed number and is unverified.
+   */
+  units: z.number().nonnegative(),
   /** Null when the course has no prerequisites. */
   prerequisites: prerequisiteSchema.nullable(),
   offering: offeringPatternSchema,
