@@ -229,6 +229,87 @@ describe("assignment solver", () => {
       expect(audit(student, major, courses, policyRules).unitsRemaining).toBeLessThanOrEqual(full.unitsRemaining);
     }
   });
+
+  it("keeps each repeated requirement id on its own course", () => {
+    const shared = "same-id";
+    const tree: RequirementNode = {
+      type: "all_of",
+      id: "root",
+      source,
+      verified: false,
+      children: [
+        {
+          type: "n_of",
+          id: shared,
+          minCount: 1,
+          options: [leaf("ZZ 101"), leaf("ZZ 102")],
+          source,
+          verified: false,
+        },
+        {
+          type: "n_of",
+          id: shared,
+          minCount: 1,
+          options: [leaf("ZZ 201"), leaf("ZZ 202")],
+          source,
+          verified: false,
+        },
+      ],
+    };
+    const catalogue = [courseRow("ZZ 101", 3), courseRow("ZZ 102", 4), courseRow("ZZ 201", 3), courseRow("ZZ 202", 4)];
+    const solved = coverProgram(tree, catalogue, []);
+    expect(solved.remaining).toEqual(["ZZ 101", "ZZ 201"]);
+    expect(costUnits(makeContext(catalogue, []), solved)).toBe(6);
+  });
+
+  it("does not spend a held named course on a block that lists no courses", () => {
+    const catalogue = [courseRow("ZZ 101", 4), courseRow("ZZ 150", 1), courseRow("ZZ 180", 4)];
+    const tree: RequirementNode = {
+      type: "all_of",
+      id: "root",
+      source,
+      verified: false,
+      children: [
+        {
+          type: "course_set",
+          id: "open",
+          match: { levelMin: 0 },
+          minUnits: 4,
+          source: { ...source, text: "General education. This block lists no courses. levelMin is not a catalogue rule." },
+          verified: false,
+        },
+        leaf("ZZ 101"),
+      ],
+    };
+    const solved = coverProgram(tree, catalogue, heldRows(["ZZ 101"], catalogue));
+    expect(solved.applied).toEqual(["ZZ 101"]);
+    expect(solved.remaining).toEqual([]);
+    expect(solved.unlistedUnits).toBe(4);
+    expect(costUnits(makeContext(catalogue, heldRows(["ZZ 101"], catalogue)), solved)).toBe(4);
+  });
+
+  it("counts one corequisite when the course sentence joins them with or", () => {
+    const partnerA = courseRow("ZZ 210", 4);
+    const partnerB = courseRow("ZZ 220", 2);
+    const main = {
+      ...courseRow("ZZ 200", 4),
+      corequisites: ["ZZ 210", "ZZ 220"],
+      source: {
+        ...source,
+        text: "Invented fixture. Corequisite: ZZ 210 or ZZ 220",
+      },
+    };
+    const tree: RequirementNode = {
+      type: "course",
+      id: "zz-200",
+      code: "ZZ 200",
+      source,
+      verified: false,
+    };
+    const solved = coverProgram(tree, [main, partnerA, partnerB], []);
+    expect(solved.remaining).toEqual(["ZZ 200"]);
+    expect(solved.extra).toEqual(["ZZ 220"]);
+  });
 });
 
 function planErrors(plan: TermPlan, already: ReadonlySet<string>, cap: number): string[] {
