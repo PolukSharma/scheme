@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { careerRequestBody, chatRequestBody } from "@/components/rank-student";
+import { z } from "zod";
 import { careerMatchSchema, chatAnswerSchema, type CareerMatch, type ChatAnswer, type Opportunity, type Program, type StudentRecord } from "@/lib/types";
 
 const SUGGESTED = [
@@ -76,21 +77,30 @@ export function CareerChat({
         body: JSON.stringify(careerRequestBody(trimmed, programIds)),
       });
       if (!response.ok) {
-        setCareerRoute("down");
+        setCareerNote("Career matching did not answer. Extra terms and extra units stay with the engine on this page.");
         return;
       }
       const payload: unknown = await response.json();
-      const parsed = Array.isArray(payload)
-        ? careerMatchSchema.array().safeParse(payload)
-        : careerMatchSchema.array().safeParse(
-            payload && typeof payload === "object" && "matches" in payload ? payload.matches : null,
-          );
-      if (!parsed.success) {
-        setCareerNote("Career matching did not return a suggestion the page could show. Rankings stay with the engine.");
+      const envelope =
+        payload && typeof payload === "object" && "matches" in payload
+          ? z.object({ matches: z.array(careerMatchSchema), fallback: z.boolean().optional(), note: z.string().optional() }).safeParse(payload)
+          : null;
+      const listed = Array.isArray(payload) ? careerMatchSchema.array().safeParse(payload) : null;
+      const parsed = envelope?.success
+        ? envelope.data
+        : listed?.success
+          ? { matches: listed.data, fallback: false, note: undefined }
+          : null;
+      if (!parsed) {
+        setCareerNote("Career matching did not return a suggestion the page could show. Extra terms and extra units stay with the engine on this page.");
         return;
       }
-      setMatches(parsed.data);
-      if (parsed.data.length === 0) setCareerNote("No strong match.");
+      setMatches(parsed.matches);
+      if (parsed.fallback) {
+        setCareerNote(parsed.note ?? "No career suggestion was made. Extra terms and extra units stay with the engine on this page.");
+      } else if (parsed.matches.length === 0) {
+        setCareerNote(parsed.note ?? "No strong match.");
+      }
     } catch {
       setCareerRoute("down");
     } finally {
@@ -116,7 +126,7 @@ export function CareerChat({
         body: JSON.stringify(chatRequestBody(student, trimmed)),
       });
       if (!response.ok) {
-        setChatRoute("down");
+        setChatNote("Chat did not answer. The plan on this page is from the engine.");
         return;
       }
       const payload: unknown = await response.json();
@@ -138,6 +148,7 @@ export function CareerChat({
     <div className="stack">
       <section className="card" aria-labelledby="career-heading">
         <h3 id="career-heading">Career goal</h3>
+        <p className="meta">A match is a suggestion. Extra terms and extra units are copied from the engine.</p>
         {careerRoute === "checking" ? <p role="status">Checking whether career matching is available.</p> : null}
         {careerRoute === "down" ? (
           <p className="banner" role="status">

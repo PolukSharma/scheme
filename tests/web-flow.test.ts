@@ -109,8 +109,12 @@ describe("web flow", () => {
         if (!checkedAxe && viewport.width === 1280 && sample === "Early") {
           expect(await seriousViolations(page)).toEqual([]);
           await page.getByRole("tab", { name: "Best for my career goal" }).click();
-          await page.getByText("Career matching is unavailable").waitFor();
-          await page.getByText("Chat is unavailable").waitFor();
+          await page.getByLabel("Goal", { exact: true }).waitFor();
+          await page.getByLabel("Goal", { exact: true }).fill("a computing goal");
+          await page.getByRole("button", { name: "See suggestions" }).click();
+          await page.getByText("Extra terms and extra units stay with the engine").waitFor({ timeout: 30_000 });
+          await page.getByRole("button", { name: "Which requirements are still open?" }).click();
+          await page.getByText("Engine-only answer.").waitFor({ timeout: 30_000 });
           expect(await seriousViolations(page)).toEqual([]);
           checkedAxe = true;
         }
