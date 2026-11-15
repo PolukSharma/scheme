@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "program-list": "tsx scripts/catalogue/program-list.ts"
+    "program-list": "tsx scripts/catalogue/program-list.ts",
+    "refresh-catalogue": "tsx scripts/catalogue/refresh.ts"
   },
   "engines": {
     "node": ">=20"

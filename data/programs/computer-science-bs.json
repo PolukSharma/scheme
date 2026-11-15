@@ -1,0 +1,678 @@
+{
+  "id": "computer-science-bs",
+  "name": "Computer Science (BS)",
+  "school": "USC Viterbi School of Engineering",
+  "kind": "major",
+  "description": "The undergraduate program in computer science is an interdisciplinary program leading to the Bachelor of Science in Computer Science. The program is designed to provide both an academic and professional orientation.General admission requirements for the undergraduate program are the same as those of the university and the USC Viterbi School of Engineering and include 3 to 5 units of mathematics and one unit of science (biology, chemistry or physics). The minimum requirement for the degree is 128 units.A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . Courses with a grade of C- or below must be repeated; courses may only be retaken once.Departmental approval is required in order to retake a course.Students who do not satisfy the degree requirement after repeating a class will be disqualified from the program.A cumulative grade point average of C (2.0) is required for all courses taken at USC as well as all upper division courses applied toward the major, regardless of the department in which the courses are taken. Candidates must complete general education requirements; see the General Education Program.",
+  "catalogueYear": "2026-2027",
+  "requirements": {
+    "type": "all_of",
+    "id": "computer-science-bs-all",
+    "children": [
+      {
+        "type": "all_of",
+        "id": "computer-science-bs-3",
+        "children": [
+          {
+            "type": "course",
+            "id": "computer-science-bs-1",
+            "code": "WRIT 150",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "WRIT 150 Writing and Critical Reasoning–Thematic Approaches Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "computer-science-bs-2",
+            "code": "WRIT 340",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "WRIT 340 Advanced Writing and Critical Engagement Units: 4 *"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+          "catalogueYear": "2026-2027",
+          "text": "Composition/Writing Requirements (8 Units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "id": "computer-science-bs-4",
+        "children": [
+          {
+            "type": "course_set",
+            "id": "computer-science-bs-4-prose",
+            "match": {
+              "levelMin": 0
+            },
+            "minUnits": 20,
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "General Education (20 Units) General Education Units: 20 This block lists no courses. levelMin is not a catalogue rule; it only keeps the node in the shared schema."
+            },
+            "verified": false
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+          "catalogueYear": "2026-2027",
+          "text": "General Education (20 Units) General Education Units: 20"
+        },
+        "verified": false
+      },
+      {
+        "type": "all_of",
+        "id": "computer-science-bs-26",
+        "children": [
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-6",
+            "children": [
+              {
+                "type": "course",
+                "id": "computer-science-bs-5",
+                "code": "ENGR 102",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "ENGR 102 Viterbi First-Year Academy Units: 2"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Engineering (2 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-14",
+            "children": [
+              {
+                "type": "course",
+                "id": "computer-science-bs-7",
+                "code": "MATH 125g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 125g Calculus I Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "id": "computer-science-bs-14-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-8",
+                    "code": "MATH 126g",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 126g Calculus II Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-9",
+                    "code": "MATH 129",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 129 Calculus II for Engineers and Scientists Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "id": "computer-science-bs-14-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-10",
+                    "code": "MATH 225",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-11",
+                    "code": "MATH 235",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 235 Linear Algebra and Applications Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "id": "computer-science-bs-14-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-12",
+                    "code": "MATH 226g",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 226g Calculus III Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-13",
+                    "code": "MATH 229",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 229 Calculus III for Engineers and Scientists Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Mathematics (16 units) Note: Both MATH 125 and MATH 126 satisfy the GE-F Quantitative Reasoning general education requirement."
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-16",
+            "children": [
+              {
+                "type": "course",
+                "id": "computer-science-bs-15",
+                "code": "EE 364",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "EE 364 Probability and Statistics for Engineers and Computer Scientists Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Statistics and Probability (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-20",
+            "children": [
+              {
+                "type": "n_of",
+                "id": "computer-science-bs-20-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-17",
+                    "code": "BISC 120Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-18",
+                    "code": "BISC 121Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-19",
+                    "code": "BISC 220Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Life Sciences (4 units) Take one of the following life science courses, each of which satisfies the GE-D Life Sciences requirement."
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-25",
+            "children": [
+              {
+                "type": "n_of",
+                "id": "computer-science-bs-25-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-21",
+                    "code": "CHEM 105aLg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 105aLg General Chemistry Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-22",
+                    "code": "CHEM 115aLg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 115aLg Advanced General Chemistry Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-23",
+                    "code": "PHYS 151Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "computer-science-bs-24",
+                    "code": "PHYS 161Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 161Lg Advanced Principles of Physics I Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Physical Sciences (4 units) Take one of the following science courses, each of which satisfies the GE-E Physical Sciences requirement."
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+          "catalogueYear": "2026-2027",
+          "text": "Pre-Major Requirements (30 Units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "id": "computer-science-bs-43",
+        "children": [
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-39",
+            "children": [
+              {
+                "type": "course",
+                "id": "computer-science-bs-27",
+                "code": "CSCI 102L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 102L Introduction to Programming Units: 2 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 "
+                },
+                "verified": true,
+                "constraints": {
+                  "minGrade": "C"
+                }
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-28",
+                "code": "CSCI 103L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 103L Object Oriented Programming Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 "
+                },
+                "verified": true,
+                "constraints": {
+                  "minGrade": "C"
+                }
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-29",
+                "code": "CSCI 104L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 104L Data Structures Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 "
+                },
+                "verified": true,
+                "constraints": {
+                  "minGrade": "C"
+                }
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-30",
+                "code": "CSCI 170",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 170 Discrete Methods in Computer Science Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 "
+                },
+                "verified": true,
+                "constraints": {
+                  "minGrade": "C"
+                }
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-31",
+                "code": "CSCI 201",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 201 Principles of Software Development Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 "
+                },
+                "verified": true,
+                "constraints": {
+                  "minGrade": "C"
+                }
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-32",
+                "code": "CSCI 270",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-33",
+                "code": "CSCI 310",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 310 Software Engineering Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-34",
+                "code": "CSCI 350",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 350 Fundamentals of Operating Systems Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-35",
+                "code": "CSCI 353",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 353 Internetworking Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-36",
+                "code": "CSCI 356",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 356 Computer Systems Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-37",
+                "code": "CSCI 360",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "computer-science-bs-38",
+                "code": "CSCI 401",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 401 Capstone: Design and Construction of Large Software Systems Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Computer Science (46 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "computer-science-bs-41",
+            "children": [
+              {
+                "type": "course",
+                "id": "computer-science-bs-40",
+                "code": "EE 109L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+                  "catalogueYear": "2026-2027",
+                  "text": "EE 109L Introduction to Embedded Systems Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Electrical Engineering (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "course_set",
+            "id": "computer-science-bs-42-csci",
+            "match": {
+              "dept": "CSCI",
+              "levelMin": 300,
+              "levelMax": 499
+            },
+            "minUnits": 16,
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Core Electives (16 units) Take at least four 300- or 400- level CSCI courses for a minimum of 16 units."
+            },
+            "verified": false
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+          "catalogueYear": "2026-2027",
+          "text": "Major Requirements (66 Units)"
+        },
+        "verified": false
+      },
+      {
+        "type": "all_of",
+        "id": "computer-science-bs-45",
+        "children": [
+          {
+            "type": "course",
+            "id": "computer-science-bs-44",
+            "code": "ENGR 495",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "ENGR 495 Practicum Units: 0"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+          "catalogueYear": "2026-2027",
+          "text": "Practicum (0 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "id": "computer-science-bs-46",
+        "children": [
+          {
+            "type": "course_set",
+            "id": "computer-science-bs-46-prose",
+            "match": {
+              "levelMin": 0
+            },
+            "minUnits": 4,
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+              "catalogueYear": "2026-2027",
+              "text": "Free Electives (4 Units) This block lists no courses. levelMin is not a catalogue rule; it only keeps the node in the shared schema."
+            },
+            "verified": false
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+          "catalogueYear": "2026-2027",
+          "text": "Free Electives (4 Units)"
+        },
+        "verified": false
+      }
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+      "catalogueYear": "2026-2027",
+      "text": "Requirements as printed on the catalogue page."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
+    "catalogueYear": "2026-2027",
+    "text": "The undergraduate program in computer science is an interdisciplinary program leading to the Bachelor of Science in Computer Science. The program is designed to provide both an academic and professional orientation.General admission requirements for the undergraduate program are the same as those of the university and the USC Viterbi School of Engineering and include 3 to 5 units of mathematics and one unit of science (biology, chemistry or physics). The minimum requirement for the degree is 128 The requirement tree accounts for the 128 units printed on the page. verified is false because a node is unverified: a block with no course list, a course set read from a sentence, or a track choice the page does not state in words."
+  },
+  "verified": false,
+  "humanChecked": false,
+  "unitCheck": "The requirement tree accounts for the 128 units printed on the page. verified is false because a node is unverified: a block with no course list, a course set read from a sentence, or a track choice the page does not state in words.",
+  "unexpanded": [
+    {
+      "heading": "General Education (20 Units)",
+      "text": "General Education (20 Units) General Education Units: 20",
+      "units": {
+        "min": 20,
+        "max": 20
+      }
+    },
+    {
+      "heading": "Free Electives (4 Units)",
+      "text": "Free Electives (4 Units)",
+      "units": {
+        "min": 4,
+        "max": 4
+      }
+    }
+  ]
+}

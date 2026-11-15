@@ -1,0 +1,66 @@
+[
+  {
+    "id": "viterbi-pre-engineering",
+    "school": "USC Viterbi School of Engineering",
+    "summary": "A current student outside Viterbi changes into an engineering major through Pre-Engineering. A student already in a Viterbi major is told to contact an advisor; that page does not list courses for a switch inside Viterbi.",
+    "prerequisiteCourses": [],
+    "gpaText": "Earned at least a 3.5 cumulative GPA at USC. Earned a B+ or better grade in each of your three pre-engineering courses.",
+    "timingText": "Took 14–18 units per semester. Apply during the application windows at the end of the Fall, Spring, and Summer terms, after the three course grades are posted. You must be enrolled at the time of application.",
+    "applicationSteps": [
+      "Pre-Engineering (PEGR) is designated for non-Viterbi USC students who are interested in changing from a non-Viterbi major to an engineering Viterbi program. Students who are already enrolled in a Viterbi major and wish to switch to another Viterbi major should contact their academic advisor for guidance.",
+      "Students interested in an Engineering Major must first submit a Pre-Engineering Interest Form. Submitting the interest form does not imply admission.",
+      "After taking at least three USC major-related pre-engineering courses (a math course, a science course, and an engineering course) for a letter grade, you can apply to be reviewed.",
+      "Computer Science: engineering course CSCI 103 or CSCI 170, with CSCI 102 or the CSCI 102 Placement Exam or an AP Computer Science score of 4 or 5 as the prerequisite. CSCI 113 and CSCI 114 are not qualifying. Math: MATH 126/129 or MATH 226/229 or MATH 225/235. Science: BISC 120L/121L/220L or CHEM 105aL/115aL or PHYS 151L/161L.",
+      "Computer Science/Business Administration: engineering course CSCI 103 or CSCI 170, and only one of those two grades is used for review. Math: MATH 126/129 or MATH 225/235. Science: CHEM 105aL/115aL or BISC 120L/121L or PHYS 151L/161L.",
+      "Computer Engineering and Computer Science: engineering course CSCI 103 or CSCI 170. Math: MATH 126/129 or MATH 226/229 or MATH 225/235. Science: PHYS 151L/161L or PHYS 152L/162L.",
+      "Artificial Intelligence, only for students starting at USC in Fall 2026 or later: engineering course CSCI 114 or CSCI 170, with CSCI 113 or the CSCI 113 Placement Exam as the prerequisite. Math: MATH 126/129 or MATH 226/229. Science: PHYS 151L/161L."
+    ],
+    "source": {
+      "url": "https://viterbiundergrad.usc.edu/pre-engineering/",
+      "catalogueYear": "2026-2027",
+      "text": "Pre-Engineering (PEGR) is designated for non-Viterbi USC students who are interested in changing from a non-Viterbi major to an engineering Viterbi program. (Students who are already enrolled in a Viterbi major and wish to switch to another Viterbi major should contact their academic advisor for guidance.) Upon posting the final grade for the three required courses, you may apply for admission review during the application windows at the end of the Fall, Spring, and Summer terms if you meet the following requirements: Took 14–18 units per semester. Earned at least a 3.5 cumulative GPA at USC. Earned a B+ or better grade in each of your three pre-engineering courses. If you do not meet the requirements above, you will not be admitted to Viterbi. The major-by-major courses are on https://viterbiundergrad.usc.edu/pre-engineering/required-pre-engineering-courses/ (page updated October 20, 2026)."
+    },
+    "dateChecked": "2026-11-14",
+    "confirmed": true
+  },
+  {
+    "id": "dornsife-open-major-declaration",
+    "school": "USC Dornsife College of Letters, Arts and Sciences",
+    "summary": "Dornsife is listed with the open majors, which are declared by meeting advising staff. Data Science BA and International Relations – Global Business BA are the selective exceptions, and neither is in this dataset.",
+    "prerequisiteCourses": [],
+    "gpaText": null,
+    "timingText": null,
+    "applicationSteps": [
+      "Current USC students should review each school’s academic advising or admission website to confirm the internal transfer admission or declaration requirements and deadlines.",
+      "Dornsife College of Letters, Arts and Sciences is listed under open majors: these schools have mostly open majors, which can be declared upon meeting with the school’s admission or advising staff.",
+      "The same page’s selective list names two Dornsife programs, Data Science BA and International Relations – Global Business BA. It does not name the Dornsife majors in this dataset."
+    ],
+    "source": {
+      "url": "https://academicprograms.usc.edu/offices-and-units/academic-exploration-advising/what-is-exploratory/",
+      "catalogueYear": "2026-2027",
+      "text": "These schools have mostly “open” majors, which can be declared upon meeting with the school’s admission or advising staff. Dornsife College of Letters, Arts and Sciences is in that list. Select programs in Dornsife College of Letters, Arts and Sciences: Data Science BA; International Relations – Global Business BA. The page does not list prerequisite courses for the open majors."
+    },
+    "dateChecked": "2026-11-14",
+    "confirmed": true
+  },
+  {
+    "id": "gould-undergraduate-minor",
+    "school": "USC Gould School of Law",
+    "summary": "Gould minors are offered to all USC undergraduates. The page does not list prerequisite courses for declaring one. Gould majors are a separate, selective process.",
+    "prerequisiteCourses": [],
+    "gpaText": null,
+    "timingText": null,
+    "applicationSteps": [
+      "USC Gould School of Law offers several minors available to all undergraduate students at USC.",
+      "The Law and Regulation of Artificial Intelligence minor entry links a course list and “Declare the minor.” It does not print prerequisite courses.",
+      "On the university exploratory page, Gould School of Law is among the schools whose majors do not have open major declaration. This dataset’s Gould program is a minor."
+    ],
+    "source": {
+      "url": "https://gould.usc.edu/academics/undergraduate/minor-programs/",
+      "catalogueYear": "2026-2027",
+      "text": "USC Gould School of Law offers several minors available to all undergraduate students at USC. The Law and Regulation of Artificial Intelligence minor entry gives the unit total, a course-list link, and a Declare the minor link, and it does not print prerequisite courses."
+    },
+    "dateChecked": "2026-11-14",
+    "confirmed": true
+  }
+]

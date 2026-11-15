@@ -1,0 +1,1223 @@
+{
+  "id": "neuroscience-ba",
+  "name": "Neuroscience (BA)",
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "kind": "major",
+  "description": "Coordinator: David McKemy, PhDUndergraduate Advisers: Pablo Lopez, pablol@usc.edu; Mia Kirsten Santos, mnsantos@usc.edu.Grade Requirements:A grade of C- or higher is required to count toward major requirements.Program Requirements:The major requires eight core courses and a colloquium (33 units) and four or five elective courses (minimum 16 units) for a minimum total of 49 units.The degree requires a minimum of 128 units.",
+  "catalogueYear": "2026-2027",
+  "requirements": {
+    "type": "all_of",
+    "id": "neuroscience-ba-all",
+    "children": [
+      {
+        "type": "all_of",
+        "id": "neuroscience-ba-25",
+        "children": [
+          {
+            "type": "all_of",
+            "id": "neuroscience-ba-20",
+            "children": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-1",
+                "code": "MATH 125g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 125g Calculus I Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-2",
+                "code": "PSYC 100Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 100Lg Introduction to Psychology Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "Core Requirements (33 units) Introductory Requirements (8 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "neuroscience-ba-21",
+            "minCount": 1,
+            "minUnits": 4,
+            "options": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-3",
+                "code": "BISC 220Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-4",
+                "code": "BISC 221Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "General Biology Requirement, Choose One (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "neuroscience-ba-22",
+            "minCount": 1,
+            "minUnits": 4,
+            "options": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-5",
+                "code": "CHEM 103Lgx",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "CHEM 103Lgx General Chemistry for the Environment and Life Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-6",
+                "code": "CHEM 105aLg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "CHEM 105aLg General Chemistry Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "General Chemistry Requirement, Choose One (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "neuroscience-ba-23",
+            "minCount": 1,
+            "minUnits": 4,
+            "options": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-7",
+                "code": "BUAD 310g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 310g Applied Business Statistics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-8",
+                "code": "ECON 317",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "ECON 317 Introduction to Statistics for Economists Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-9",
+                "code": "HP 340Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "HP 340Lg Health Behavior Statistical Methods Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-10",
+                "code": "MATH 208x",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 208x Elementary Probability and Statistics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-11",
+                "code": "MATH 307",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 307 Statistical Inference and Data Analysis I Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-12",
+                "code": "MATH 407",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 407 Probability Theory Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-13",
+                "code": "PSYC 274Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 274Lg Statistics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-14",
+                "code": "QBIO 305g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "QBIO 305g Statistics for Biological Sciences Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-15",
+                "code": "QBIO 310",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "QBIO 310 Statistical Thinking for Quantitative Biology Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "Statistics Requirement, Choose One (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "neuroscience-ba-24",
+            "children": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-16",
+                "code": "BISC 407",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 407 Cellular and Molecular Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-17",
+                "code": "BISC 408",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 408 Systems Neuroscience: From Synapses to Perception Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-18",
+                "code": "BISC 421",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 421 Neurobiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-19",
+                "code": "NEUR 199",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "NEUR 199 Neuroscience Colloquium Units: 1"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "Neuroscience Requirements (13 units)"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+          "catalogueYear": "2026-2027",
+          "text": "Core Requirements (33 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "n_of",
+        "id": "neuroscience-ba-107",
+        "minCount": 1,
+        "minUnits": 16,
+        "options": [
+          {
+            "type": "all_of",
+            "id": "neuroscience-ba-94",
+            "children": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-26",
+                "code": "ADSC 250",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "ADSC 250 Fundamentals of Addiction Science Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-27",
+                "code": "BISC 307L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 307L General Physiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-28",
+                "code": "BISC 312x",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 312x Molecular Biochemistry Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-29",
+                "code": "BISC 313L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 313L Evolution and Population Genetics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-30",
+                "code": "BISC 320Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 320Lg Molecular Biology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-31",
+                "code": "BISC 325",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 325 Genetics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-32",
+                "code": "BISC 330L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 330L Biochemistry Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-33",
+                "code": "BISC 403",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 403 Advanced Molecular Biology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-34",
+                "code": "BISC 411",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 411 Advanced Cell Biology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-35",
+                "code": "BISC 406L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 406L Biotechnology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-36",
+                "code": "BISC 410",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 410 Applications of Molecular Biology to Medicine Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-37",
+                "code": "BISC 422L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 422L Neurobiology Laboratory Units: 2"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-38",
+                "code": "BISC 423",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 423 Epilepsy to Ecstasy: Biological Basis of Neurological Disorders Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-39",
+                "code": "BISC 424",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 424 Brain Architecture Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-40",
+                "code": "BISC 425",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 425 Genetics through the Scientific Literature Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-41",
+                "code": "BISC 426",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 426 Principles of Neural Development Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-42",
+                "code": "BISC 438",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 438 Nutritional Biochemistry Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-43",
+                "code": "BISC 444",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 444 Practical Analysis of Biological Data in R Units: 2"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-44",
+                "code": "BISC 461",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 461 Seminar in Molecular and Computational Biology Units: 2"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-45",
+                "code": "BISC 462",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 462 Seminar in Neurobiology Units: 2"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-46",
+                "code": "BISC 466",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 466 Neuroimmunology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-47",
+                "code": "BISC 480L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 480L Developmental Biology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-48",
+                "code": "BISC 499",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 499 Special Topics Units: 2, 3, 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-49",
+                "code": "BPSI 405",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BPSI 405 Organ Systems Physiology, Drug Delivery and Drug Action Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-50",
+                "code": "CHEM 350",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "CHEM 350 Molecular Principles of Biochemistry Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-51",
+                "code": "CSCI 360",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-52",
+                "code": "CSCI 445L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 445L Foundations of Robotics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-53",
+                "code": "ECON 405",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "ECON 405 Neuroeconomics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-54",
+                "code": "GERO 310",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "GERO 310 Physiology of Aging Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-55",
+                "code": "GERO 320g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "GERO 320g Psychology of Adult Development Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-56",
+                "code": "GERO 321",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "GERO 321 Introduction to Psychology and Aging Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-57",
+                "code": "GERO 414",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "GERO 414 Neurobiology of Aging Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-58",
+                "code": "GERO 415",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "GERO 415 Neuroaffective Disorders of Aging Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-59",
+                "code": "GERO 494",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "GERO 494 Resilience in Aging: A Cross-Cultural Exploration Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-60",
+                "code": "HBIO 306",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "HBIO 306 Biology of the Non-Human Primates Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-61",
+                "code": "HBIO 308",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "HBIO 308 Origins and Evolution of Human Behavior Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-62",
+                "code": "HBIO 420L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "HBIO 420L Applied Human Physiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-63",
+                "code": "HBIO 435",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "HBIO 435 Neurobiology of Feeding Behavior and Obesity Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-64",
+                "code": "HP 409",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "HP 409 Environmental Impacts on the Brain Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-65",
+                "code": "LING 385Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "LING 385Lg Human Language as Computation Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-66",
+                "code": "MEDS 320",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MEDS 320 Human Cadaveric Anatomy Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-67",
+                "code": "MEDS 340",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MEDS 340 The Brain in Health and Disease Units: 2"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-68",
+                "code": "MEDS 350",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "MEDS 350 Neurochemistry of Addiction: Drugs, Brain, and Behavior Units: 2"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-69",
+                "code": "NEUR 490x",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "NEUR 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-70",
+                "code": "PSYC 301L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 301L Cognitive Processes Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-71",
+                "code": "PSYC 304L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 304L Sensation and Perception Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-72",
+                "code": "PSYC 305",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 305 Learning and Memory Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-73",
+                "code": "PSYC 320",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 320 Principles of Psychobiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-74",
+                "code": "PSYC 326",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 326 Behavioral Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-75",
+                "code": "PSYC 337L",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 337L Adult Development and Aging Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-76",
+                "code": "PSYC 339Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 339Lg Origins of the Mind Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-77",
+                "code": "PSYC 420",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 420 Animal Behavior Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-78",
+                "code": "PSYC 424",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 424 Neuropsychology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-79",
+                "code": "PSYC 425",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 425 Functional Imaging of the Human Brain Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-80",
+                "code": "PSYC 426",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 426 Motivated Behaviors and Addiction Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-81",
+                "code": "PSYC 427",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 427 Neuropsychopharmacology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-82",
+                "code": "PSYC 428",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 428 Advanced Psychobiology Seminar Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-83",
+                "code": "PSYC 432",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 432 From Eugenics to Neurodiversity: History of DisAbility Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-84",
+                "code": "PSYC 438",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 438 Behavioral Genetics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-85",
+                "code": "PSYC 440",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-86",
+                "code": "PSYC 450",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-87",
+                "code": "PSYC 452",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 452 Social Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-88",
+                "code": "PSYC 468",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 468 Happiness: Research in Neuroscience and Positive Psychology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-89",
+                "code": "QBIO 481",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-90",
+                "code": "RXRS 403",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "RXRS 403 Neuropharmacology in Health and Disease Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-91",
+                "code": "RXRS 405",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "RXRS 405 Breaking Brains: The Pharmacology of Addiction Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-92",
+                "code": "RXRS 412",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "RXRS 412 Ethics, Drugs and Society Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-93",
+                "code": "SCRM 487",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "SCRM 487 Regenerative Medicine: Principles, Paradigms and Practice Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "Elective Courses *Cannot take GERO 321 if completed GERO 320"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "neuroscience-ba-106",
+            "children": [
+              {
+                "type": "course",
+                "id": "neuroscience-ba-95",
+                "code": "BME 575",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "BME 575 Computational Neural Engineering Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-96",
+                "code": "NSCI 524",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "NSCI 524 Advanced Overview of Neurosciences Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-97",
+                "code": "NSCI 531",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "NSCI 531 Molecular and Cellular Neurobiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-98",
+                "code": "NSCI 532",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "NSCI 532 Systems and Behavioral Neurobiology Units: 3"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-99",
+                "code": "PSYC 506",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 506 Learning and Cognition Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-100",
+                "code": "PSYC 540",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 540 Cognitive Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-101",
+                "code": "PSYC 544",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 544 Psychophysiology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-102",
+                "code": "PSYC 545",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 545 Neuropsychology Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-103",
+                "code": "PSYC 547",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 547 Functional Neuroanatomy Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-104",
+                "code": "PSYC 551",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 551 Decision Neuroscience Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "neuroscience-ba-105",
+                "code": "PSYC 555",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+                  "catalogueYear": "2026-2027",
+                  "text": "PSYC 555 Introduction to Functional Magnetic Resonance Imaging Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+              "catalogueYear": "2026-2027",
+              "text": "Graduate Courses A graduate class from the following list may be substituted for an upper-division elective with the permission of the co-directors and instructor and with a minimum GPA of 3.3."
+            },
+            "verified": false
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+          "catalogueYear": "2026-2027",
+          "text": "Electives (16 units) Four or five upper-division elective courses (minimum 16 units) from the list below are required. At least one course in the upper-division electives must carry a lab (“L”) designation or be NEUR 490x . No more than 4 units of NEUR 490x may be used to fulfill the upper-division elective requirement."
+        },
+        "verified": false
+      }
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+      "catalogueYear": "2026-2027",
+      "text": "Requirements as printed on the catalogue page."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+    "catalogueYear": "2026-2027",
+    "text": "Coordinator: David McKemy, PhDUndergraduate Advisers: Pablo Lopez, pablol@usc.edu; Mia Kirsten Santos, mnsantos@usc.edu.Grade Requirements:A grade of C- or higher is required to count toward major requirements.Program Requirements:The major requires eight core courses and a colloquium (33 units) and four or five elective courses (minimum 16 units) for a minimum total of 49 units.The degree requires a minimum of 128 units. The page does not print a single total. verified is false."
+  },
+  "verified": false,
+  "humanChecked": false,
+  "unitCheck": "The page does not print a single total. verified is false.",
+  "unexpanded": []
+}

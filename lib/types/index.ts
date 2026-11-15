@@ -8,7 +8,10 @@ import { z } from "zod";
 
 export const courseCodeSchema = z
   .string()
-  .regex(/^[A-Z]{2,8} \d{3}[A-Z]?$/, "course code, for example DEMO 101");
+  .regex(
+    /^[A-Z]{2,8} \d{3}[A-Za-z]{0,4}$/,
+    "course code, for example DEMO 101 or CSCI 102L",
+  );
 
 export const sourceSchema = z.object({
   url: z.string().url(),
@@ -48,7 +51,8 @@ export const prerequisiteSchema: z.ZodType<PrerequisiteExpr> = z.lazy(() =>
 export const courseSchema = z.object({
   code: courseCodeSchema,
   title: z.string().min(1),
-  units: z.number().positive(),
+  /** Zero is a real catalogue value: ENGR 495 Practicum is printed as 0 units. */
+  units: z.number().nonnegative(),
   dept: z.string().min(2),
   level: z.number().int().nonnegative(),
   prerequisites: prerequisiteSchema.nullable(),

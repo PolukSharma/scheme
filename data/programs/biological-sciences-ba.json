@@ -1,0 +1,1305 @@
+{
+  "id": "biological-sciences-ba",
+  "name": "Biological Sciences (BA)",
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "kind": "major",
+  "description": "The general education, writing, foreign language and diversity requirements for a degree in the USC Dornsife College of Letters, Arts and Sciences are applicable. This degree provides general life science training and is suitable for double majors. Students seeking a more focused curriculum may choose from four areas of emphasis within the Biological Sciences major. These are Biotechnology; Ecology, Evolution and Environment; Marine Biology; and Molecular, Cellular and Developmental Biology. Areas of emphasis are denoted on transcripts.",
+  "catalogueYear": "2026-2027",
+  "requirements": {
+    "type": "all_of",
+    "id": "biological-sciences-ba-all",
+    "children": [
+      {
+        "type": "all_of",
+        "id": "biological-sciences-ba-5",
+        "children": [
+          {
+            "type": "n_of",
+            "id": "biological-sciences-ba-5-orSuffix",
+            "minCount": 1,
+            "options": [
+              {
+                "type": "course",
+                "id": "biological-sciences-ba-1",
+                "code": "BISC 120Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "biological-sciences-ba-2",
+                "code": "BISC 121Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "The page prints these as alternatives."
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "biological-sciences-ba-5-orSuffix",
+            "minCount": 1,
+            "options": [
+              {
+                "type": "course",
+                "id": "biological-sciences-ba-3",
+                "code": "BISC 220Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "biological-sciences-ba-4",
+                "code": "BISC 221Lg",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "The page prints these as alternatives."
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+          "catalogueYear": "2026-2027",
+          "text": "Lower-Division BISC Core Courses (8 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "id": "biological-sciences-ba-29",
+        "children": [
+          {
+            "type": "all_of",
+            "id": "biological-sciences-ba-12",
+            "children": [
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-12-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-6",
+                    "code": "CHEM 105aLg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 105aLg General Chemistry Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-7",
+                    "code": "CHEM 107Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 107Lg General Chemistry for Chemistry Majors Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-8",
+                    "code": "CHEM 115aLg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 115aLg Advanced General Chemistry Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-12-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-9",
+                    "code": "CHEM 105bL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 105bL General Chemistry Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-10",
+                    "code": "CHEM 108L",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 108L General Chemistry for Chemistry Majors: Kinetics and Equilibrium Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-11",
+                    "code": "CHEM 115bL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 115bL Advanced General Chemistry Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "General Chemistry Requirement: 8 units"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "biological-sciences-ba-17",
+            "children": [
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-17-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-13",
+                    "code": "CHEM 322aL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 322aL Organic Chemistry Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-14",
+                    "code": "CHEM 325aL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 325aL Organic Chemistry Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-17-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-15",
+                    "code": "CHEM 322bL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 322bL Organic Chemistry Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-16",
+                    "code": "CHEM 325bL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 325bL Organic Chemistry Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "Organic Chemistry Requirement: 8 units"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "biological-sciences-ba-19",
+            "children": [
+              {
+                "type": "course",
+                "id": "biological-sciences-ba-18",
+                "code": "MATH 125g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 125g Calculus I Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "Calculus Requirement: 4 units"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "biological-sciences-ba-23",
+            "children": [
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-23-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-20",
+                    "code": "MATH 208x",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 208x Elementary Probability and Statistics Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-21",
+                    "code": "QBIO 305g",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "QBIO 305g Statistics for Biological Sciences Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-22",
+                    "code": "QBIO 310",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "QBIO 310 Statistical Thinking for Quantitative Biology Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "Statistics Requirement: 4 units"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "id": "biological-sciences-ba-28",
+            "children": [
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-28-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-24",
+                    "code": "PHYS 135aLg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 135aLg Physics for the Life Sciences Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-25",
+                    "code": "PHYS 151Lg",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "id": "biological-sciences-ba-28-orSuffix",
+                "minCount": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-26",
+                    "code": "PHYS 135bL",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 135bL Physics for the Life Sciences Units: 4 or"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "id": "biological-sciences-ba-27",
+                    "code": "PHYS 152L",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+                  "catalogueYear": "2026-2027",
+                  "text": "The page prints these as alternatives."
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "Physics Requirement: 8 units"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+          "catalogueYear": "2026-2027",
+          "text": "Collateral Sciences Courses (32 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "n_of",
+        "id": "biological-sciences-ba-33",
+        "minCount": 1,
+        "minUnits": 1,
+        "options": [
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-30",
+            "code": "BISC 193",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 193 Introduction to Research I Units: 1"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-31",
+            "code": "BISC 194",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 194 Introduction to Research II Units: 1"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-32",
+            "code": "BISC 199",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 199 Neuroscience Colloquium Units: 1"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+          "catalogueYear": "2026-2027",
+          "text": "Introduction to Research-Active Faculty (1 to 2 units) Enroll in one or two of the courses below."
+        },
+        "verified": false
+      },
+      {
+        "type": "all_of",
+        "id": "biological-sciences-ba-37",
+        "children": [
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-34",
+            "code": "BISC 320Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 320Lg Molecular Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-35",
+            "code": "BISC 325",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 325 Genetics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-36",
+            "code": "BISC 330L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 330L Biochemistry Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+          "catalogueYear": "2026-2027",
+          "text": "Upper-Division BISC Core Courses (12 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "n_of",
+        "id": "biological-sciences-ba-101",
+        "minUnits": 8,
+        "options": [
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-38",
+            "code": "BISC 300L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 300L Microbiology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-39",
+            "code": "BISC 303L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 303L The Kingdom Plantae: An Introduction to Botany Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-40",
+            "code": "BISC 307L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 307L General Physiology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-41",
+            "code": "BISC 313L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 313L Evolution and Population Genetics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-42",
+            "code": "BISC 314L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 314L Cell Culture Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-43",
+            "code": "BISC 315L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 315L Introduction to Ecology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-44",
+            "code": "BISC 321",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 321 Multidisciplinary Seminar: Science, Technology and Society Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-45",
+            "code": "BISC 326L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 326L Urban Conservation Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-46",
+            "code": "BISC 363L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 363L Mammalogy Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-47",
+            "code": "BISC 365",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 365 Phylogenetics and Evolution Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-48",
+            "code": "BISC 369L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 369L Ecology and the Natural History of California Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-49",
+            "code": "BISC 372",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 372 Cell Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-50",
+            "code": "BISC 379L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 379L Our Future Changing Ocean Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-51",
+            "code": "BISC 402",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 402 RNA Biology and Biotechnology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-52",
+            "code": "BISC 403",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 403 Advanced Molecular Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-53",
+            "code": "BISC 404L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 404L Biodiversity Data Analytics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-54",
+            "code": "BISC 406L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 406L Biotechnology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-55",
+            "code": "BISC 407",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 407 Cellular and Molecular Neuroscience Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-56",
+            "code": "BISC 408",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 408 Systems Neuroscience: From Synapses to Perception Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-57",
+            "code": "BISC 410",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 410 Applications of Molecular Biology to Medicine Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-58",
+            "code": "BISC 411",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 411 Advanced Cell Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-59",
+            "code": "BISC 414",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 414 Biology of Cancer Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-60",
+            "code": "BISC 419L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 419L Microbiology for a Sustainable Future Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-61",
+            "code": "BISC 421",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 421 Neurobiology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-62",
+            "code": "BISC 423",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 423 Epilepsy to Ecstasy: Biological Basis of Neurological Disorders Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-63",
+            "code": "BISC 424",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 424 Brain Architecture Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-64",
+            "code": "BISC 425",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 425 Genetics through the Scientific Literature Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-65",
+            "code": "BISC 427",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 427 The Global Environment Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-66",
+            "code": "BISC 428",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 428 The Biology of Health from a Global Perspective Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-67",
+            "code": "BISC 429",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 429 Cancer Immunology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-68",
+            "code": "BISC 431L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 431L Aquatic Microbiology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-69",
+            "code": "BISC 434",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 434 Introduction to Genome Science Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-70",
+            "code": "BISC 435",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 435 Advanced Biochemistry Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-71",
+            "code": "BISC 438",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 438 Nutritional Biochemistry Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-72",
+            "code": "BISC 444",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 444 Practical Analysis of Biological Data in R Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-73",
+            "code": "BISC 445L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 445L Fundamentals of Vertebrate Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-74",
+            "code": "BISC 450L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 450L Principles of Immunology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-75",
+            "code": "BISC 451",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 451 Protein Engineering Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-76",
+            "code": "BISC 457L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 457L Methods in Marine Biology and Biological Oceanography Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-77",
+            "code": "BISC 460",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 460 Seminar in Ecology, Evolution and Environment Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-78",
+            "code": "BISC 461",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 461 Seminar in Molecular and Computational Biology Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-79",
+            "code": "BISC 462",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 462 Seminar in Neurobiology Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-80",
+            "code": "BISC 466",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 466 Neuroimmunology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-81",
+            "code": "BISC 469L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 469L Marine Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-82",
+            "code": "BISC 473L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 473L Biological Oceanography Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-83",
+            "code": "BISC 480L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 480L Developmental Biology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-84",
+            "code": "BISC 483",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 483 Geobiology and Astrobiology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-85",
+            "code": "BISC 485",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 485 Advanced Seminar in Bacterial Survival and Evolution Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-86",
+            "code": "BISC 488",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 488 Microscopy and Spectroscopy of Biological Systems Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-87",
+            "code": "BISC 490x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-88",
+            "code": "BISC 491L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 491L Practical Aquaculture Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-89",
+            "code": "BISC 493x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 493x Honors Seminar Units: 1"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-90",
+            "code": "BISC 494x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 494x Honors Thesis Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-91",
+            "code": "ENST 335",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "ENST 335 Science, Health and the Environment Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-92",
+            "code": "GEOL 412",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "GEOL 412 Oceans, Climate, and the Environment Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-93",
+            "code": "GERO 440",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "GERO 440 Biodemography of Aging Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-94",
+            "code": "HBIO 301L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 301L Human Anatomy Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-95",
+            "code": "QBIO 401",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-96",
+            "code": "QBIO 475",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 475 Statistical and Evolutionary Genetics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-97",
+            "code": "QBIO 478",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 478 Computational Genome Analysis Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-98",
+            "code": "QBIO 481",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-99",
+            "code": "QBIO 482",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 482 Systems Biology: Modeling the Dynamics of Life Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "biological-sciences-ba-100",
+            "code": "SCRM 487",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "SCRM 487 Regenerative Medicine: Principles, Paradigms and Practice Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+          "catalogueYear": "2026-2027",
+          "text": "Upper-Division Electives (8 units) Eight units of upper-division BISC course work available for major credit are required. No more than 4 units of BISC 490x may be used to fulfill the upper-division elective requirement. In addition, no more than two seminars (BISC 460 to BISC 462 ), totaling 4 units, may be applied to the upper-division elective requirement. It is expected that students will take 100-level BISC core courses during the first year, two 300-level BISC core courses during the second year, and the remaining core courses and the 300- or 400-level BISC major elective courses during the third and fourth years."
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "id": "biological-sciences-ba-102",
+        "children": [
+          {
+            "type": "course_set",
+            "id": "biological-sciences-ba-102-prose",
+            "match": {
+              "levelMin": 0
+            },
+            "minUnits": 10,
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+              "catalogueYear": "2026-2027",
+              "text": "Free elective units: 10-11 This block lists no courses. levelMin is not a catalogue rule; it only keeps the node in the shared schema."
+            },
+            "verified": false
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+          "catalogueYear": "2026-2027",
+          "text": "Free elective units: 10-11"
+        },
+        "verified": false
+      }
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+      "catalogueYear": "2026-2027",
+      "text": "Requirements as printed on the catalogue page."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717",
+    "catalogueYear": "2026-2027",
+    "text": "The general education, writing, foreign language and diversity requirements for a degree in the USC Dornsife College of Letters, Arts and Sciences are applicable. This degree provides general life science training and is suitable for double majors. Students seeking a more focused curriculum may choose from four areas of emphasis within the Biological Sciences major. These are Biotechnology; Ecology, Evolution and Environment; Marine Biology; and Molecular, Cellular and Developmental Biology. Are The page prints 128 units. The built tree accounts for 71 units. Blocks without a course list: Free elective units: 10-11 (10 units). Built course lines sum to 61."
+  },
+  "verified": false,
+  "humanChecked": false,
+  "unitCheck": "The page prints 128 units. The built tree accounts for 71 units. Blocks without a course list: Free elective units: 10-11 (10 units). Built course lines sum to 61.",
+  "unexpanded": [
+    {
+      "heading": "Free elective units: 10-11",
+      "text": "Free elective units: 10-11",
+      "units": {
+        "min": 10,
+        "max": 11
+      }
+    }
+  ]
+}
