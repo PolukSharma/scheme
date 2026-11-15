@@ -5,11 +5,12 @@ function courseList(codes: readonly string[]): string {
   return codes.join(", ");
 }
 
-export function CrossSchoolAlert({ item }: { item: Opportunity }) {
+export function CrossSchoolAlert({ item, headingId }: { item: Opportunity; headingId: string }) {
   if (!item.crossSchool) return null;
   return (
-    <aside className="alert" aria-label="Different school">
-      <h4>Different school</h4>
+    <aside className="alert" aria-labelledby={headingId}>
+      <h4 id={headingId}>Different school</h4>
+      <p>Cross-school requirements are listed here. This is not a prediction of admission.</p>
       {item.transfer ? (
         <>
           <p>{item.transfer.rule.summary}</p>
@@ -32,7 +33,6 @@ export function CrossSchoolAlert({ item }: { item: Opportunity }) {
       ) : (
         <p>No transfer rule is on file for this school.</p>
       )}
-      <p>This is not a prediction of admission.</p>
     </aside>
   );
 }

@@ -1,10 +1,16 @@
 import { CrossSchoolAlert } from "@/components/cross-school";
-import { indexRequirements, uniqueAssumptions, verificationLabel } from "@/components/rank-student";
-import type { AuditResult, Opportunity, Program, TermPlan } from "@/lib/types";
+import { estimatedCostLabel, indexRequirements, uniqueAssumptions, verificationLabel } from "@/components/rank-student";
+import type { AuditResult, Course, Opportunity, PolicyRule, Program, StudentRecord, TermPlan } from "@/lib/types";
 
-function courseList(codes: readonly string[]): string {
-  if (codes.length === 0) return "None";
-  return codes.join(", ");
+function findCourse(courses: readonly Course[], code: string): Course | undefined {
+  return courses.find((course) => course.code === code);
+}
+
+function statusLabel(status: StudentRecord["courses"][number]["status"]): string {
+  if (status === "in_progress") return "In progress";
+  if (status === "transfer") return "Transfer";
+  if (status === "ap") return "AP";
+  return "Completed";
 }
 
 export function ProgramDetail({
@@ -12,6 +18,9 @@ export function ProgramDetail({
   opportunity,
   audit,
   plan,
+  courses,
+  student,
+  policyRules,
   onPdf,
   onBack,
 }: {
@@ -19,10 +28,22 @@ export function ProgramDetail({
   opportunity: Opportunity | null;
   audit: AuditResult;
   plan: TermPlan;
+  courses: readonly Course[];
+  student: StudentRecord;
+  policyRules: readonly PolicyRule[];
   onPdf: () => void;
   onBack: () => void;
 }) {
   const nodes = indexRequirements(program.requirements);
+  const counted = [...new Set(opportunity?.coursesThatCount ?? [])];
+  const countedSet = new Set(counted);
+  const completed = counted.filter((code) => {
+    const onRecord = student.courses.find((course) => course.code === code);
+    return onRecord !== undefined && onRecord.status !== "in_progress";
+  });
+  const inProgress = student.courses.filter((course) => course.status === "in_progress" && countedSet.has(course.code));
+  const remaining = opportunity?.remainingCourses ?? audit.coursesRemaining;
+
   return (
     <div className="stack">
       <p>
@@ -37,24 +58,107 @@ export function ProgramDetail({
           {opportunity ? ` · engine result ${verificationLabel(opportunity.verified)}` : ""}
         </p>
         <p>
+          <span className={program.verified ? "badge badge-verified" : "badge"}>{verificationLabel(program.verified)}</span>
+        </p>
+        <p>
           <a href={program.source.url}>Catalogue page, {program.catalogueYear}</a>
         </p>
         {opportunity ? (
           <p>
-            {opportunity.extraTerms} extra terms · {opportunity.extraUnits} extra units. {opportunity.bindingConstraint}
+            {opportunity.extraUnits} extra units · {opportunity.extraTerms} extra terms · Estimated cost{" "}
+            {estimatedCostLabel(policyRules, opportunity.extraUnits)}. {opportunity.bindingConstraint}
           </p>
         ) : null}
-        {opportunity ? <CrossSchoolAlert item={opportunity} /> : null}
-        <h3>Courses that count</h3>
-        <p>{courseList(opportunity?.coursesThatCount ?? [])}</p>
+        {opportunity ? <CrossSchoolAlert item={opportunity} headingId={`detail-cross-${opportunity.programId}`} /> : null}
         {opportunity && opportunity.mode === "switch" ? (
           <>
             <h3>Would stop counting</h3>
-            <p>{courseList(opportunity.coursesThatStopCounting)}</p>
+            {opportunity.coursesThatStopCounting.length === 0 ? (
+              <p>No completed course would stop counting.</p>
+            ) : (
+              <ul>
+                {opportunity.coursesThatStopCounting.map((code) => {
+                  const course = findCourse(courses, code);
+                  return (
+                    <li key={code}>
+                      {code}
+                      {course ? ` ${course.title}` : ""}
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
           </>
         ) : null}
-        <h3>Still to take</h3>
-        <p>{courseList(opportunity?.remainingCourses ?? audit.coursesRemaining)}</p>
+      </section>
+      <section aria-labelledby="why-heading">
+        <h2 id="why-heading">Why this counts</h2>
+        {completed.length === 0 ? (
+          <p className="banner" role="status">
+            No completed course on this record counts toward this program yet.
+          </p>
+        ) : (
+          <ul className="stack">
+            {completed.map((code) => {
+              const course = findCourse(courses, code);
+              const onRecord = student.courses.find((item) => item.code === code);
+              return (
+                <li className="card" key={code}>
+                  <p>
+                    {code}
+                    {course ? ` ${course.title}` : ""}
+                    {course ? ` · ${course.units} units` : ""}
+                    {onRecord ? ` · ${statusLabel(onRecord.status)}` : ""}
+                  </p>
+                  <p>It counts toward {program.name}.</p>
+                  {course ? (
+                    <p>
+                      <a href={course.source.url}>
+                        Catalogue, {course.source.catalogueYear}
+                      </a>
+                    </p>
+                  ) : (
+                    <p>This course is not in the course list.</p>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+        {inProgress.length > 0 ? (
+          <p>
+            In progress, and counted only where the requirement has no minimum grade: {inProgress.map((course) => course.code).join(", ")}.
+          </p>
+        ) : null}
+      </section>
+      <section aria-labelledby="remaining-heading">
+        <h2 id="remaining-heading">Still to take</h2>
+        {remaining.length === 0 ? (
+          <p className="banner" role="status">
+            No courses remain on this path.
+          </p>
+        ) : (
+          <ul className="stack">
+            {remaining.map((code) => {
+              const course = findCourse(courses, code);
+              return (
+                <li className="card" key={code}>
+                  {course ? (
+                    <p>
+                      <a href={course.source.url}>
+                        {code} {course.title} ({course.units} units), Catalogue {course.source.catalogueYear}
+                      </a>
+                    </p>
+                  ) : (
+                    <p>
+                      {code}. This course is not in the course list.
+                    </p>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </section>
       <section aria-labelledby="requirements-heading">
         <h2 id="requirements-heading">Requirements</h2>
@@ -72,9 +176,11 @@ export function ProgramDetail({
                   <p>
                     {status.satisfied ? "The engine marks this satisfied." : "The engine marks this open."} {status.note}
                   </p>
-                  <p>Applied courses: {courseList(status.appliedCourses)}</p>
+                  <p>Applied courses: {status.appliedCourses.length === 0 ? "None" : status.appliedCourses.join(", ")}</p>
                   <p>Remaining units: {status.remainingUnits}</p>
-                  <p>{node ? verificationLabel(node.verified) : "Unverified"}</p>
+                  <p>
+                    <span className={node?.verified ? "badge badge-verified" : "badge"}>{node ? verificationLabel(node.verified) : "Unverified"}</span>
+                  </p>
                   <p>
                     <a href={status.source.url}>Catalogue, {status.source.catalogueYear}</a>
                   </p>
@@ -99,7 +205,7 @@ export function ProgramDetail({
         )}
       </section>
       <section aria-labelledby="plan-heading">
-        <h2 id="plan-heading">Term plan</h2>
+        <h2 id="plan-heading">Term-by-term plan</h2>
         {plan.terms.length === 0 ? (
           <p className="banner" role="status">
             The engine plan has no further terms.
@@ -111,11 +217,22 @@ export function ProgramDetail({
                 <h3>{term.label}</h3>
                 <p className="meta">{term.units} units</p>
                 <ul>
-                  {term.courses.map((course) => (
-                    <li key={course.code}>
-                      {course.code} {course.title} ({course.units} units)
-                    </li>
-                  ))}
+                  {term.courses.map((course) => {
+                    const listed = findCourse(courses, course.code);
+                    return (
+                      <li key={course.code}>
+                        {listed ? (
+                          <a href={listed.source.url}>
+                            {course.code} {course.title} ({course.units} units)
+                          </a>
+                        ) : (
+                          <>
+                            {course.code} {course.title} ({course.units} units)
+                          </>
+                        )}
+                      </li>
+                    );
+                  })}
                 </ul>
               </li>
             ))}

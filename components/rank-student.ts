@@ -52,6 +52,53 @@ export function filterByKind(
   return rows.filter((row) => programs.find((program) => program.id === row.programId)?.kind === kind);
 }
 
+export interface ResultFilters {
+  kind: "all" | ProgramKind;
+  school: string;
+  verification: "all" | "verified" | "unverified";
+}
+
+export function schoolOptions(programs: readonly Program[]): string[] {
+  return [...new Set(programs.map((program) => program.school))].sort((left, right) => left.localeCompare(right));
+}
+
+export function narrowResults(
+  rows: readonly Opportunity[],
+  programs: readonly Program[],
+  filters: ResultFilters,
+): Opportunity[] {
+  return filterByKind(rows, programs, filters.kind).filter((row) => {
+    const program = programs.find((item) => item.id === row.programId);
+    if (filters.school !== "all" && program?.school !== filters.school) return false;
+    if (filters.verification === "verified") return row.verified;
+    if (filters.verification === "unverified") return !row.verified;
+    return true;
+  });
+}
+
+/**
+ * Dollars only when a confirmed policy rule quotes tuition.
+ * A missing figure stays "Not estimated". The screen does not invent a rate.
+ */
+export function estimatedCostLabel(rules: readonly PolicyRule[], extraUnits: number): string {
+  const rule = rules.find(
+    (item) =>
+      item.confirmed &&
+      typeof item.value === "number" &&
+      item.value >= 0 &&
+      /tuition|estimated-cost|cost-per/i.test(`${item.id} ${item.name}`),
+  );
+  if (!rule || typeof rule.value !== "number") return "Not estimated";
+  const perUnit = /per[- ]unit/i.test(`${rule.id} ${rule.name} ${rule.summary}`);
+  const dollars = perUnit ? rule.value * Math.max(0, extraUnits) : rule.value;
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }).format(dollars);
+}
+
 export function verificationLabel(verified: boolean): "Verified" | "Unverified" {
   return verified ? "Verified" : "Unverified";
 }
