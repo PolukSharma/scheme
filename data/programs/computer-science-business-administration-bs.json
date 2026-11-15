@@ -1,0 +1,923 @@
+{
+  "id": "computer-science-business-administration-bs",
+  "name": "Computer Science/Business Administration (BS)",
+  "school": "USC Viterbi School of Engineering",
+  "kind": "major",
+  "description": "The combined Bachelor of Science degree program in computer science/business administration offers qualified students the opportunity to gain an educational foundation in both areas.",
+  "catalogueYear": "2026-2027",
+  "totalUnits": 128,
+  "requirements": {
+    "type": "all_of",
+    "children": [
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "course",
+            "code": "WRIT 150",
+            "id": "computer-science-business-administration-bs-1",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "WRIT 150 Writing and Critical Reasoning\u2013Thematic Approaches Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "WRIT 340",
+            "id": "computer-science-business-administration-bs-2",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "WRIT 340 Advanced Writing and Critical Engagement Units: 4 *"
+            },
+            "verified": true
+          }
+        ],
+        "id": "computer-science-business-administration-bs-3",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+          "catalogueYear": "2026-2027",
+          "text": "Composition/Writing Requirements (8 Units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "course",
+                "code": "ENGR 102",
+                "id": "computer-science-business-administration-bs-5",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "ENGR 102 Viterbi First-Year Academy Units: 2"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-6",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Engineering (2 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "course",
+                "code": "MATH 125g",
+                "id": "computer-science-business-administration-bs-7",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 125g Calculus I Units: 4 **"
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "MATH 126g",
+                    "id": "computer-science-business-administration-bs-8",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 126g Calculus II Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "MATH 129",
+                    "id": "computer-science-business-administration-bs-9",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 129 Calculus II for Engineers and Scientists Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computer-science-business-administration-bs-10-or",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 126g Calculus II Units: 4 or MATH 129 Calculus II for Engineers and Scientists Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-10",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Mathematics (8 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "BISC 120Lg",
+                    "id": "computer-science-business-administration-bs-11",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "BISC 121Lg",
+                    "id": "computer-science-business-administration-bs-12",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "CHEM 105aLg",
+                    "id": "computer-science-business-administration-bs-13",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 105aLg General Chemistry Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "CHEM 115aLg",
+                    "id": "computer-science-business-administration-bs-14",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "CHEM 115aLg Advanced General Chemistry Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "PHYS 151Lg",
+                    "id": "computer-science-business-administration-bs-15",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "PHYS 161Lg",
+                    "id": "computer-science-business-administration-bs-16",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "PHYS 161Lg Advanced Principles of Physics I Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computer-science-business-administration-bs-17-orsuffix",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4 or CHEM 105aLg General Chemistry Units: 4 or CHEM 115aLg Advanced General Chemistry Units: 4 or PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4 or PHYS 161Lg Advanced Principles of Physics I Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-17",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Basic Science (4 units)"
+            },
+            "verified": true
+          }
+        ],
+        "id": "computer-science-business-administration-bs-18",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+          "catalogueYear": "2026-2027",
+          "text": "Pre-Major Requirements (14 Units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "BUAD 310g",
+                    "id": "computer-science-business-administration-bs-19",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "BUAD 310g Applied Business Statistics Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "BUAD 312g",
+                    "id": "computer-science-business-administration-bs-20",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "BUAD 312g Statistics and Data Science for Business Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "EE 364",
+                    "id": "computer-science-business-administration-bs-21",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "EE 364 Probability and Statistics for Engineers and Computer Scientists Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "MATH 407",
+                    "id": "computer-science-business-administration-bs-22",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 407 Probability Theory Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computer-science-business-administration-bs-23-orsuffix",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 310g Applied Business Statistics Units: 4 or BUAD 312g Statistics and Data Science for Business Units: 4 or EE 364 Probability and Statistics for Engineers and Computer Scientists Units: 4 or MATH 407 Probability Theory Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-23",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Statistics and Probability (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "EE 141L",
+                    "id": "computer-science-business-administration-bs-24",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "EE 141L Applied Linear Algebra for Engineering Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "MATH 225",
+                    "id": "computer-science-business-administration-bs-25",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "MATH 235",
+                    "id": "computer-science-business-administration-bs-26",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "MATH 235 Linear Algebra and Applications Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computer-science-business-administration-bs-27-orsuffix",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "EE 141L Applied Linear Algebra for Engineering Units: 4 or MATH 225 Linear Algebra and Linear Differential Equations Units: 4 or MATH 235 Linear Algebra and Applications Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-27",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Linear Algebra (4 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "course",
+                "code": "CSCI 102L",
+                "id": "computer-science-business-administration-bs-28",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 102L Introduction to Programming Units: 2 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201"
+                },
+                "verified": true,
+                "minGrade": "C"
+              },
+              {
+                "type": "course",
+                "code": "CSCI 103L",
+                "id": "computer-science-business-administration-bs-29",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 103L Object Oriented Programming Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201"
+                },
+                "verified": true,
+                "minGrade": "C"
+              },
+              {
+                "type": "course",
+                "code": "CSCI 104L",
+                "id": "computer-science-business-administration-bs-30",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 104L Data Structures Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201"
+                },
+                "verified": true,
+                "minGrade": "C"
+              },
+              {
+                "type": "course",
+                "code": "CSCI 170",
+                "id": "computer-science-business-administration-bs-31",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 170 Discrete Methods in Computer Science Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201"
+                },
+                "verified": true,
+                "minGrade": "C"
+              },
+              {
+                "type": "course",
+                "code": "CSCI 201",
+                "id": "computer-science-business-administration-bs-32",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 201 Principles of Software Development Units: 4 grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201"
+                },
+                "verified": true,
+                "minGrade": "C"
+              },
+              {
+                "type": "course",
+                "code": "CSCI 270",
+                "id": "computer-science-business-administration-bs-33",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "CSCI 310",
+                "id": "computer-science-business-administration-bs-34",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 310 Software Engineering Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "CSCI 401",
+                "id": "computer-science-business-administration-bs-35",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "CSCI 401 Capstone: Design and Construction of Large Software Systems Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-36",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Computer Science Requirements (30 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "course",
+                "code": "ACCT 410x",
+                "id": "computer-science-business-administration-bs-37",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "ACCT 410x Foundations of Accounting Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "BUAD 302",
+                "id": "computer-science-business-administration-bs-38",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 302 Communication Strategy in Business Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "BUAD 304",
+                "id": "computer-science-business-administration-bs-39",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 304 Organizational Behavior and Leadership Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "BUAD 306",
+                "id": "computer-science-business-administration-bs-40",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 306 Business Finance Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "BUAD 307",
+                "id": "computer-science-business-administration-bs-41",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 307 Marketing Fundamentals Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "n_of",
+                "n": 1,
+                "children": [
+                  {
+                    "type": "course",
+                    "code": "BUAD 311",
+                    "id": "computer-science-business-administration-bs-42",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "BUAD 311 Operations Management Units: 4"
+                    },
+                    "verified": true
+                  },
+                  {
+                    "type": "course",
+                    "code": "BUAD 313",
+                    "id": "computer-science-business-administration-bs-43",
+                    "source": {
+                      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                      "catalogueYear": "2026-2027",
+                      "text": "BUAD 313 Advanced Operations Management and Analytics Units: 4"
+                    },
+                    "verified": true
+                  }
+                ],
+                "id": "computer-science-business-administration-bs-47-orsuffix",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 311 Operations Management Units: 4 or BUAD 313 Advanced Operations Management and Analytics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "BUAD 497",
+                "id": "computer-science-business-administration-bs-44",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "BUAD 497 Strategic Management Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "ECON 351x",
+                "id": "computer-science-business-administration-bs-45",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "ECON 351x Microeconomics for Business Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "code": "ECON 352x",
+                "id": "computer-science-business-administration-bs-46",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "ECON 352x Macroeconomics for Business Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "id": "computer-science-business-administration-bs-47",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Business Requirements (36 units)"
+            },
+            "verified": true
+          },
+          {
+            "type": "all_of",
+            "children": [
+              {
+                "type": "unit_min",
+                "minUnits": 4,
+                "child": {
+                  "type": "course_set",
+                  "minCount": 1,
+                  "subject": "CSCI",
+                  "minLevel": 300,
+                  "id": "computer-science-business-administration-bs-48-csci",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                    "catalogueYear": "2026-2027",
+                    "text": "Computer Science Elective Take at least one 4-unit 300- or 400-level CSCI course."
+                  },
+                  "verified": false
+                },
+                "id": "computer-science-business-administration-bs-48-csci-2",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "Computer Science Elective Take at least one 4-unit 300- or 400-level CSCI course."
+                },
+                "verified": false
+              },
+              {
+                "type": "unit_min",
+                "minUnits": 4,
+                "child": {
+                  "type": "n_of",
+                  "n": 1,
+                  "children": [
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "ACCT",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-acct",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-acct-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "BAEP",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-baep",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-baep-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "BUCO",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-buco",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-buco-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "BUAD",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-buad",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-buad-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "DSO",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-dso",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-dso-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "FBE",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-fbe",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-fbe-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "MKT",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-mkt",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-mkt-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "MOR",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-mor",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-mor-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    },
+                    {
+                      "type": "unit_min",
+                      "minUnits": 4,
+                      "child": {
+                        "type": "course_set",
+                        "minCount": 4,
+                        "subject": "RISK",
+                        "minLevel": 300,
+                        "id": "computer-science-business-administration-bs-49-risk",
+                        "source": {
+                          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                          "catalogueYear": "2026-2027",
+                          "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                        },
+                        "verified": false
+                      },
+                      "id": "computer-science-business-administration-bs-49-risk-2",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                        "catalogueYear": "2026-2027",
+                        "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                      },
+                      "verified": false
+                    }
+                  ],
+                  "id": "computer-science-business-administration-bs-49",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                    "catalogueYear": "2026-2027",
+                    "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                  },
+                  "verified": false
+                },
+                "id": "computer-science-business-administration-bs-49-2",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+                  "catalogueYear": "2026-2027",
+                  "text": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser."
+                },
+                "verified": false
+              }
+            ],
+            "id": "computer-science-business-administration-bs-50",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "Technical Electives (8 units) Students must take one 4-unit course from the Computer Science selection and 4 units from the Business selection."
+            },
+            "verified": false
+          }
+        ],
+        "id": "computer-science-business-administration-bs-51",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+          "catalogueYear": "2026-2027",
+          "text": "Major Requirements (82 Units)"
+        },
+        "verified": false
+      },
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "course",
+            "code": "ENGR 495",
+            "id": "computer-science-business-administration-bs-52",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+              "catalogueYear": "2026-2027",
+              "text": "ENGR 495 Practicum Units: 0"
+            },
+            "verified": true
+          }
+        ],
+        "id": "computer-science-business-administration-bs-53",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+          "catalogueYear": "2026-2027",
+          "text": "Practicum (0 units)"
+        },
+        "verified": true
+      }
+    ],
+    "id": "computer-science-business-administration-bs-all",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+      "catalogueYear": "2026-2027",
+      "text": "Total units: 128"
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
+    "catalogueYear": "2026-2027",
+    "text": "Total units: 128"
+  },
+  "verified": false
+}

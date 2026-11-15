@@ -1,0 +1,3286 @@
+[
+  {
+    "code": "ACCT 410x",
+    "title": "Foundations of Accounting",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=357405",
+      "catalogueYear": "2026-2027",
+      "text": "ACCT 410x Foundations of Accounting Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 120Lg",
+    "title": "General Biology: Organismal Biology and Evolution",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358309",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 121Lg",
+    "title": "Advanced General Biology: Organismal Biology and Evolution",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358310",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4 Terms Offered: Fa Corequisite: CHEM 115aLg ."
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 220Lg",
+    "title": "General Biology: Cell Biology and Physiology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358316",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 221Lg",
+    "title": "Advanced General Biology: Cell Biology and Physiology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358317",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4 Terms Offered: Sp Prerequisite: BISC 120Lg or BISC 121Lg ; Corequisite: CHEM 105bL or CHEM 115bL ."
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 307L",
+    "title": "General Physiology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358322",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 307L General Physiology Units: 4 Terms Offered: Sp Prerequisite: BISC 220Lg or BISC 221Lg ."
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 312x",
+    "title": "Molecular Biochemistry",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366428",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 312x Molecular Biochemistry Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 313L",
+    "title": "Evolution and Population Genetics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358323",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 313L Evolution and Population Genetics Units: 4 Terms Offered: Sp Prerequisite: BISC 220Lg or BISC 221Lg ; BISC 120Lg or BISC 121Lg ;"
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 320Lg",
+    "title": "Molecular Biology",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 105bL"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 108L"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 115bL"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358325",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 320Lg Molecular Biology Units: 4 Terms Offered: Fa Prerequisite: CHEM 105bL or CHEM 108L or CHEM 115bL"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 325",
+    "title": "Genetics",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 120Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 121Lg"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 220Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 221Lg"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358327",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 325 Genetics Units: 4 Terms Offered: Fa Prerequisite: ( BISC 120Lg or BISC 121Lg ) and ( BISC 220Lg or BISC 221Lg )"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 330L",
+    "title": "Biochemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 322aL"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 325aL"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358328",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 330L Biochemistry Units: 4 Terms Offered: FaSp Prerequisite: CHEM 322aL or CHEM 325aL"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 403",
+    "title": "Advanced Molecular Biology",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "BISC 320Lg"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358333",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 403 Advanced Molecular Biology Units: 4 Terms Offered: Fa Prerequisite: BISC 320"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 406L",
+    "title": "Biotechnology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358335",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 406L Biotechnology Units: 4 Terms Offered: Fa Prerequisite: BISC 320Lg ;"
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 407",
+    "title": "Cellular and Molecular Neuroscience",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "BISC 421"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367718",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 407 Cellular and Molecular Neuroscience Units: 4 Terms Offered: FaSp Prerequisite: BISC 421"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 408",
+    "title": "Systems Neuroscience: From Synapses to Perception",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358336",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 408 Systems Neuroscience: From Synapses to Perception Units: 4 Terms Offered: Sp Prerequisite: BISC 421 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 410",
+    "title": "Applications of Molecular Biology to Medicine",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "BISC 312x"
+        },
+        {
+          "type": "course",
+          "code": "BISC 330L"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 350"
+        }
+      ]
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358337",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 410 Applications of Molecular Biology to Medicine Units: 4 Terms Offered: Sp Prerequisite: BISC 312x or BISC 330L or CHEM 350"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 411",
+    "title": "Advanced Cell Biology",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "BISC 220Lg"
+        },
+        {
+          "type": "course",
+          "code": "BISC 221Lg"
+        }
+      ]
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358338",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 411 Advanced Cell Biology Units: 4 Terms Offered: Sp Prerequisite: BISC 220 or BISC 221"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 421",
+    "title": "Neurobiology",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "BISC 220Lg"
+        },
+        {
+          "type": "course",
+          "code": "BISC 221Lg"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358341",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 421 Neurobiology Units: 4 Terms Offered: Fa Prerequisite: BISC 220Lg or BISC 221Lg"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 422L",
+    "title": "Neurobiology Laboratory",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358342",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 422L Neurobiology Laboratory Units: 2 Terms Offered: Sp Corequisite: BISC 421 ."
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 423",
+    "title": "Epilepsy to Ecstasy: Biological Basis of Neurological Disorders",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "BISC 421"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358343",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 423 Epilepsy to Ecstasy: Biological Basis of Neurological Disorders Units: 4 Terms Offered: Sp Prerequisite: BISC 421"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 424",
+    "title": "Brain Architecture",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358344",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 424 Brain Architecture Units: 4 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 425",
+    "title": "Genetics through the Scientific Literature",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358345",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 425 Genetics through the Scientific Literature Units: 4 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 426",
+    "title": "Principles of Neural Development",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358346",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 426 Principles of Neural Development Units: 4 Terms Offered: Sp Prerequisite: BISC 421 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 438",
+    "title": "Nutritional Biochemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "BISC 312x"
+        },
+        {
+          "type": "course",
+          "code": "BISC 330L"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 350"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367754",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 438 Nutritional Biochemistry Units: 4 Terms Offered: FaSp Prerequisite: BISC 312 or BISC 330 or CHEM 350"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 444",
+    "title": "Practical Analysis of Biological Data in R",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366416",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 444 Practical Analysis of Biological Data in R Units: 2 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 461",
+    "title": "Seminar in Molecular and Computational Biology",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358360",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 461 Seminar in Molecular and Computational Biology Units: 2 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 462",
+    "title": "Seminar in Neurobiology",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358361",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 462 Seminar in Neurobiology Units: 2 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 466",
+    "title": "Neuroimmunology",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 120Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 121Lg"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 220Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 221Lg"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369918",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 466 Neuroimmunology Units: 4 Terms Offered: Sp Prerequisite: ( BISC 120 or BISC 121 ) and ( BISC 220 or BISC 221 )"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 480L",
+    "title": "Developmental Biology",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "BISC 220Lg"
+        },
+        {
+          "type": "course",
+          "code": "BISC 221Lg"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358366",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 480L Developmental Biology Units: 4 Terms Offered: FaSp Prerequisite: BISC 220 or BISC 221"
+    },
+    "verified": true
+  },
+  {
+    "code": "BISC 490x",
+    "title": "Directed Research",
+    "units": 1,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358371",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8 Terms Offered: FaSpSm"
+    },
+    "verified": false
+  },
+  {
+    "code": "BISC 499",
+    "title": "Special Topics",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358374",
+      "catalogueYear": "2026-2027",
+      "text": "BISC 499 Special Topics Units: 2, 3, 4 Terms Offered: FaSp"
+    },
+    "verified": false
+  },
+  {
+    "code": "BME 202",
+    "title": "Control and Communication in the Nervous System",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 126g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 129"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368413",
+      "catalogueYear": "2026-2027",
+      "text": "BME 202 Control and Communication in the Nervous System Units: 4 Terms Offered: Fa Prerequisite: MATH 126g or MATH 129"
+    },
+    "verified": true
+  },
+  {
+    "code": "BME 210",
+    "title": "Biomedical Computer Simulation Methods",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363214",
+      "catalogueYear": "2026-2027",
+      "text": "BME 210 Biomedical Computer Simulation Methods Units: 4 Terms Offered: Sp Corequisite: MATH 245"
+    },
+    "verified": true
+  },
+  {
+    "code": "BPSI 405",
+    "title": "Organ Systems Physiology, Drug Delivery and Drug Action",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369131",
+      "catalogueYear": "2026-2027",
+      "text": "BPSI 405 Organ Systems Physiology, Drug Delivery and Drug Action Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "BUAD 302",
+    "title": "Communication Strategy in Business",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356961",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 302 Communication Strategy in Business Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 304",
+    "title": "Organizational Behavior and Leadership",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356962",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 304 Organizational Behavior and Leadership Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 306",
+    "title": "Business Finance",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356964",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 306 Business Finance Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 307",
+    "title": "Marketing Fundamentals",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356965",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 307 Marketing Fundamentals Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 310g",
+    "title": "Applied Business Statistics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356966",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 310g Applied Business Statistics Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 311",
+    "title": "Operations Management",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356967",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 311 Operations Management Units: 4 Terms Offered: FaSpSm Corequisite: ( BUAD 310 or BUAD 312 or EE 364 or MATH 407 )"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 312g",
+    "title": "Statistics and Data Science for Business",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368602",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 312g Statistics and Data Science for Business Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 313",
+    "title": "Advanced Operations Management and Analytics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369875",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 313 Advanced Operations Management and Analytics Units: 4 Terms Offered: FaSp Corequisite: BUAD 310 or BUAD 312 or EE 364 or MATH 407"
+    },
+    "verified": true
+  },
+  {
+    "code": "BUAD 497",
+    "title": "Strategic Management",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=356976",
+      "catalogueYear": "2026-2027",
+      "text": "BUAD 497 Strategic Management Units: 4 Terms Offered: FaSpSm Prerequisite: ( ACCT 410x or BUAD 281 or BUAD 305 ) and ( BUAD 352 or ECON 352x )"
+    },
+    "verified": false
+  },
+  {
+    "code": "CHEM 103Lgx",
+    "title": "General Chemistry for the Environment and Life",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358425",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 103Lgx General Chemistry for the Environment and Life Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 105aLg",
+    "title": "General Chemistry",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358426",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 105aLg General Chemistry Units: 4 Terms Offered: FaSpSm Prerequisite: Prerequisite to all more advanced courses in chemistry. CHEM 050x or passing of placement test."
+    },
+    "verified": false
+  },
+  {
+    "code": "CHEM 105bL",
+    "title": "General Chemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 105aLg"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 107Lg"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 115aLg"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358427",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 105bL General Chemistry Units: 4 Terms Offered: FaSpSm Prerequisite: CHEM 105aLg or CHEM 107Lg or CHEM 115aLg"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 107Lg",
+    "title": "General Chemistry for Chemistry Majors",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366364",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 107Lg General Chemistry for Chemistry Majors Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 108L",
+    "title": "General Chemistry for Chemistry Majors: Kinetics and Equilibrium",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 105aLg"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 107Lg"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 115aLg"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367564",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 108L General Chemistry for Chemistry Majors: Kinetics and Equilibrium Units: 4 Terms Offered: FaSp Prerequisite: CHEM 105aLg or CHEM 107Lg or CHEM 115aLg"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 115aLg",
+    "title": "Advanced General Chemistry",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358428",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 115aLg Advanced General Chemistry Units: 4 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 115bL",
+    "title": "Advanced General Chemistry",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358429",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 115bL Advanced General Chemistry Units: 4 Terms Offered: Sp Prerequisite: CHEM 105a or CHEM 107 or CHEM 115a"
+    },
+    "verified": false
+  },
+  {
+    "code": "CHEM 322aL",
+    "title": "Organic Chemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 105bL"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 108L"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 115bL"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358442",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 322aL Organic Chemistry Units: 4 Terms Offered: FaSpSm Prerequisite: CHEM 105bL or CHEM 108L or CHEM 115bL"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 322bL",
+    "title": "Organic Chemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 322aL"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 325aL"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358443",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 322bL Organic Chemistry Units: 4 Terms Offered: FaSpSm Prerequisite: CHEM 322aL or CHEM 325aL"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 325aL",
+    "title": "Organic Chemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 105bL"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 108L"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 115bL"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358444",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 325aL Organic Chemistry Units: 4 Terms Offered: Fa Prerequisite: CHEM 105bL or CHEM 108L or CHEM 115bL"
+    },
+    "verified": true
+  },
+  {
+    "code": "CHEM 350",
+    "title": "Molecular Principles of Biochemistry",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CHEM 105bL"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 108L"
+        },
+        {
+          "type": "course",
+          "code": "CHEM 115bL"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358447",
+      "catalogueYear": "2026-2027",
+      "text": "CHEM 350 Molecular Principles of Biochemistry Units: 4 Terms Offered: FaSp Prerequisite: CHEM 105b or CHEM 108 or CHEM 115b"
+    },
+    "verified": true
+  },
+  {
+    "code": "COMM 309",
+    "title": "Communication and Technology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366706",
+      "catalogueYear": "2026-2027",
+      "text": "COMM 309 Communication and Technology Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 102L",
+    "title": "Introduction to Programming",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367526",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 102L Introduction to Programming Units: 2 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 103L",
+    "title": "Object Oriented Programming",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "CSCI 102L"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363600",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 103L Object Oriented Programming Units: 4 Terms Offered: FaSp Prerequisite: CSCI 102L"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 104L",
+    "title": "Data Structures",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "CSCI 103L"
+        },
+        {
+          "type": "course",
+          "code": "CSCI 170"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363601",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 104L Data Structures Units: 4 Terms Offered: FaSp Prerequisite: CSCI 103L and CSCI 170"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 113x",
+    "title": "Programming Fundamentals for Computing",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=370546",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 113x Programming Fundamentals for Computing Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 114x",
+    "title": "Programming for Applications of Computing",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=370547",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 114x Programming for Applications of Computing Units: 4 Terms Offered: FaSp Prerequisite: CSCI 103 or CSCI 113 or TAC 216 or TAC 265 or ITP 216 or ITP 265"
+    },
+    "verified": false
+  },
+  {
+    "code": "CSCI 170",
+    "title": "Discrete Methods in Computer Science",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CSCI 102L"
+        },
+        {
+          "type": "course",
+          "code": "CSCI 113x"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363604",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 170 Discrete Methods in Computer Science Units: 4 Terms Offered: FaSp Prerequisite: CSCI 102 or CSCI 113"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 201",
+    "title": "Principles of Software Development",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "CSCI 104L"
+        },
+        {
+          "type": "course",
+          "code": "CSCI 114x"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363605",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 201 Principles of Software Development Units: 4 Terms Offered: FaSp Prerequisite: CSCI 104L or CSCI 114x"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 270",
+    "title": "Introduction to Algorithms and Theory of Computing",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CSCI 104L"
+            },
+            {
+              "type": "course",
+              "code": "CSCI 114x"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "code": "CSCI 170"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363606",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4 Terms Offered: FaSpSm Prerequisite: ( CSCI 104 or CSCI 114 ) and CSCI 170"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 310",
+    "title": "Software Engineering",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "CSCI 201"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363609",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 310 Software Engineering Units: 4 Terms Offered: Sp Prerequisite: CSCI 201"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 350",
+    "title": "Fundamentals of Operating Systems",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CSCI 356"
+            },
+            {
+              "type": "course",
+              "code": "EE 354L"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CSCI 201"
+            },
+            {
+              "type": "course",
+              "code": "EE 250L"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363610",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 350 Fundamentals of Operating Systems Units: 4 Prerequisite: ( CSCI 356 or EE 354 ) and ( CSCI 201 or EE 250 )"
+    },
+    "verified": false
+  },
+  {
+    "code": "CSCI 353",
+    "title": "Internetworking",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "CSCI 201"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363613",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 353 Internetworking Units: 4 Terms Offered: FaSp Prerequisite: CSCI 201"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 356",
+    "title": "Computer Systems",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "CSCI 104L"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367477",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 356 Computer Systems Units: 4 Terms Offered: FaSp Prerequisite: CSCI 104"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 360",
+    "title": "Artificial Intelligence: Principles and Foundations",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CSCI 104L"
+            },
+            {
+              "type": "course",
+              "code": "CSCI 114x"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "code": "CSCI 170"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363614",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4 Terms Offered: FaSp Prerequisite: ( CSCI 104 or CSCI 114 ) and CSCI 170"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 401",
+    "title": "Capstone: Design and Construction of Large Software Systems",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "CSCI 270"
+        },
+        {
+          "type": "course",
+          "code": "CSCI 310"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366434",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 401 Capstone: Design and Construction of Large Software Systems Units: 4 Terms Offered: FaSp Prerequisite: CSCI 270 and CSCI 310"
+    },
+    "verified": true
+  },
+  {
+    "code": "CSCI 445L",
+    "title": "Foundations of Robotics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363622",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 445L Foundations of Robotics Units: 4 Terms Offered: FaSpSm Prerequisite: CSCI 104 or CSCI 114 or EE 355"
+    },
+    "verified": false
+  },
+  {
+    "code": "CSCI 455x",
+    "title": "Introduction to Programming Systems Design",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363626",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 455x Introduction to Programming Systems Design Units: 4 Terms Offered: FaSp Prerequisite: departmental approval."
+    },
+    "verified": false
+  },
+  {
+    "code": "CSCI 467",
+    "title": "Foundations of Machine Learning",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "CSCI 170"
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CSCI 104L"
+            },
+            {
+              "type": "course",
+              "code": "CSCI 114x"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "MATH 225"
+            },
+            {
+              "type": "course",
+              "code": "EE 141L"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "EE 364"
+            },
+            {
+              "type": "course",
+              "code": "MATH 407"
+            },
+            {
+              "type": "course",
+              "code": "BUAD 310g"
+            },
+            {
+              "type": "course",
+              "code": "BUAD 312g"
+            },
+            {
+              "type": "course",
+              "code": "ISE 225"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367914",
+      "catalogueYear": "2026-2027",
+      "text": "CSCI 467 Foundations of Machine Learning Units: 4 Terms Offered: FaSp Prerequisite: CSCI 170 and ( CSCI 104L or CSCI 114x ) and ( MATH 225 or EE 141L ) and ( EE 364 or MATH 407 or BUAD 310g or BUAD 312g or ISE 225 )"
+    },
+    "verified": true
+  },
+  {
+    "code": "DSCI 352",
+    "title": "Applied Machine Learning and Data Mining",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368660",
+      "catalogueYear": "2026-2027",
+      "text": "DSCI 352 Applied Machine Learning and Data Mining Units: 4 Terms Offered: Fa Prerequisite: DSCI 250 and MATH 208x"
+    },
+    "verified": false
+  },
+  {
+    "code": "ECON 317",
+    "title": "Introduction to Statistics for Economists",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358950",
+      "catalogueYear": "2026-2027",
+      "text": "ECON 317 Introduction to Statistics for Economists Units: 4 Terms Offered: FaSp Prerequisite: MATH 118gx or MATH 125 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "ECON 351x",
+    "title": "Microeconomics for Business",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358963",
+      "catalogueYear": "2026-2027",
+      "text": "ECON 351x Microeconomics for Business Units: 4 Terms Offered: FaSpSm Prerequisite: MATH 118 or MATH 125 or MATH 126 or MATH 226 ;"
+    },
+    "verified": false
+  },
+  {
+    "code": "ECON 352x",
+    "title": "Macroeconomics for Business",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358964",
+      "catalogueYear": "2026-2027",
+      "text": "ECON 352x Macroeconomics for Business Units: 4 Terms Offered: FaSpSm Corequisite: ECON 351x"
+    },
+    "verified": true
+  },
+  {
+    "code": "ECON 405",
+    "title": "Neuroeconomics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=358972",
+      "catalogueYear": "2026-2027",
+      "text": "ECON 405 Neuroeconomics Units: 4 Prerequisite: ECON 303 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "EE 109L",
+    "title": "Introduction to Embedded Systems",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "EE 155L"
+        },
+        {
+          "type": "course",
+          "code": "CSCI 102L"
+        },
+        {
+          "type": "course",
+          "code": "CSCI 113x"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363727",
+      "catalogueYear": "2026-2027",
+      "text": "EE 109L Introduction to Embedded Systems Units: 4 Terms Offered: FaSp Prerequisite: EE 155 or CSCI 102 or CSCI 113"
+    },
+    "verified": true
+  },
+  {
+    "code": "EE 141L",
+    "title": "Applied Linear Algebra for Engineering",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367248",
+      "catalogueYear": "2026-2027",
+      "text": "EE 141L Applied Linear Algebra for Engineering Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "EE 155L",
+    "title": "Introduction to Computer Programming for Electrical Engineers",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366868",
+      "catalogueYear": "2026-2027",
+      "text": "EE 155L Introduction to Computer Programming for Electrical Engineers Units: 4 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "EE 250L",
+    "title": "Distributed Systems for the Internet of Things",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "EE 109L"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367187",
+      "catalogueYear": "2026-2027",
+      "text": "EE 250L Distributed Systems for the Internet of Things Units: 4 Terms Offered: FaSp Prerequisite: EE 109"
+    },
+    "verified": true
+  },
+  {
+    "code": "EE 354L",
+    "title": "Digital Circuits",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "EE 109L"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366419",
+      "catalogueYear": "2026-2027",
+      "text": "EE 354L Digital Circuits Units: 4 Terms Offered: FaSp Prerequisite: EE 109L"
+    },
+    "verified": true
+  },
+  {
+    "code": "EE 364",
+    "title": "Probability and Statistics for Engineers and Computer Scientists",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 225"
+        },
+        {
+          "type": "course",
+          "code": "MATH 245"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363741",
+      "catalogueYear": "2026-2027",
+      "text": "EE 364 Probability and Statistics for Engineers and Computer Scientists Units: 4 Terms Offered: FaSp Prerequisite: MATH 225 or MATH 245"
+    },
+    "verified": true
+  },
+  {
+    "code": "EIS 370",
+    "title": "Ethical Issues in Artificial Intelligence",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369919",
+      "catalogueYear": "2026-2027",
+      "text": "EIS 370 Ethical Issues in Artificial Intelligence Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "ENGR 102",
+    "title": "Viterbi First-Year Academy",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363015",
+      "catalogueYear": "2026-2027",
+      "text": "ENGR 102 Viterbi First-Year Academy Units: 2 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "ENGR 495",
+    "title": "Practicum",
+    "units": 0,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=422409",
+      "catalogueYear": "2026-2027",
+      "text": "ENGR 495 Practicum Units: 0"
+    },
+    "verified": false
+  },
+  {
+    "code": "GERO 310",
+    "title": "Physiology of Aging",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366219",
+      "catalogueYear": "2026-2027",
+      "text": "GERO 310 Physiology of Aging Units: 4 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "GERO 320g",
+    "title": "Psychology of Adult Development",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366220",
+      "catalogueYear": "2026-2027",
+      "text": "GERO 320g Psychology of Adult Development Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "GERO 321",
+    "title": "Introduction to Psychology and Aging",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367872",
+      "catalogueYear": "2026-2027",
+      "text": "GERO 321 Introduction to Psychology and Aging Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "GERO 414",
+    "title": "Neurobiology of Aging",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366230",
+      "catalogueYear": "2026-2027",
+      "text": "GERO 414 Neurobiology of Aging Units: 4 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "GERO 415",
+    "title": "Neuroaffective Disorders of Aging",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366231",
+      "catalogueYear": "2026-2027",
+      "text": "GERO 415 Neuroaffective Disorders of Aging Units: 4 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "GERO 494",
+    "title": "Resilience in Aging: A Cross-Cultural Exploration",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367177",
+      "catalogueYear": "2026-2027",
+      "text": "GERO 494 Resilience in Aging: A Cross-Cultural Exploration Units: 4 Terms Offered: Sm"
+    },
+    "verified": false
+  },
+  {
+    "code": "HBIO 301L",
+    "title": "Human Anatomy",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359821",
+      "catalogueYear": "2026-2027",
+      "text": "HBIO 301L Human Anatomy Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "HBIO 306",
+    "title": "Biology of the Non-Human Primates",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359823",
+      "catalogueYear": "2026-2027",
+      "text": "HBIO 306 Biology of the Non-Human Primates Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "HBIO 308",
+    "title": "Origins and Evolution of Human Behavior",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359824",
+      "catalogueYear": "2026-2027",
+      "text": "HBIO 308 Origins and Evolution of Human Behavior Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "HBIO 420L",
+    "title": "Applied Human Physiology",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "HBIO 301L"
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 220Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 221Lg"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359835",
+      "catalogueYear": "2026-2027",
+      "text": "HBIO 420L Applied Human Physiology Units: 4 Terms Offered: FaSp Prerequisite: HBIO 301 and ( BISC 220 or BISC 221 )"
+    },
+    "verified": true
+  },
+  {
+    "code": "HBIO 435",
+    "title": "Neurobiology of Feeding Behavior and Obesity",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "BISC 220Lg"
+        },
+        {
+          "type": "course",
+          "code": "BISC 221Lg"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359836",
+      "catalogueYear": "2026-2027",
+      "text": "HBIO 435 Neurobiology of Feeding Behavior and Obesity Units: 4 Terms Offered: Fa Prerequisite: BISC 220Lg or BISC 221Lg"
+    },
+    "verified": true
+  },
+  {
+    "code": "HP 340Lg",
+    "title": "Health Behavior Statistical Methods",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364769",
+      "catalogueYear": "2026-2027",
+      "text": "HP 340Lg Health Behavior Statistical Methods Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "HP 409",
+    "title": "Environmental Impacts on the Brain",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366345",
+      "catalogueYear": "2026-2027",
+      "text": "HP 409 Environmental Impacts on the Brain Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "ISE 220",
+    "title": "Foundations of Probability Modeling",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 126g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 129"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363893",
+      "catalogueYear": "2026-2027",
+      "text": "ISE 220 Foundations of Probability Modeling Units: 4 Terms Offered: FaSp Prerequisite: MATH 126 or MATH 129"
+    },
+    "verified": true
+  },
+  {
+    "code": "ISE 225",
+    "title": "Foundations of Data Analysis",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "ISE 220"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=363894",
+      "catalogueYear": "2026-2027",
+      "text": "ISE 225 Foundations of Data Analysis Units: 4 Terms Offered: FaSp Prerequisite: ISE 220"
+    },
+    "verified": true
+  },
+  {
+    "code": "LAW 206",
+    "title": "Responsible Use of Artificial Intelligence: Ethics and Law",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369671",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 206 Responsible Use of Artificial Intelligence: Ethics and Law Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "LAW 207",
+    "title": "Personal Data in the 21st Century",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369629",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 207 Personal Data in the 21st Century Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "LAW 208w",
+    "title": "Law and Economics of AI Regulation",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=373055",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 208w Law and Economics of AI Regulation Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "LAW 210p",
+    "title": "Fundamentals of the U.S. Legal System",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368449",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 210p Fundamentals of the U.S. Legal System Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "LAW 211",
+    "title": "Intellectual Property and Technology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369678",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 211 Intellectual Property and Technology Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "LAW 306",
+    "title": "Issues in the Use of AI in Law and Regulation",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=370155",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 306 Issues in the Use of AI in Law and Regulation Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "LAW 407",
+    "title": "Regulatory Law",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=370138",
+      "catalogueYear": "2026-2027",
+      "text": "LAW 407 Regulatory Law Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "LING 385Lg",
+    "title": "Human Language as Computation",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366330",
+      "catalogueYear": "2026-2027",
+      "text": "LING 385Lg Human Language as Computation Units: 4 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 125g",
+    "title": "Calculus I",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359953",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 125g Calculus I Units: 4 Terms Offered: FaSpSm Prerequisite: MATH 108 or math placement exam."
+    },
+    "verified": false
+  },
+  {
+    "code": "MATH 126g",
+    "title": "Calculus II",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "MATH 125g"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359954",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 126g Calculus II Units: 4 Terms Offered: FaSpSm Prerequisite: MATH 125g"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 127",
+    "title": "Enhanced Calculus II",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359955",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 127 Enhanced Calculus II Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 129",
+    "title": "Calculus II for Engineers and Scientists",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "MATH 125g"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366420",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 129 Calculus II for Engineers and Scientists Units: 4 Terms Offered: FaSpSm Prerequisite: MATH 125"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 208x",
+    "title": "Elementary Probability and Statistics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359957",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 208x Elementary Probability and Statistics Units: 4 Terms Offered: FaSp Prerequisite: MATH 118 or MATH 125 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "MATH 225",
+    "title": "Linear Algebra and Linear Differential Equations",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 126g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 127"
+        },
+        {
+          "type": "course",
+          "code": "MATH 129"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359959",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4 Terms Offered: FaSp Prerequisite: MATH 126g or MATH 127 or MATH 129"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 226g",
+    "title": "Calculus III",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 126g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 127"
+        },
+        {
+          "type": "course",
+          "code": "MATH 129"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359960",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 226g Calculus III Units: 4 Terms Offered: FaSp Prerequisite: MATH 126g or MATH 127 or MATH 129"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 227",
+    "title": "Enhanced Calculus III",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359961",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 227 Enhanced Calculus III Units: 4 Terms Offered: FaSp Prerequisite: MATH 127 or MATH 225 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "MATH 229",
+    "title": "Calculus III for Engineers and Scientists",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359962",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 229 Calculus III for Engineers and Scientists Units: 4 Terms Offered: FaSpSm Prerequisite: MATH 126 , or MATH 127 , or MATH 129 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "MATH 235",
+    "title": "Linear Algebra and Applications",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "MATH 125g"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369286",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 235 Linear Algebra and Applications Units: 4 Terms Offered: FaSp Prerequisite: MATH 125g"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 245",
+    "title": "Mathematics of Physics and Engineering I",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 226g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 227"
+        },
+        {
+          "type": "course",
+          "code": "MATH 229"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359963",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 245 Mathematics of Physics and Engineering I Units: 4 Terms Offered: FaSp Prerequisite: MATH 226g or MATH 227 or MATH 229"
+    },
+    "verified": true
+  },
+  {
+    "code": "MATH 307",
+    "title": "Statistical Inference and Data Analysis I",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359965",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 307 Statistical Inference and Data Analysis I Units: 4 Terms Offered: Fa Prerequisite: MATH 118gx or MATH 125g or MATH 126g or MATH 127 or MATH 129"
+    },
+    "verified": false
+  },
+  {
+    "code": "MATH 308",
+    "title": "Statistical Inference and Data Analysis II",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359966",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 308 Statistical Inference and Data Analysis II Units: 4 Terms Offered: Sp Prerequisite: MATH 307 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "MATH 407",
+    "title": "Probability Theory",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 226g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 227"
+        },
+        {
+          "type": "course",
+          "code": "MATH 229"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=359971",
+      "catalogueYear": "2026-2027",
+      "text": "MATH 407 Probability Theory Units: 4 Terms Offered: FaSp Prerequisite: MATH 226 or MATH 227 or MATH 229"
+    },
+    "verified": true
+  },
+  {
+    "code": "MEDS 320",
+    "title": "Human Cadaveric Anatomy",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364602",
+      "catalogueYear": "2026-2027",
+      "text": "MEDS 320 Human Cadaveric Anatomy Units: 4 Terms Offered: FaSp Prerequisite: BISC 220 or BISC 221 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "MEDS 330",
+    "title": "Bionics: Solutions to Enable the Disabled",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366608",
+      "catalogueYear": "2026-2027",
+      "text": "MEDS 330 Bionics: Solutions to Enable the Disabled Units: 2 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "MEDS 340",
+    "title": "The Brain in Health and Disease",
+    "units": 2,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 220Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 221Lg"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CHEM 103Lgx"
+            },
+            {
+              "type": "course",
+              "code": "CHEM 105aLg"
+            },
+            {
+              "type": "course",
+              "code": "CHEM 115aLg"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364604",
+      "catalogueYear": "2026-2027",
+      "text": "MEDS 340 The Brain in Health and Disease Units: 2 Terms Offered: FaSp Prerequisite: ( BISC 220Lg or BISC 221Lg ) and ( CHEM 103Lgx or CHEM 105aLg or CHEM 115aLg )"
+    },
+    "verified": true
+  },
+  {
+    "code": "MEDS 350",
+    "title": "Neurochemistry of Addiction: Drugs, Brain, and Behavior",
+    "units": 2,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "BISC 220Lg"
+            },
+            {
+              "type": "course",
+              "code": "BISC 221Lg"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "CHEM 103Lgx"
+            },
+            {
+              "type": "course",
+              "code": "CHEM 105aLg"
+            },
+            {
+              "type": "course",
+              "code": "CHEM 115aLg"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364605",
+      "catalogueYear": "2026-2027",
+      "text": "MEDS 350 Neurochemistry of Addiction: Drugs, Brain, and Behavior Units: 2 Terms Offered: FaSp Prerequisite: ( BISC 220Lg or BISC 221Lg ) and ( CHEM 103Lgx or CHEM 105aLg or CHEM 115aLg )"
+    },
+    "verified": true
+  },
+  {
+    "code": "NEUR 199",
+    "title": "Neuroscience Colloquium",
+    "units": 1,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367897",
+      "catalogueYear": "2026-2027",
+      "text": "NEUR 199 Neuroscience Colloquium Units: 1 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "NEUR 408",
+    "title": "Systems Neuroscience: From Synapses to Perception",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360162",
+      "catalogueYear": "2026-2027",
+      "text": "NEUR 408 Systems Neuroscience: From Synapses to Perception Units: 4 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "NEUR 490x",
+    "title": "Directed Research",
+    "units": 1,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360165",
+      "catalogueYear": "2026-2027",
+      "text": "NEUR 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8 Terms Offered: FaSpSm"
+    },
+    "verified": false
+  },
+  {
+    "code": "PHIL 265g",
+    "title": "Ethics, Technology and Value",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369222",
+      "catalogueYear": "2026-2027",
+      "text": "PHIL 265g Ethics, Technology and Value Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "PHYS 135aLg",
+    "title": "Physics for the Life Sciences",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360339",
+      "catalogueYear": "2026-2027",
+      "text": "PHYS 135aLg Physics for the Life Sciences Units: 4 Terms Offered: FaSpSm Prerequisite: Passing of Math Placement Exam or MATH 108 or MATH 125 or MATH 126 or MATH 226 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PHYS 135bL",
+    "title": "Physics for the Life Sciences",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360340",
+      "catalogueYear": "2026-2027",
+      "text": "PHYS 135bL Physics for the Life Sciences Units: 4 Terms Offered: FaSpSm Prerequisite: PHYS 135aLg ; passing of Math Placement Exam or MATH 108 or MATH 125 or MATH 126 or MATH 226 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PHYS 151Lg",
+    "title": "Fundamentals of Physics I: Mechanics, Oscillations and Waves",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 125g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 126g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 226g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 129"
+        },
+        {
+          "type": "course",
+          "code": "MATH 229"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360344",
+      "catalogueYear": "2026-2027",
+      "text": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4 Terms Offered: FaSpSm Prerequisite: MATH 125g or MATH 126g or MATH 226g or MATH 129 or MATH 229"
+    },
+    "verified": true
+  },
+  {
+    "code": "PHYS 152L",
+    "title": "Fundamentals of Physics II: Electricity and Magnetism",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "PHYS 151Lg"
+            },
+            {
+              "type": "course",
+              "code": "PHYS 161Lg"
+            },
+            {
+              "type": "course",
+              "code": "PHYS 171Lg"
+            }
+          ]
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "MATH 126g"
+            },
+            {
+              "type": "course",
+              "code": "MATH 129"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360345",
+      "catalogueYear": "2026-2027",
+      "text": "PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4 Terms Offered: FaSpSm Prerequisite: ( PHYS 151Lg or PHYS 161Lg or PHYS 171Lg ) and ( MATH 126g or MATH 129 ) Corequisite: MATH 226g or MATH 229"
+    },
+    "verified": true
+  },
+  {
+    "code": "PHYS 161Lg",
+    "title": "Advanced Principles of Physics I",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "MATH 125g"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360347",
+      "catalogueYear": "2026-2027",
+      "text": "PHYS 161Lg Advanced Principles of Physics I Units: 4 Terms Offered: FaSp Prerequisite: MATH 125g Corequisite: MATH 126g or MATH 129"
+    },
+    "verified": true
+  },
+  {
+    "code": "PHYS 171Lg",
+    "title": "Applied Physics I: Mechanics",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "MATH 125g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 126g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 129"
+        },
+        {
+          "type": "course",
+          "code": "MATH 226g"
+        },
+        {
+          "type": "course",
+          "code": "MATH 229"
+        }
+      ]
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367727",
+      "catalogueYear": "2026-2027",
+      "text": "PHYS 171Lg Applied Physics I: Mechanics Units: 4 Prerequisite: MATH 125g or MATH 126g or MATH 129 or MATH 226g or MATH 229"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 100Lg",
+    "title": "Introduction to Psychology",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360618",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 100Lg Introduction to Psychology Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 274Lg",
+    "title": "Statistics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360623",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 274Lg Statistics Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 301L",
+    "title": "Cognitive Processes",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360626",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 301L Cognitive Processes Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 304L",
+    "title": "Sensation and Perception",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360627",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 304L Sensation and Perception Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 305",
+    "title": "Learning and Memory",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360628",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 305 Learning and Memory Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 314L",
+    "title": "Experimental Research Methods",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "PSYC 100Lg"
+        },
+        {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "PSYC 274Lg"
+            },
+            {
+              "type": "course",
+              "code": "ECON 317"
+            }
+          ]
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360629",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 314L Experimental Research Methods Units: 4 Terms Offered: FaSpSm Prerequisite: PSYC 100 and ( PSYC 274 or ECON 317 )"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 320",
+    "title": "Principles of Psychobiology",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360631",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 320 Principles of Psychobiology Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100Lg"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 326",
+    "title": "Behavioral Neuroscience",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360632",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 326 Behavioral Neuroscience Units: 4 Terms Offered: FaSp Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 337L",
+    "title": "Adult Development and Aging",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360634",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 337L Adult Development and Aging Units: 4 Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 339Lg",
+    "title": "Origins of the Mind",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360635",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 339Lg Origins of the Mind Units: 4 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 420",
+    "title": "Animal Behavior",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360653",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 420 Animal Behavior Units: 4 Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 424",
+    "title": "Neuropsychology",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360656",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 424 Neuropsychology Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100Lg"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 425",
+    "title": "Functional Imaging of the Human Brain",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "PSYC 100Lg"
+        },
+        {
+          "type": "course",
+          "code": "PSYC 274Lg"
+        }
+      ]
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360657",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 425 Functional Imaging of the Human Brain Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100Lg and PSYC 274Lg"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 426",
+    "title": "Motivated Behaviors and Addiction",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 314L"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366590",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 426 Motivated Behaviors and Addiction Units: 4 Prerequisite: PSYC 314"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 427",
+    "title": "Neuropsychopharmacology",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369087",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 427 Neuropsychopharmacology Units: 4 Terms Offered: Fa Prerequisite: PSYC 100Lg"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 428",
+    "title": "Advanced Psychobiology Seminar",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "PSYC 304L"
+        },
+        {
+          "type": "course",
+          "code": "PSYC 326"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367491",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 428 Advanced Psychobiology Seminar Units: 4 Terms Offered: FaSp Prerequisite: PSYC 304L or PSYC 326"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 432",
+    "title": "From Eugenics to Neurodiversity: History of DisAbility",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369548",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 432 From Eugenics to Neurodiversity: History of DisAbility Units: 4 Terms Offered: Sp"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 434",
+    "title": "Intelligence, Problem Solving and Creativity",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360660",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 434 Intelligence, Problem Solving and Creativity Units: 4 Prerequisite: PSYC 100 and PSYC 274 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 437",
+    "title": "Adolescent Development",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360661",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 437 Adolescent Development Units: 4 Terms Offered: FaSp Prerequisite: PSYC 100 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 438",
+    "title": "Behavioral Genetics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360662",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 438 Behavioral Genetics Units: 4 Terms Offered: Irregular Prerequisite: PSYC 274 ."
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 440",
+    "title": "Foundations of Cognitive Neuroscience",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360663",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4 Terms Offered: FaSp Prerequisite: PSYC 100Lg"
+    },
+    "verified": true
+  },
+  {
+    "code": "PSYC 450",
+    "title": "Neural Network Models of Social and Cognitive Processes",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=360664",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100Lg"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 452",
+    "title": "Social Neuroscience",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368788",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 452 Social Neuroscience Units: 4 Terms Offered: Irregular Prerequisite: PSYC 100Lg"
+    },
+    "verified": false
+  },
+  {
+    "code": "PSYC 468",
+    "title": "Happiness: Research in Neuroscience and Positive Psychology",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "PSYC 100Lg"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369564",
+      "catalogueYear": "2026-2027",
+      "text": "PSYC 468 Happiness: Research in Neuroscience and Positive Psychology Units: 4 Terms Offered: FaSp Prerequisite: PSYC 100"
+    },
+    "verified": true
+  },
+  {
+    "code": "QBIO 305g",
+    "title": "Statistics for Biological Sciences",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369428",
+      "catalogueYear": "2026-2027",
+      "text": "QBIO 305g Statistics for Biological Sciences Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "QBIO 310",
+    "title": "Statistical Thinking for Quantitative Biology",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "MATH 125g"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368903",
+      "catalogueYear": "2026-2027",
+      "text": "QBIO 310 Statistical Thinking for Quantitative Biology Units: 4 Terms Offered: Sp Prerequisite: MATH 125g"
+    },
+    "verified": true
+  },
+  {
+    "code": "QBIO 401",
+    "title": "Introduction to Computational Analysis of Biological Data",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368526",
+      "catalogueYear": "2026-2027",
+      "text": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "QBIO 478",
+    "title": "Computational Genome Analysis",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "QBIO 310"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367848",
+      "catalogueYear": "2026-2027",
+      "text": "QBIO 478 Computational Genome Analysis Units: 4 Terms Offered: Sp Prerequisite: QBIO 310"
+    },
+    "verified": true
+  },
+  {
+    "code": "QBIO 481",
+    "title": "Structural Bioinformatics: From Atoms to Cells",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "MATH 125g"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367849",
+      "catalogueYear": "2026-2027",
+      "text": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4 Terms Offered: Fa Prerequisite: MATH 125"
+    },
+    "verified": true
+  },
+  {
+    "code": "RXRS 403",
+    "title": "Neuropharmacology in Health and Disease",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366827",
+      "catalogueYear": "2026-2027",
+      "text": "RXRS 403 Neuropharmacology in Health and Disease Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "RXRS 405",
+    "title": "Breaking Brains: The Pharmacology of Addiction",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366826",
+      "catalogueYear": "2026-2027",
+      "text": "RXRS 405 Breaking Brains: The Pharmacology of Addiction Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "RXRS 412",
+    "title": "Ethics, Drugs and Society",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=367756",
+      "catalogueYear": "2026-2027",
+      "text": "RXRS 412 Ethics, Drugs and Society Units: 4"
+    },
+    "verified": false
+  },
+  {
+    "code": "SCRM 487",
+    "title": "Regenerative Medicine: Principles, Paradigms and Practice",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=370216",
+      "catalogueYear": "2026-2027",
+      "text": "SCRM 487 Regenerative Medicine: Principles, Paradigms and Practice Units: 4 Terms Offered: Fa, Sp Prerequisite: BISC 220 or BISC 221 or SCRM 386"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 115",
+    "title": "Programming in Python",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364004",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 115 Programming in Python Units: 2 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "TAC 116",
+    "title": "Accelerated Programming in Python",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369149",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 116 Accelerated Programming in Python Units: 2 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "TAC 168",
+    "title": "Introduction to MATLAB",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364007",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 168 Introduction to MATLAB Units: 2 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "TAC 216",
+    "title": "Applied Python",
+    "units": 2,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369148",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 216 Applied Python Units: 2 Terms Offered: FaSp Prerequisite: TAC 115 or TAC 116 or ITP 115 or ITP 116"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 249",
+    "title": "Introduction to Data Analytics",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=368499",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 249 Introduction to Data Analytics Units: 4 Terms Offered: Fa"
+    },
+    "verified": true
+  },
+  {
+    "code": "TAC 259",
+    "title": "Basics of Artificial Intelligence",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369698",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 259 Basics of Artificial Intelligence Units: 4 Terms Offered: FaSp Prerequisite: TAC 216 or ITP 216 or CSCI 113"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 310",
+    "title": "Design for User Experience",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364015",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 310 Design for User Experience Units: 4 Terms Offered: FaSp"
+    },
+    "verified": true
+  },
+  {
+    "code": "TAC 359",
+    "title": "Applied Neural Networks",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369710",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 359 Applied Neural Networks Units: 4 Terms Offered: FaSp Prerequisite: TAC 259 or ITP 259 or DSCI 352"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 365",
+    "title": "Data Structures in C++",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=364025",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 365 Data Structures in C++ Units: 4 Terms Offered: FaSp Prerequisite: TAC 265 or ITP 265"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 429",
+    "title": "Embodied Artificial Intelligence",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369713",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 429 Embodied Artificial Intelligence Units: 4 Terms Offered: FaSp Prerequisite: TAC 115 or TAC 116 or ITP 115 or ITP 116"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 449",
+    "title": "Applications of Machine Learning",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=366407",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 449 Applications of Machine Learning Units: 4 Terms Offered: FaSp Prerequisite: TAC 216 or ITP 216 or CSCI 113x"
+    },
+    "verified": false
+  },
+  {
+    "code": "TAC 459",
+    "title": "Applied Natural Language Processing and Generative AI",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=369714",
+      "catalogueYear": "2026-2027",
+      "text": "TAC 459 Applied Natural Language Processing and Generative AI Units: 4 Terms Offered: FaSp Prerequisite: ITP 359 or TAC 359 or CSCI 467 or EE 460"
+    },
+    "verified": false
+  },
+  {
+    "code": "WRIT 150",
+    "title": "Writing and Critical Reasoning\u2013Thematic Approaches",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=361159",
+      "catalogueYear": "2026-2027",
+      "text": "WRIT 150 Writing and Critical Reasoning\u2013Thematic Approaches Units: 4 Terms Offered: FaSpSm"
+    },
+    "verified": true
+  },
+  {
+    "code": "WRIT 340",
+    "title": "Advanced Writing and Critical Engagement",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_course_nopop.php?catoid=22&coid=361160",
+      "catalogueYear": "2026-2027",
+      "text": "WRIT 340 Advanced Writing and Critical Engagement Units: 4 Terms Offered: FaSpSm Prerequisite: WRIT 130 or WRIT 150"
+    },
+    "verified": false
+  }
+]

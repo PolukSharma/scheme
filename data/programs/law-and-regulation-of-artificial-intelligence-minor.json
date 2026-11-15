@@ -1,0 +1,277 @@
+{
+  "id": "law-and-regulation-of-artificial-intelligence-minor",
+  "name": "Law and Regulation of Artificial Intelligence Minor",
+  "school": "USC Gould School of Law",
+  "kind": "minor",
+  "description": "In the Law and Regulation of Artificial Intelligence minor, students study the effect AI and machine learning has on society and examine how the law is responding to the regulation of artificial intelligence as it becomes more pervasive in everyday life.",
+  "catalogueYear": "2026-2027",
+  "totalUnits": 20,
+  "requirements": {
+    "type": "all_of",
+    "children": [
+      {
+        "type": "all_of",
+        "children": [
+          {
+            "type": "course",
+            "code": "LAW 210p",
+            "id": "law-and-regulation-of-artificial-intelligence-minor-1",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+              "catalogueYear": "2026-2027",
+              "text": "LAW 210p Fundamentals of the U.S. Legal System Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "code": "LAW 306",
+            "id": "law-and-regulation-of-artificial-intelligence-minor-2",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+              "catalogueYear": "2026-2027",
+              "text": "LAW 306 Issues in the Use of AI in Law and Regulation Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "id": "law-and-regulation-of-artificial-intelligence-minor-3",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+          "catalogueYear": "2026-2027",
+          "text": "Required Core Courses (8 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 8,
+        "child": {
+          "type": "n_of",
+          "n": 2,
+          "children": [
+            {
+              "type": "course",
+              "code": "LAW 206",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-4",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "LAW 206 Responsible Use of Artificial Intelligence: Ethics and Law Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "LAW 207",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-5",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "LAW 207 Personal Data in the 21st Century Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "LAW 208w",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-6",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "LAW 208w Law and Economics of AI Regulation Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "LAW 211",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-7",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "LAW 211 Intellectual Property and Technology Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "LAW 407",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-8",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "LAW 407 Regulatory Law Units: 4"
+              },
+              "verified": true
+            }
+          ],
+          "id": "law-and-regulation-of-artificial-intelligence-minor-9",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+            "catalogueYear": "2026-2027",
+            "text": "Law Electives (8 units)"
+          },
+          "verified": true
+        },
+        "id": "law-and-regulation-of-artificial-intelligence-minor-9-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+          "catalogueYear": "2026-2027",
+          "text": "Law Electives (8 units)"
+        },
+        "verified": true
+      },
+      {
+        "type": "unit_min",
+        "minUnits": 4,
+        "child": {
+          "type": "n_of",
+          "n": 1,
+          "children": [
+            {
+              "type": "course",
+              "code": "COMM 309",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-10",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "COMM 309 Communication and Technology Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "CSCI 113x",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-11",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "CSCI 113x Programming Fundamentals for Computing Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "EIS 370",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-12",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "EIS 370 Ethical Issues in Artificial Intelligence Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "PHIL 265g",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-13",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "PHIL 265g Ethics, Technology and Value Units: 4"
+              },
+              "verified": true
+            },
+            {
+              "type": "all_of",
+              "children": [
+                {
+                  "type": "n_of",
+                  "n": 1,
+                  "children": [
+                    {
+                      "type": "course",
+                      "code": "TAC 115",
+                      "id": "law-and-regulation-of-artificial-intelligence-minor-14",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                        "catalogueYear": "2026-2027",
+                        "text": "TAC 115 Programming in Python Units: 2"
+                      },
+                      "verified": true
+                    },
+                    {
+                      "type": "course",
+                      "code": "TAC 116",
+                      "id": "law-and-regulation-of-artificial-intelligence-minor-15",
+                      "source": {
+                        "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                        "catalogueYear": "2026-2027",
+                        "text": "TAC 116 Accelerated Programming in Python Units: 2"
+                      },
+                      "verified": true
+                    }
+                  ],
+                  "id": "law-and-regulation-of-artificial-intelligence-minor-18-orsuffix",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                    "catalogueYear": "2026-2027",
+                    "text": "TAC 115 Programming in Python Units: 2 or TAC 116 Accelerated Programming in Python Units: 2"
+                  },
+                  "verified": true
+                },
+                {
+                  "type": "course",
+                  "code": "TAC 216",
+                  "id": "law-and-regulation-of-artificial-intelligence-minor-16",
+                  "source": {
+                    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                    "catalogueYear": "2026-2027",
+                    "text": "TAC 216 Applied Python Units: 2"
+                  },
+                  "verified": true
+                }
+              ],
+              "id": "law-and-regulation-of-artificial-intelligence-minor-18-and",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "TAC 115 Programming in Python Units: 2 or TAC 116 Accelerated Programming in Python Units: 2 and TAC 216 Applied Python Units: 2"
+              },
+              "verified": true
+            },
+            {
+              "type": "course",
+              "code": "TAC 259",
+              "id": "law-and-regulation-of-artificial-intelligence-minor-17",
+              "source": {
+                "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+                "catalogueYear": "2026-2027",
+                "text": "TAC 259 Basics of Artificial Intelligence Units: 4"
+              },
+              "verified": true
+            }
+          ],
+          "id": "law-and-regulation-of-artificial-intelligence-minor-18",
+          "source": {
+            "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+            "catalogueYear": "2026-2027",
+            "text": "Other Electives (4 units)"
+          },
+          "verified": true
+        },
+        "id": "law-and-regulation-of-artificial-intelligence-minor-18-2",
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+          "catalogueYear": "2026-2027",
+          "text": "Other Electives (4 units)"
+        },
+        "verified": true
+      }
+    ],
+    "id": "law-and-regulation-of-artificial-intelligence-minor-all",
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+      "catalogueYear": "2026-2027",
+      "text": "The Law and Regulation of Artificial Intelligence minor totals 20 units; 8 required core units, 8 LAW elective units, and 4 other elective units."
+    },
+    "verified": true
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878",
+    "catalogueYear": "2026-2027",
+    "text": "The Law and Regulation of Artificial Intelligence minor totals 20 units; 8 required core units, 8 LAW elective units, and 4 other elective units."
+  },
+  "verified": true
+}
