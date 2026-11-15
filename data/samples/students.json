@@ -1,0 +1,170 @@
+[
+  {
+    "id": "sample-early-cs",
+    "label": "Early",
+    "school": "USC Viterbi School of Engineering",
+    "startYear": 2025,
+    "startTerm": "2025-fall",
+    "catalogueYear": "2026-2027",
+    "majorId": "computer-science-bs",
+    "declaredProgramIds": ["computer-science-bs"],
+    "courses": [
+      {
+        "code": "CSCI 102L",
+        "units": 2,
+        "grade": "A",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "WRIT 150",
+        "units": 4,
+        "grade": "A-",
+        "term": "2026-spring",
+        "status": "completed"
+      },
+      {
+        "code": "CSCI 103L",
+        "units": 4,
+        "grade": null,
+        "term": "2026-fall",
+        "status": "in_progress"
+      }
+    ]
+  },
+  {
+    "id": "sample-mid-neuro",
+    "label": "Mid",
+    "school": "USC Dornsife College of Letters, Arts and Sciences",
+    "startYear": 2024,
+    "startTerm": "2024-fall",
+    "catalogueYear": "2026-2027",
+    "majorId": "computational-neuroscience-bs",
+    "declaredProgramIds": [
+      "computational-neuroscience-bs",
+      "artificial-intelligence-applications-minor"
+    ],
+    "courses": [
+      {
+        "code": "CSCI 102L",
+        "units": 2,
+        "grade": "TR",
+        "term": "2024-spring",
+        "status": "ap"
+      },
+      {
+        "code": "WRIT 150",
+        "units": 4,
+        "grade": "TR",
+        "term": "2024-summer",
+        "status": "transfer"
+      },
+      {
+        "code": "CHEM 105aLg",
+        "units": 4,
+        "grade": "B+",
+        "term": "2024-fall",
+        "status": "completed"
+      },
+      {
+        "code": "BISC 120Lg",
+        "units": 4,
+        "grade": "A-",
+        "term": "2025-spring",
+        "status": "completed"
+      },
+      {
+        "code": "TAC 115",
+        "units": 2,
+        "grade": "A",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "QBIO 305g",
+        "units": 4,
+        "grade": "A",
+        "term": "2026-spring",
+        "status": "completed"
+      },
+      {
+        "code": "BISC 220Lg",
+        "units": 4,
+        "grade": null,
+        "term": "2026-fall",
+        "status": "in_progress"
+      }
+    ]
+  },
+  {
+    "id": "sample-late-csba",
+    "label": "Late",
+    "school": "USC Viterbi School of Engineering",
+    "startYear": 2023,
+    "startTerm": "2023-fall",
+    "catalogueYear": "2026-2027",
+    "majorId": "computer-science-business-administration-bs",
+    "declaredProgramIds": [
+      "computer-science-business-administration-bs",
+      "law-and-regulation-of-artificial-intelligence-minor"
+    ],
+    "courses": [
+      {
+        "code": "CSCI 102L",
+        "units": 2,
+        "grade": "A",
+        "term": "2023-fall",
+        "status": "completed"
+      },
+      {
+        "code": "CSCI 103L",
+        "units": 4,
+        "grade": "A",
+        "term": "2024-spring",
+        "status": "completed"
+      },
+      {
+        "code": "CSCI 170",
+        "units": 4,
+        "grade": "B+",
+        "term": "2024-fall",
+        "status": "completed"
+      },
+      {
+        "code": "CSCI 104L",
+        "units": 4,
+        "grade": "B",
+        "term": "2025-spring",
+        "status": "completed"
+      },
+      {
+        "code": "TAC 115",
+        "units": 2,
+        "grade": "A",
+        "term": "2025-fall",
+        "status": "completed"
+      },
+      {
+        "code": "LAW 210p",
+        "units": 4,
+        "grade": "A",
+        "term": "2026-spring",
+        "status": "completed"
+      },
+      {
+        "code": "WRIT 150",
+        "units": 4,
+        "grade": "A-",
+        "term": "2026-spring",
+        "status": "completed"
+      },
+      {
+        "code": "WRIT 340",
+        "units": 4,
+        "grade": null,
+        "term": "2026-fall",
+        "status": "in_progress"
+      }
+    ]
+  }
+]
