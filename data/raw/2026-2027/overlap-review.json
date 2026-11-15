@@ -1,0 +1,20 @@
+[
+  { "name": "Quantitative Biology (BS)", "keep": true, "reason": "Highest computed overlap. Shares 35 course codes with the two majors' requirements, mostly the math, biology, and computational options." },
+  { "name": "Biological Sciences (BA)", "keep": true, "reason": "Highest-ranked variant of Biological Sciences. The BA and BS print the same overlap (25 courses, 91 units), so the BA ranks first only by name order." },
+  { "name": "Computer Engineering and Computer Science (BS)", "keep": true, "reason": "Computed overlap rank 4. A Viterbi major close to the CSBA core." },
+  { "name": "Cognitive Science (BA)", "keep": true, "reason": "Computed overlap rank 5." },
+  { "name": "Applied and Computational Mathematics (BA)", "keep": true, "reason": "Highest-ranked variant of Applied and Computational Mathematics. The BA and BS print the same overlap (23 courses, 84 units)." },
+  { "name": "Artificial Intelligence (BS)", "keep": true, "reason": "Computed overlap rank 8, and the most direct match to the team's AI programs." },
+  { "name": "Biological Sciences (BS)", "keep": false, "reason": "Same program as the Biological Sciences (BA) pick with identical overlap. One entry per program family keeps the six varied." },
+  { "name": "Applied and Computational Mathematics (BS)", "keep": false, "reason": "Same program as the Applied and Computational Mathematics (BA) pick with identical overlap." },
+  { "name": "Biological Sciences (Biotechnology) (BS)", "keep": false, "reason": "An emphasis of Biological Sciences, already represented." },
+  { "name": "Biological Sciences (Molecular, Cellular and Developmental Biology) (BS)", "keep": false, "reason": "An emphasis of Biological Sciences, already represented." },
+  { "name": "Biological Sciences (Ecology, Evolution and Environment) (BS)", "keep": false, "reason": "An emphasis of Biological Sciences, already represented." },
+  { "name": "Civil Engineering (BS)", "keep": false, "reason": "Civil Engineering and its emphases share courses with the CSBA pre-major (calculus, physics, chemistry), not the programming or neuroscience content. Below the top six in any case." },
+  { "name": "Civil Engineering, Building Science Emphasis (BS)", "keep": false, "reason": "Emphasis of Civil Engineering." },
+  { "name": "Civil Engineering, Construction Engineering and Management Emphasis (BS)", "keep": false, "reason": "Emphasis of Civil Engineering." },
+  { "name": "Civil Engineering, Structural Engineering Emphasis (BS)", "keep": false, "reason": "Emphasis of Civil Engineering." },
+  { "name": "Civil Engineering, Water Resources Engineering Emphasis (BS)", "keep": false, "reason": "Emphasis of Civil Engineering." },
+  { "name": "Biomedical Engineering, Electrical Engineering Emphasis (BS)", "keep": false, "reason": "Emphasis of Biomedical Engineering." },
+  { "name": "Biomedical Engineering, Mechanical Engineering Emphasis (BS)", "keep": false, "reason": "Emphasis of Biomedical Engineering." }
+]
