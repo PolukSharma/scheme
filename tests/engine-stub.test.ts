@@ -41,13 +41,17 @@ describe("engine stub", () => {
     expect(addOns[0]?.programId).toBe("demo-widget-policy");
   });
 
-  it("gives an empty result for a student the fixture does not know", () => {
-    const major = programs[0];
+  it("audits a student id the old stub did not know, using the same courses", () => {
+    const major = programs.find((program) => program.id === "demo-applied-widgets");
+    if (!major) throw new Error("missing major");
     const stranger = { ...students[0], id: "demo-stranger" };
     const audited = audit(stranger, major, courses, policyRules);
-    expect(audited.requirements).toEqual([]);
-    expect(rankAddOns(stranger, [major], programs, courses, policyRules, transferRules)).toEqual([]);
-    expect(planTerms(stranger, [major], courses, policyRules).terms).toEqual([]);
+    const original = audit(students[0], major, courses, policyRules);
+    expect(audited.studentId).toBe("demo-stranger");
+    expect(audited.unitsRemaining).toBe(original.unitsRemaining);
+    expect(audited.coursesRemaining).toEqual(original.coursesRemaining);
+    expect(audited.requirements.length).toBeGreaterThan(0);
+    expect(rankAddOns(stranger, [major], programs, courses, policyRules, transferRules).length).toBeGreaterThan(0);
   });
 
   it("builds the home-page view for all three samples", () => {
