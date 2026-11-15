@@ -1,0 +1,1340 @@
+{
+  "catalogueYear": "2026-2027",
+  "degreeSentence": null,
+  "gradeCodes": [],
+  "gradeSentence": null,
+  "id": "biological-sciences-ba",
+  "kind": "major",
+  "name": "Biological Sciences (BA)",
+  "nodes": [
+    {
+      "children": [],
+      "heading": "Lower-Division BISC Core Courses (8 units)",
+      "minCount": null,
+      "minUnits": 8,
+      "picks": [
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "BISC 120Lg",
+                "line": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "BISC 121Lg",
+                "line": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "BISC 220Lg",
+                "line": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "BISC 221Lg",
+                "line": "BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        }
+      ],
+      "quote": "Lower-Division BISC Core Courses (8 units)",
+      "rule": "all",
+      "statedMax": 8,
+      "statedMin": 8,
+      "statedUnits": 8
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "General Chemistry Requirement: 8 units",
+          "minCount": null,
+          "minUnits": 8,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "CHEM 105aLg",
+                    "line": "CHEM 105aLg General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 107Lg",
+                    "line": "CHEM 107Lg General Chemistry for Chemistry Majors Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 115aLg",
+                    "line": "CHEM 115aLg Advanced General Chemistry Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "CHEM 105bL",
+                    "line": "CHEM 105bL General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 108L",
+                    "line": "CHEM 108L General Chemistry for Chemistry Majors: Kinetics and Equilibrium Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 115bL",
+                    "line": "CHEM 115bL Advanced General Chemistry Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "General Chemistry Requirement: 8 units",
+          "rule": "all",
+          "statedMax": 8,
+          "statedMin": 8,
+          "statedUnits": 8
+        },
+        {
+          "children": [],
+          "heading": "Organic Chemistry Requirement: 8 units",
+          "minCount": null,
+          "minUnits": 8,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "CHEM 322aL",
+                    "line": "CHEM 322aL Organic Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 325aL",
+                    "line": "CHEM 325aL Organic Chemistry Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "CHEM 322bL",
+                    "line": "CHEM 322bL Organic Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 325bL",
+                    "line": "CHEM 325bL Organic Chemistry Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Organic Chemistry Requirement: 8 units",
+          "rule": "all",
+          "statedMax": 8,
+          "statedMin": 8,
+          "statedUnits": 8
+        },
+        {
+          "children": [],
+          "heading": "Calculus Requirement: 4 units",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "MATH 125g",
+                  "line": "MATH 125g Calculus I Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Calculus Requirement: 4 units",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Statistics Requirement: 4 units",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "MATH 208x",
+                    "line": "MATH 208x Elementary Probability and Statistics Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "QBIO 305g",
+                    "line": "QBIO 305g Statistics for Biological Sciences Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "QBIO 310",
+                    "line": "QBIO 310 Statistical Thinking for Quantitative Biology Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Statistics Requirement: 4 units",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Physics Requirement: 8 units",
+          "minCount": null,
+          "minUnits": 8,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "PHYS 135aLg",
+                    "line": "PHYS 135aLg Physics for the Life Sciences Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 151Lg",
+                    "line": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "PHYS 135bL",
+                    "line": "PHYS 135bL Physics for the Life Sciences Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 152L",
+                    "line": "PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Physics Requirement: 8 units",
+          "rule": "all",
+          "statedMax": 8,
+          "statedMin": 8,
+          "statedUnits": 8
+        }
+      ],
+      "heading": "Collateral Sciences Courses (32 units)",
+      "minCount": null,
+      "minUnits": 32,
+      "picks": [],
+      "quote": "Collateral Sciences Courses (32 units)",
+      "rule": "all",
+      "statedMax": 32,
+      "statedMin": 32,
+      "statedUnits": 32
+    },
+    {
+      "children": [],
+      "heading": "Introduction to Research-Active Faculty (1 to 2 units)",
+      "minCount": 1,
+      "minUnits": 1,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "BISC 193",
+              "line": "BISC 193 Introduction to Research I Units: 1",
+              "unitChoices": [
+                1
+              ],
+              "units": 1
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 194",
+              "line": "BISC 194 Introduction to Research II Units: 1",
+              "unitChoices": [
+                1
+              ],
+              "units": 1
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 199",
+              "line": "BISC 199 Neuroscience Colloquium Units: 1",
+              "unitChoices": [
+                1
+              ],
+              "units": 1
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Introduction to Research-Active Faculty (1 to 2 units) Enroll in one or two of the courses below.",
+      "rule": "n",
+      "statedMax": 2,
+      "statedMin": 1,
+      "statedUnits": null
+    },
+    {
+      "children": [],
+      "heading": "Upper-Division BISC Core Courses (12 units)",
+      "minCount": null,
+      "minUnits": 12,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "BISC 320Lg",
+              "line": "BISC 320Lg Molecular Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 325",
+              "line": "BISC 325 Genetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 330L",
+              "line": "BISC 330L Biochemistry Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Upper-Division BISC Core Courses (12 units)",
+      "rule": "all",
+      "statedMax": 12,
+      "statedMin": 12,
+      "statedUnits": 12
+    },
+    {
+      "children": [],
+      "heading": "Upper-Division Electives (8 units)",
+      "minCount": null,
+      "minUnits": 8,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "BISC 300L",
+              "line": "BISC 300L Microbiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 303L",
+              "line": "BISC 303L The Kingdom Plantae: An Introduction to Botany Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 307L",
+              "line": "BISC 307L General Physiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 313L",
+              "line": "BISC 313L Evolution and Population Genetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 314L",
+              "line": "BISC 314L Cell Culture Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 315L",
+              "line": "BISC 315L Introduction to Ecology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 321",
+              "line": "BISC 321 Multidisciplinary Seminar: Science, Technology and Society Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 326L",
+              "line": "BISC 326L Urban Conservation Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 363L",
+              "line": "BISC 363L Mammalogy Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 365",
+              "line": "BISC 365 Phylogenetics and Evolution Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 369L",
+              "line": "BISC 369L Ecology and the Natural History of California Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 372",
+              "line": "BISC 372 Cell Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 379L",
+              "line": "BISC 379L Our Future Changing Ocean Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 402",
+              "line": "BISC 402 RNA Biology and Biotechnology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 403",
+              "line": "BISC 403 Advanced Molecular Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 404L",
+              "line": "BISC 404L Biodiversity Data Analytics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 406L",
+              "line": "BISC 406L Biotechnology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 407",
+              "line": "BISC 407 Cellular and Molecular Neuroscience Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 408",
+              "line": "BISC 408 Systems Neuroscience: From Synapses to Perception Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 410",
+              "line": "BISC 410 Applications of Molecular Biology to Medicine Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 411",
+              "line": "BISC 411 Advanced Cell Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 414",
+              "line": "BISC 414 Biology of Cancer Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 419L",
+              "line": "BISC 419L Microbiology for a Sustainable Future Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 421",
+              "line": "BISC 421 Neurobiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 423",
+              "line": "BISC 423 Epilepsy to Ecstasy: Biological Basis of Neurological Disorders Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 424",
+              "line": "BISC 424 Brain Architecture Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 425",
+              "line": "BISC 425 Genetics through the Scientific Literature Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 427",
+              "line": "BISC 427 The Global Environment Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 428",
+              "line": "BISC 428 The Biology of Health from a Global Perspective Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 429",
+              "line": "BISC 429 Cancer Immunology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 431L",
+              "line": "BISC 431L Aquatic Microbiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 434",
+              "line": "BISC 434 Introduction to Genome Science Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 435",
+              "line": "BISC 435 Advanced Biochemistry Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 438",
+              "line": "BISC 438 Nutritional Biochemistry Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 444",
+              "line": "BISC 444 Practical Analysis of Biological Data in R Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 445L",
+              "line": "BISC 445L Fundamentals of Vertebrate Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 450L",
+              "line": "BISC 450L Principles of Immunology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 451",
+              "line": "BISC 451 Protein Engineering Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 457L",
+              "line": "BISC 457L Methods in Marine Biology and Biological Oceanography Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 460",
+              "line": "BISC 460 Seminar in Ecology, Evolution and Environment Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 461",
+              "line": "BISC 461 Seminar in Molecular and Computational Biology Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 462",
+              "line": "BISC 462 Seminar in Neurobiology Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 466",
+              "line": "BISC 466 Neuroimmunology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 469L",
+              "line": "BISC 469L Marine Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 473L",
+              "line": "BISC 473L Biological Oceanography Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 480L",
+              "line": "BISC 480L Developmental Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 483",
+              "line": "BISC 483 Geobiology and Astrobiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 485",
+              "line": "BISC 485 Advanced Seminar in Bacterial Survival and Evolution Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 488",
+              "line": "BISC 488 Microscopy and Spectroscopy of Biological Systems Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 490x",
+              "line": "BISC 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8",
+              "unitChoices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "units": null
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 491L",
+              "line": "BISC 491L Practical Aquaculture Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 493x",
+              "line": "BISC 493x Honors Seminar Units: 1",
+              "unitChoices": [
+                1
+              ],
+              "units": 1
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 494x",
+              "line": "BISC 494x Honors Thesis Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "ENST 335",
+              "line": "ENST 335 Science, Health and the Environment Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "GEOL 412",
+              "line": "GEOL 412 Oceans, Climate, and the Environment Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "GERO 440",
+              "line": "GERO 440 Biodemography of Aging Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "HBIO 301L",
+              "line": "HBIO 301L Human Anatomy Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 401",
+              "line": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 475",
+              "line": "QBIO 475 Statistical and Evolutionary Genetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 478",
+              "line": "QBIO 478 Computational Genome Analysis Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 481",
+              "line": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 482",
+              "line": "QBIO 482 Systems Biology: Modeling the Dynamics of Life Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "SCRM 487",
+              "line": "SCRM 487 Regenerative Medicine: Principles, Paradigms and Practice Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Upper-Division Electives (8 units) Eight units of upper-division BISC course work available for major credit are required. No more than 4 units of BISC 490x may be used to fulfill the upper-division elective requirement. In addition, no more than two seminars (BISC 460 to BISC 462 ), totaling 4 units, may be applied to the upper-division elective requirement. It is expected that students will take 100-level BISC core courses during the first year, two 300-level BISC core courses during the second year, and the remaining core courses and the 300- or 400-level BISC major elective courses during the third and fourth years.",
+      "rule": "n",
+      "statedMax": 8,
+      "statedMin": 8,
+      "statedUnits": 8
+    },
+    {
+      "children": [],
+      "heading": "Total required units: 128",
+      "minCount": null,
+      "minUnits": 128,
+      "picks": [],
+      "quote": "Total required units: 128",
+      "rule": "total",
+      "statedMax": 128,
+      "statedMin": 128,
+      "statedUnits": 128
+    },
+    {
+      "children": [],
+      "heading": "Free elective units: 10-11",
+      "minCount": null,
+      "minUnits": null,
+      "picks": [],
+      "quote": "Free elective units: 10-11",
+      "rule": "prose",
+      "statedMax": null,
+      "statedMin": null,
+      "statedUnits": null
+    },
+    {
+      "children": [],
+      "heading": "Scholarship in Major Subject",
+      "minCount": 5,
+      "minUnits": null,
+      "picks": [],
+      "quote": "Scholarship in Major Subject The department requires that students receive a grade no lower than C- in their five core courses. They must maintain a 2.0 GPA in the upper-division biology and chemistry courses required for the major, as well as an overall 2.0 GPA. All major core courses must be taken on a letter grade basis.",
+      "rule": "note",
+      "statedMax": null,
+      "statedMin": null,
+      "statedUnits": null
+    },
+    {
+      "children": [],
+      "heading": "Honors Program in Biological Sciences",
+      "minCount": null,
+      "minUnits": 1,
+      "picks": [],
+      "quote": "Honors Program in Biological Sciences The department offers an honors program to outstanding students already pursuing studies for the BA or BS degree in Biological Sciences. This program offers students an opportunity to participate in undergraduate research, experience in writing an honors thesis summarizing the completed research, and experience in an honors seminar. Honors students are required to take two semesters of BISC 493x Honors Seminar (1 unit/ - semester) and one semester of BISC 494x Honors Thesis (2 units) in addition to fulfilling all requirements of the BA or BS degree. Honors students must also choose BISC 490x as one of their upper division electives. This program leads to",
+      "rule": "note",
+      "statedMax": 1,
+      "statedMin": 1,
+      "statedUnits": 1
+    }
+  ],
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "sourceFile": "data/raw/2026-2027/catalogue_usc_edu_preview_program_php_catoid_22_poid_31717.html",
+  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31717"
+}
