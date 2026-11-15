@@ -1,0 +1,744 @@
+[
+  {
+    "code": "DEMO 101",
+    "title": "Synthetic studio 101",
+    "units": 4,
+    "prerequisites": null,
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 102",
+    "title": "Synthetic studio 102",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 101"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 103",
+    "title": "Synthetic studio 103",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 102"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 104",
+    "title": "Synthetic studio 104",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 103"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 105",
+    "title": "Synthetic studio 105",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 104"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 106",
+    "title": "Synthetic studio 106",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 105"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 103"
+        }
+      ]
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 107",
+    "title": "Synthetic studio 107",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 106"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 108",
+    "title": "Synthetic studio 108",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 107"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 106"
+        }
+      ]
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 109",
+    "title": "Synthetic studio 109",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 108"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 110",
+    "title": "Synthetic studio 110",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 109"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 111",
+    "title": "Synthetic studio 111",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 110"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 108"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 112",
+    "title": "Synthetic studio 112",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 111"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 201",
+    "title": "Synthetic studio 201",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 112"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 202",
+    "title": "Synthetic studio 202",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 201"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 203",
+    "title": "Synthetic studio 203",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 202"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 201"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 204",
+    "title": "Synthetic studio 204",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 203"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 201"
+        }
+      ]
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 205",
+    "title": "Synthetic studio 205",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 204"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 206",
+    "title": "Synthetic studio 206",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 205"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 207",
+    "title": "Synthetic studio 207",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 206"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 208",
+    "title": "Synthetic studio 208",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 207"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 209",
+    "title": "Synthetic studio 209",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 208"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 206"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 210",
+    "title": "Synthetic studio 210",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 209"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 208"
+        }
+      ]
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 211",
+    "title": "Synthetic studio 211",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 210"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 212",
+    "title": "Synthetic studio 212",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 211"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 213",
+    "title": "Synthetic studio 213",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 212"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 214",
+    "title": "Synthetic studio 214",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 213"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 211"
+        }
+      ]
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 215",
+    "title": "Synthetic studio 215",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 214"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 216",
+    "title": "Synthetic studio 216",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 215"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 301",
+    "title": "Synthetic studio 301",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 216"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 215"
+        }
+      ]
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 302",
+    "title": "Synthetic studio 302",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 301"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 303",
+    "title": "Synthetic studio 303",
+    "units": 4,
+    "prerequisites": {
+      "type": "n_of",
+      "n": 1,
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 302"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 216"
+        }
+      ]
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 304",
+    "title": "Synthetic studio 304",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 303"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 305",
+    "title": "Synthetic studio 305",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 304"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 306",
+    "title": "Synthetic studio 306",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 305"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 307",
+    "title": "Synthetic studio 307",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 306"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 308",
+    "title": "Synthetic studio 308",
+    "units": 4,
+    "prerequisites": {
+      "type": "all_of",
+      "children": [
+        {
+          "type": "course",
+          "code": "DEMO 307"
+        },
+        {
+          "type": "course",
+          "code": "DEMO 306"
+        }
+      ]
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 309",
+    "title": "Synthetic studio 309",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 308"
+    },
+    "offering": "fall",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 310",
+    "title": "Synthetic studio 310",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 309"
+    },
+    "offering": "spring",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 311",
+    "title": "Synthetic studio 311",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 310"
+    },
+    "offering": "both",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "code": "DEMO 312",
+    "title": "Synthetic studio 312",
+    "units": 4,
+    "prerequisites": {
+      "type": "course",
+      "code": "DEMO 311"
+    },
+    "offering": "unknown",
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  }
+]

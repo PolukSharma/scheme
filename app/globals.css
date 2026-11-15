@@ -1,0 +1,52 @@
+:root {
+  color: #1a1a1a;
+  background: #ffffff;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #990000;
+}
+
+.frame {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.frame header {
+  border-top: 4px solid #ffcc00;
+  padding-top: 1.25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.5rem;
+}
+
+.card {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+}
+
+.card ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+footer {
+  margin-top: 2.5rem;
+}

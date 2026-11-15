@@ -1,0 +1,87 @@
+[
+  {
+    "studentId": "synthetic-a",
+    "programId": "demo-foundations",
+    "satisfied": false,
+    "unitsApplied": 8,
+    "unitsRemaining": 24,
+    "requirements": [
+      {
+        "nodeId": "foundations-101",
+        "satisfied": true,
+        "appliedCourses": [
+          "DEMO 101"
+        ],
+        "remainingUnits": 0,
+        "note": "Completed DEMO 101."
+      },
+      {
+        "nodeId": "foundations-102",
+        "satisfied": true,
+        "appliedCourses": [
+          "DEMO 102"
+        ],
+        "remainingUnits": 0,
+        "note": "Completed DEMO 102."
+      },
+      {
+        "nodeId": "foundations-choose",
+        "satisfied": false,
+        "appliedCourses": [],
+        "remainingUnits": 8,
+        "note": "DEMO 201 is in progress and does not satisfy the choose-two group yet."
+      },
+      {
+        "nodeId": "foundations-set",
+        "satisfied": false,
+        "appliedCourses": [],
+        "remainingUnits": 8,
+        "note": "Two courses from the synthetic set are still open."
+      },
+      {
+        "nodeId": "foundations-units",
+        "satisfied": false,
+        "appliedCourses": [],
+        "remainingUnits": 8,
+        "note": "The synthetic 8-unit floor is open."
+      }
+    ],
+    "assumptions": [
+      {
+        "ruleId": "synthetic-fixture",
+        "text": "Hand-written synthetic row for schema coverage. Not an engine result."
+      }
+    ]
+  },
+  {
+    "studentId": "synthetic-c",
+    "programId": "demo-foundations",
+    "satisfied": true,
+    "unitsApplied": 32,
+    "unitsRemaining": 0,
+    "requirements": [
+      {
+        "nodeId": "foundations-root",
+        "satisfied": true,
+        "appliedCourses": [
+          "DEMO 101",
+          "DEMO 102",
+          "DEMO 201",
+          "DEMO 202",
+          "DEMO 301",
+          "DEMO 302",
+          "DEMO 308",
+          "DEMO 309"
+        ],
+        "remainingUnits": 0,
+        "note": "Hand-written complete audit for the synthetic major."
+      }
+    ],
+    "assumptions": [
+      {
+        "ruleId": "synthetic-fixture",
+        "text": "Hand-written synthetic row for schema coverage. Not an engine result."
+      }
+    ]
+  }
+]

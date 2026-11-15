@@ -1,0 +1,347 @@
+[
+  {
+    "id": "demo-foundations",
+    "name": "Synthetic Foundations",
+    "school": "Demo College",
+    "kind": "major",
+    "description": "A synthetic major about careful systems. This sentence is fixture text, not a catalogue quote.",
+    "catalogueYear": "2026-2027",
+    "totalUnits": 32,
+    "requirements": {
+      "type": "all_of",
+      "id": "foundations-root",
+      "source": {
+        "url": "https://catalogue.usc.edu/",
+        "catalogueYear": "2026-2027",
+        "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+      },
+      "verified": false,
+      "children": [
+        {
+          "type": "course",
+          "id": "foundations-101",
+          "code": "DEMO 101",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "course",
+          "id": "foundations-102",
+          "code": "DEMO 102",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "n_of",
+          "id": "foundations-choose",
+          "n": 2,
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false,
+          "children": [
+            {
+              "type": "course",
+              "id": "foundations-201",
+              "code": "DEMO 201",
+              "source": {
+                "url": "https://catalogue.usc.edu/",
+                "catalogueYear": "2026-2027",
+                "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+              },
+              "verified": false
+            },
+            {
+              "type": "course",
+              "id": "foundations-202",
+              "code": "DEMO 202",
+              "source": {
+                "url": "https://catalogue.usc.edu/",
+                "catalogueYear": "2026-2027",
+                "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+              },
+              "verified": false
+            },
+            {
+              "type": "course",
+              "id": "foundations-203",
+              "code": "DEMO 203",
+              "source": {
+                "url": "https://catalogue.usc.edu/",
+                "catalogueYear": "2026-2027",
+                "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+              },
+              "verified": false
+            }
+          ]
+        },
+        {
+          "type": "course_set",
+          "id": "foundations-set",
+          "minCount": 2,
+          "codes": [
+            "DEMO 301",
+            "DEMO 302",
+            "DEMO 303",
+            "DEMO 304"
+          ],
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "unit_min",
+          "id": "foundations-units",
+          "minUnits": 8,
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false,
+          "child": {
+            "type": "course_set",
+            "id": "foundations-upper",
+            "minCount": 1,
+            "subject": "DEMO",
+            "minLevel": 300,
+            "source": {
+              "url": "https://catalogue.usc.edu/",
+              "catalogueYear": "2026-2027",
+              "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+            },
+            "verified": false
+          }
+        }
+      ]
+    },
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "id": "demo-overlap",
+    "name": "Synthetic Overlap",
+    "school": "Demo College",
+    "kind": "minor",
+    "description": "A synthetic minor that shares DEMO 101 with Synthetic Foundations and keeps its own unit floor.",
+    "catalogueYear": "2026-2027",
+    "totalUnits": 20,
+    "requirements": {
+      "type": "all_of",
+      "id": "overlap-root",
+      "source": {
+        "url": "https://catalogue.usc.edu/",
+        "catalogueYear": "2026-2027",
+        "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+      },
+      "verified": false,
+      "children": [
+        {
+          "type": "course",
+          "id": "overlap-101",
+          "code": "DEMO 101",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "course",
+          "id": "overlap-110",
+          "code": "DEMO 110",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "n_of",
+          "id": "overlap-choose",
+          "n": 1,
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false,
+          "children": [
+            {
+              "type": "course",
+              "id": "overlap-210",
+              "code": "DEMO 210",
+              "source": {
+                "url": "https://catalogue.usc.edu/",
+                "catalogueYear": "2026-2027",
+                "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+              },
+              "verified": false
+            },
+            {
+              "type": "course",
+              "id": "overlap-211",
+              "code": "DEMO 211",
+              "source": {
+                "url": "https://catalogue.usc.edu/",
+                "catalogueYear": "2026-2027",
+                "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+              },
+              "verified": false
+            }
+          ]
+        },
+        {
+          "type": "unit_min",
+          "id": "overlap-units",
+          "minUnits": 8,
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false,
+          "child": {
+            "type": "course_set",
+            "id": "overlap-set",
+            "minCount": 2,
+            "codes": [
+              "DEMO 308",
+              "DEMO 309",
+              "DEMO 310",
+              "DEMO 311"
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/",
+              "catalogueYear": "2026-2027",
+              "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+            },
+            "verified": false
+          }
+        }
+      ]
+    },
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "id": "demo-bridge",
+    "name": "Synthetic Bridge",
+    "school": "Other College",
+    "kind": "major",
+    "description": "A synthetic major in another school, used to exercise a cross-school switch.",
+    "catalogueYear": "2026-2027",
+    "totalUnits": 20,
+    "requirements": {
+      "type": "all_of",
+      "id": "bridge-root",
+      "source": {
+        "url": "https://catalogue.usc.edu/",
+        "catalogueYear": "2026-2027",
+        "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+      },
+      "verified": false,
+      "children": [
+        {
+          "type": "course",
+          "id": "bridge-101",
+          "code": "DEMO 101",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "course",
+          "id": "bridge-112",
+          "code": "DEMO 112",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "course",
+          "id": "bridge-216",
+          "code": "DEMO 216",
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "course_set",
+          "id": "bridge-set",
+          "minCount": 1,
+          "codes": [
+            "DEMO 305",
+            "DEMO 306"
+          ],
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false
+        },
+        {
+          "type": "unit_min",
+          "id": "bridge-units",
+          "minUnits": 4,
+          "source": {
+            "url": "https://catalogue.usc.edu/",
+            "catalogueYear": "2026-2027",
+            "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+          },
+          "verified": false,
+          "child": {
+            "type": "course",
+            "id": "bridge-312",
+            "code": "DEMO 312",
+            "source": {
+              "url": "https://catalogue.usc.edu/",
+              "catalogueYear": "2026-2027",
+              "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+            },
+            "verified": false
+          }
+        }
+      ]
+    },
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  }
+]

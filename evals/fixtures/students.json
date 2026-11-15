@@ -1,0 +1,248 @@
+[
+  {
+    "id": "synthetic-a",
+    "label": "Synthetic student A",
+    "school": "Demo College",
+    "entranceTerm": "20243",
+    "classLevel": "Junior",
+    "expectedGraduation": "20281",
+    "catalogueYear": "2026-2027",
+    "declaredPrograms": [
+      {
+        "programId": "demo-foundations",
+        "name": "Synthetic Foundations",
+        "role": "primary",
+        "effectiveTerm": "20243"
+      },
+      {
+        "programId": "demo-overlap",
+        "name": "Synthetic Overlap",
+        "role": "minor",
+        "effectiveTerm": "20253"
+      }
+    ],
+    "units": {
+      "earned": 8,
+      "inProgress": 4,
+      "transfer": 4,
+      "ap": 4
+    },
+    "courses": [
+      {
+        "code": "DEMO 101",
+        "title": "Synthetic studio 101",
+        "units": 4,
+        "grade": "A",
+        "term": "20251",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 102",
+        "title": "Synthetic studio 102",
+        "units": 4,
+        "grade": "A-",
+        "term": "20253",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 201",
+        "title": "Synthetic studio 201",
+        "units": 4,
+        "grade": null,
+        "term": "20263",
+        "status": "in_progress",
+        "flags": [
+          ">IP"
+        ]
+      },
+      {
+        "code": "DEMO 110",
+        "title": "Synthetic studio 110",
+        "units": 4,
+        "grade": "TR",
+        "term": "20243",
+        "status": "transfer",
+        "flags": []
+      },
+      {
+        "code": "DEMO 104",
+        "title": "Synthetic studio 104",
+        "units": 4,
+        "grade": "CR",
+        "term": null,
+        "status": "ap",
+        "flags": []
+      }
+    ],
+    "remainingRequirements": [
+      {
+        "text": "Synthetic Foundations choose-two group",
+        "status": "IP"
+      },
+      {
+        "text": "Synthetic Overlap unit floor",
+        "status": "NEEDS"
+      },
+      {
+        "text": "Select from the synthetic upper-division pool",
+        "status": "SELECT FROM"
+      }
+    ]
+  },
+  {
+    "id": "synthetic-b",
+    "label": "Synthetic student B",
+    "school": "Other College",
+    "entranceTerm": "20251",
+    "classLevel": "Sophomore",
+    "expectedGraduation": "20291",
+    "catalogueYear": "2026-2027",
+    "declaredPrograms": [
+      {
+        "programId": "demo-bridge",
+        "name": "Synthetic Bridge",
+        "role": "primary",
+        "effectiveTerm": "20251"
+      }
+    ],
+    "units": {
+      "earned": 4,
+      "inProgress": 4,
+      "transfer": 0,
+      "ap": 0
+    },
+    "courses": [
+      {
+        "code": "DEMO 112",
+        "title": "Synthetic studio 112",
+        "units": 4,
+        "grade": "B+",
+        "term": "20253",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 216",
+        "title": "Synthetic studio 216",
+        "units": 4,
+        "grade": null,
+        "term": "20261",
+        "status": "in_progress",
+        "flags": [
+          ">IP"
+        ]
+      }
+    ],
+    "remainingRequirements": [
+      {
+        "text": "Synthetic Bridge required studio",
+        "status": "NO"
+      }
+    ]
+  },
+  {
+    "id": "synthetic-c",
+    "label": "Synthetic student C",
+    "school": "Demo College",
+    "entranceTerm": "20233",
+    "classLevel": "Senior",
+    "expectedGraduation": "20271",
+    "catalogueYear": "2026-2027",
+    "declaredPrograms": [
+      {
+        "programId": "demo-foundations",
+        "name": "Synthetic Foundations",
+        "role": "primary",
+        "effectiveTerm": "20233"
+      }
+    ],
+    "units": {
+      "earned": 32,
+      "inProgress": 0,
+      "transfer": 0,
+      "ap": 0
+    },
+    "courses": [
+      {
+        "code": "DEMO 101",
+        "title": "Synthetic studio 101",
+        "units": 4,
+        "grade": "A",
+        "term": "20241",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 102",
+        "title": "Synthetic studio 102",
+        "units": 4,
+        "grade": "A",
+        "term": "20243",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 201",
+        "title": "Synthetic studio 201",
+        "units": 4,
+        "grade": "A-",
+        "term": "20251",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 202",
+        "title": "Synthetic studio 202",
+        "units": 4,
+        "grade": "B+",
+        "term": "20253",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 301",
+        "title": "Synthetic studio 301",
+        "units": 4,
+        "grade": "A",
+        "term": "20261",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 302",
+        "title": "Synthetic studio 302",
+        "units": 4,
+        "grade": "A-",
+        "term": "20261",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 308",
+        "title": "Synthetic studio 308",
+        "units": 4,
+        "grade": "A",
+        "term": "20263",
+        "status": "completed",
+        "flags": []
+      },
+      {
+        "code": "DEMO 309",
+        "title": "Synthetic studio 309",
+        "units": 4,
+        "grade": "A-",
+        "term": "20263",
+        "status": "completed",
+        "flags": []
+      }
+    ],
+    "remainingRequirements": [
+      {
+        "text": "Synthetic Foundations",
+        "status": "OK"
+      }
+    ]
+  }
+]

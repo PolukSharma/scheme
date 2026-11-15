@@ -1,0 +1,59 @@
+[
+  {
+    "mode": "add-on",
+    "studentId": "synthetic-a",
+    "programId": "demo-overlap",
+    "extraTerms": 1,
+    "extraUnits": 12,
+    "estimatedCost": null,
+    "bindingConstraint": "synthetic unit floor on the minor",
+    "coursesThatCount": [
+      "DEMO 101",
+      "DEMO 110"
+    ],
+    "coursesThatStopCounting": [],
+    "crossSchool": false,
+    "transferRuleId": null,
+    "prerequisitesHave": [],
+    "prerequisitesLack": [],
+    "verified": false,
+    "assumptions": [
+      {
+        "ruleId": "synthetic-fixture",
+        "text": "Hand-written synthetic row for schema coverage. Not an engine result."
+      }
+    ]
+  },
+  {
+    "mode": "switch",
+    "studentId": "synthetic-b",
+    "programId": "demo-foundations",
+    "extraTerms": 2,
+    "extraUnits": 24,
+    "estimatedCost": null,
+    "bindingConstraint": "synthetic cross-school prerequisites",
+    "coursesThatCount": [],
+    "coursesThatStopCounting": [
+      "DEMO 112",
+      "DEMO 216"
+    ],
+    "crossSchool": true,
+    "transferRuleId": "into-demo-college",
+    "prerequisitesHave": [],
+    "prerequisitesLack": [
+      "DEMO 101",
+      "DEMO 201"
+    ],
+    "verified": false,
+    "assumptions": [
+      {
+        "ruleId": "synthetic-fixture",
+        "text": "Hand-written synthetic row for schema coverage. Not an engine result."
+      },
+      {
+        "ruleId": "into-demo-college",
+        "text": "Synthetic transfer note only. This does not imply admission."
+      }
+    ]
+  }
+]

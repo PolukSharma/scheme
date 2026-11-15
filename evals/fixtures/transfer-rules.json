@@ -1,0 +1,35 @@
+[
+  {
+    "id": "into-demo-college",
+    "fromSchool": "Other College",
+    "toSchool": "Demo College",
+    "summary": "Synthetic internal-transfer note into Demo College. Not an admission decision.",
+    "prerequisiteCourses": [
+      "DEMO 101",
+      "DEMO 201"
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "dateChecked": "2026-11-14",
+    "verified": false
+  },
+  {
+    "id": "into-other-college",
+    "fromSchool": "Demo College",
+    "toSchool": "Other College",
+    "summary": "Synthetic internal-transfer note into Other College. Not an admission decision.",
+    "prerequisiteCourses": [
+      "DEMO 112"
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "dateChecked": "2026-11-14",
+    "verified": false
+  }
+]

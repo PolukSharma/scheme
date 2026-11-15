@@ -1,0 +1,54 @@
+[
+  {
+    "studentId": "synthetic-a",
+    "programIds": [
+      "demo-foundations",
+      "demo-overlap"
+    ],
+    "terms": [
+      {
+        "label": "Fall 2026",
+        "season": "fall",
+        "year": 2026,
+        "courses": [
+          {
+            "code": "DEMO 202",
+            "title": "Synthetic studio 202",
+            "units": 4
+          },
+          {
+            "code": "DEMO 301",
+            "title": "Synthetic studio 301",
+            "units": 4
+          }
+        ],
+        "units": 8
+      },
+      {
+        "label": "Spring 2027",
+        "season": "spring",
+        "year": 2027,
+        "courses": [
+          {
+            "code": "DEMO 302",
+            "title": "Synthetic studio 302",
+            "units": 4
+          },
+          {
+            "code": "DEMO 308",
+            "title": "Synthetic studio 308",
+            "units": 4
+          }
+        ],
+        "units": 8
+      }
+    ],
+    "totalUnits": 16,
+    "assumptions": [
+      {
+        "ruleId": "synthetic-fixture",
+        "text": "Hand-written synthetic row for schema coverage. Not an engine result."
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "synthetic-unique-units",
+    "name": "Synthetic unique-unit floor",
+    "summary": "Stand-in for a minor unique-unit rule. The number is not a USC figure.",
+    "value": 16,
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "id": "synthetic-unit-cap",
+    "name": "Synthetic term unit cap",
+    "summary": "Stand-in unit cap used so a term plan has a limit to respect.",
+    "value": 18,
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+    },
+    "verified": false
+  },
+  {
+    "id": "synthetic-tuition-unconfirmed",
+    "name": "Synthetic tuition band",
+    "summary": "Tuition is unconfirmed. Leave the value null until a source quotes the figure.",
+    "value": null,
+    "source": {
+      "url": "https://catalogue.usc.edu/",
+      "catalogueYear": "2026-2027",
+      "text": "Synthetic fixture. No tuition figure is quoted here. Do not invent one."
+    },
+    "verified": false
+  }
+]

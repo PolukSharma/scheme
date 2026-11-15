@@ -1,0 +1,25 @@
+[
+  {
+    "goal": "Work on careful systems.",
+    "matches": [
+      {
+        "programId": "demo-foundations",
+        "reason": "A synthetic major about careful systems.",
+        "source": {
+          "url": "https://catalogue.usc.edu/",
+          "catalogueYear": "2026-2027",
+          "text": "Synthetic fixture for Scheme. This text is not a USC catalogue requirement."
+        },
+        "suggestion": true,
+        "extraUnits": 24,
+        "extraTerms": 2
+      }
+    ],
+    "noStrongMatch": false
+  },
+  {
+    "goal": "A goal with no synthetic program behind it.",
+    "matches": [],
+    "noStrongMatch": true
+  }
+]
