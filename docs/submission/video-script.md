@@ -48,7 +48,7 @@ STARS remains the official audit. Say that twice: at the open, and again with th
 
 **On screen:** The engine and AI split, then the two accuracy figures, then the three adoption phases. End on the wordmark. No prize slide. No team strip in the video.
 
-**Say:** Code decides what counts. AI only explains, and only from those results. On the programs in our accuracy table, 60 of 65 audit cases passed, and 17 of 18 plans were valid. No person has checked those rows yet. It runs on public catalogue data. The path is a USG pilot, then advisors, then an Experience USC embed.
+**Say:** Code decides what counts. AI only explains, and only from those results. On the programs in our accuracy table, 63 of 65 audit cases passed, and 17 of 18 plans were valid. No person has checked those rows yet. It runs on public catalogue data. The path is a USG pilot, then advisors, then an Experience USC embed.
 
 ## Read-aloud
 

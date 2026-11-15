@@ -14,6 +14,6 @@ At least one image must be a phone width. Devpost needs at least one image. The 
 | 6 | Chat decline for a course that was not supplied | Desktop | Same student | Video 1:45 |
 | 7 | Term plan, including one line that says the term is unknown if the sample produces one | Desktop | Same student | Video 2:15 |
 | 8 | Advisor print view | Desktop | Same student | Video 2:15 |
-| 9 | Accuracy page showing 60 of 65 audit cases and 17 of 18 plans | Desktop | Not a student record | Deck slide 5 |
+| 9 | Accuracy page showing 63 of 65 audit cases and 17 of 18 plans | Desktop | Not a student record | Deck slide 5 |
 
 Cover any name or ID before the shot is saved. If a shot cannot be taken because the screen is missing, drop that shot and say so here. Do not reconstruct it.

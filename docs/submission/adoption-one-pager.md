@@ -12,7 +12,7 @@ A public page, the programs already in the accuracy table, and the built-in samp
 
 **Does not need:** Registrar access, SSO, a database, accounts, or a copy of anyone's report.
 
-**What we can say today:** On the programs in `docs/accuracy.md`, 60 of 65 audit cases passed and 17 of 18 plans were valid. No person has checked those rows by hand, so the pilot should say the rows are unchecked.
+**What we can say today:** On the programs in `docs/accuracy.md`, 63 of 65 audit cases passed and 17 of 18 plans were valid. No person has checked those rows by hand, so the pilot should say the rows are unchecked.
 
 ## Phase 2 — Advisor partnership
 

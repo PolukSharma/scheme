@@ -62,11 +62,11 @@ Engine: audit, rank, term plan
 
 ## Slide 5 — Why you can trust it
 
-**Say this:** On the programs in the accuracy table, 60 of 65 audit cases passed and 17 of 18 plans were valid. No person has checked those rows yet.
+**Say this:** On the programs in the accuracy table, 63 of 65 audit cases passed and 17 of 18 plans were valid. No person has checked those rows yet.
 
 **On the slide:** Those two figures, cited as `docs/accuracy.md`. A line that every requirement links to its catalogue source. A line that the report is parsed in the browser and is not uploaded. A line that STARS remains the official audit.
 
-**Visual:** A crop of the accuracy table showing the 60/65 and 17/18 summary, or the two figures set in type. Do not mark any row verified.
+**Visual:** A crop of the accuracy table showing the 63/65 and 17/18 summary, or the two figures set in type. Do not mark any row verified.
 
 ## Slide 6 — Adoption and cost
 

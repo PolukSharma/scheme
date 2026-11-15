@@ -6,8 +6,8 @@ Numbers in the Devpost text, the deck, the video, and the one-pager have to come
 
 | Claim | Source |
 | --- | --- |
-| 60 of 65 audit cases passed | `docs/accuracy.md` on `cursor/audit-fixes-4a28` |
-| 17 of 18 plans were valid | `docs/accuracy.md` on the same branch |
+| 63 of 65 audit cases passed | `docs/accuracy.md` |
+| 17 of 18 plans were valid | `docs/accuracy.md` |
 | No person has checked the accuracy rows by hand | `docs/accuracy.md`: "No person has checked these rows by hand. Verified stays no until that happens." |
 | STARS remains the official audit | `docs/accuracy.md`: "STARS remains the official audit." |
 

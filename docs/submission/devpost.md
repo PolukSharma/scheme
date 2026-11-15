@@ -22,7 +22,7 @@ A career goal returns up to three programs. Each reason is quoted from the catal
 
 The term plan places a course only in a season the course record lists. If the offering is irregular, the plan says the term is unknown. The student can print an advisor PDF to take to an appointment.
 
-On the programs in `docs/accuracy.md`, 60 of 65 audit cases passed and 17 of 18 plans were valid. No person has checked those rows by hand. Wider catalogue coverage is future work.
+On the programs in `docs/accuracy.md`, 63 of 65 audit cases passed and 17 of 18 plans were valid. No person has checked those rows by hand. Wider catalogue coverage is future work.
 
 ## The tech stack
 
