@@ -141,8 +141,24 @@ export function chatRequestBody(student: StudentRecord, question: string) {
   };
 }
 
-export function careerRequestBody(goal: string, programIds: readonly string[]) {
-  return { goal, programIds: [...programIds] };
+export function careerRequestBody(goal: string, opportunities: readonly Opportunity[]) {
+  return {
+    goal,
+    opportunities: opportunities.map((opportunity) => ({
+      mode: opportunity.mode,
+      programId: opportunity.programId,
+      extraTerms: opportunity.extraTerms,
+      extraUnits: opportunity.extraUnits,
+      bindingConstraint: opportunity.bindingConstraint,
+      coursesThatCount: opportunity.coursesThatCount,
+      coursesThatStopCounting: opportunity.coursesThatStopCounting,
+      remainingCourses: opportunity.remainingCourses,
+      verified: opportunity.verified,
+      crossSchool: opportunity.crossSchool,
+      transfer: opportunity.transfer,
+      assumptions: opportunity.assumptions,
+    })),
+  };
 }
 
 export function advisorQuestions(input: { unverified: boolean; crossSchool: boolean; assumptionCount: number }): string[] {

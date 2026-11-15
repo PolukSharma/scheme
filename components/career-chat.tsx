@@ -3,12 +3,20 @@
 import { useEffect, useState } from "react";
 import { careerRequestBody, chatRequestBody } from "@/components/rank-student";
 import { z } from "zod";
-import { careerMatchSchema, chatAnswerSchema, type CareerMatch, type ChatAnswer, type Opportunity, type Program, type StudentRecord } from "@/lib/types";
+import { careerMatchSchema, chatAnswerSchema, type CareerMatch, type ChatAnswer, type Opportunity, type OpportunityMode, type Program, type StudentRecord } from "@/lib/types";
+
+interface CopiedDifficulty {
+  programId: string;
+  mode: OpportunityMode;
+  extraTerms: number;
+  extraUnits: number;
+}
 
 const SUGGESTED = [
   "Which requirements are still open?",
   "What does the plan assume?",
   "Which courses are in progress?",
+  "can I add a data science minor without a fourth year?",
 ];
 
 type RouteState = "checking" | "up" | "down";
@@ -38,6 +46,7 @@ export function CareerChat({
   const [chatRoute, setChatRoute] = useState<RouteState>("checking");
   const [goal, setGoal] = useState("");
   const [matches, setMatches] = useState<CareerMatch[] | null>(null);
+  const [difficulty, setDifficulty] = useState<CopiedDifficulty[]>([]);
   const [careerNote, setCareerNote] = useState<string | null>(null);
   const [careerBusy, setCareerBusy] = useState(false);
   const [question, setQuestion] = useState("");
@@ -58,23 +67,23 @@ export function CareerChat({
     };
   }, []);
 
-  const programIds = programs.map((program) => program.id);
-
   async function askCareer() {
     const trimmed = goal.trim();
     if (!trimmed) {
       setCareerNote("Type a career goal first.");
       setMatches(null);
+      setDifficulty([]);
       return;
     }
     setCareerBusy(true);
     setCareerNote(null);
     setMatches(null);
+    setDifficulty([]);
     try {
       const response = await fetch("/api/career", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify(careerRequestBody(trimmed, programIds)),
+        body: JSON.stringify(careerRequestBody(trimmed, [...addOns, ...switches])),
       });
       if (!response.ok) {
         setCareerNote("Career matching did not answer. Extra terms and extra units stay with the engine on this page.");
@@ -83,19 +92,36 @@ export function CareerChat({
       const payload: unknown = await response.json();
       const envelope =
         payload && typeof payload === "object" && "matches" in payload
-          ? z.object({ matches: z.array(careerMatchSchema), fallback: z.boolean().optional(), note: z.string().optional() }).safeParse(payload)
+          ? z
+              .object({
+                matches: z.array(careerMatchSchema),
+                fallback: z.boolean().optional(),
+                note: z.string().optional(),
+                difficulty: z
+                  .array(
+                    z.object({
+                      programId: z.string(),
+                      mode: z.enum(["add_on", "switch"]),
+                      extraTerms: z.number(),
+                      extraUnits: z.number(),
+                    }),
+                  )
+                  .optional(),
+              })
+              .safeParse(payload)
           : null;
       const listed = Array.isArray(payload) ? careerMatchSchema.array().safeParse(payload) : null;
       const parsed = envelope?.success
         ? envelope.data
         : listed?.success
-          ? { matches: listed.data, fallback: false, note: undefined }
+          ? { matches: listed.data, fallback: false, note: undefined, difficulty: undefined }
           : null;
       if (!parsed) {
         setCareerNote("Career matching did not return a suggestion the page could show. Extra terms and extra units stay with the engine on this page.");
         return;
       }
       setMatches(parsed.matches);
+      setDifficulty(parsed.difficulty ?? []);
       if (parsed.fallback) {
         setCareerNote(parsed.note ?? "No career suggestion was made. Extra terms and extra units stay with the engine on this page.");
       } else if (parsed.matches.length === 0) {
@@ -169,7 +195,10 @@ export function CareerChat({
               <ul className="stack">
                 {matches.map((match) => {
                   const program = programs.find((item) => item.id === match.programId);
-                  const ranked = [...addOns, ...switches].find((item) => item.programId === match.programId);
+                  const copied = difficulty.find((item) => item.programId === match.programId);
+                  const ranked = [...addOns, ...switches].find((item) => item.programId === match.programId && (!copied || item.mode === copied.mode));
+                  const extraTerms = copied?.extraTerms ?? ranked?.extraTerms;
+                  const extraUnits = copied?.extraUnits ?? ranked?.extraUnits;
                   return (
                     <li className="card" key={match.programId}>
                       <p>Suggestion · {program?.name ?? match.programId}</p>
@@ -177,9 +206,9 @@ export function CareerChat({
                       <p>
                         <a href={match.source.url}>Catalogue passage, {match.source.catalogueYear}</a>
                       </p>
-                      {ranked ? (
+                      {extraTerms !== undefined && extraUnits !== undefined ? (
                         <p className="meta">
-                          Engine: {ranked.extraTerms} extra terms, {ranked.extraUnits} extra units.
+                          Engine: {extraTerms} extra terms, {extraUnits} extra units.
                         </p>
                       ) : (
                         <p className="meta">The engine did not rank this program.</p>
@@ -204,7 +233,12 @@ export function CareerChat({
           <>
             <label htmlFor="plan-question">
               Question
-              <input id="plan-question" value={question} onChange={(event) => setQuestion(event.target.value)} />
+              <input
+                id="plan-question"
+                value={question}
+                placeholder="can I add a data science minor without a fourth year?"
+                onChange={(event) => setQuestion(event.target.value)}
+              />
             </label>
             <ul className="chips">
               {SUGGESTED.map((item) => (

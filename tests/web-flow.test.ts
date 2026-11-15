@@ -115,12 +115,19 @@ describe("web flow", () => {
           await page.getByText("Extra terms and extra units stay with the engine").waitFor({ timeout: 30_000 });
           await page.getByRole("button", { name: "Which requirements are still open?" }).click();
           await page.getByText("Engine-only answer.").waitFor({ timeout: 30_000 });
+          await page.getByRole("button", { name: "can I add a data science minor without a fourth year?" }).click();
+          await page.getByText("no minor named data science").waitFor({ timeout: 30_000 });
           expect(await seriousViolations(page)).toEqual([]);
           checkedAxe = true;
         }
         await page.getByRole("button", { name: /^Open / }).first().click();
         await page.getByRole("heading", { name: "Requirements" }).waitFor({ timeout: 30_000 });
         expect(await page.getByRole("link", { name: /Catalogue/ }).first().isVisible()).toBe(true);
+        if (viewport.width === 1280 && sample === "Early") {
+          await page.getByRole("button", { name: "Explain this result" }).click();
+          await page.getByText("The engine lists").waitFor({ timeout: 30_000 });
+          await page.getByText("Engine-only explanation.").waitFor();
+        }
         await page.getByRole("button", { name: "Advisor PDF" }).click();
         await page.getByRole("heading", { name: "Scheme advisor copy" }).waitFor();
         expect(await page.getByLabel("Name on the advisor copy").isVisible()).toBe(true);
