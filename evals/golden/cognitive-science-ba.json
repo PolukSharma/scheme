@@ -1,0 +1,2923 @@
+{
+  "catalogueYear": "2026-2027",
+  "degreeSentence": null,
+  "gradeCodes": [],
+  "gradeSentence": null,
+  "id": "cognitive-science-ba",
+  "kind": "major",
+  "name": "Cognitive Science (BA)",
+  "nodes": [
+    {
+      "children": [],
+      "heading": "Core Requirements (Four Courses)",
+      "minCount": 4,
+      "minUnits": 16,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "PHIL 246Lg",
+              "line": "PHIL 246Lg Foundations of Cognitive Science Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 100Lg",
+              "line": "PSYC 100Lg Introduction to Psychology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 274Lg",
+              "line": "PSYC 274Lg Statistics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 301L",
+              "line": "PSYC 301L Cognitive Processes Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Core Requirements (Four Courses) Units: 16",
+      "rule": "n",
+      "statedMax": 16,
+      "statedMin": 16,
+      "statedUnits": 16
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "Two courses from:",
+          "minCount": 2,
+          "minUnits": null,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "BISC 230Lgx",
+                  "line": "BISC 230Lgx The Biology of the Brain Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 103L",
+                  "line": "CSCI 103L Object Oriented Programming Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "HBIO 200Lg",
+                  "line": "HBIO 200Lg The Human Animal Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 210g",
+                  "line": "LING 210g Introduction to Linguistics Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 275Lg",
+                  "line": "LING 275Lg Language and Mind Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 285Lg",
+                  "line": "LING 285Lg Human Language and Technology Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 301",
+                  "line": "LING 301 Introduction to Phonology and Morphology Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 302",
+                  "line": "LING 302 Introduction to Syntax Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "PHIL 220",
+                    "line": "PHIL 220 Introduction to Logic Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHIL 222g",
+                    "line": "PHIL 222g Logic and Language Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 240g",
+                  "line": "PHIL 240g Mind, Self, and Consciousness Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 254gp",
+                  "line": "PHIL 254gp Science, Knowledge and Objectivity Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 258g",
+                  "line": "PHIL 258g Probability and Rational Choice Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 304L",
+                  "line": "PSYC 304L Sensation and Perception Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Two courses from:",
+          "rule": "n",
+          "statedMax": null,
+          "statedMin": null,
+          "statedUnits": null
+        },
+        {
+          "children": [],
+          "heading": "Three courses from:",
+          "minCount": 3,
+          "minUnits": 20,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "BISC 421",
+                  "line": "BISC 421 Neurobiology Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 170",
+                  "line": "CSCI 170 Discrete Methods in Computer Science Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 270",
+                  "line": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 360",
+                  "line": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "ECON 405",
+                  "line": "ECON 405 Neuroeconomics Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "HBIO 306",
+                  "line": "HBIO 306 Biology of the Non-Human Primates Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "HBIO 308",
+                  "line": "HBIO 308 Origins and Evolution of Human Behavior Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 385Lg",
+                  "line": "LING 385Lg Human Language as Computation Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 405",
+                  "line": "LING 405 Child Language Acquisition Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 406",
+                  "line": "LING 406 Psycholinguistics Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 407",
+                  "line": "LING 407 Atypical Language Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 412",
+                  "line": "LING 412 Language and Law Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 486",
+                  "line": "LING 486 Natural Language Processing Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "LING 487",
+                  "line": "LING 487 Speech Synthesis and Recognition Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 336",
+                  "line": "PHIL 336 Philosophy of Mind and Language Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 363",
+                  "line": "PHIL 363 Philosophy of Perception Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 462",
+                  "line": "PHIL 462 Philosophy of Mind Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 463",
+                  "line": "PHIL 463 Theories of Action Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 465",
+                  "line": "PHIL 465 Philosophy of Language Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PHIL 470",
+                  "line": "PHIL 470 Theory of Knowledge Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 305",
+                  "line": "PSYC 305 Learning and Memory Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 326",
+                  "line": "PSYC 326 Behavioral Neuroscience Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 336L",
+                  "line": "PSYC 336L Developmental Psychology Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 339Lg",
+                  "line": "PSYC 339Lg Origins of the Mind Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 422",
+                  "line": "PSYC 422 Human Judgment and Decision Making Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 423",
+                  "line": "PSYC 423 User Experience Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 424",
+                  "line": "PSYC 424 Neuropsychology Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 425",
+                  "line": "PSYC 425 Functional Imaging of the Human Brain Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 433",
+                  "line": "PSYC 433 Children’s Learning and Cognitive Development Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 440",
+                  "line": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 450",
+                  "line": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "PSYC 454",
+                  "line": "PSYC 454 Social Cognition Units: 4 *",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Three courses from: Units: 20",
+          "rule": "n",
+          "statedMax": 20,
+          "statedMin": 20,
+          "statedUnits": 20
+        }
+      ],
+      "heading": "Flexible Core Requirements (Five Courses)",
+      "minCount": 5,
+      "minUnits": null,
+      "picks": [],
+      "quote": "Flexible Core Requirements (Five Courses)",
+      "rule": "all",
+      "statedMax": null,
+      "statedMin": null,
+      "statedUnits": null
+    },
+    {
+      "children": [],
+      "heading": "Electives (Three Courses)",
+      "minCount": 3,
+      "minUnits": null,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "BISC 230Lgx",
+              "line": "BISC 230Lgx The Biology of the Brain Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 421",
+              "line": "BISC 421 Neurobiology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 424",
+              "line": "BISC 424 Brain Architecture Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CGSC 490x",
+              "line": "CGSC 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8",
+              "unitChoices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "units": null
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CGSC 498",
+              "line": "CGSC 498 Honors Thesis Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 103L",
+              "line": "CSCI 103L Object Oriented Programming Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 104L",
+              "line": "CSCI 104L Data Structures Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 113x",
+              "line": "CSCI 113x Programming Fundamentals for Computing Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 114x",
+              "line": "CSCI 114x Programming for Applications of Computing Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 170",
+              "line": "CSCI 170 Discrete Methods in Computer Science Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 270",
+              "line": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 360",
+              "line": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "ECON 405",
+              "line": "ECON 405 Neuroeconomics Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "HBIO 200Lg",
+              "line": "HBIO 200Lg The Human Animal Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "HBIO 306",
+              "line": "HBIO 306 Biology of the Non-Human Primates Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "HBIO 308",
+              "line": "HBIO 308 Origins and Evolution of Human Behavior Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "HBIO 406",
+              "line": "HBIO 406 Theory and Method in Human Evolutionary Biology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 210g",
+              "line": "LING 210g Introduction to Linguistics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 275Lg",
+              "line": "LING 275Lg Language and Mind Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 285Lg",
+              "line": "LING 285Lg Human Language and Technology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 301",
+              "line": "LING 301 Introduction to Phonology and Morphology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 302",
+              "line": "LING 302 Introduction to Syntax Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 307",
+              "line": "LING 307 Linguistic Theory and Communication Disorders Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 405",
+              "line": "LING 405 Child Language Acquisition Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 406",
+              "line": "LING 406 Psycholinguistics Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 407",
+              "line": "LING 407 Atypical Language Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 412",
+              "line": "LING 412 Language and Law Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 415",
+              "line": "LING 415 Phonetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 450",
+              "line": "LING 450 Forensic Speaker Identification Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 486",
+              "line": "LING 486 Natural Language Processing Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 487",
+              "line": "LING 487 Speech Synthesis and Recognition Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 220",
+              "line": "PHIL 220 Introduction to Logic Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 222g",
+              "line": "PHIL 222g Logic and Language Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 240g",
+              "line": "PHIL 240g Mind, Self, and Consciousness Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 254gp",
+              "line": "PHIL 254gp Science, Knowledge and Objectivity Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 258g",
+              "line": "PHIL 258g Probability and Rational Choice Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 336",
+              "line": "PHIL 336 Philosophy of Mind and Language Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 363",
+              "line": "PHIL 363 Philosophy of Perception Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 385",
+              "line": "PHIL 385 Science and Rationality Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 422",
+              "line": "PHIL 422 British Empiricism Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 423",
+              "line": "PHIL 423 The Critical Philosophy of Kant Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 427",
+              "line": "PHIL 427 Twentieth Century Anglo-American Philosophy Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 428",
+              "line": "PHIL 428 Anglo-American Philosophy Since 1950 Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 450",
+              "line": "PHIL 450 The Limits of Logic Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 452",
+              "line": "PHIL 452 Modal Logic Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 462",
+              "line": "PHIL 462 Philosophy of Mind Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 463",
+              "line": "PHIL 463 Theories of Action Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 465",
+              "line": "PHIL 465 Philosophy of Language Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 470",
+              "line": "PHIL 470 Theory of Knowledge Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 486",
+              "line": "PHIL 486 Methodologies of the Sciences Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 215Lg",
+              "line": "PSYC 215Lg Music, Mind and the Brain Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 304L",
+              "line": "PSYC 304L Sensation and Perception Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 305",
+              "line": "PSYC 305 Learning and Memory Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 314L",
+              "line": "PSYC 314L Experimental Research Methods Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 320",
+              "line": "PSYC 320 Principles of Psychobiology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 326",
+              "line": "PSYC 326 Behavioral Neuroscience Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 336L",
+              "line": "PSYC 336L Developmental Psychology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 339Lg",
+              "line": "PSYC 339Lg Origins of the Mind Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 360",
+              "line": "PSYC 360 Psychological Disorders Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 421L",
+              "line": "PSYC 421L Data Analysis for Psychological Research Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 422",
+              "line": "PSYC 422 Human Judgment and Decision Making Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 423",
+              "line": "PSYC 423 User Experience Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 424",
+              "line": "PSYC 424 Neuropsychology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 425",
+              "line": "PSYC 425 Functional Imaging of the Human Brain Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 428",
+              "line": "PSYC 428 Advanced Psychobiology Seminar Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 433",
+              "line": "PSYC 433 Children’s Learning and Cognitive Development Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 434",
+              "line": "PSYC 434 Intelligence, Problem Solving and Creativity Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 436",
+              "line": "PSYC 436 Developmental Neuroscience of Human Behavior Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 438",
+              "line": "PSYC 438 Behavioral Genetics Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 440",
+              "line": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 450",
+              "line": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 452",
+              "line": "PSYC 452 Social Neuroscience Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 454",
+              "line": "PSYC 454 Social Cognition Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "TAC 115",
+              "line": "TAC 115 Programming in Python Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "TAC 116",
+              "line": "TAC 116 Accelerated Programming in Python Units: 2",
+              "unitChoices": [
+                2
+              ],
+              "units": 2
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "TAC 310",
+              "line": "TAC 310 Design for User Experience Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Electives (Three Courses) Units: 10-12",
+      "rule": "n",
+      "statedMax": 12,
+      "statedMin": 10,
+      "statedUnits": null
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "children": [
+                                                    {
+                                                      "children": [
+                                                        {
+                                                          "children": [
+                                                            {
+                                                              "children": [
+                                                                {
+                                                                  "children": [
+                                                                    {
+                                                                      "children": [
+                                                                        {
+                                                                          "children": [
+                                                                            {
+                                                                              "children": [
+                                                                                {
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "children": [],
+                                                                                                                      "heading": "Related Tier 2 Courses",
+                                                                                                                      "minCount": null,
+                                                                                                                      "minUnits": null,
+                                                                                                                      "picks": [
+                                                                                                                        {
+                                                                                                                          "all": [
+                                                                                                                            {
+                                                                                                                              "code": "CSCI 170",
+                                                                                                                              "line": "CSCI 170 Discrete Methods in Computer Science Units: 4 *",
+                                                                                                                              "unitChoices": [
+                                                                                                                                4
+                                                                                                                              ],
+                                                                                                                              "units": 4
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "oneOf": []
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "all": [
+                                                                                                                            {
+                                                                                                                              "code": "CSCI 270",
+                                                                                                                              "line": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4 *",
+                                                                                                                              "unitChoices": [
+                                                                                                                                4
+                                                                                                                              ],
+                                                                                                                              "units": 4
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "oneOf": []
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "all": [
+                                                                                                                            {
+                                                                                                                              "code": "CSCI 360",
+                                                                                                                              "line": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4 *",
+                                                                                                                              "unitChoices": [
+                                                                                                                                4
+                                                                                                                              ],
+                                                                                                                              "units": 4
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "oneOf": []
+                                                                                                                        }
+                                                                                                                      ],
+                                                                                                                      "quote": "Related Tier 2 Courses",
+                                                                                                                      "rule": "note",
+                                                                                                                      "statedMax": null,
+                                                                                                                      "statedMin": null,
+                                                                                                                      "statedUnits": null
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "heading": "Related Tier 1 Course",
+                                                                                                                  "minCount": null,
+                                                                                                                  "minUnits": null,
+                                                                                                                  "picks": [
+                                                                                                                    {
+                                                                                                                      "all": [
+                                                                                                                        {
+                                                                                                                          "code": "CSCI 103L",
+                                                                                                                          "line": "CSCI 103L Object Oriented Programming Units: 4 *",
+                                                                                                                          "unitChoices": [
+                                                                                                                            4
+                                                                                                                          ],
+                                                                                                                          "units": 4
+                                                                                                                        }
+                                                                                                                      ],
+                                                                                                                      "oneOf": []
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "quote": "Related Tier 1 Course",
+                                                                                                                  "rule": "note",
+                                                                                                                  "statedMax": null,
+                                                                                                                  "statedMin": null,
+                                                                                                                  "statedUnits": null
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "heading": "Cognitive Science with an Emphasis in Computer Science",
+                                                                                                              "minCount": null,
+                                                                                                              "minUnits": null,
+                                                                                                              "picks": [],
+                                                                                                              "quote": "Cognitive Science with an Emphasis in Computer Science",
+                                                                                                              "rule": "note",
+                                                                                                              "statedMax": null,
+                                                                                                              "statedMin": null,
+                                                                                                              "statedUnits": null
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "heading": "Related Tier 2 Courses",
+                                                                                                          "minCount": null,
+                                                                                                          "minUnits": null,
+                                                                                                          "picks": [
+                                                                                                            {
+                                                                                                              "all": [
+                                                                                                                {
+                                                                                                                  "code": "LING 385Lg",
+                                                                                                                  "line": "LING 385Lg Human Language as Computation Units: 4",
+                                                                                                                  "unitChoices": [
+                                                                                                                    4
+                                                                                                                  ],
+                                                                                                                  "units": 4
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "oneOf": []
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "all": [
+                                                                                                                {
+                                                                                                                  "code": "LING 412",
+                                                                                                                  "line": "LING 412 Language and Law Units: 4",
+                                                                                                                  "unitChoices": [
+                                                                                                                    4
+                                                                                                                  ],
+                                                                                                                  "units": 4
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "oneOf": []
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "all": [
+                                                                                                                {
+                                                                                                                  "code": "PHIL 465",
+                                                                                                                  "line": "PHIL 465 Philosophy of Language Units: 4",
+                                                                                                                  "unitChoices": [
+                                                                                                                    4
+                                                                                                                  ],
+                                                                                                                  "units": 4
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "oneOf": []
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "quote": "Related Tier 2 Courses",
+                                                                                                          "rule": "note",
+                                                                                                          "statedMax": null,
+                                                                                                          "statedMin": null,
+                                                                                                          "statedUnits": null
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "heading": "Related Tier 1 Courses",
+                                                                                                      "minCount": null,
+                                                                                                      "minUnits": null,
+                                                                                                      "picks": [
+                                                                                                        {
+                                                                                                          "all": [
+                                                                                                            {
+                                                                                                              "code": "LING 210g",
+                                                                                                              "line": "LING 210g Introduction to Linguistics Units: 4",
+                                                                                                              "unitChoices": [
+                                                                                                                4
+                                                                                                              ],
+                                                                                                              "units": 4
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "oneOf": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "all": [
+                                                                                                            {
+                                                                                                              "code": "LING 302",
+                                                                                                              "line": "LING 302 Introduction to Syntax Units: 4 *",
+                                                                                                              "unitChoices": [
+                                                                                                                4
+                                                                                                              ],
+                                                                                                              "units": 4
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "oneOf": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "all": [],
+                                                                                                          "oneOf": [
+                                                                                                            [
+                                                                                                              {
+                                                                                                                "code": "PHIL 220",
+                                                                                                                "line": "PHIL 220 Introduction to Logic Units: 4 or",
+                                                                                                                "unitChoices": [
+                                                                                                                  4
+                                                                                                                ],
+                                                                                                                "units": 4
+                                                                                                              },
+                                                                                                              {
+                                                                                                                "code": "PHIL 222g",
+                                                                                                                "line": "PHIL 222g Logic and Language Units: 4",
+                                                                                                                "unitChoices": [
+                                                                                                                  4
+                                                                                                                ],
+                                                                                                                "units": 4
+                                                                                                              }
+                                                                                                            ]
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "quote": "Related Tier 1 Courses",
+                                                                                                      "rule": "note",
+                                                                                                      "statedMax": null,
+                                                                                                      "statedMin": null,
+                                                                                                      "statedUnits": null
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "heading": "Suggested Track: Philosophy of Language",
+                                                                                                  "minCount": null,
+                                                                                                  "minUnits": null,
+                                                                                                  "picks": [],
+                                                                                                  "quote": "Suggested Track: Philosophy of Language",
+                                                                                                  "rule": "note",
+                                                                                                  "statedMax": null,
+                                                                                                  "statedMin": null,
+                                                                                                  "statedUnits": null
+                                                                                                }
+                                                                                              ],
+                                                                                              "heading": "Related Tier 2 Courses",
+                                                                                              "minCount": null,
+                                                                                              "minUnits": null,
+                                                                                              "picks": [
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PHIL 336",
+                                                                                                      "line": "PHIL 336 Philosophy of Mind and Language Units: 4",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PHIL 363",
+                                                                                                      "line": "PHIL 363 Philosophy of Perception Units: 4",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PHIL 462",
+                                                                                                      "line": "PHIL 462 Philosophy of Mind Units: 4",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PHIL 463",
+                                                                                                      "line": "PHIL 463 Theories of Action Units: 4",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PHIL 470",
+                                                                                                      "line": "PHIL 470 Theory of Knowledge Units: 4",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PSYC 336L",
+                                                                                                      "line": "PSYC 336L Developmental Psychology Units: 4 *",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PSYC 339Lg",
+                                                                                                      "line": "PSYC 339Lg Origins of the Mind Units: 4",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PSYC 422",
+                                                                                                      "line": "PSYC 422 Human Judgment and Decision Making Units: 4 *",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                },
+                                                                                                {
+                                                                                                  "all": [
+                                                                                                    {
+                                                                                                      "code": "PSYC 454",
+                                                                                                      "line": "PSYC 454 Social Cognition Units: 4 *",
+                                                                                                      "unitChoices": [
+                                                                                                        4
+                                                                                                      ],
+                                                                                                      "units": 4
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "oneOf": []
+                                                                                                }
+                                                                                              ],
+                                                                                              "quote": "Related Tier 2 Courses",
+                                                                                              "rule": "note",
+                                                                                              "statedMax": null,
+                                                                                              "statedMin": null,
+                                                                                              "statedUnits": null
+                                                                                            }
+                                                                                          ],
+                                                                                          "heading": "Related Tier 1 Courses",
+                                                                                          "minCount": null,
+                                                                                          "minUnits": null,
+                                                                                          "picks": [
+                                                                                            {
+                                                                                              "all": [],
+                                                                                              "oneOf": [
+                                                                                                [
+                                                                                                  {
+                                                                                                    "code": "PHIL 220",
+                                                                                                    "line": "PHIL 220 Introduction to Logic Units: 4 or",
+                                                                                                    "unitChoices": [
+                                                                                                      4
+                                                                                                    ],
+                                                                                                    "units": 4
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "code": "PHIL 222g",
+                                                                                                    "line": "PHIL 222g Logic and Language Units: 4",
+                                                                                                    "unitChoices": [
+                                                                                                      4
+                                                                                                    ],
+                                                                                                    "units": 4
+                                                                                                  }
+                                                                                                ]
+                                                                                              ]
+                                                                                            },
+                                                                                            {
+                                                                                              "all": [
+                                                                                                {
+                                                                                                  "code": "PHIL 240g",
+                                                                                                  "line": "PHIL 240g Mind, Self, and Consciousness Units: 4",
+                                                                                                  "unitChoices": [
+                                                                                                    4
+                                                                                                  ],
+                                                                                                  "units": 4
+                                                                                                }
+                                                                                              ],
+                                                                                              "oneOf": []
+                                                                                            },
+                                                                                            {
+                                                                                              "all": [
+                                                                                                {
+                                                                                                  "code": "PHIL 254gp",
+                                                                                                  "line": "PHIL 254gp Science, Knowledge and Objectivity Units: 4",
+                                                                                                  "unitChoices": [
+                                                                                                    4
+                                                                                                  ],
+                                                                                                  "units": 4
+                                                                                                }
+                                                                                              ],
+                                                                                              "oneOf": []
+                                                                                            },
+                                                                                            {
+                                                                                              "all": [
+                                                                                                {
+                                                                                                  "code": "PHIL 258g",
+                                                                                                  "line": "PHIL 258g Probability and Rational Choice Units: 4",
+                                                                                                  "unitChoices": [
+                                                                                                    4
+                                                                                                  ],
+                                                                                                  "units": 4
+                                                                                                }
+                                                                                              ],
+                                                                                              "oneOf": []
+                                                                                            },
+                                                                                            {
+                                                                                              "all": [
+                                                                                                {
+                                                                                                  "code": "PSYC 304L",
+                                                                                                  "line": "PSYC 304L Sensation and Perception Units: 4 *",
+                                                                                                  "unitChoices": [
+                                                                                                    4
+                                                                                                  ],
+                                                                                                  "units": 4
+                                                                                                }
+                                                                                              ],
+                                                                                              "oneOf": []
+                                                                                            }
+                                                                                          ],
+                                                                                          "quote": "Related Tier 1 Courses",
+                                                                                          "rule": "note",
+                                                                                          "statedMax": null,
+                                                                                          "statedMin": null,
+                                                                                          "statedUnits": null
+                                                                                        }
+                                                                                      ],
+                                                                                      "heading": "Suggested Track: Philosophy of Mind",
+                                                                                      "minCount": null,
+                                                                                      "minUnits": null,
+                                                                                      "picks": [],
+                                                                                      "quote": "Suggested Track: Philosophy of Mind",
+                                                                                      "rule": "note",
+                                                                                      "statedMax": null,
+                                                                                      "statedMin": null,
+                                                                                      "statedUnits": null
+                                                                                    }
+                                                                                  ],
+                                                                                  "heading": "Cognitive Science with an Emphasis in Philosophy",
+                                                                                  "minCount": null,
+                                                                                  "minUnits": null,
+                                                                                  "picks": [],
+                                                                                  "quote": "Cognitive Science with an Emphasis in Philosophy",
+                                                                                  "rule": "note",
+                                                                                  "statedMax": null,
+                                                                                  "statedMin": null,
+                                                                                  "statedUnits": null
+                                                                                }
+                                                                              ],
+                                                                              "heading": "Related Tier 2 Courses",
+                                                                              "minCount": null,
+                                                                              "minUnits": null,
+                                                                              "picks": [
+                                                                                {
+                                                                                  "all": [
+                                                                                    {
+                                                                                      "code": "LING 385Lg",
+                                                                                      "line": "LING 385Lg Human Language as Computation Units: 4",
+                                                                                      "unitChoices": [
+                                                                                        4
+                                                                                      ],
+                                                                                      "units": 4
+                                                                                    }
+                                                                                  ],
+                                                                                  "oneOf": []
+                                                                                },
+                                                                                {
+                                                                                  "all": [
+                                                                                    {
+                                                                                      "code": "LING 486",
+                                                                                      "line": "LING 486 Natural Language Processing Units: 4 *",
+                                                                                      "unitChoices": [
+                                                                                        4
+                                                                                      ],
+                                                                                      "units": 4
+                                                                                    }
+                                                                                  ],
+                                                                                  "oneOf": []
+                                                                                },
+                                                                                {
+                                                                                  "all": [
+                                                                                    {
+                                                                                      "code": "LING 487",
+                                                                                      "line": "LING 487 Speech Synthesis and Recognition Units: 4 *",
+                                                                                      "unitChoices": [
+                                                                                        4
+                                                                                      ],
+                                                                                      "units": 4
+                                                                                    }
+                                                                                  ],
+                                                                                  "oneOf": []
+                                                                                }
+                                                                              ],
+                                                                              "quote": "Related Tier 2 Courses",
+                                                                              "rule": "note",
+                                                                              "statedMax": null,
+                                                                              "statedMin": null,
+                                                                              "statedUnits": null
+                                                                            }
+                                                                          ],
+                                                                          "heading": "Related Tier 1 Courses",
+                                                                          "minCount": null,
+                                                                          "minUnits": null,
+                                                                          "picks": [
+                                                                            {
+                                                                              "all": [
+                                                                                {
+                                                                                  "code": "LING 210g",
+                                                                                  "line": "LING 210g Introduction to Linguistics Units: 4",
+                                                                                  "unitChoices": [
+                                                                                    4
+                                                                                  ],
+                                                                                  "units": 4
+                                                                                }
+                                                                              ],
+                                                                              "oneOf": []
+                                                                            },
+                                                                            {
+                                                                              "all": [
+                                                                                {
+                                                                                  "code": "LING 285Lg",
+                                                                                  "line": "LING 285Lg Human Language and Technology Units: 4",
+                                                                                  "unitChoices": [
+                                                                                    4
+                                                                                  ],
+                                                                                  "units": 4
+                                                                                }
+                                                                              ],
+                                                                              "oneOf": []
+                                                                            }
+                                                                          ],
+                                                                          "quote": "Related Tier 1 Courses",
+                                                                          "rule": "note",
+                                                                          "statedMax": null,
+                                                                          "statedMin": null,
+                                                                          "statedUnits": null
+                                                                        }
+                                                                      ],
+                                                                      "heading": "Suggested Track: Computation",
+                                                                      "minCount": null,
+                                                                      "minUnits": null,
+                                                                      "picks": [],
+                                                                      "quote": "Suggested Track: Computation",
+                                                                      "rule": "note",
+                                                                      "statedMax": null,
+                                                                      "statedMin": null,
+                                                                      "statedUnits": null
+                                                                    }
+                                                                  ],
+                                                                  "heading": "Related Tier 2 Courses",
+                                                                  "minCount": null,
+                                                                  "minUnits": null,
+                                                                  "picks": [
+                                                                    {
+                                                                      "all": [
+                                                                        {
+                                                                          "code": "LING 405",
+                                                                          "line": "LING 405 Child Language Acquisition Units: 4",
+                                                                          "unitChoices": [
+                                                                            4
+                                                                          ],
+                                                                          "units": 4
+                                                                        }
+                                                                      ],
+                                                                      "oneOf": []
+                                                                    },
+                                                                    {
+                                                                      "all": [
+                                                                        {
+                                                                          "code": "LING 406",
+                                                                          "line": "LING 406 Psycholinguistics Units: 4 *",
+                                                                          "unitChoices": [
+                                                                            4
+                                                                          ],
+                                                                          "units": 4
+                                                                        }
+                                                                      ],
+                                                                      "oneOf": []
+                                                                    },
+                                                                    {
+                                                                      "all": [
+                                                                        {
+                                                                          "code": "LING 407",
+                                                                          "line": "LING 407 Atypical Language Units: 4 *",
+                                                                          "unitChoices": [
+                                                                            4
+                                                                          ],
+                                                                          "units": 4
+                                                                        }
+                                                                      ],
+                                                                      "oneOf": []
+                                                                    },
+                                                                    {
+                                                                      "all": [
+                                                                        {
+                                                                          "code": "PSYC 339Lg",
+                                                                          "line": "PSYC 339Lg Origins of the Mind Units: 4",
+                                                                          "unitChoices": [
+                                                                            4
+                                                                          ],
+                                                                          "units": 4
+                                                                        }
+                                                                      ],
+                                                                      "oneOf": []
+                                                                    }
+                                                                  ],
+                                                                  "quote": "Related Tier 2 Courses",
+                                                                  "rule": "note",
+                                                                  "statedMax": null,
+                                                                  "statedMin": null,
+                                                                  "statedUnits": null
+                                                                }
+                                                              ],
+                                                              "heading": "Related Tier 1 Courses",
+                                                              "minCount": null,
+                                                              "minUnits": null,
+                                                              "picks": [
+                                                                {
+                                                                  "all": [
+                                                                    {
+                                                                      "code": "LING 210g",
+                                                                      "line": "LING 210g Introduction to Linguistics Units: 4",
+                                                                      "unitChoices": [
+                                                                        4
+                                                                      ],
+                                                                      "units": 4
+                                                                    }
+                                                                  ],
+                                                                  "oneOf": []
+                                                                },
+                                                                {
+                                                                  "all": [
+                                                                    {
+                                                                      "code": "LING 275Lg",
+                                                                      "line": "LING 275Lg Language and Mind Units: 4",
+                                                                      "unitChoices": [
+                                                                        4
+                                                                      ],
+                                                                      "units": 4
+                                                                    }
+                                                                  ],
+                                                                  "oneOf": []
+                                                                },
+                                                                {
+                                                                  "all": [
+                                                                    {
+                                                                      "code": "LING 301",
+                                                                      "line": "LING 301 Introduction to Phonology and Morphology Units: 4 *",
+                                                                      "unitChoices": [
+                                                                        4
+                                                                      ],
+                                                                      "units": 4
+                                                                    }
+                                                                  ],
+                                                                  "oneOf": []
+                                                                },
+                                                                {
+                                                                  "all": [
+                                                                    {
+                                                                      "code": "LING 302",
+                                                                      "line": "LING 302 Introduction to Syntax Units: 4 *",
+                                                                      "unitChoices": [
+                                                                        4
+                                                                      ],
+                                                                      "units": 4
+                                                                    }
+                                                                  ],
+                                                                  "oneOf": []
+                                                                }
+                                                              ],
+                                                              "quote": "Related Tier 1 Courses",
+                                                              "rule": "note",
+                                                              "statedMax": null,
+                                                              "statedMin": null,
+                                                              "statedUnits": null
+                                                            }
+                                                          ],
+                                                          "heading": "Suggested Track: Processing and Development",
+                                                          "minCount": null,
+                                                          "minUnits": null,
+                                                          "picks": [],
+                                                          "quote": "Suggested Track: Processing and Development",
+                                                          "rule": "note",
+                                                          "statedMax": null,
+                                                          "statedMin": null,
+                                                          "statedUnits": null
+                                                        }
+                                                      ],
+                                                      "heading": "Cognitive Science with an Emphasis in Language",
+                                                      "minCount": null,
+                                                      "minUnits": null,
+                                                      "picks": [],
+                                                      "quote": "Cognitive Science with an Emphasis in Language",
+                                                      "rule": "note",
+                                                      "statedMax": null,
+                                                      "statedMin": null,
+                                                      "statedUnits": null
+                                                    }
+                                                  ],
+                                                  "heading": "Related Tier 2 Courses",
+                                                  "minCount": null,
+                                                  "minUnits": null,
+                                                  "picks": [
+                                                    {
+                                                      "all": [
+                                                        {
+                                                          "code": "PSYC 326",
+                                                          "line": "PSYC 326 Behavioral Neuroscience Units: 4 *",
+                                                          "unitChoices": [
+                                                            4
+                                                          ],
+                                                          "units": 4
+                                                        }
+                                                      ],
+                                                      "oneOf": []
+                                                    },
+                                                    {
+                                                      "all": [
+                                                        {
+                                                          "code": "PSYC 425",
+                                                          "line": "PSYC 425 Functional Imaging of the Human Brain Units: 4 *",
+                                                          "unitChoices": [
+                                                            4
+                                                          ],
+                                                          "units": 4
+                                                        }
+                                                      ],
+                                                      "oneOf": []
+                                                    },
+                                                    {
+                                                      "all": [
+                                                        {
+                                                          "code": "PSYC 440",
+                                                          "line": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4 *",
+                                                          "unitChoices": [
+                                                            4
+                                                          ],
+                                                          "units": 4
+                                                        }
+                                                      ],
+                                                      "oneOf": []
+                                                    },
+                                                    {
+                                                      "all": [
+                                                        {
+                                                          "code": "PSYC 450",
+                                                          "line": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *",
+                                                          "unitChoices": [
+                                                            4
+                                                          ],
+                                                          "units": 4
+                                                        }
+                                                      ],
+                                                      "oneOf": []
+                                                    }
+                                                  ],
+                                                  "quote": "Related Tier 2 Courses",
+                                                  "rule": "note",
+                                                  "statedMax": null,
+                                                  "statedMin": null,
+                                                  "statedUnits": null
+                                                }
+                                              ],
+                                              "heading": "Related Tier 1 Course",
+                                              "minCount": null,
+                                              "minUnits": null,
+                                              "picks": [
+                                                {
+                                                  "all": [
+                                                    {
+                                                      "code": "BISC 230Lgx",
+                                                      "line": "BISC 230Lgx The Biology of the Brain Units: 4",
+                                                      "unitChoices": [
+                                                        4
+                                                      ],
+                                                      "units": 4
+                                                    }
+                                                  ],
+                                                  "oneOf": []
+                                                }
+                                              ],
+                                              "quote": "Related Tier 1 Course",
+                                              "rule": "note",
+                                              "statedMax": null,
+                                              "statedMin": null,
+                                              "statedUnits": null
+                                            }
+                                          ],
+                                          "heading": "Suggested Track: Neuroscience",
+                                          "minCount": null,
+                                          "minUnits": null,
+                                          "picks": [],
+                                          "quote": "Suggested Track: Neuroscience",
+                                          "rule": "note",
+                                          "statedMax": null,
+                                          "statedMin": null,
+                                          "statedUnits": null
+                                        }
+                                      ],
+                                      "heading": "Related Tier 2 Courses",
+                                      "minCount": null,
+                                      "minUnits": null,
+                                      "picks": [
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "HBIO 306",
+                                              "line": "HBIO 306 Biology of the Non-Human Primates Units: 4",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "HBIO 308",
+                                              "line": "HBIO 308 Origins and Evolution of Human Behavior Units: 4",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "PSYC 305",
+                                              "line": "PSYC 305 Learning and Memory Units: 4 *",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "PSYC 336L",
+                                              "line": "PSYC 336L Developmental Psychology Units: 4 *",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "PSYC 339Lg",
+                                              "line": "PSYC 339Lg Origins of the Mind Units: 4",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "PSYC 422",
+                                              "line": "PSYC 422 Human Judgment and Decision Making Units: 4 *",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "PSYC 450",
+                                              "line": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        },
+                                        {
+                                          "all": [
+                                            {
+                                              "code": "PSYC 454",
+                                              "line": "PSYC 454 Social Cognition Units: 4 *",
+                                              "unitChoices": [
+                                                4
+                                              ],
+                                              "units": 4
+                                            }
+                                          ],
+                                          "oneOf": []
+                                        }
+                                      ],
+                                      "quote": "Related Tier 2 Courses",
+                                      "rule": "note",
+                                      "statedMax": null,
+                                      "statedMin": null,
+                                      "statedUnits": null
+                                    }
+                                  ],
+                                  "heading": "Related Tier 1 Course",
+                                  "minCount": null,
+                                  "minUnits": null,
+                                  "picks": [
+                                    {
+                                      "all": [
+                                        {
+                                          "code": "HBIO 200Lg",
+                                          "line": "HBIO 200Lg The Human Animal Units: 4",
+                                          "unitChoices": [
+                                            4
+                                          ],
+                                          "units": 4
+                                        }
+                                      ],
+                                      "oneOf": []
+                                    }
+                                  ],
+                                  "quote": "Related Tier 1 Course",
+                                  "rule": "note",
+                                  "statedMax": null,
+                                  "statedMin": null,
+                                  "statedUnits": null
+                                }
+                              ],
+                              "heading": "Suggested Track: Social and Developmental Processes",
+                              "minCount": null,
+                              "minUnits": null,
+                              "picks": [],
+                              "quote": "Suggested Track: Social and Developmental Processes",
+                              "rule": "note",
+                              "statedMax": null,
+                              "statedMin": null,
+                              "statedUnits": null
+                            }
+                          ],
+                          "heading": "Related Tier 2 Courses",
+                          "minCount": null,
+                          "minUnits": null,
+                          "picks": [
+                            {
+                              "all": [
+                                {
+                                  "code": "PSYC 305",
+                                  "line": "PSYC 305 Learning and Memory Units: 4 *",
+                                  "unitChoices": [
+                                    4
+                                  ],
+                                  "units": 4
+                                }
+                              ],
+                              "oneOf": []
+                            },
+                            {
+                              "all": [
+                                {
+                                  "code": "PSYC 339Lg",
+                                  "line": "PSYC 339Lg Origins of the Mind Units: 4",
+                                  "unitChoices": [
+                                    4
+                                  ],
+                                  "units": 4
+                                }
+                              ],
+                              "oneOf": []
+                            },
+                            {
+                              "all": [
+                                {
+                                  "code": "PSYC 422",
+                                  "line": "PSYC 422 Human Judgment and Decision Making Units: 4 *",
+                                  "unitChoices": [
+                                    4
+                                  ],
+                                  "units": 4
+                                }
+                              ],
+                              "oneOf": []
+                            },
+                            {
+                              "all": [
+                                {
+                                  "code": "PSYC 423",
+                                  "line": "PSYC 423 User Experience Units: 4",
+                                  "unitChoices": [
+                                    4
+                                  ],
+                                  "units": 4
+                                }
+                              ],
+                              "oneOf": []
+                            },
+                            {
+                              "all": [
+                                {
+                                  "code": "PSYC 450",
+                                  "line": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *",
+                                  "unitChoices": [
+                                    4
+                                  ],
+                                  "units": 4
+                                }
+                              ],
+                              "oneOf": []
+                            },
+                            {
+                              "all": [
+                                {
+                                  "code": "PSYC 454",
+                                  "line": "PSYC 454 Social Cognition Units: 4",
+                                  "unitChoices": [
+                                    4
+                                  ],
+                                  "units": 4
+                                }
+                              ],
+                              "oneOf": []
+                            }
+                          ],
+                          "quote": "Related Tier 2 Courses",
+                          "rule": "note",
+                          "statedMax": null,
+                          "statedMin": null,
+                          "statedUnits": null
+                        }
+                      ],
+                      "heading": "Related Tier 1 Courses",
+                      "minCount": null,
+                      "minUnits": null,
+                      "picks": [
+                        {
+                          "all": [],
+                          "oneOf": [
+                            [
+                              {
+                                "code": "PHIL 220",
+                                "line": "PHIL 220 Introduction to Logic Units: 4 or",
+                                "unitChoices": [
+                                  4
+                                ],
+                                "units": 4
+                              },
+                              {
+                                "code": "PHIL 222g",
+                                "line": "PHIL 222g Logic and Language Units: 4",
+                                "unitChoices": [
+                                  4
+                                ],
+                                "units": 4
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "all": [
+                            {
+                              "code": "PHIL 240g",
+                              "line": "PHIL 240g Mind, Self, and Consciousness Units: 4",
+                              "unitChoices": [
+                                4
+                              ],
+                              "units": 4
+                            }
+                          ],
+                          "oneOf": []
+                        },
+                        {
+                          "all": [
+                            {
+                              "code": "PSYC 304L",
+                              "line": "PSYC 304L Sensation and Perception Units: 4 *",
+                              "unitChoices": [
+                                4
+                              ],
+                              "units": 4
+                            }
+                          ],
+                          "oneOf": []
+                        }
+                      ],
+                      "quote": "Related Tier 1 Courses",
+                      "rule": "note",
+                      "statedMax": null,
+                      "statedMin": null,
+                      "statedUnits": null
+                    }
+                  ],
+                  "heading": "Suggested Track: Learning, Memory and Reasoning",
+                  "minCount": null,
+                  "minUnits": null,
+                  "picks": [],
+                  "quote": "Suggested Track: Learning, Memory and Reasoning",
+                  "rule": "note",
+                  "statedMax": null,
+                  "statedMin": null,
+                  "statedUnits": null
+                }
+              ],
+              "heading": "Cognitive Science with an Emphasis in Psychology",
+              "minCount": null,
+              "minUnits": null,
+              "picks": [],
+              "quote": "Cognitive Science with an Emphasis in Psychology",
+              "rule": "note",
+              "statedMax": null,
+              "statedMin": null,
+              "statedUnits": null
+            }
+          ],
+          "heading": "Suggested Tracks",
+          "minCount": null,
+          "minUnits": null,
+          "picks": [],
+          "quote": "Suggested Tracks The suggested tracks are organized by broad areas of emphasis within cognitive science, and more specific areas of interest within the broader domains. These tracks are suggestions only; they are not listed on the transcript, and they do not have to be officially declared. Some tracks and emphases include a single course under Tier 1 courses, providing the opportunity to select a second course that is best suited to particular areas of interest. Students work with their academic adviser to tailor an interdisciplinary curriculum that combines several areas.",
+          "rule": "note",
+          "statedMax": null,
+          "statedMin": null,
+          "statedUnits": null
+        }
+      ],
+      "heading": "Total units: 46–48",
+      "minCount": null,
+      "minUnits": null,
+      "picks": [],
+      "quote": "Total units: 46–48 Note: A course that is listed in multiple categories can only be applied once. Students must choose a minimum of 16 upper-division units from the flexible core and electives lists.",
+      "rule": "total",
+      "statedMax": 48,
+      "statedMin": 46,
+      "statedUnits": null
+    }
+  ],
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "sourceFile": "data/raw/2026-2027/catalogue_usc_edu_preview_program_php_catoid_22_poid_31909.html",
+  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909"
+}
