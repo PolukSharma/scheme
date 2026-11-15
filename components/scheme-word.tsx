@@ -1,11 +1,16 @@
 /**
- * Product title. The letters "Sc" are cardinal red and the rest is a different color.
+ * Product title. The letters "Sc" are USC cardinal and the rest of the word is black.
+ * Cardinal is #990000 from https://identity.usc.edu/identity/color/
  */
-export function SchemeWord({ restColor = "#1a1a1a" }: { restColor?: string }) {
+export function SchemeWord({ restColor = "#000000" }: { restColor?: string }) {
   return (
     <span className="scheme-word">
-      <span style={{ color: "#990000" }}>Sc</span>
-      <span style={{ color: restColor }}>heme</span>
+      <span className="scheme-sc" style={{ color: "#990000" }}>
+        Sc
+      </span>
+      <span className="scheme-rest" style={{ color: restColor }}>
+        heme
+      </span>
     </span>
   );
 }
