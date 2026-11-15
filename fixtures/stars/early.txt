@@ -7,12 +7,18 @@
    PERTINENT DATA SECTION:
 
    Term of USC Entrance 20253  Current Class Level First year
+   Expected Graduation 20283
 
    USC ID 1234567890
 
    Name as it will appear on your USC Diploma:
 
              Diploma Name Placeholder
+
+   Diploma Mailing Address:
+
+             123 Fake Street
+             Los Angeles CA 90089
 
    PRIMARY POST:  DEGREE  MAJOR  UNIT  EFFECTIVE TERM
 
@@ -23,3 +29,26 @@
          20263 CSCI103  L    4.0 RG >IPInvented objects
          20253 CSCI102  L    2.0 A     Invented fundamentals
          99993 TRNSFR WORK   8.0 TR    Total Transfer Units
+
+   UNIT SUMMARY
+   Earned 6.0
+   In-process 4.0
+   Transfer 0.0
+
+   REQUIREMENTS
+   OK  Writing requirement
+   +        20261 WRIT150       4.0 A-    Invented writing
+   NO  Mathematics
+   -        NEEDS: 8.0 UNITS
+            SELECT FROM: MATH 125g, MATH 126g
+   IP  Objects in progress
+   +        20263 CSCI103  L    4.0 RG >IPInvented objects
+
+   CURRENT REGISTRATION
+         20263 CSCI103  L    4.0 RG >IPInvented objects
+
+   FREE ELECTIVES
+   Earned 0.0
+
+   EXCESS ELECTIVES
+   None
