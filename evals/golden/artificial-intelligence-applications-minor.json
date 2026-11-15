@@ -1,0 +1,206 @@
+{
+  "catalogueYear": "2026-2027",
+  "degreeSentence": "20 units",
+  "gradeCodes": [],
+  "gradeSentence": null,
+  "id": "artificial-intelligence-applications-minor",
+  "kind": "minor",
+  "name": "Artificial Intelligence Applications Minor",
+  "nodes": [
+    {
+      "children": [],
+      "heading": "Core Requirements (12 units)",
+      "minCount": null,
+      "minUnits": 12,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "TAC 259",
+              "line": "TAC 259 Basics of Artificial Intelligence Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "TAC 359",
+              "line": "TAC 359 Applied Neural Networks Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "TAC 459",
+              "line": "TAC 459 Applied Natural Language Processing and Generative AI Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Core Requirements (12 units)",
+      "rule": "all",
+      "statedMax": 12,
+      "statedMin": 12,
+      "statedUnits": 12
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "CSCI course:",
+          "minCount": null,
+          "minUnits": null,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "CSCI 113x",
+                  "line": "CSCI 113x Programming Fundamentals for Computing Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "CSCI course:",
+          "rule": "all",
+          "statedMax": null,
+          "statedMin": null,
+          "statedUnits": null
+        },
+        {
+          "children": [],
+          "heading": "TAC sequence:",
+          "minCount": null,
+          "minUnits": null,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "TAC 115",
+                    "line": "TAC 115 Programming in Python Units: 2",
+                    "unitChoices": [
+                      2
+                    ],
+                    "units": 2
+                  },
+                  {
+                    "code": "TAC 116",
+                    "line": "TAC 116 Accelerated Programming in Python Units: 2",
+                    "unitChoices": [
+                      2
+                    ],
+                    "units": 2
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [
+                {
+                  "code": "TAC 216",
+                  "line": "TAC 216 Applied Python Units: 2",
+                  "unitChoices": [
+                    2
+                  ],
+                  "units": 2
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "TAC sequence: TAC 115 or TAC 116 may be waived with demonstrated prior Python programming experience.",
+          "rule": "all",
+          "statedMax": null,
+          "statedMin": null,
+          "statedUnits": null
+        }
+      ],
+      "heading": "Programming Fundamentals (2-4 units)",
+      "minCount": 1,
+      "minUnits": null,
+      "picks": [],
+      "quote": "Programming Fundamentals (2-4 units) Choose either the CSCI course or the TAC sequence:",
+      "rule": "one",
+      "statedMax": 4,
+      "statedMin": 2,
+      "statedUnits": null
+    },
+    {
+      "children": [],
+      "heading": "Electives (4 units)",
+      "minCount": 1,
+      "minUnits": 4,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "EIS 370",
+              "line": "EIS 370 Ethical Issues in Artificial Intelligence Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "TAC 429",
+              "line": "TAC 429 Embodied Artificial Intelligence Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHIL 265g",
+              "line": "PHIL 265g Ethics, Technology and Value Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Electives (4 units) Choose one of the following:",
+      "rule": "one",
+      "statedMax": 4,
+      "statedMin": 4,
+      "statedUnits": 4
+    }
+  ],
+  "school": "USC Viterbi School of Engineering",
+  "sourceFile": "data/raw/2026-2027/catalogue_usc_edu_preview_program_php_catoid_22_poid_32792.html",
+  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32792"
+}

@@ -1,6 +1,6 @@
 import type { Course, RequirementNode, RequirementStatus } from "@/lib/types";
 import { gradeMeets } from "./grade";
-import { prereqGap } from "./plan";
+import { corequisiteGap, prereqGap } from "./prereq";
 
 export interface HeldCourse {
   code: string;
@@ -18,15 +18,31 @@ export interface Cover {
   extra: string[];
   /** Units this cover contributes to a parent's count or unit floor. */
   creditUnits: number;
+  /**
+   * Held courses that miss this requirement's own minimum grade.
+   * They stay remaining even when another requirement applies the same attempt.
+   */
+  belowMinimum: string[];
   ok: boolean;
   statuses: RequirementStatus[];
+  /**
+   * Units of a block that lists no courses.
+   * They stay in the total and are not filled by picking catalogue courses.
+   */
+  unlistedUnits?: number;
 }
 
 export interface AssignContext {
   byCode: Map<string, Course>;
   held: Map<string, HeldCourse>;
   majorCourses: ReadonlySet<string>;
-  memo: Map<string, Cover>;
+  /**
+   * Other options of a choice the student has already completed.
+   * An equal-cost course that is not one of these is preferred.
+   */
+  displaced: ReadonlySet<string>;
+  /** Keyed by the requirement object so repeated ids do not share a cover. */
+  memo: WeakMap<RequirementNode, Map<string, Cover>>;
 }
 
 const EXACT_OPTIONS = 12;
@@ -52,7 +68,7 @@ export function closedCodes(cover: Cover): string[] {
 }
 
 export function costUnits(ctx: AssignContext, cover: Cover): number {
-  return closedCodes(cover).reduce((sum, code) => sum + unitsOf(ctx, code), 0);
+  return closedCodes(cover).reduce((sum, code) => sum + unitsOf(ctx, code), 0) + (cover.unlistedUnits ?? 0);
 }
 
 function heldCounts(ctx: AssignContext, code: string, minimum: string | undefined): boolean {
@@ -60,6 +76,14 @@ function heldCounts(ctx: AssignContext, code: string, minimum: string | undefine
   if (!row) return false;
   if (row.anticipated) return true;
   return gradeMeets(row.grade, minimum, row.inProgress);
+}
+
+/** True only when this requirement states a minimum and the held grade misses it. */
+function missesStatedMinimum(ctx: AssignContext, code: string, minimum: string | undefined): boolean {
+  if (!minimum) return false;
+  const row = ctx.held.get(code);
+  if (!row || row.anticipated) return false;
+  return !gradeMeets(row.grade, minimum, row.inProgress);
 }
 
 function matchesSet(course: Course, node: Extract<RequirementNode, { type: "course_set" }>): boolean {
@@ -122,6 +146,7 @@ function blank(node: RequirementNode): Cover {
     remaining: [],
     extra: [],
     creditUnits: 0,
+    belowMinimum: [],
     ok: false,
     statuses: [statusFor(node, [], 0, false)],
   };
@@ -141,8 +166,9 @@ function chainCodes(ctx: AssignContext, cover: Cover): string[] {
       codes.add(needed);
       pending.push(needed);
     }
-    for (const coreq of course.corequisites) {
-      if (!codes.has(coreq) && !done.has(coreq)) {
+    const have = new Set<string>([...done, ...codes]);
+    for (const coreq of corequisiteGap(course, have, (item) => unitsOf(ctx, item))) {
+      if (!codes.has(coreq)) {
         codes.add(coreq);
         pending.push(coreq);
       }
@@ -181,10 +207,18 @@ function mentionedCodes(expr: Course["prerequisites"]): string[] {
   return expr.children.flatMap((child) => mentionedCodes(child));
 }
 
-function rankTuple(ctx: AssignContext, cover: Cover): [number, number, number, number] {
+function displacedCount(ctx: AssignContext, cover: Cover): number {
+  let count = 0;
+  for (const code of closedCodes(cover)) {
+    if (ctx.displaced.has(code)) count += 1;
+  }
+  return count;
+}
+
+function rankTuple(ctx: AssignContext, cover: Cover): [number, number, number, number, number] {
   const units = costUnits(ctx, cover);
   const penalty = cover.ok ? units : units + 1_000_000;
-  return [penalty, chainSpan(ctx, cover), closedCodes(cover).length, cover.applied.length];
+  return [penalty, displacedCount(ctx, cover), chainSpan(ctx, cover), closedCodes(cover).length, cover.applied.length];
 }
 
 function better(ctx: AssignContext, left: Cover, right: Cover): boolean {
@@ -215,7 +249,7 @@ function attachExtras(cover: Cover, ctx: AssignContext, unavailable: ReadonlySet
       have.add(needed);
       pending.push(needed);
     }
-    for (const coreq of course.corequisites) {
+    for (const coreq of corequisiteGap(course, have, (item) => unitsOf(ctx, item))) {
       if (!have.has(coreq)) {
         extra.push(coreq);
         have.add(coreq);
@@ -234,7 +268,12 @@ function attachExtras(cover: Cover, ctx: AssignContext, unavailable: ReadonlySet
 function mergeCovers(covers: readonly Cover[], ok: boolean, creditUnits: number): Cover {
   const applied = unique(covers.flatMap((cover) => cover.applied));
   const appliedSet = new Set(applied);
-  const remaining = unique(covers.flatMap((cover) => cover.remaining)).filter((code) => !appliedSet.has(code));
+  const belowMinimum = unique(covers.flatMap((cover) => cover.belowMinimum));
+  const kept = new Set(belowMinimum);
+  const remaining = unique([
+    ...covers.flatMap((cover) => cover.remaining).filter((code) => !appliedSet.has(code) || kept.has(code)),
+    ...belowMinimum,
+  ]);
   const remainingSet = new Set(remaining);
   const extra = unique(covers.flatMap((cover) => cover.extra)).filter(
     (code) => !appliedSet.has(code) && !remainingSet.has(code),
@@ -244,13 +283,15 @@ function mergeCovers(covers: readonly Cover[], ok: boolean, creditUnits: number)
     remaining,
     extra,
     creditUnits,
+    belowMinimum,
     ok,
+    unlistedUnits: covers.reduce((sum, cover) => sum + (cover.unlistedUnits ?? 0), 0),
     statuses: covers.flatMap((cover) => cover.statuses),
   };
 }
 
-function keyOf(node: RequirementNode, unavailable: ReadonlySet<string>): string {
-  return `${node.id}|${[...unavailable].sort().join(",")}`;
+function banKey(unavailable: ReadonlySet<string>): string {
+  return [...unavailable].sort().join(",");
 }
 
 function contestedHeld(
@@ -435,7 +476,7 @@ function addedCost(
   if (!course) return { cost: own, extra: [] };
   const extra = unique([
     ...prereqGap(course.prerequisites, have, (item) => unitsOf(ctx, item)),
-    ...course.corequisites.filter((item) => !have.has(item)),
+    ...corequisiteGap(course, have, (item) => unitsOf(ctx, item)),
   ]);
   return { cost: own + extra.reduce((sum, item) => sum + unitsOf(ctx, item), 0), extra };
 }
@@ -454,6 +495,7 @@ function greedyCourses(
   const applied: string[] = [];
   const remaining: string[] = [];
   const extra: string[] = [];
+  const belowMinimum: string[] = [];
   let creditUnits = 0;
   let shared = 0;
   const pool = options.flatMap((option) => (option.type === "course" ? [option.code] : []));
@@ -464,11 +506,21 @@ function greedyCourses(
       const code = pool[index];
       if (unavailable.has(code) || !sharedOk(code, shared, cap, ctx)) continue;
       const option = options.find((item) => item.type === "course" && item.code === code);
-      const free = heldCounts(ctx, code, grade ?? option?.constraints?.minGrade);
+      const minimum = grade ?? option?.constraints?.minGrade;
+      const free = heldCounts(ctx, code, minimum);
       const quote = addedCost(code, ctx, have, free);
       const currentUnits = unitsOf(ctx, code);
       const bestUnits = best ? unitsOf(ctx, pool[best.index]) : 0;
-      if (!best || quote.cost < best.cost || (quote.cost === best.cost && currentUnits > bestUnits)) {
+      const penalty = ctx.displaced.has(code) ? 1 : 0;
+      const bestPenalty = best && ctx.displaced.has(pool[best.index]) ? 1 : 0;
+      const cheaper = quote.cost < (best?.cost ?? Infinity);
+      const sameCost = best !== null && quote.cost === best.cost;
+      if (
+        !best ||
+        cheaper ||
+        (sameCost && penalty < bestPenalty) ||
+        (sameCost && penalty === bestPenalty && currentUnits > bestUnits)
+      ) {
         best = { index, cost: quote.cost, extra: quote.extra, free };
       }
     }
@@ -476,7 +528,12 @@ function greedyCourses(
     const code = pool[best.index];
     pool.splice(best.index, 1);
     if (best.free) applied.push(code);
-    else remaining.push(code);
+    else {
+      remaining.push(code);
+      const option = options.find((item) => item.type === "course" && item.code === code);
+      const minimum = grade ?? option?.constraints?.minGrade;
+      if (missesStatedMinimum(ctx, code, minimum)) belowMinimum.push(code);
+    }
     creditUnits += unitsOf(ctx, code);
     if (ctx.majorCourses.has(code)) shared += unitsOf(ctx, code);
     have.add(code);
@@ -501,6 +558,7 @@ function greedyCourses(
     remaining,
     extra: unique(extra).filter((code) => !applied.includes(code) && !remaining.includes(code)),
     creditUnits,
+    belowMinimum,
     ok,
     statuses: [
       statusFor(
@@ -563,27 +621,79 @@ function coverCourse(
   unavailable: ReadonlySet<string>,
 ): Cover {
   const credit = unitsOf(ctx, node.code);
+  const minimum = minGradeOf(node);
   const usable =
     !unavailable.has(node.code) &&
-    heldCounts(ctx, node.code, minGradeOf(node)) &&
+    heldCounts(ctx, node.code, minimum) &&
     sharedOk(node.code, 0, shareCap(node), ctx);
   if (usable) {
     return {
       applied: [node.code],
       remaining: [],
       extra: [],
+      belowMinimum: [],
       creditUnits: credit,
       ok: true,
       statuses: [statusFor(node, [node.code], 0, true)],
     };
   }
+  const below = missesStatedMinimum(ctx, node.code, minimum);
   return {
     applied: [],
     remaining: [node.code],
     extra: [],
+    belowMinimum: below ? [node.code] : [],
     creditUnits: credit,
     ok: true,
     statuses: [statusFor(node, [], credit, false)],
+  };
+}
+
+function listsNoCourses(node: RequirementNode): boolean {
+  return /lists no courses/i.test(node.source.text);
+}
+
+function unlistedCover(node: RequirementNode): Cover {
+  const floor = node.type === "course_set" || node.type === "n_of" ? (node.minUnits ?? 0) : 0;
+  return {
+    applied: [],
+    remaining: [],
+    extra: [],
+    belowMinimum: [],
+    creditUnits: 0,
+    ok: true,
+    unlistedUnits: floor,
+    statuses: [
+      {
+        nodeId: node.id,
+        satisfied: false,
+        appliedCourses: [],
+        remainingUnits: floor,
+        note: "This block lists no courses. Those units stay on this requirement and are not filled by picking other catalogue courses.",
+        source: node.source,
+      },
+    ],
+  };
+}
+
+function substitutionCover(node: RequirementNode): Cover {
+  return {
+    applied: [],
+    remaining: [],
+    extra: [],
+    belowMinimum: [],
+    creditUnits: 0,
+    ok: true,
+    statuses: [
+      {
+        nodeId: node.id,
+        satisfied: true,
+        appliedCourses: [],
+        remainingUnits: 0,
+        note: "The catalogue says this list may be substituted. It is not required. The node stays unverified because that substitution cannot be encoded exactly.",
+        source: node.source,
+      },
+    ],
   };
 }
 
@@ -592,16 +702,31 @@ export function coverNode(
   ctx: AssignContext,
   unavailable: ReadonlySet<string> = new Set(),
 ): Cover {
-  const memoKey = keyOf(node, unavailable);
-  const cached = ctx.memo.get(memoKey);
+  let bucket = ctx.memo.get(node);
+  if (!bucket) {
+    bucket = new Map();
+    ctx.memo.set(node, bucket);
+  }
+  const memoKey = banKey(unavailable);
+  const cached = bucket.get(memoKey);
   if (cached) return cached;
+  if (/may be substituted/i.test(node.source.text)) {
+    const skipped = substitutionCover(node);
+    bucket.set(memoKey, skipped);
+    return skipped;
+  }
+  if (listsNoCourses(node)) {
+    const unlisted = unlistedCover(node);
+    bucket.set(memoKey, unlisted);
+    return unlisted;
+  }
   let cover: Cover;
   if (node.type === "course") cover = coverCourse(node, ctx, unavailable);
   else if (node.type === "course_set") cover = coverSet(node, ctx, new Set(unavailable));
   else if (node.type === "all_of") cover = coverAll(node, ctx, new Set(unavailable));
   else cover = coverChoice(node, ctx, new Set(unavailable));
   const closed = attachExtras(cover, ctx, unavailable);
-  ctx.memo.set(memoKey, closed);
+  bucket.set(memoKey, closed);
   return closed;
 }
 
@@ -614,8 +739,28 @@ export function makeContext(
     byCode: new Map(courses.map((course) => [course.code, course])),
     held: new Map(held.map((course) => [course.code, course])),
     majorCourses,
-    memo: new Map(),
+    displaced: new Set(),
+    memo: new WeakMap(),
   };
+}
+
+function displacedAlternatives(root: RequirementNode, held: ReadonlySet<string>): Set<string> {
+  const displaced = new Set<string>();
+  const walk = (node: RequirementNode) => {
+    if (node.type === "n_of") {
+      const codes = node.options.flatMap((option) => (option.type === "course" ? [option.code] : []));
+      if (codes.some((code) => held.has(code))) {
+        for (const code of codes) {
+          if (!held.has(code)) displaced.add(code);
+        }
+      }
+      node.options.forEach(walk);
+      return;
+    }
+    if (node.type === "all_of") node.children.forEach(walk);
+  };
+  walk(root);
+  return displaced;
 }
 
 export function coverProgram(
@@ -624,5 +769,10 @@ export function coverProgram(
   held: readonly HeldCourse[],
   majorCourses: ReadonlySet<string> = new Set(),
 ): Cover {
-  return coverNode(root, makeContext(courses, held, majorCourses));
+  const ctx = makeContext(courses, held, majorCourses);
+  ctx.displaced = displacedAlternatives(
+    root,
+    new Set(held.filter((course) => !course.anticipated).map((course) => course.code)),
+  );
+  return coverNode(root, ctx);
 }

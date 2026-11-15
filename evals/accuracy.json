@@ -1,0 +1,206 @@
+{
+  "catalogueYear": "2026-2027",
+  "defects": [
+    {
+      "id": "audit-computational-neuroscience-bs-one-side-of-each-or",
+      "owner": "lib/engine",
+      "reproduction": "After taking BISC 220Lg, CHEM 103Lgx, PHYS 135aLg, PHYS 135bL, HP 340Lg, BISC 444, BISC 423, CSCI 170, these alternatives are still remaining: TAC 115, TAC 116, MEDS 330, MEDS 340. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+      "severity": "medium",
+      "title": "Computational Neuroscience (BS): one-side-of-each-or does not match the catalogue page"
+    },
+    {
+      "id": "audit-neuroscience-ba-one-side-of-each-or",
+      "owner": "lib/engine",
+      "reproduction": "After taking BISC 220Lg, CHEM 103Lgx, BUAD 310g, these alternatives are still remaining: CHEM 105aLg, PSYC 274Lg. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+      "severity": "medium",
+      "title": "Neuroscience (BA): one-side-of-each-or does not match the catalogue page"
+    },
+    {
+      "id": "cross-listed-same-title",
+      "owner": "data/courses.json",
+      "reproduction": "BISC 199 and NEUR 199 share the title \"Neuroscience Colloquium\" and the same unit count. Neither stored course sentence says they are cross-listed. A student who completed BISC 199 still has NEUR 199 remaining: true. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
+      "severity": "medium",
+      "title": "Two catalogue courses share a title and the engine treats them as different"
+    },
+    {
+      "id": "plan-quantitative-biology-bs-near-quantitative-biology-bs",
+      "owner": "lib/engine",
+      "reproduction": "None of QBIO 481, QBIO 482 is done or on the plan. The page requires one of them.",
+      "severity": "medium",
+      "title": "Quantitative Biology (BS): a plan for near-quantitative-biology-bs fails the validity checker"
+    },
+    {
+      "id": "career-set-missing",
+      "owner": "evals/career",
+      "reproduction": "evals/career/ is absent, so the career-goal accuracy check was not run.",
+      "severity": "low",
+      "title": "The 20 labelled career goals are not in the repo"
+    },
+    {
+      "id": "grade-code-computer-engineering-and-computer-science-bs",
+      "owner": "data/programs",
+      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . The course list does not contain CSCI 103, CSCI 104.",
+      "severity": "low",
+      "title": "Computer Engineering and Computer Science (BS): a grade sentence names a code the course list does not print"
+    },
+    {
+      "id": "grade-code-computer-science-bs",
+      "owner": "data/programs",
+      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . The course list does not contain CSCI 103, CSCI 104.",
+      "severity": "low",
+      "title": "Computer Science (BS): a grade sentence names a code the course list does not print"
+    },
+    {
+      "id": "grade-code-computer-science-business-administration-bs",
+      "owner": "data/programs",
+      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . The course list does not contain CSCI 103, CSCI 104.",
+      "severity": "low",
+      "title": "Computer Science/Business Administration (BS): a grade sentence names a code the course list does not print"
+    },
+    {
+      "id": "specialization-not-found",
+      "owner": "data/programs",
+      "reproduction": "No specialization by this name is in the program index. The Artificial Intelligence Applications minor is a different program and is not used in its place.",
+      "severity": "low",
+      "title": "AI Applications as a CSBA specialization has no catalogue page"
+    }
+  ],
+  "fingerprint": {
+    "audits": "63/65",
+    "defects": 9,
+    "plans": "17/18",
+    "treeNo": 0
+  },
+  "handCheck": "not checked by a person",
+  "rows": [
+    {
+      "audits": "0/0",
+      "handCheck": "not checked by a person",
+      "plansValid": "0/0",
+      "program": "AI Applications (as a specialization of the CSBA major)",
+      "treeMatchesGolden": "no page",
+      "verified": "no"
+    },
+    {
+      "audits": "6/6",
+      "handCheck": "not checked by a person",
+      "plansValid": "2/2",
+      "program": "Computer Science/Business Administration (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "5/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "2/2",
+      "program": "Law and Regulation of Artificial Intelligence Minor",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "4/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "2/2",
+      "program": "Computational Neuroscience (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "5/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "2/2",
+      "program": "Artificial Intelligence Applications Minor",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "5/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Neuroscience (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "4/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Neuroscience (BA)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "6/6",
+      "handCheck": "not checked by a person",
+      "plansValid": "2/2",
+      "program": "Computer Science (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "5/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "0/1",
+      "program": "Quantitative Biology (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "5/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Biological Sciences (BA)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "6/6",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Computer Engineering and Computer Science (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "1/1",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Cognitive Science (BA)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "5/5",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Applied and Computational Mathematics (BA)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "6/6",
+      "handCheck": "not checked by a person",
+      "plansValid": "1/1",
+      "program": "Artificial Intelligence (BS)",
+      "treeMatchesGolden": "yes",
+      "verified": "no"
+    },
+    {
+      "audits": "0/0",
+      "handCheck": "not checked by a person",
+      "plansValid": "not run",
+      "program": "Career goals",
+      "treeMatchesGolden": "no labelled set",
+      "verified": "no"
+    },
+    {
+      "audits": "4/4",
+      "handCheck": "not checked by a person",
+      "plansValid": "n/a",
+      "program": "Guard and promises",
+      "treeMatchesGolden": "n/a",
+      "verified": "no"
+    }
+  ],
+  "source": "Golden trees were read from the saved catalogue HTML in data/raw/2026-2027. data/programs was opened only after those trees were built. A disagreement is listed and not resolved."
+}
