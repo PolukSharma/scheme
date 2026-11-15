@@ -1,0 +1,80 @@
+{
+  "early": {
+    "classLevel": "First year",
+    "expectedGraduation": "2028-fall",
+    "programs": [
+      {
+        "id": "computer-science-bs",
+        "name": "Computer Science (BS)",
+        "kind": "major",
+        "effectiveTerm": "2025-fall"
+      }
+    ],
+    "units": { "earned": 6, "inProcess": 4, "transfer": 0 },
+    "remainingRequirements": [
+      {
+        "title": "Mathematics",
+        "needsUnits": 8,
+        "selectFrom": ["MATH 125g", "MATH 126g"]
+      }
+    ],
+    "currentRegistration": ["CSCI 103L"],
+    "electives": { "freeEarned": 0, "excessCourses": [] }
+  },
+  "mid": {
+    "classLevel": "Second year",
+    "expectedGraduation": "2027-fall",
+    "programs": [
+      {
+        "id": "computational-neuroscience-bs",
+        "name": "Computational Neuroscience (BS)",
+        "kind": "major",
+        "effectiveTerm": "2024-fall"
+      },
+      {
+        "id": "artificial-intelligence-applications-minor",
+        "name": "Artificial Intelligence Applications Minor",
+        "kind": "minor",
+        "effectiveTerm": "2025-fall"
+      }
+    ],
+    "units": { "earned": 14, "inProcess": 4, "transfer": 6 },
+    "remainingRequirements": [
+      {
+        "title": "Physics",
+        "needsUnits": 4,
+        "selectFrom": ["PHYS 135aLg", "PHYS 135bL"]
+      }
+    ],
+    "currentRegistration": ["BISC 220Lg"],
+    "electives": { "freeEarned": 0, "excessCourses": [] }
+  },
+  "late": {
+    "classLevel": "Senior",
+    "expectedGraduation": "2027-spring",
+    "programs": [
+      {
+        "id": "computer-science-business-administration-bs",
+        "name": "Computer Science/Business Administration (BS)",
+        "kind": "major",
+        "effectiveTerm": "2023-fall"
+      },
+      {
+        "id": "law-and-regulation-of-artificial-intelligence-minor",
+        "name": "Law and Regulation of Artificial Intelligence Minor",
+        "kind": "minor",
+        "effectiveTerm": "2026-spring"
+      }
+    ],
+    "units": { "earned": 24, "inProcess": 4, "transfer": 0 },
+    "remainingRequirements": [
+      {
+        "title": "Further mathematics",
+        "needsUnits": 4,
+        "selectFrom": ["MATH 225", "MATH 226g"]
+      }
+    ],
+    "currentRegistration": ["WRIT 340"],
+    "electives": { "freeEarned": 0, "excessCourses": [] }
+  }
+}

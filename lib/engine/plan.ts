@@ -1,4 +1,15 @@
-import type { Assumption, Course, PlannedTerm, PrerequisiteExpr, StudentRecord } from "@/lib/types";
+import type { Assumption, Course, PlannedTerm, PolicyRule, Program, StudentRecord, TermPlan } from "@/lib/types";
+import { closedCodes, coverProgram } from "./assign";
+import { corequisiteGap, prereqGap } from "./prereq";
+import { termUnitCap } from "./policy";
+import { catalogue, countsOnRecord, heldFrom, unitsOf } from "./shared";
+
+export { corequisiteGap, prereqGap };
+
+export interface PlanTermsOptions {
+  /** Used when the per-term unit cap is unconfirmed. */
+  unitCap?: number;
+}
 
 export interface CalendarTerm {
   season: "fall" | "spring" | "summer";
@@ -44,44 +55,12 @@ export function openingTerm(student: StudentRecord): CalendarTerm {
   return parseTermLabel(student.startTerm) ?? { season: "fall", year: student.startYear };
 }
 
-export function prereqGap(
-  expr: PrerequisiteExpr | null,
-  done: ReadonlySet<string>,
-  unitsOf: (code: string) => number,
-): string[] {
-  if (!expr) return [];
-  if (expr.type === "course") return done.has(expr.code) ? [] : [expr.code];
-  if (expr.type === "all_of") return expr.children.flatMap((child) => prereqGap(child, done, unitsOf));
-  if (expr.children.length > 8) {
-    const ranked = expr.children
-      .map((child) => prereqGap(child, done, unitsOf))
-      .sort(
-        (left, right) =>
-          left.reduce((sum, code) => sum + unitsOf(code), 0) -
-          right.reduce((sum, code) => sum + unitsOf(code), 0),
-      );
-    return [...new Set(ranked.slice(0, expr.minCount).flat())];
-  }
-  let best: string[] | null = null;
-  const choose = (start: number, taken: string[][], count: number) => {
-    if (count >= expr.minCount) {
-      const flat = [...new Set(taken.flat())];
-      const cost = flat.reduce((sum, code) => sum + unitsOf(code), 0);
-      const bestCost = best ? best.reduce((sum, code) => sum + unitsOf(code), 0) : Infinity;
-      if (!best || cost < bestCost || (cost === bestCost && flat.length < best.length)) best = flat;
-      return;
-    }
-    for (let index = start; index < expr.children.length; index += 1) {
-      choose(index + 1, [...taken, prereqGap(expr.children[index], done, unitsOf)], count + 1);
-    }
-  };
-  choose(0, [], 0);
-  return best ?? [];
+function listedSeason(course: Course, season: CalendarTerm["season"]): boolean {
+  return course.offerings.includes(season);
 }
 
-function offeredIn(course: Course, season: CalendarTerm["season"]): boolean {
-  if (course.offerings.includes(season)) return true;
-  return course.offerings.includes("irregular") && (season === "fall" || season === "spring");
+function termIsKnown(course: Course): boolean {
+  return course.offerings.some((offering) => SEASONS.has(offering));
 }
 
 function labelOf(term: CalendarTerm): string {
@@ -119,7 +98,9 @@ export interface ScheduleOutput {
 
 /**
  * Place remaining courses into terms. Prerequisites come first.
- * A corequisite shares the term or is already done. Irregular offerings use fall and spring.
+ * A corequisite shares the term or is already done.
+ * A course whose offering is irregular, or otherwise not a listed season, stays off the calendar.
+ * The plan says that term is unknown instead of choosing fall, spring, or summer.
  */
 export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
   const assumptions: Assumption[] = [];
@@ -152,14 +133,12 @@ export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
       });
       continue;
     }
-    if (course.offerings.includes("irregular")) {
-      assumptions.push({
-        ruleId: "irregular-offering",
-        text: `${code} is listed as irregular. This plan may place it in fall or spring.`,
-      });
-    }
-    if (course.offerings.every((offering) => !SEASONS.has(offering) && offering !== "irregular")) {
+    if (!termIsKnown(course)) {
       unplaced.push(code);
+      assumptions.push({
+        ruleId: "unknown-term",
+        text: `${code}'s term is unknown. The offering on file is ${course.offerings.join(", ")}, so this plan does not invent a fall, spring, or summer term.`,
+      });
       continue;
     }
     placeable.push(code);
@@ -174,7 +153,7 @@ export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
   while (left.size > 0 && idle < 24) {
     const ready = [...left].filter((code) => {
       const course = input.byCode.get(code);
-      if (!course || !offeredIn(course, cursor.season)) return false;
+      if (!course || !listedSeason(course, cursor.season)) return false;
       return prereqGap(course.prerequisites, done, (item) => input.byCode.get(item)?.units ?? 0).length === 0;
     });
     ready.sort((leftCode, rightCode) => {
@@ -195,8 +174,8 @@ export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
       const bundle = [code];
       let bundleUnits = course.units;
       let blocked = false;
-      for (const coreq of course.corequisites) {
-        if (done.has(coreq) || chosenSet.has(coreq)) continue;
+      const have = new Set<string>([...done, ...chosenSet]);
+      for (const coreq of corequisiteGap(course, have, (item) => input.byCode.get(item)?.units ?? 0)) {
         const partner = input.byCode.get(coreq);
         if (!partner || !left.has(coreq) || !ready.includes(coreq)) {
           blocked = true;
@@ -250,4 +229,85 @@ export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
 
 export function countTerms(input: ScheduleInput): number {
   return scheduleRemaining(input).terms.length;
+}
+
+export function scheduleCodes(
+  student: StudentRecord,
+  courses: readonly Course[],
+  codes: readonly string[],
+  cap: number,
+): TermPlan["terms"] {
+  const byCode = catalogue(courses);
+  const done = new Set(student.courses.filter(countsOnRecord).map((course) => course.code));
+  const skip = new Set(student.courses.filter((course) => course.status === "in_progress").map((course) => course.code));
+  return scheduleRemaining({
+    codes,
+    byCode,
+    done,
+    skip,
+    start: openingTerm(student),
+    cap,
+  }).terms;
+}
+
+function planAssumptions(
+  student: StudentRecord,
+  courses: readonly Course[],
+  codes: readonly string[],
+  capInfo: ReturnType<typeof termUnitCap>,
+): Assumption[] {
+  const byCode = catalogue(courses);
+  const done = new Set(student.courses.filter(countsOnRecord).map((course) => course.code));
+  const skip = new Set(student.courses.filter((course) => course.status === "in_progress").map((course) => course.code));
+  const scheduled = scheduleRemaining({
+    codes,
+    byCode,
+    done,
+    skip,
+    start: openingTerm(student),
+    cap: capInfo.cap,
+  });
+  return [...capInfo.assumptions, ...scheduled.assumptions];
+}
+
+/** Place every program's remaining courses into terms. Later programs see earlier courses as already required. */
+export function planTerms(
+  student: StudentRecord,
+  programs: readonly Program[],
+  courses: readonly Course[],
+  policyRules: readonly PolicyRule[],
+  options?: PlanTermsOptions,
+): TermPlan {
+  const cap = termUnitCap(policyRules, options?.unitCap);
+  const byCode = catalogue(courses);
+  let held = heldFrom(student);
+  const codes: string[] = [];
+  const majorCourses = new Set<string>();
+  for (const program of programs) {
+    const cover = coverProgram(program.requirements, courses, held, majorCourses);
+    for (const code of [...cover.applied, ...closedCodes(cover)]) majorCourses.add(code);
+    for (const code of closedCodes(cover)) {
+      if (!codes.includes(code)) codes.push(code);
+      if (!held.some((row) => row.code === code)) {
+        held = [
+          ...held,
+          {
+            code,
+            units: unitsOf(byCode, code, held),
+            grade: null,
+            inProgress: false,
+            anticipated: true,
+          },
+        ];
+      }
+    }
+  }
+  const terms = scheduleCodes(student, courses, codes, cap.cap);
+  return {
+    studentId: student.id,
+    programIds: programs.map((program) => program.id),
+    terms,
+    totalUnits: terms.reduce((sum, term) => sum + term.units, 0),
+    assumptions: planAssumptions(student, courses, codes, cap),
+  };
 }
