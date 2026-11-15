@@ -406,6 +406,31 @@ function fromTokens(
   const prose = `${heading} ${notes.join(" ")}`;
   const unclear = /advis[eo]r|permission|waiv|substitut|honou?rs|consult/i.test(prose);
 
+  if (/may be substituted/i.test(prose)) {
+    return {
+      units: 0,
+      or: false,
+      node: {
+        type: "all_of",
+        id,
+        children: [
+          {
+            type: "course_set",
+            id: `${id}-substitution`,
+            match: { dept: "ZZ" },
+            minCount: 1,
+            source: source(
+              url,
+              `${quote} The substitution cannot be encoded exactly, so this node is unverified and does not require the listed courses. The department ZZ is not a catalogue rule; it only keeps the node in the shared schema.`,
+            ),
+            verified: false,
+          },
+        ],
+        source: source(url, quote),
+        verified: false,
+      },
+    };
+  }
   if (/^(honou?rs|scholarship|note)\b/i.test(heading) || /^units:/i.test(heading)) {
     return { node: { type: "all_of", id, children: [], source: source(url, quote || heading), verified: false }, units: 0, or: false };
   }

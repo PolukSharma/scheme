@@ -18,6 +18,11 @@ export interface Cover {
   extra: string[];
   /** Units this cover contributes to a parent's count or unit floor. */
   creditUnits: number;
+  /**
+   * Held courses that miss this requirement's own minimum grade.
+   * They stay remaining even when another requirement applies the same attempt.
+   */
+  belowMinimum: string[];
   ok: boolean;
   statuses: RequirementStatus[];
 }
@@ -60,6 +65,14 @@ function heldCounts(ctx: AssignContext, code: string, minimum: string | undefine
   if (!row) return false;
   if (row.anticipated) return true;
   return gradeMeets(row.grade, minimum, row.inProgress);
+}
+
+/** True only when this requirement states a minimum and the held grade misses it. */
+function missesStatedMinimum(ctx: AssignContext, code: string, minimum: string | undefined): boolean {
+  if (!minimum) return false;
+  const row = ctx.held.get(code);
+  if (!row || row.anticipated) return false;
+  return !gradeMeets(row.grade, minimum, row.inProgress);
 }
 
 function matchesSet(course: Course, node: Extract<RequirementNode, { type: "course_set" }>): boolean {
@@ -122,6 +135,7 @@ function blank(node: RequirementNode): Cover {
     remaining: [],
     extra: [],
     creditUnits: 0,
+    belowMinimum: [],
     ok: false,
     statuses: [statusFor(node, [], 0, false)],
   };
@@ -234,7 +248,12 @@ function attachExtras(cover: Cover, ctx: AssignContext, unavailable: ReadonlySet
 function mergeCovers(covers: readonly Cover[], ok: boolean, creditUnits: number): Cover {
   const applied = unique(covers.flatMap((cover) => cover.applied));
   const appliedSet = new Set(applied);
-  const remaining = unique(covers.flatMap((cover) => cover.remaining)).filter((code) => !appliedSet.has(code));
+  const belowMinimum = unique(covers.flatMap((cover) => cover.belowMinimum));
+  const kept = new Set(belowMinimum);
+  const remaining = unique([
+    ...covers.flatMap((cover) => cover.remaining).filter((code) => !appliedSet.has(code) || kept.has(code)),
+    ...belowMinimum,
+  ]);
   const remainingSet = new Set(remaining);
   const extra = unique(covers.flatMap((cover) => cover.extra)).filter(
     (code) => !appliedSet.has(code) && !remainingSet.has(code),
@@ -244,6 +263,7 @@ function mergeCovers(covers: readonly Cover[], ok: boolean, creditUnits: number)
     remaining,
     extra,
     creditUnits,
+    belowMinimum,
     ok,
     statuses: covers.flatMap((cover) => cover.statuses),
   };
@@ -454,6 +474,7 @@ function greedyCourses(
   const applied: string[] = [];
   const remaining: string[] = [];
   const extra: string[] = [];
+  const belowMinimum: string[] = [];
   let creditUnits = 0;
   let shared = 0;
   const pool = options.flatMap((option) => (option.type === "course" ? [option.code] : []));
@@ -464,7 +485,8 @@ function greedyCourses(
       const code = pool[index];
       if (unavailable.has(code) || !sharedOk(code, shared, cap, ctx)) continue;
       const option = options.find((item) => item.type === "course" && item.code === code);
-      const free = heldCounts(ctx, code, grade ?? option?.constraints?.minGrade);
+      const minimum = grade ?? option?.constraints?.minGrade;
+      const free = heldCounts(ctx, code, minimum);
       const quote = addedCost(code, ctx, have, free);
       const currentUnits = unitsOf(ctx, code);
       const bestUnits = best ? unitsOf(ctx, pool[best.index]) : 0;
@@ -476,7 +498,12 @@ function greedyCourses(
     const code = pool[best.index];
     pool.splice(best.index, 1);
     if (best.free) applied.push(code);
-    else remaining.push(code);
+    else {
+      remaining.push(code);
+      const option = options.find((item) => item.type === "course" && item.code === code);
+      const minimum = grade ?? option?.constraints?.minGrade;
+      if (missesStatedMinimum(ctx, code, minimum)) belowMinimum.push(code);
+    }
     creditUnits += unitsOf(ctx, code);
     if (ctx.majorCourses.has(code)) shared += unitsOf(ctx, code);
     have.add(code);
@@ -501,6 +528,7 @@ function greedyCourses(
     remaining,
     extra: unique(extra).filter((code) => !applied.includes(code) && !remaining.includes(code)),
     creditUnits,
+    belowMinimum,
     ok,
     statuses: [
       statusFor(
@@ -563,27 +591,52 @@ function coverCourse(
   unavailable: ReadonlySet<string>,
 ): Cover {
   const credit = unitsOf(ctx, node.code);
+  const minimum = minGradeOf(node);
   const usable =
     !unavailable.has(node.code) &&
-    heldCounts(ctx, node.code, minGradeOf(node)) &&
+    heldCounts(ctx, node.code, minimum) &&
     sharedOk(node.code, 0, shareCap(node), ctx);
   if (usable) {
     return {
       applied: [node.code],
       remaining: [],
       extra: [],
+      belowMinimum: [],
       creditUnits: credit,
       ok: true,
       statuses: [statusFor(node, [node.code], 0, true)],
     };
   }
+  const below = missesStatedMinimum(ctx, node.code, minimum);
   return {
     applied: [],
     remaining: [node.code],
     extra: [],
+    belowMinimum: below ? [node.code] : [],
     creditUnits: credit,
     ok: true,
     statuses: [statusFor(node, [], credit, false)],
+  };
+}
+
+function substitutionCover(node: RequirementNode): Cover {
+  return {
+    applied: [],
+    remaining: [],
+    extra: [],
+    belowMinimum: [],
+    creditUnits: 0,
+    ok: true,
+    statuses: [
+      {
+        nodeId: node.id,
+        satisfied: true,
+        appliedCourses: [],
+        remainingUnits: 0,
+        note: "The catalogue says this list may be substituted. It is not required. The node stays unverified because that substitution cannot be encoded exactly.",
+        source: node.source,
+      },
+    ],
   };
 }
 
@@ -595,6 +648,11 @@ export function coverNode(
   const memoKey = keyOf(node, unavailable);
   const cached = ctx.memo.get(memoKey);
   if (cached) return cached;
+  if (/may be substituted/i.test(node.source.text)) {
+    const skipped = substitutionCover(node);
+    ctx.memo.set(memoKey, skipped);
+    return skipped;
+  }
   let cover: Cover;
   if (node.type === "course") cover = coverCourse(node, ctx, unavailable);
   else if (node.type === "course_set") cover = coverSet(node, ctx, new Set(unavailable));

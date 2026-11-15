@@ -2,62 +2,6 @@
   "catalogueYear": "2026-2027",
   "defects": [
     {
-      "id": "audit-artificial-intelligence-bs-grade-below-c",
-      "owner": "lib/engine",
-      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 113x , CSCI 114x , CSCI 170 , and the Mathematical Foundations courses. CSCI 113x with C- is not in coursesRemaining. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32917",
-      "severity": "high",
-      "title": "Artificial Intelligence (BS): grade-below-c does not match the catalogue page"
-    },
-    {
-      "id": "audit-computer-engineering-and-computer-science-bs-grade-below-c",
-      "owner": "lib/engine",
-      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . CSCI 102L with C- is not in coursesRemaining. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32083",
-      "severity": "high",
-      "title": "Computer Engineering and Computer Science (BS): grade-below-c does not match the catalogue page"
-    },
-    {
-      "id": "audit-computer-science-bs-grade-below-c",
-      "owner": "lib/engine",
-      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . CSCI 102L with C- is not in coursesRemaining. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086",
-      "severity": "high",
-      "title": "Computer Science (BS): grade-below-c does not match the catalogue page"
-    },
-    {
-      "id": "audit-computer-science-business-administration-bs-grade-below-c",
-      "owner": "lib/engine",
-      "reproduction": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 . CSCI 102L with C- is not in coursesRemaining. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
-      "severity": "high",
-      "title": "Computer Science/Business Administration (BS): grade-below-c does not match the catalogue page"
-    },
-    {
-      "id": "courses-without-a-printed-term",
-      "owner": "lib/engine",
-      "reproduction": "The stored course sentence says the term is not printed, and the offering list is irregular. The plan still puts the course in a fall, spring, or summer term. Courses: CSCI 662, PSYC 506, PSYC 544, PSYC 545, PSYC 547, PSYC 551, PSYC 301L, ECON 405, HBIO 200Lg, HBIO 308, CSCI 350, EE 141L.\nCSCI 662 is placed in Spring 2027. The course page lists irregular. No typical term is printed.\nPSYC 506 is placed in Fall 2027. The course page lists irregular. No typical term is printed.\nPSYC 544 is placed in Fall 2027. The course page lists irregular. No typical term is printed.\nPSYC 545 is placed in Spring 2028. The course page lists irregular. No typical term is printed.\nPSYC 547 is placed in Spring 2028. The course page lists irregular. No typical term is printed.\nPSYC 551 is placed in Spring 2028. The course page lists irregular. No typical term is printed.\nPSYC 506 is placed in Spring 2027. The course page lists irregular. No typical term is printed.\nPSYC 545 is placed in Fall 2027. The course page lists irregular. No typical term is printed.",
-      "severity": "high",
-      "title": "Plans place courses whose catalogue page does not print a term"
-    },
-    {
-      "id": "substitution-computational-neuroscience-bs",
-      "owner": "data/programs",
-      "reproduction": "Graduate Courses A graduate class from the following list may be substituted for an undergraduate computational course with the permission of the co-directors and instructor and with a minimum GPA of 3.3. The extracted tree puts these courses in an all-of list: BME 502, BME 575, CSCI 561, CSCI 662, EE 559, NSCI 524, NSCI 531, NSCI 532, PSYC 506, PSYC 540, PSYC 544, PSYC 545, PSYC 547, PSYC 551, PSYC 555. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
-      "severity": "high",
-      "title": "Computational Neuroscience (BS): the tree requires a list the page says may be substituted"
-    },
-    {
-      "id": "substitution-neuroscience-ba",
-      "owner": "data/programs",
-      "reproduction": "Graduate Courses A graduate class from the following list may be substituted for an upper-division elective with the permission of the co-directors and instructor and with a minimum GPA of 3.3. The extracted tree puts these courses in an all-of list: BME 575, NSCI 524, NSCI 531, NSCI 532, PSYC 506, PSYC 540, PSYC 544, PSYC 545, PSYC 547, PSYC 551, PSYC 555. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
-      "severity": "high",
-      "title": "Neuroscience (BA): the tree requires a list the page says may be substituted"
-    },
-    {
-      "id": "substitution-neuroscience-bs",
-      "owner": "data/programs",
-      "reproduction": "Graduate Courses A graduate class from the following list may be substituted for an upper-division elective with the permission of the co-directors and instructor and with a minimum GPA of 3.3. The extracted tree puts these courses in an all-of list: BME 575, NSCI 524, NSCI 531, NSCI 532, PSYC 506, PSYC 540, PSYC 544, PSYC 545, PSYC 547, PSYC 551, PSYC 555. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31870",
-      "severity": "high",
-      "title": "Neuroscience (BS): the tree requires a list the page says may be substituted"
-    },
-    {
       "id": "audit-computational-neuroscience-bs-one-side-of-each-or",
       "owner": "lib/engine",
       "reproduction": "After taking BISC 220Lg, CHEM 103Lgx, PHYS 135aLg, PHYS 135bL, HP 340Lg, BISC 444, BISC 423, CSCI 170, these alternatives are still remaining: TAC 115, TAC 116, MEDS 330, MEDS 340. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31871",
@@ -77,6 +21,13 @@
       "reproduction": "After taking MATH 126g, BISC 120Lg, BUAD 310g, EE 141L, BUAD 311, these alternatives are still remaining: BUAD 312g. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
       "severity": "medium",
       "title": "Computer Science/Business Administration (BS): one-side-of-each-or does not match the catalogue page"
+    },
+    {
+      "id": "audit-neuroscience-ba-one-side-of-each-or",
+      "owner": "lib/engine",
+      "reproduction": "After taking BISC 220Lg, CHEM 103Lgx, BUAD 310g, these alternatives are still remaining: CHEM 105aLg, PSYC 274Lg. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
+      "severity": "medium",
+      "title": "Neuroscience (BA): one-side-of-each-or does not match the catalogue page"
     },
     {
       "id": "audit-neuroscience-bs-empty",
@@ -136,10 +87,10 @@
     }
   ],
   "fingerprint": {
-    "audits": "57/65",
-    "defects": 19,
-    "plans": "8/18",
-    "treeNo": 3
+    "audits": "60/65",
+    "defects": 12,
+    "plans": "17/18",
+    "treeNo": 0
   },
   "handCheck": "not checked by a person",
   "rows": [
@@ -152,9 +103,9 @@
       "verified": "no"
     },
     {
-      "audits": "4/6",
+      "audits": "5/6",
       "handCheck": "not checked by a person",
-      "plansValid": "1/2",
+      "plansValid": "2/2",
       "program": "Computer Science/Business Administration (BS)",
       "treeMatchesGolden": "yes",
       "verified": "no"
@@ -162,7 +113,7 @@
     {
       "audits": "5/5",
       "handCheck": "not checked by a person",
-      "plansValid": "1/2",
+      "plansValid": "2/2",
       "program": "Law and Regulation of Artificial Intelligence Minor",
       "treeMatchesGolden": "yes",
       "verified": "no"
@@ -170,15 +121,15 @@
     {
       "audits": "4/5",
       "handCheck": "not checked by a person",
-      "plansValid": "0/2",
+      "plansValid": "2/2",
       "program": "Computational Neuroscience (BS)",
-      "treeMatchesGolden": "no",
+      "treeMatchesGolden": "yes",
       "verified": "no"
     },
     {
       "audits": "5/5",
       "handCheck": "not checked by a person",
-      "plansValid": "1/2",
+      "plansValid": "2/2",
       "program": "Artificial Intelligence Applications Minor",
       "treeMatchesGolden": "yes",
       "verified": "no"
@@ -186,23 +137,23 @@
     {
       "audits": "4/5",
       "handCheck": "not checked by a person",
-      "plansValid": "0/1",
+      "plansValid": "1/1",
       "program": "Neuroscience (BS)",
-      "treeMatchesGolden": "no",
+      "treeMatchesGolden": "yes",
       "verified": "no"
     },
     {
-      "audits": "5/5",
+      "audits": "4/5",
       "handCheck": "not checked by a person",
-      "plansValid": "0/1",
+      "plansValid": "1/1",
       "program": "Neuroscience (BA)",
-      "treeMatchesGolden": "no",
+      "treeMatchesGolden": "yes",
       "verified": "no"
     },
     {
-      "audits": "5/6",
+      "audits": "6/6",
       "handCheck": "not checked by a person",
-      "plansValid": "1/2",
+      "plansValid": "2/2",
       "program": "Computer Science (BS)",
       "treeMatchesGolden": "yes",
       "verified": "no"
@@ -224,7 +175,7 @@
       "verified": "no"
     },
     {
-      "audits": "4/6",
+      "audits": "5/6",
       "handCheck": "not checked by a person",
       "plansValid": "1/1",
       "program": "Computer Engineering and Computer Science (BS)",
@@ -234,7 +185,7 @@
     {
       "audits": "1/1",
       "handCheck": "not checked by a person",
-      "plansValid": "0/1",
+      "plansValid": "1/1",
       "program": "Cognitive Science (BA)",
       "treeMatchesGolden": "yes",
       "verified": "no"
@@ -248,7 +199,7 @@
       "verified": "no"
     },
     {
-      "audits": "5/6",
+      "audits": "6/6",
       "handCheck": "not checked by a person",
       "plansValid": "1/1",
       "program": "Artificial Intelligence (BS)",

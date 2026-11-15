@@ -101,7 +101,13 @@ export function checkPlan(
     }
   }
 
-  const page = expectation(program, done);
+  const unknownTerm = new Set<string>();
+  for (const assumption of plan.assumptions) {
+    if (!/term is unknown/i.test(assumption.text)) continue;
+    const named = assumption.text.match(/^([A-Z]{2,8} \d{3}[A-Za-z]*)/);
+    if (named?.[1]) unknownTerm.add(named[1]);
+  }
+  const page = expectation(program, new Set([...done, ...unknownTerm]));
   for (const code of page.mustRemain) {
     issues.push({
       kind: "incomplete",

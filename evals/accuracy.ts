@@ -107,7 +107,7 @@ function compare(program: GoldenProgram, extracted: Program): Diff {
   }
   program.nodes.forEach(prose);
   return {
-    onlyOnPage: [...onPage].filter((code) => !codes.has(code)).sort(),
+    onlyOnPage: [...onPage].filter((code) => !codes.has(code) && !substitutionLists(program).some((note) => note.codes.includes(code))).sort(),
     onlyInTree: [...codes].filter((code) => !onPage.has(code)).sort(),
     proseMissing,
   };
