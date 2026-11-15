@@ -14,7 +14,7 @@ const totals: UsageTotals = {
 
 /** Counts only. The question and the catalogue text are never written here. */
 export function recordUsage(
-  route: "career" | "chat",
+  route: "career" | "chat" | "explain",
   inputTokens: number,
   outputTokens: number,
   guardRejections: number,

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { guardOutput } from "@/lib/ai/guard";
+import { foreignProgramName, guardOutput } from "@/lib/ai/guard";
 import type { Source } from "@/lib/types";
 
 const source: Source = {
@@ -26,6 +26,14 @@ describe("output guard", () => {
     const result = guardOutput("CSCI 102L is listed for 2 units.", [fake], source.text, [source]);
     expect(result.ok).toBe(false);
     expect(result.violation).toContain("citation");
+  });
+
+  it("rejects a program name that was not supplied", () => {
+    const names = ["Computer Science (BS)", "Data Science Minor"];
+    const result = guardOutput("The Data Science Minor adds a year.", [source], source.text, [source], names);
+    expect(result.ok).toBe(false);
+    expect(result.violation).toContain("Data Science");
+    expect(foreignProgramName("Computer Science (BS) stays as listed.", "Computer Science (BS) stays as listed.", names)).toBeNull();
   });
 
   it("accepts a sentence whose codes, numbers, and citation were supplied", () => {

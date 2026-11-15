@@ -1,6 +1,10 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { CrossSchoolAlert } from "@/components/cross-school";
 import { estimatedCostLabel, indexRequirements, uniqueAssumptions, verificationLabel } from "@/components/rank-student";
-import type { AuditResult, Course, Opportunity, PolicyRule, Program, StudentRecord, TermPlan } from "@/lib/types";
+import { postOpportunity } from "@/lib/ai/opportunity";
+import { chatAnswerSchema, type AuditResult, type ChatAnswer, type Course, type Opportunity, type PolicyRule, type Program, type StudentRecord, type TermPlan } from "@/lib/types";
 
 function findCourse(courses: readonly Course[], code: string): Course | undefined {
   return courses.find((course) => course.code === code);
@@ -69,6 +73,7 @@ export function ProgramDetail({
             {estimatedCostLabel(policyRules, opportunity.extraUnits)}. {opportunity.bindingConstraint}
           </p>
         ) : null}
+        {opportunity ? <Explanation opportunity={opportunity} /> : null}
         {opportunity ? <CrossSchoolAlert item={opportunity} headingId={`detail-cross-${opportunity.programId}`} /> : null}
         {opportunity && opportunity.mode === "switch" ? (
           <>
@@ -245,5 +250,92 @@ export function ProgramDetail({
         </button>
       </p>
     </div>
+  );
+}
+
+function Explanation({ opportunity }: { opportunity: Opportunity }) {
+  const [route, setRoute] = useState<"checking" | "up" | "down">("checking");
+  const [answer, setAnswer] = useState<ChatAnswer | null>(null);
+  const [note, setNote] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    void fetch("/api/explain")
+      .then((response) => {
+        if (!cancelled) setRoute(response.status === 404 ? "down" : "up");
+      })
+      .catch(() => {
+        if (!cancelled) setRoute("down");
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  async function explain() {
+    setBusy(true);
+    setNote(null);
+    setAnswer(null);
+    try {
+      const response = await fetch("/api/explain", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ opportunity: postOpportunity(opportunity) }),
+      });
+      if (!response.ok) {
+        setNote("The explanation did not answer. The numbers above are the engine result.");
+        return;
+      }
+      const payload: unknown = await response.json();
+      const parsed = chatAnswerSchema.safeParse(payload);
+      if (!parsed.success) {
+        setNote("The explanation did not return sentences the page could show. The numbers above are the engine result.");
+        return;
+      }
+      setAnswer(parsed.data);
+    } catch {
+      setRoute("down");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <section className="card" aria-labelledby="explain-heading">
+      <h3 id="explain-heading">Explanation</h3>
+      <p className="meta">Two or three sentences from the computed result. A course, a number, or a program name that was not in that result is dropped.</p>
+      {route === "checking" ? <p role="status">Checking whether an explanation is available.</p> : null}
+      {route === "down" ? (
+        <p className="banner" role="status">
+          Explanation is unavailable. The numbers above are the engine result.
+        </p>
+      ) : null}
+      {route === "up" ? (
+        <>
+          <button type="button" onClick={() => void explain()} disabled={busy}>
+            {busy ? "Explaining…" : "Explain this result"}
+          </button>
+          {note ? <p role="status">{note}</p> : null}
+          {answer ? (
+            <div>
+              <p>{answer.text}</p>
+              {answer.fallback ? <p className="meta">Engine-only explanation.</p> : null}
+              {answer.citations.length > 0 ? (
+                <ul>
+                  {answer.citations.map((citation) => (
+                    <li key={`${citation.label}-${citation.source.url}`}>
+                      <a href={citation.source.url}>
+                        {citation.label}, {citation.source.catalogueYear}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </div>
+          ) : null}
+        </>
+      ) : null}
+    </section>
   );
 }
