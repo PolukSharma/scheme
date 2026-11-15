@@ -9,32 +9,11 @@
       "title": "Computational Neuroscience (BS): one-side-of-each-or does not match the catalogue page"
     },
     {
-      "id": "audit-computer-engineering-and-computer-science-bs-one-side-of-each-or",
-      "owner": "lib/engine",
-      "reproduction": "After taking MATH 126g, MATH 225, MATH 226g, PHYS 151Lg, PHYS 152L, CSCI 360, these alternatives are still remaining: MATH 129, EE 141L, PHYS 161Lg, PHYS 162L. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32083",
-      "severity": "medium",
-      "title": "Computer Engineering and Computer Science (BS): one-side-of-each-or does not match the catalogue page"
-    },
-    {
-      "id": "audit-computer-science-business-administration-bs-one-side-of-each-or",
-      "owner": "lib/engine",
-      "reproduction": "After taking MATH 126g, BISC 120Lg, BUAD 310g, EE 141L, BUAD 311, these alternatives are still remaining: BUAD 312g. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088",
-      "severity": "medium",
-      "title": "Computer Science/Business Administration (BS): one-side-of-each-or does not match the catalogue page"
-    },
-    {
       "id": "audit-neuroscience-ba-one-side-of-each-or",
       "owner": "lib/engine",
       "reproduction": "After taking BISC 220Lg, CHEM 103Lgx, BUAD 310g, these alternatives are still remaining: CHEM 105aLg, PSYC 274Lg. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31869",
       "severity": "medium",
       "title": "Neuroscience (BA): one-side-of-each-or does not match the catalogue page"
-    },
-    {
-      "id": "audit-neuroscience-bs-empty",
-      "owner": "lib/engine",
-      "reproduction": "None of PHYS 135aLg, PHYS 151Lg is in coursesRemaining. None of PHYS 135bL, PHYS 152L is in coursesRemaining. Page: https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31870",
-      "severity": "medium",
-      "title": "Neuroscience (BS): empty does not match the catalogue page"
     },
     {
       "id": "cross-listed-same-title",
@@ -87,8 +66,8 @@
     }
   ],
   "fingerprint": {
-    "audits": "60/65",
-    "defects": 12,
+    "audits": "63/65",
+    "defects": 9,
     "plans": "17/18",
     "treeNo": 0
   },
@@ -103,7 +82,7 @@
       "verified": "no"
     },
     {
-      "audits": "5/6",
+      "audits": "6/6",
       "handCheck": "not checked by a person",
       "plansValid": "2/2",
       "program": "Computer Science/Business Administration (BS)",
@@ -135,7 +114,7 @@
       "verified": "no"
     },
     {
-      "audits": "4/5",
+      "audits": "5/5",
       "handCheck": "not checked by a person",
       "plansValid": "1/1",
       "program": "Neuroscience (BS)",
@@ -175,7 +154,7 @@
       "verified": "no"
     },
     {
-      "audits": "5/6",
+      "audits": "6/6",
       "handCheck": "not checked by a person",
       "plansValid": "1/1",
       "program": "Computer Engineering and Computer Science (BS)",
