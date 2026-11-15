@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { parseStarsFile } from "@/lib/stars/pdf";
-import { StarsParseError } from "@/lib/stars/parse";
+import { parseStarsText, StarsParseError } from "@/lib/stars/parse";
 import type { StudentRecord } from "@/lib/types";
 
 export interface StarsDropZoneProps {
@@ -13,6 +13,19 @@ export interface StarsDropZoneProps {
 export function StarsDropZone({ onRecord, onManualEntry }: StarsDropZoneProps) {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [pasted, setPasted] = useState("");
+
+  function readPasted() {
+    setError(null);
+    try {
+      const parsed = parseStarsText(pasted);
+      setPasted("");
+      onRecord(parsed.record);
+    } catch (caught) {
+      const message = caught instanceof StarsParseError ? caught.message : "This report could not be read. Enter courses by hand.";
+      setError(message);
+    }
+  }
 
   async function readFile(file: File) {
     setBusy(true);
@@ -58,6 +71,18 @@ export function StarsDropZone({ onRecord, onManualEntry }: StarsDropZoneProps) {
       >
         Or drop the report here. It stays on this device.
       </div>
+      <label htmlFor="stars-paste">
+        Or paste the report text
+        <textarea
+          id="stars-paste"
+          value={pasted}
+          onChange={(event) => setPasted(event.target.value)}
+          disabled={busy}
+        />
+      </label>
+      <button type="button" onClick={readPasted} disabled={busy || pasted.trim().length === 0}>
+        Read pasted text
+      </button>
       {busy ? <p className="meta">Reading the report…</p> : null}
       {error ? (
         <p role="alert">

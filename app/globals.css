@@ -111,7 +111,8 @@ section {
 
 button,
 input,
-select {
+select,
+textarea {
   font: inherit;
   color: #000;
 }
@@ -173,13 +174,19 @@ label {
 }
 
 input,
-select {
+select,
+textarea {
   width: 100%;
   min-height: 44px;
   border: 1px solid #000;
   border-radius: 8px;
   padding: 8px;
   background: #fff;
+}
+
+textarea {
+  min-height: 8rem;
+  resize: vertical;
 }
 
 .meta {
