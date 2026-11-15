@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "accuracy": "tsx evals/run-accuracy.ts",
     "program-list": "tsx scripts/catalogue/program-list.ts",
     "refresh-catalogue": "tsx scripts/catalogue/refresh.ts"
   },
