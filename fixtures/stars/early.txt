@@ -1,0 +1,25 @@
+   PREPARED: 11/14/26 - 12:00
+   PROGRAM: 1001                                  CATALOG YEAR: 20263
+   STARS - DEGREE PROGRESS REPORT
+   BACHELOR OF SCIENCE
+   COMPUTER SCIENCE
+   _________________________________________________________________
+   PERTINENT DATA SECTION:
+
+   Term of USC Entrance 20253  Current Class Level First year
+
+   USC ID 1234567890
+
+   Name as it will appear on your USC Diploma:
+
+             Diploma Name Placeholder
+
+   PRIMARY POST:  DEGREE  MAJOR  UNIT  EFFECTIVE TERM
+
+       1001        BS     CSCI   ENGR       20253
+
+         20253 CSCI102  L    2.0 A     Invented fundamentals
+         20261 WRIT150       4.0 A-    Invented writing
+         20263 CSCI103  L    4.0 RG >IPInvented objects
+         20253 CSCI102  L    2.0 A     Invented fundamentals
+         99993 TRNSFR WORK   8.0 TR    Total Transfer Units
