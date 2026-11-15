@@ -249,8 +249,7 @@ function planErrors(plan: TermPlan, already: ReadonlySet<string>, cap: number): 
         continue;
       }
       if (planned.units !== course.units) errors.push(`units ${planned.code}`);
-      const irregular = course.offerings.includes("irregular") && (term.season === "fall" || term.season === "spring");
-      if (!course.offerings.includes(term.season) && !irregular) errors.push(`offering ${planned.code}`);
+      if (!course.offerings.includes(term.season)) errors.push(`offering ${planned.code}`);
       const gap = prereqGap(course.prerequisites, done, (code) => byCode.get(code)?.units ?? 0);
       if (gap.length > 0) errors.push(`prereq ${planned.code}`);
     }

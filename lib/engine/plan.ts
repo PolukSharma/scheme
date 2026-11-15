@@ -79,9 +79,12 @@ export function prereqGap(
   return best ?? [];
 }
 
-function offeredIn(course: Course, season: CalendarTerm["season"]): boolean {
-  if (course.offerings.includes(season)) return true;
-  return course.offerings.includes("irregular") && (season === "fall" || season === "spring");
+function listedSeason(course: Course, season: CalendarTerm["season"]): boolean {
+  return course.offerings.includes(season);
+}
+
+function termIsKnown(course: Course): boolean {
+  return course.offerings.some((offering) => SEASONS.has(offering));
 }
 
 function labelOf(term: CalendarTerm): string {
@@ -119,7 +122,9 @@ export interface ScheduleOutput {
 
 /**
  * Place remaining courses into terms. Prerequisites come first.
- * A corequisite shares the term or is already done. Irregular offerings use fall and spring.
+ * A corequisite shares the term or is already done.
+ * A course whose offering is irregular, or otherwise not a listed season, stays off the calendar.
+ * The plan says that term is unknown instead of choosing fall, spring, or summer.
  */
 export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
   const assumptions: Assumption[] = [];
@@ -152,14 +157,12 @@ export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
       });
       continue;
     }
-    if (course.offerings.includes("irregular")) {
-      assumptions.push({
-        ruleId: "irregular-offering",
-        text: `${code} is listed as irregular. This plan may place it in fall or spring.`,
-      });
-    }
-    if (course.offerings.every((offering) => !SEASONS.has(offering) && offering !== "irregular")) {
+    if (!termIsKnown(course)) {
       unplaced.push(code);
+      assumptions.push({
+        ruleId: "unknown-term",
+        text: `${code}'s term is unknown. The offering on file is ${course.offerings.join(", ")}, so this plan does not invent a fall, spring, or summer term.`,
+      });
       continue;
     }
     placeable.push(code);
@@ -174,7 +177,7 @@ export function scheduleRemaining(input: ScheduleInput): ScheduleOutput {
   while (left.size > 0 && idle < 24) {
     const ready = [...left].filter((code) => {
       const course = input.byCode.get(code);
-      if (!course || !offeredIn(course, cursor.season)) return false;
+      if (!course || !listedSeason(course, cursor.season)) return false;
       return prereqGap(course.prerequisites, done, (item) => input.byCode.get(item)?.units ?? 0).length === 0;
     });
     ready.sort((leftCode, rightCode) => {
