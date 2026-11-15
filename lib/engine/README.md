@@ -1,1 +1,1 @@
-Owner: Engine. Replace the stub bodies in index.ts and keep the function signatures.
+Owner: Engine. Audits, add-on and switch rankings, and term plans. No network and no model calls.
