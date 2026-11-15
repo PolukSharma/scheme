@@ -29,6 +29,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <footer className="colophon wrap no-print">
           <p>
+            STARS remains the official audit. <SchemeWord /> supports an advisor and does not replace one. A report is
+            parsed in your browser session and nothing is stored. Degree dates and the official record are in My Academics
+            on <a href="https://experience.usc.edu">Experience USC</a>.
+          </p>
+          <p>
             <Link href="/accuracy">Accuracy</Link>
           </p>
         </footer>

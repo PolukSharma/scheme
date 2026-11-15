@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { advisorQuestions, chatRequestBody, filterByKind, rankStudent, verificationLabel } from "@/components/rank-student";
+import { advisorQuestions, chatRequestBody, estimatedCostLabel, filterByKind, narrowResults, rankStudent, verificationLabel } from "@/components/rank-student";
 import type { Course, PolicyRule, Program, StudentRecord, TransferRule } from "@/lib/types";
 
 function loadJson<T>(path: string): T {
@@ -44,6 +44,54 @@ describe("web rankings", () => {
     expect(body.courses.every((course) => !("grade" in course))).toBe(true);
     expect(body.programIds).toEqual(student.declaredProgramIds);
     expect(body.startTerm).toBe(student.startTerm);
+  });
+
+  it("leaves estimated cost unset until a confirmed rule quotes tuition", () => {
+    expect(estimatedCostLabel(rules, 12)).toBe("Not estimated");
+    const source = rules[0]?.source;
+    if (!source) throw new Error("missing policy source");
+    expect(
+      estimatedCostLabel(
+        [
+          {
+            id: "tuition-per-unit",
+            name: "Tuition per unit",
+            summary: "Synthetic per-unit tuition quoted for this test.",
+            value: 100,
+            source,
+            confirmed: true,
+          },
+        ],
+        3,
+      ),
+    ).toBe("$300");
+    expect(
+      estimatedCostLabel(
+        [
+          {
+            id: "tuition-band",
+            name: "Tuition band",
+            summary: "The figure is not confirmed.",
+            value: null,
+            source,
+            confirmed: false,
+          },
+        ],
+        3,
+      ),
+    ).toBe("Not estimated");
+  });
+
+  it("filters a ranking by type, school, and verification", () => {
+    const student = students[0];
+    if (!student) throw new Error("missing sample");
+    const ranking = rankStudent(student, programs, courses, rules, transfers);
+    const minors = narrowResults(ranking.addOns, programs, { kind: "minor", school: "all", verification: "unverified" });
+    expect(minors.length).toBeGreaterThan(0);
+    expect(minors.every((row) => !row.verified)).toBe(true);
+    expect(minors.every((row) => programs.find((program) => program.id === row.programId)?.kind === "minor")).toBe(true);
+    expect(narrowResults(ranking.addOns, programs, { kind: "all", school: "No Such School", verification: "all" })).toEqual([]);
+    expect(filterByKind(ranking.addOns, programs, "all")).toEqual(ranking.addOns);
   });
 
   it("asks the advisor about unverified items and does not treat a cross-school page as admission", () => {

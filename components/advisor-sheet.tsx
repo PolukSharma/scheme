@@ -1,7 +1,7 @@
 import type { Ref } from "react";
-import { advisorQuestions, indexRequirements, uniqueAssumptions, verificationLabel } from "@/components/rank-student";
+import { advisorQuestions, estimatedCostLabel, indexRequirements, uniqueAssumptions, verificationLabel } from "@/components/rank-student";
 import { SchemeWord } from "@/components/scheme-word";
-import type { AuditResult, Opportunity, Program, RequirementNode, StudentRecord, TermPlan } from "@/lib/types";
+import type { AuditResult, Course, Opportunity, PolicyRule, Program, RequirementNode, StudentRecord, TermPlan } from "@/lib/types";
 
 function courseList(codes: readonly string[]): string {
   if (codes.length === 0) return "None";
@@ -28,6 +28,8 @@ export function AdvisorSheet({
   program,
   audit,
   plan,
+  courses,
+  policyRules,
   name,
   headingRef,
 }: {
@@ -37,6 +39,8 @@ export function AdvisorSheet({
   program: Program;
   audit: AuditResult;
   plan: TermPlan;
+  courses: readonly Course[];
+  policyRules: readonly PolicyRule[];
   name: string;
   headingRef?: Ref<HTMLHeadingElement>;
 }) {
@@ -50,6 +54,13 @@ export function AdvisorSheet({
     assumptionCount: assumptions.length,
   });
   const typedName = name.trim();
+  const countedCodes = [
+    ...new Set(opportunity?.coursesThatCount ?? audit.requirements.flatMap((item) => item.appliedCourses)),
+  ].filter((code) => {
+    const onRecord = student.courses.find((course) => course.code === code);
+    return onRecord !== undefined && onRecord.status !== "in_progress";
+  });
+  const remainingCodes = [...new Set(opportunity?.remainingCourses ?? audit.coursesRemaining)];
 
   return (
     <article className="advisor-sheet">
@@ -83,7 +94,8 @@ export function AdvisorSheet({
         </p>
       )}
       <p>{opportunity ? opportunity.bindingConstraint : "No add-on or switch is selected. This copy is the current major."}</p>
-      <h2>Plan by term</h2>
+      <p>Estimated cost: {opportunity ? estimatedCostLabel(policyRules, opportunity.extraUnits) : "Not estimated"}.</p>
+      <h2>Term-by-term plan</h2>
       {plan.terms.length === 0 ? <p>The engine plan has no further terms.</p> : null}
       <ol>
         {plan.terms.map((term) => (
@@ -99,8 +111,47 @@ export function AdvisorSheet({
           </li>
         ))}
       </ol>
-      <h2>Courses that count</h2>
-      <p>{courseList(opportunity?.coursesThatCount ?? audit.requirements.flatMap((item) => item.appliedCourses))}</p>
+      <h2>Why this counts</h2>
+      {countedCodes.length === 0 ? <p>No completed course on this record counts toward this program yet.</p> : (
+        <ul>
+          {countedCodes.map((code) => {
+            const course = courses.find((item) => item.code === code);
+            return (
+              <li key={code}>
+                {code}
+                {course ? ` ${course.title}` : ""} counts toward {program.name}.
+                {course ? (
+                  <>
+                    {" "}
+                    <a href={course.source.url}>Catalogue, {course.source.catalogueYear}</a>
+                  </>
+                ) : (
+                  " This course is not in the course list."
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+      <h2>Still to take</h2>
+      {remainingCodes.length === 0 ? <p>No courses remain on this path.</p> : (
+        <ul>
+          {remainingCodes.map((code) => {
+            const course = courses.find((item) => item.code === code);
+            return (
+              <li key={code}>
+                {course ? (
+                  <a href={course.source.url}>
+                    {code} {course.title}, Catalogue {course.source.catalogueYear}
+                  </a>
+                ) : (
+                  `${code}. This course is not in the course list.`
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
       {opportunity && opportunity.coursesThatStopCounting.length > 0 ? (
         <p>Would stop counting: {courseList(opportunity.coursesThatStopCounting)}</p>
       ) : null}
@@ -165,7 +216,7 @@ export function AdvisorSheet({
           <li key={question}>{question}</li>
         ))}
       </ol>
-      <p>STARS remains the official audit.</p>
+      <p>STARS remains the official audit. Degree dates are changed in My Academics on <a href="https://experience.usc.edu">Experience USC</a>.</p>
     </article>
   );
 }
