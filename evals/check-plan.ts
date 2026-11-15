@@ -1,151 +1,124 @@
 /**
- * Independent checks on a term plan. Does not import lib/engine.
+ * Independent plan checker. It does not call the engine's scheduler.
+ * A plan is valid when prerequisites are already done, each course sits in a
+ * term the catalogue lists for it, no term passes the cap the plan itself
+ * claims, and every course this page requires is on the record or the plan.
  */
 
-import type { Course, PrerequisiteExpr, StudentCourse, TermPlan } from "@/lib/types";
+import type { Course, PrerequisiteExpr, StudentCourse, StudentRecord, TermPlan } from "@/lib/types";
+import type { GoldenProgram } from "./read-page";
+import { expectation } from "./expect";
 
-export interface PlanFault {
-  kind: string;
+export interface PlanIssue {
+  kind: "cap" | "offering" | "prerequisite" | "repeat" | "incomplete" | "units";
   detail: string;
 }
 
-interface Dated {
-  year: number;
-  season: "fall" | "spring" | "summer";
+function counts(course: StudentCourse): boolean {
+  if (course.status === "in_progress") return true;
+  return course.grade !== "F";
 }
 
-function parseTerm(value: string | null): Dated | null {
-  if (!value) return null;
-  const match = /^(\d{4})-(fall|spring|summer)$/.exec(value);
-  if (!match) return null;
-  return { year: Number(match[1]), season: match[2] as Dated["season"] };
+function claimedCap(plan: TermPlan): number {
+  for (const assumption of plan.assumptions) {
+    const found = assumption.text.match(/uses (\d+) units/);
+    if (found?.[1]) return Number(found[1]);
+  }
+  return 18;
 }
 
-function key(term: Dated): number {
-  if (term.season === "fall") return term.year * 3;
-  if (term.season === "spring") return term.year * 3 + 1;
-  return term.year * 3 + 2;
-}
-
-function next(term: Dated): Dated {
-  if (term.season === "fall") return { season: "spring", year: term.year + 1 };
-  if (term.season === "spring") return { season: "summer", year: term.year };
-  return { season: "fall", year: term.year };
-}
-
-function prereqMet(expr: PrerequisiteExpr | null, done: ReadonlySet<string>): boolean {
+function prerequisiteHolds(expr: PrerequisiteExpr | null, done: ReadonlySet<string>): boolean {
   if (!expr) return true;
   if (expr.type === "course") return done.has(expr.code);
-  if (expr.type === "all_of") return expr.children.every((child) => prereqMet(child, done));
-  const ready = expr.children.filter((child) => prereqMet(child, done)).length;
+  if (expr.type === "all_of") return expr.children.every((child) => prerequisiteHolds(child, done));
+  const ready = expr.children.filter((child) => prerequisiteHolds(child, done)).length;
   return ready >= expr.minCount;
 }
 
-function offered(course: Course, season: Dated["season"]): boolean {
-  return course.offerings.includes(season);
+function missingPrerequisite(expr: PrerequisiteExpr | null, done: ReadonlySet<string>): string | null {
+  if (!expr || prerequisiteHolds(expr, done)) return null;
+  if (expr.type === "course") return expr.code;
+  if (expr.type === "all_of") {
+    return expr.children.map((child) => missingPrerequisite(child, done)).find((code) => code !== null) ?? "a prerequisite";
+  }
+  return `${expr.minCount} of ${expr.children.length} prerequisites`;
 }
 
-export function checkPlan(input: {
-  plan: TermPlan;
-  courses: readonly Course[];
-  studentCourses: readonly StudentCourse[];
-  /** Courses the hand rules still need, ignoring the plan. */
-  stillNeeded: readonly string[];
-  /** Zero-unit codes the plan may leave off when an assumption names them. */
-  assumptionText: string;
-}): PlanFault[] {
-  const faults: PlanFault[] = [];
-  const byCode = new Map(input.courses.map((course) => [course.code, course]));
-  const seen = new Set<string>();
-  let sum = 0;
-  let previous: Dated | null = null;
-  const done = new Set(
-    input.studentCourses.filter((course) => course.status === "in_progress" || (course.grade !== "F" && course.grade !== null)).map((course) => course.code),
-  );
+export function checkPlan(
+  plan: TermPlan,
+  student: StudentRecord,
+  courses: readonly Course[],
+  program: GoldenProgram,
+): PlanIssue[] {
+  const issues: PlanIssue[] = [];
+  const byCode = new Map(courses.map((course) => [course.code, course]));
+  const cap = claimedCap(plan);
+  const already = new Set(student.courses.filter(counts).map((course) => course.code));
+  const done = new Set(already);
 
-  let latest: Dated | null = null;
-  for (const course of input.studentCourses) {
-    const parsed = parseTerm(course.term);
-    if (parsed && (!latest || key(parsed) > key(latest))) latest = parsed;
-  }
-  const earliest = latest ? next(latest) : null;
-
-  for (const term of input.plan.terms) {
-    const dated = { year: term.year, season: term.season };
-    if (previous && key(dated) <= key(previous)) {
-      faults.push({ kind: "term-order", detail: `${term.label} is not after the previous term.` });
+  for (const term of plan.terms) {
+    const listed = term.courses.reduce((sum, course) => sum + course.units, 0);
+    if (Math.abs(listed - term.units) > 0.05) {
+      issues.push({
+        kind: "units",
+        detail: `${term.label} says ${term.units} units and the courses on it add to ${listed}.`,
+      });
     }
-    if (earliest && key(dated) < key(earliest)) {
-      faults.push({ kind: "term-order", detail: `${term.label} starts before the student's latest dated course.` });
+    if (term.units > cap) {
+      issues.push({
+        kind: "cap",
+        detail: `${term.label} has ${term.units} units. The plan's own assumption uses ${cap} units, the recommended maximum while the hard cap is unconfirmed.`,
+      });
     }
-    previous = dated;
-    const termUnits = term.courses.reduce((total, course) => total + course.units, 0);
-    if (termUnits !== term.units) {
-      faults.push({ kind: "term-units", detail: `${term.label} lists ${termUnits} units and records ${term.units}.` });
-    }
-    if (term.units > 18) {
-      faults.push({ kind: "unit-cap", detail: `${term.label} has ${term.units} units. The confirmed recommended maximum is 18.` });
-    }
-    sum += term.units;
     for (const planned of term.courses) {
-      if (seen.has(planned.code)) faults.push({ kind: "duplicate", detail: `${planned.code} is planned more than once.` });
-      seen.add(planned.code);
+      if (done.has(planned.code)) {
+        issues.push({
+          kind: "repeat",
+          detail: `${planned.code} is placed in ${term.label} after it is already on the record or earlier in the plan.`,
+        });
+      }
       const course = byCode.get(planned.code);
       if (!course) {
-        faults.push({ kind: "missing-course", detail: `${planned.code} is not in the course catalogue.` });
-        continue;
-      }
-      if (planned.units !== course.units) {
-        faults.push({
-          kind: "variable-units",
-          detail: `${planned.code} is planned as ${planned.units} units. The course file records ${course.units}.`,
+        issues.push({
+          kind: "offering",
+          detail: `${planned.code} is on the plan and is not in the course catalogue, so no term offering is on file.`,
+        });
+      } else if (!course.offerings.includes(term.season)) {
+        const printed = course.offerings.join(", ");
+        issues.push({
+          kind: "offering",
+          detail: `${planned.code} is placed in ${term.label}. The course page lists ${printed}. ${printed === "irregular" ? "No typical term is printed." : "That season is not one of them."}`,
         });
       }
-      if (!offered(course, term.season)) {
-        const unconfirmed = course.offerings.length === 1 && course.offerings[0] === "irregular";
-        faults.push({
-          kind: unconfirmed ? "unconfirmed-offering" : "not-offered",
-          detail: unconfirmed
-            ? `${planned.code} has no printed term. The plan places it in ${term.label}.`
-            : `${planned.code} is not offered in ${term.season}. The course file lists ${course.offerings.join(", ")}.`,
-        });
-      } else if (course.offerings.includes("irregular") && course.source.text.includes("not printed")) {
-        faults.push({
-          kind: "unconfirmed-offering",
-          detail: `${planned.code} has no printed term. The plan places it in ${term.label}.`,
-        });
-      }
-      if (!prereqMet(course.prerequisites, done)) {
-        faults.push({ kind: "prerequisite", detail: `${planned.code} is placed in ${term.label} before a parsed prerequisite is done.` });
-      }
-      for (const coreq of course.corequisites) {
-        const same = term.courses.some((item) => item.code === coreq);
-        if (!same && !done.has(coreq)) {
-          faults.push({ kind: "corequisite", detail: `${planned.code} needs ${coreq} in ${term.label} or earlier.` });
-        }
-      }
-      if (course.prerequisites === null && course.source.text.includes("did not become a complete boolean tree")) {
-        faults.push({
-          kind: "unparsed-prerequisite",
-          detail: `${planned.code} is planned, and its prerequisite sentence was not stored as a tree.`,
+      const gap = course ? missingPrerequisite(course.prerequisites, done) : null;
+      if (gap) {
+        issues.push({
+          kind: "prerequisite",
+          detail: `${planned.code} is placed in ${term.label} before ${gap} is done.`,
         });
       }
       done.add(planned.code);
     }
   }
-  if (sum !== input.plan.totalUnits) {
-    faults.push({ kind: "total-units", detail: `The terms sum to ${sum} and the plan records ${input.plan.totalUnits}.` });
+
+  const unknownTerm = new Set<string>();
+  for (const assumption of plan.assumptions) {
+    if (!/term is unknown/i.test(assumption.text)) continue;
+    const named = assumption.text.match(/^([A-Z]{2,8} \d{3}[A-Za-z]*)/);
+    if (named?.[1]) unknownTerm.add(named[1]);
   }
-  for (const code of input.stillNeeded) {
-    if (seen.has(code)) continue;
-    const course = byCode.get(code);
-    if (course && course.units === 0 && input.assumptionText.includes(code)) continue;
-    const attempt = input.studentCourses.find((row) => row.code === code && row.status === "in_progress");
-    if (attempt) {
-      faults.push({ kind: "in-progress-omitted", detail: `${code} is in progress and is not on the plan.` });
-      continue;
-    }
-    faults.push({ kind: "not-planned", detail: `${code} is still required and is not on the plan.` });
+  const page = expectation(program, new Set([...done, ...unknownTerm]));
+  for (const code of page.mustRemain) {
+    issues.push({
+      kind: "incomplete",
+      detail: `${code} is required on ${program.url} and is neither done nor on the plan. ${page.working[0] ?? ""}`.trim(),
+    });
   }
-  return faults;
+  for (const group of page.oneOf) {
+    issues.push({
+      kind: "incomplete",
+      detail: `None of ${group.join(", ")} is done or on the plan. The page requires one of them.`,
+    });
+  }
+  return issues;
 }

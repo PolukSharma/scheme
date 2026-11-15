@@ -1,8 +1,9 @@
 /**
  * CI regression runner for the hand audits.
  *
- * `npm run accuracy` rewrites evals/accuracy.json, evals/REPORT.md, and the
- * pitch table. `npm run accuracy -- --check` fails when those files would change.
+ * `npm run hand-accuracy` rewrites evals/hand-accuracy.json, evals/REPORT.md, and the
+ * pitch table. `npm run hand-accuracy -- --check` fails when those files would change.
+ * `npm run accuracy` is the separate catalogue-diff runner and owns evals/accuracy.json.
  * The engine is called and not modified.
  */
 
@@ -11,7 +12,7 @@ import { join } from "node:path";
 import { audit, planTerms } from "@/lib/engine";
 import type { Course, PolicyRule, Program, RequirementNode, StudentCourse, StudentRecord } from "@/lib/types";
 import { forcedCodes, type Atom } from "./atoms";
-import { checkPlan } from "./check-plan";
+import { checkPlan } from "./hand-plan";
 import { handProgram } from "./hand-rules";
 import { loadTierPages } from "./page-tree";
 import {
@@ -569,7 +570,7 @@ function markdown(report: Report): string {
     "",
     "## Defects",
     "",
-    "Ranked by how far a remaining list or a plan can move a student off the catalogue. Reproduce with `npm run accuracy`.",
+    "Ranked by how far a remaining list or a plan can move a student off the catalogue. Reproduce with `npm run hand-accuracy`.",
     "",
     ...report.defects.flatMap((defect) => [
       `### ${defect.rank}. ${defect.summary}`,
@@ -619,7 +620,7 @@ function pitch(report: Report): string {
 
 function writeReport(check: boolean): void {
   const report = buildReport();
-  const accuracyPath = join(root, "evals/accuracy.json");
+  const accuracyPath = join(root, "evals/hand-accuracy.json");
   const reportPath = join(root, "evals/REPORT.md");
   const pitchPath = join(root, "docs/submission/pitch.md");
   const accuracy = `${JSON.stringify(report.rows, null, 2)}\n`;
@@ -631,7 +632,7 @@ function writeReport(check: boolean): void {
       readFileSync(reportPath, "utf8") === body &&
       readFileSync(pitchPath, "utf8") === pitchBody;
     if (!same) {
-      throw new Error("evals/accuracy.json, evals/REPORT.md, or docs/submission/pitch.md is stale. Run npm run accuracy.");
+      throw new Error("evals/hand-accuracy.json, evals/REPORT.md, or docs/submission/pitch.md is stale. Run npm run hand-accuracy.");
     }
     return;
   }

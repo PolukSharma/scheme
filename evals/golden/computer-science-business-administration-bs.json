@@ -1,0 +1,681 @@
+{
+  "catalogueYear": "2026-2027",
+  "degreeSentence": "128 units",
+  "gradeCodes": [
+    "CSCI 102L",
+    "CSCI 103",
+    "CSCI 170",
+    "CSCI 104",
+    "CSCI 201"
+  ],
+  "gradeSentence": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 .",
+  "id": "computer-science-business-administration-bs",
+  "kind": "major",
+  "name": "Computer Science/Business Administration (BS)",
+  "nodes": [
+    {
+      "children": [],
+      "heading": "Composition/Writing Requirements (8 Units)",
+      "minCount": null,
+      "minUnits": 8,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "WRIT 150",
+              "line": "WRIT 150 Writing and Critical Reasoning–Thematic Approaches Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "WRIT 340",
+              "line": "WRIT 340 Advanced Writing and Critical Engagement Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Composition/Writing Requirements (8 Units)",
+      "rule": "all",
+      "statedMax": 8,
+      "statedMin": 8,
+      "statedUnits": 8
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "General Education Units: 24",
+          "minCount": null,
+          "minUnits": null,
+          "picks": [],
+          "quote": "General Education Units: 24",
+          "rule": "prose",
+          "statedMax": null,
+          "statedMin": null,
+          "statedUnits": null
+        }
+      ],
+      "heading": "General Education (24 Units)",
+      "minCount": null,
+      "minUnits": 24,
+      "picks": [],
+      "quote": "General Education (24 Units)",
+      "rule": "all",
+      "statedMax": 24,
+      "statedMin": 24,
+      "statedUnits": 24
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "Engineering (2 units)",
+          "minCount": null,
+          "minUnits": 2,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "ENGR 102",
+                  "line": "ENGR 102 Viterbi First-Year Academy Units: 2",
+                  "unitChoices": [
+                    2
+                  ],
+                  "units": 2
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Engineering (2 units)",
+          "rule": "all",
+          "statedMax": 2,
+          "statedMin": 2,
+          "statedUnits": 2
+        },
+        {
+          "children": [],
+          "heading": "Mathematics (8 units)",
+          "minCount": null,
+          "minUnits": 8,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "MATH 125g",
+                  "line": "MATH 125g Calculus I Units: 4 **",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "MATH 126g",
+                    "line": "MATH 126g Calculus II Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 129",
+                    "line": "MATH 129 Calculus II for Engineers and Scientists Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Mathematics (8 units)",
+          "rule": "all",
+          "statedMax": 8,
+          "statedMin": 8,
+          "statedUnits": 8
+        },
+        {
+          "children": [],
+          "heading": "Basic Science (4 units)",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "BISC 120Lg",
+                    "line": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BISC 121Lg",
+                    "line": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 105aLg",
+                    "line": "CHEM 105aLg General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 115aLg",
+                    "line": "CHEM 115aLg Advanced General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 151Lg",
+                    "line": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 161Lg",
+                    "line": "PHYS 161Lg Advanced Principles of Physics I Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Basic Science (4 units)",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        }
+      ],
+      "heading": "Pre-Major Requirements (14 Units)",
+      "minCount": null,
+      "minUnits": 14,
+      "picks": [],
+      "quote": "Pre-Major Requirements (14 Units)",
+      "rule": "all",
+      "statedMax": 14,
+      "statedMin": 14,
+      "statedUnits": 14
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "Statistics and Probability (4 units)",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "BUAD 310g",
+                    "line": "BUAD 310g Applied Business Statistics Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BUAD 312g",
+                    "line": "BUAD 312g Statistics and Data Science for Business Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "EE 364",
+                    "line": "EE 364 Probability and Statistics for Engineers and Computer Scientists Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 407",
+                    "line": "MATH 407 Probability Theory Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Statistics and Probability (4 units)",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Linear Algebra (4 units)",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "EE 141L",
+                    "line": "EE 141L Applied Linear Algebra for Engineering Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 225",
+                    "line": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 235",
+                    "line": "MATH 235 Linear Algebra and Applications Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Linear Algebra (4 units)",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Computer Science Requirements (30 units)",
+          "minCount": null,
+          "minUnits": 30,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "CSCI 102L",
+                  "line": "CSCI 102L Introduction to Programming Units: 2",
+                  "unitChoices": [
+                    2
+                  ],
+                  "units": 2
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 103L",
+                  "line": "CSCI 103L Object Oriented Programming Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 104L",
+                  "line": "CSCI 104L Data Structures Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 170",
+                  "line": "CSCI 170 Discrete Methods in Computer Science Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 201",
+                  "line": "CSCI 201 Principles of Software Development Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 270",
+                  "line": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 310",
+                  "line": "CSCI 310 Software Engineering Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 401",
+                  "line": "CSCI 401 Capstone: Design and Construction of Large Software Systems Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Computer Science Requirements (30 units)",
+          "rule": "all",
+          "statedMax": 30,
+          "statedMin": 30,
+          "statedUnits": 30
+        },
+        {
+          "children": [],
+          "heading": "Business Requirements (36 units)",
+          "minCount": null,
+          "minUnits": 36,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "ACCT 410x",
+                  "line": "ACCT 410x Foundations of Accounting Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "BUAD 302",
+                  "line": "BUAD 302 Communication Strategy in Business Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "BUAD 304",
+                  "line": "BUAD 304 Organizational Behavior and Leadership Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "BUAD 306",
+                  "line": "BUAD 306 Business Finance Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "BUAD 307",
+                  "line": "BUAD 307 Marketing Fundamentals Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "BUAD 311",
+                    "line": "BUAD 311 Operations Management Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BUAD 313",
+                    "line": "BUAD 313 Advanced Operations Management and Analytics Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [
+                {
+                  "code": "BUAD 497",
+                  "line": "BUAD 497 Strategic Management Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "ECON 351x",
+                  "line": "ECON 351x Microeconomics for Business Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "ECON 352x",
+                  "line": "ECON 352x Macroeconomics for Business Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Business Requirements (36 units)",
+          "rule": "all",
+          "statedMax": 36,
+          "statedMin": 36,
+          "statedUnits": 36
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "heading": "Computer Science Elective",
+              "minCount": 1,
+              "minUnits": null,
+              "picks": [],
+              "quote": "Computer Science Elective Take at least one 4-unit 300- or 400-level CSCI course.",
+              "rule": "prose",
+              "statedMax": null,
+              "statedMin": null,
+              "statedUnits": null
+            },
+            {
+              "children": [],
+              "heading": "Business Elective(s)",
+              "minCount": 4,
+              "minUnits": null,
+              "picks": [],
+              "quote": "Business Elective(s) Take at least four units of 300- or 400-level courses offered by the Marshall School, specifically with a prefix of ACCT, BAEP, BUCO, BUAD, DSO, FBE, MKT, MOR or RISK, and selected in consultation with an adviser.",
+              "rule": "prose",
+              "statedMax": null,
+              "statedMin": null,
+              "statedUnits": null
+            }
+          ],
+          "heading": "Technical Electives (8 units)",
+          "minCount": null,
+          "minUnits": 8,
+          "picks": [],
+          "quote": "Technical Electives (8 units) Students must take one 4-unit course from the Computer Science selection and 4 units from the Business selection.",
+          "rule": "all",
+          "statedMax": 8,
+          "statedMin": 8,
+          "statedUnits": 8
+        }
+      ],
+      "heading": "Major Requirements (82 Units)",
+      "minCount": null,
+      "minUnits": 82,
+      "picks": [],
+      "quote": "Major Requirements (82 Units)",
+      "rule": "all",
+      "statedMax": 82,
+      "statedMin": 82,
+      "statedUnits": 82
+    },
+    {
+      "children": [],
+      "heading": "Practicum (0 units)",
+      "minCount": null,
+      "minUnits": 0,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "ENGR 495",
+              "line": "ENGR 495 Practicum Units: 0",
+              "unitChoices": [
+                0
+              ],
+              "units": 0
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Practicum (0 units)",
+      "rule": "all",
+      "statedMax": 0,
+      "statedMin": 0,
+      "statedUnits": 0
+    },
+    {
+      "children": [],
+      "heading": "Total units: 128",
+      "minCount": null,
+      "minUnits": 128,
+      "picks": [],
+      "quote": "Total units: 128 *WRIT 340 Advanced Writing (Communication for Engineers) is strongly recommended for CSBA majors. **Satisfies GE requirement.",
+      "rule": "total",
+      "statedMax": 128,
+      "statedMin": 128,
+      "statedUnits": 128
+    }
+  ],
+  "school": "USC Viterbi School of Engineering",
+  "sourceFile": "data/raw/2026-2027/catalogue_usc_edu_preview_program_php_catoid_22_poid_32088.html",
+  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32088"
+}

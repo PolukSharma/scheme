@@ -1,0 +1,122 @@
+[
+  {
+    "program": "Computer Science/Business Administration (BS)",
+    "checks": 16,
+    "passed": 9,
+    "accuracy": "56%",
+    "invented": 0,
+    "choiceLeaks": 1,
+    "gradeFaults": 0,
+    "planFaults": 7
+  },
+  {
+    "program": "Law and Regulation of Artificial Intelligence Minor",
+    "checks": 10,
+    "passed": 8,
+    "accuracy": "80%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 0,
+    "planFaults": 2
+  },
+  {
+    "program": "Computational Neuroscience (BS)",
+    "checks": 14,
+    "passed": 7,
+    "accuracy": "50%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 1,
+    "planFaults": 2
+  },
+  {
+    "program": "Artificial Intelligence Applications Minor",
+    "checks": 10,
+    "passed": 10,
+    "accuracy": "100%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 0,
+    "planFaults": 0
+  },
+  {
+    "program": "Neuroscience (BS)",
+    "checks": 11,
+    "passed": 5,
+    "accuracy": "45%",
+    "invented": 0,
+    "choiceLeaks": 1,
+    "gradeFaults": 1,
+    "planFaults": 2
+  },
+  {
+    "program": "Computer Science (BS)",
+    "checks": 17,
+    "passed": 9,
+    "accuracy": "53%",
+    "invented": 0,
+    "choiceLeaks": 1,
+    "gradeFaults": 0,
+    "planFaults": 5
+  },
+  {
+    "program": "Quantitative Biology (BS)",
+    "checks": 8,
+    "passed": 5,
+    "accuracy": "63%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 0,
+    "planFaults": 3
+  },
+  {
+    "program": "Biological Sciences (BA)",
+    "checks": 11,
+    "passed": 8,
+    "accuracy": "73%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 1,
+    "planFaults": 2
+  },
+  {
+    "program": "Computer Engineering and Computer Science (BS)",
+    "checks": 14,
+    "passed": 7,
+    "accuracy": "50%",
+    "invented": 0,
+    "choiceLeaks": 1,
+    "gradeFaults": 0,
+    "planFaults": 5
+  },
+  {
+    "program": "Cognitive Science (BA)",
+    "checks": 8,
+    "passed": 6,
+    "accuracy": "75%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 0,
+    "planFaults": 2
+  },
+  {
+    "program": "Applied and Computational Mathematics (BA)",
+    "checks": 13,
+    "passed": 9,
+    "accuracy": "69%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 1,
+    "planFaults": 1
+  },
+  {
+    "program": "Artificial Intelligence (BS)",
+    "checks": 14,
+    "passed": 9,
+    "accuracy": "64%",
+    "invented": 0,
+    "choiceLeaks": 0,
+    "gradeFaults": 0,
+    "planFaults": 5
+  }
+]

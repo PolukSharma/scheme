@@ -1,0 +1,1423 @@
+{
+  "catalogueYear": "2026-2027",
+  "degreeSentence": null,
+  "gradeCodes": [],
+  "gradeSentence": null,
+  "id": "quantitative-biology-bs",
+  "kind": "major",
+  "name": "Quantitative Biology (BS)",
+  "nodes": [
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "Required Introductory Course (2 units)",
+          "minCount": null,
+          "minUnits": 2,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "QBIO 105",
+                  "line": "QBIO 105 Introduction to Quantitative Biology Seminar Units: 2",
+                  "unitChoices": [
+                    2
+                  ],
+                  "units": 2
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Required Introductory Course (2 units)",
+          "rule": "all",
+          "statedMax": 2,
+          "statedMin": 2,
+          "statedUnits": 2
+        },
+        {
+          "children": [],
+          "heading": "Required Foundational Science Courses (24 units)",
+          "minCount": null,
+          "minUnits": 24,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "BISC 120Lg",
+                    "line": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BISC 121Lg",
+                    "line": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "BISC 220Lg",
+                    "line": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BISC 221Lg",
+                    "line": "BISC 221Lg Advanced General Biology: Cell Biology and Physiology Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "CHEM 105aLg",
+                    "line": "CHEM 105aLg General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 115aLg",
+                    "line": "CHEM 115aLg Advanced General Chemistry Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [
+                {
+                  "code": "MATH 125g",
+                  "line": "MATH 125g Calculus I Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "PHYS 135aLg",
+                    "line": "PHYS 135aLg Physics for the Life Sciences Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 151Lg",
+                    "line": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 161Lg",
+                    "line": "PHYS 161Lg Advanced Principles of Physics I Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 171Lg",
+                    "line": "PHYS 171Lg Applied Physics I: Mechanics Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "QBIO 310",
+                    "line": "QBIO 310 Statistical Thinking for Quantitative Biology Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 307",
+                    "line": "MATH 307 Statistical Inference and Data Analysis I Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Required Foundational Science Courses (24 units)",
+          "rule": "all",
+          "statedMax": 24,
+          "statedMin": 24,
+          "statedUnits": 24
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "heading": "1.",
+              "minCount": null,
+              "minUnits": null,
+              "picks": [
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 103L",
+                      "line": "CSCI 103L Object Oriented Programming Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                },
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 104L",
+                      "line": "CSCI 104L Data Structures Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                },
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 170",
+                      "line": "CSCI 170 Discrete Methods in Computer Science Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                }
+              ],
+              "quote": "1.",
+              "rule": "all",
+              "statedMax": null,
+              "statedMin": null,
+              "statedUnits": null
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "heading": "And one from:",
+                  "minCount": 1,
+                  "minUnits": null,
+                  "picks": [
+                    {
+                      "all": [
+                        {
+                          "code": "QBIO 401",
+                          "line": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4",
+                          "unitChoices": [
+                            4
+                          ],
+                          "units": 4
+                        }
+                      ],
+                      "oneOf": []
+                    },
+                    {
+                      "all": [
+                        {
+                          "code": "QBIO 460",
+                          "line": "QBIO 460 Introduction to Machine Learning in Biology Units: 4",
+                          "unitChoices": [
+                            4
+                          ],
+                          "units": 4
+                        }
+                      ],
+                      "oneOf": []
+                    },
+                    {
+                      "all": [
+                        {
+                          "code": "QBIO 465",
+                          "line": "QBIO 465 Artificial Intelligence in Biology and Medicine Units: 4",
+                          "unitChoices": [
+                            4
+                          ],
+                          "units": 4
+                        }
+                      ],
+                      "oneOf": []
+                    }
+                  ],
+                  "quote": "And one from:",
+                  "rule": "one",
+                  "statedMax": null,
+                  "statedMin": null,
+                  "statedUnits": null
+                }
+              ],
+              "heading": "2.",
+              "minCount": null,
+              "minUnits": null,
+              "picks": [
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 113x",
+                      "line": "CSCI 113x Programming Fundamentals for Computing Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                },
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 114x",
+                      "line": "CSCI 114x Programming for Applications of Computing Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                }
+              ],
+              "quote": "2.",
+              "rule": "all",
+              "statedMax": null,
+              "statedMin": null,
+              "statedUnits": null
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "heading": "And one from:",
+                  "minCount": 1,
+                  "minUnits": null,
+                  "picks": [
+                    {
+                      "all": [
+                        {
+                          "code": "QBIO 401",
+                          "line": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4",
+                          "unitChoices": [
+                            4
+                          ],
+                          "units": 4
+                        }
+                      ],
+                      "oneOf": []
+                    },
+                    {
+                      "all": [
+                        {
+                          "code": "QBIO 460",
+                          "line": "QBIO 460 Introduction to Machine Learning in Biology Units: 4",
+                          "unitChoices": [
+                            4
+                          ],
+                          "units": 4
+                        }
+                      ],
+                      "oneOf": []
+                    },
+                    {
+                      "all": [
+                        {
+                          "code": "QBIO 465",
+                          "line": "QBIO 465 Artificial Intelligence in Biology and Medicine Units: 4",
+                          "unitChoices": [
+                            4
+                          ],
+                          "units": 4
+                        }
+                      ],
+                      "oneOf": []
+                    }
+                  ],
+                  "quote": "And one from:",
+                  "rule": "one",
+                  "statedMax": null,
+                  "statedMin": null,
+                  "statedUnits": null
+                }
+              ],
+              "heading": "3.",
+              "minCount": null,
+              "minUnits": null,
+              "picks": [
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 103L",
+                      "line": "CSCI 103L Object Oriented Programming Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                },
+                {
+                  "all": [
+                    {
+                      "code": "CSCI 114x",
+                      "line": "CSCI 114x Programming for Applications of Computing Units: 4",
+                      "unitChoices": [
+                        4
+                      ],
+                      "units": 4
+                    }
+                  ],
+                  "oneOf": []
+                }
+              ],
+              "quote": "3.",
+              "rule": "all",
+              "statedMax": null,
+              "statedMin": null,
+              "statedUnits": null
+            }
+          ],
+          "heading": "Required Foundational Computing Courses (12 units)",
+          "minCount": 1,
+          "minUnits": 12,
+          "picks": [],
+          "quote": "Required Foundational Computing Courses (12 units) Choose one of the following tracks, with three courses in each.",
+          "rule": "one",
+          "statedMax": 12,
+          "statedMin": 12,
+          "statedUnits": 12
+        }
+      ],
+      "heading": "Core Courses (38 units)",
+      "minCount": null,
+      "minUnits": 38,
+      "picks": [],
+      "quote": "Core Courses (38 units) Students must complete the following courses:",
+      "rule": "all",
+      "statedMax": 38,
+      "statedMin": 38,
+      "statedUnits": 38
+    },
+    {
+      "children": [],
+      "heading": "Specialization Courses (12 units)",
+      "minCount": 3,
+      "minUnits": 12,
+      "picks": [
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "CHEM 105bL",
+                "line": "CHEM 105bL General Chemistry Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "CHEM 115bL",
+                "line": "CHEM 115bL Advanced General Chemistry Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [
+            {
+              "code": "CHEM 322aL",
+              "line": "CHEM 322aL Organic Chemistry Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CHEM 322bL",
+              "line": "CHEM 322bL Organic Chemistry Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 270",
+              "line": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "MATH 126g",
+                "line": "MATH 126g Calculus II Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "MATH 127",
+                "line": "MATH 127 Enhanced Calculus II Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "MATH 129",
+                "line": "MATH 129 Calculus II for Engineers and Scientists Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "MATH 225",
+                "line": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "MATH 245",
+                "line": "MATH 245 Mathematics of Physics and Engineering I Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "MATH 226g",
+                "line": "MATH 226g Calculus III Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "MATH 227",
+                "line": "MATH 227 Enhanced Calculus III Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "MATH 229",
+                "line": "MATH 229 Calculus III for Engineers and Scientists Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [
+            {
+              "code": "MATH 407",
+              "line": "MATH 407 Probability Theory Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "MATH 308",
+                "line": "MATH 308 Statistical Inference and Data Analysis II Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "MATH 408",
+                "line": "MATH 408 Mathematical Statistics Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "PHYS 135bL",
+                "line": "PHYS 135bL Physics for the Life Sciences Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "PHYS 152L",
+                "line": "PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "PHYS 162L",
+                "line": "PHYS 162L Advanced Principles of Physics II Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "PHYS 172L",
+                "line": "PHYS 172L Applied Physics II: Electricity, Magnetism and Optics Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 401",
+              "line": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 460",
+              "line": "QBIO 460 Introduction to Machine Learning in Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 465",
+              "line": "QBIO 465 Artificial Intelligence in Biology and Medicine Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Specialization Courses (12 units) Choose three of the following courses. Note: Courses taken to satisfy the Foundational Computing Course requirement may not be used as Specialization Courses.",
+      "rule": "n",
+      "statedMax": 12,
+      "statedMin": 12,
+      "statedUnits": 12
+    },
+    {
+      "children": [],
+      "heading": "Capstone Courses (8 units)",
+      "minCount": 4,
+      "minUnits": 8,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "QBIO 475",
+              "line": "QBIO 475 Statistical and Evolutionary Genetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 478",
+              "line": "QBIO 478 Computational Genome Analysis Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 481",
+              "line": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 482",
+              "line": "QBIO 482 Systems Biology: Modeling the Dynamics of Life Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Capstone Courses (8 units) Choose two of the following four capstone courses:",
+      "rule": "n",
+      "statedMax": 8,
+      "statedMin": 8,
+      "statedUnits": 8
+    },
+    {
+      "children": [],
+      "heading": "Upper-Division Electives (minimum 8 units)",
+      "minCount": 2,
+      "minUnits": 8,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "BISC 300L",
+              "line": "BISC 300L Microbiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 307L",
+              "line": "BISC 307L General Physiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 313L",
+              "line": "BISC 313L Evolution and Population Genetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 315L",
+              "line": "BISC 315L Introduction to Ecology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 320Lg",
+              "line": "BISC 320Lg Molecular Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 325",
+              "line": "BISC 325 Genetics Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [],
+          "oneOf": [
+            [
+              {
+                "code": "BISC 330L",
+                "line": "BISC 330L Biochemistry Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "BISC 312x",
+                "line": "BISC 312x Molecular Biochemistry Units: 4 or",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              },
+              {
+                "code": "CHEM 350",
+                "line": "CHEM 350 Molecular Principles of Biochemistry Units: 4",
+                "unitChoices": [
+                  4
+                ],
+                "units": 4
+              }
+            ]
+          ]
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 403",
+              "line": "BISC 403 Advanced Molecular Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 406L",
+              "line": "BISC 406L Biotechnology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 407",
+              "line": "BISC 407 Cellular and Molecular Neuroscience Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 408",
+              "line": "BISC 408 Systems Neuroscience: From Synapses to Perception Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 410",
+              "line": "BISC 410 Applications of Molecular Biology to Medicine Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 411",
+              "line": "BISC 411 Advanced Cell Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 421",
+              "line": "BISC 421 Neurobiology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 423",
+              "line": "BISC 423 Epilepsy to Ecstasy: Biological Basis of Neurological Disorders Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 424",
+              "line": "BISC 424 Brain Architecture Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 434",
+              "line": "BISC 434 Introduction to Genome Science Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 435",
+              "line": "BISC 435 Advanced Biochemistry Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 450L",
+              "line": "BISC 450L Principles of Immunology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BISC 473L",
+              "line": "BISC 473L Biological Oceanography Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "BME 430",
+              "line": "BME 430 Principles and Applications of Systems Biology Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 360",
+              "line": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "CSCI 467",
+              "line": "CSCI 467 Foundations of Machine Learning Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "ECON 460",
+              "line": "ECON 460 Economic Applications of Machine Learning Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 486",
+              "line": "LING 486 Natural Language Processing Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "LING 487",
+              "line": "LING 487 Speech Synthesis and Recognition Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "MATH 447",
+              "line": "MATH 447 Mathematics of Machine Learning Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "MATH 466",
+              "line": "MATH 466 Dynamic Modeling Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "MATH 467",
+              "line": "MATH 467 Theory and Computational Methods for Optimization Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PHYS 444",
+              "line": "PHYS 444 Physical Biology: From Molecules to Cells Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "PSYC 450",
+              "line": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 401",
+              "line": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 460",
+              "line": "QBIO 460 Introduction to Machine Learning in Biology Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 465",
+              "line": "QBIO 465 Artificial Intelligence in Biology and Medicine Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 475",
+              "line": "QBIO 475 Statistical and Evolutionary Genetics Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 478",
+              "line": "QBIO 478 Computational Genome Analysis Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 479L",
+              "line": "QBIO 479L Computational Genome Analysis Laboratory Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 481",
+              "line": "QBIO 481 Structural Bioinformatics: From Atoms to Cells Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 482",
+              "line": "QBIO 482 Systems Biology: Modeling the Dynamics of Life Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 499",
+              "line": "QBIO 499 Special Topics Units: 1, 2, 3, 4, 5, 6, 7, 8",
+              "unitChoices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "units": null
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "SCRM 487",
+              "line": "SCRM 487 Regenerative Medicine: Principles, Paradigms and Practice Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Upper-Division Electives (minimum 8 units) Choose two to three of the following courses for upper-division electives. Note: Courses taken to satisfy the Foundational Computing Courses, Specialization Courses or Capstone Courses, may not double-count toward upper-division electives.",
+      "rule": "n",
+      "statedMax": 8,
+      "statedMin": 8,
+      "statedUnits": 8
+    },
+    {
+      "children": [],
+      "heading": "Research Experience (6 units)",
+      "minCount": null,
+      "minUnits": 6,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "QBIO 490x",
+              "line": "QBIO 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8",
+              "unitChoices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "units": null
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "QBIO 493",
+              "line": "QBIO 493 Quantitative Biology Honors Seminar Units: 1",
+              "unitChoices": [
+                1
+              ],
+              "units": 1
+            },
+            {
+              "code": "QBIO 494",
+              "line": "QBIO 494 Quantitative Biology Honors Thesis Units: 1",
+              "unitChoices": [
+                1
+              ],
+              "units": 1
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Research Experience (6 units) Students are required to enroll in a total of 6 units of directed research in a lab approved by the Quantitative Biology Executive Committee or assigned faculty adviser. Students may choose from any of the courses listed below, however, students in the honors program will enroll in both QBIO 493 and QBIO 494 .",
+      "rule": "all",
+      "statedMax": 6,
+      "statedMin": 6,
+      "statedUnits": 6
+    }
+  ],
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "sourceFile": "data/raw/2026-2027/catalogue_usc_edu_preview_program_php_catoid_22_poid_32504.html",
+  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32504"
+}

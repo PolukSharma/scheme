@@ -157,7 +157,7 @@ describe("web flow", () => {
     expect(await intake.getByLabel("Start year").isVisible()).toBe(true);
     await intake.goto(`${base}/accuracy`);
     await intake.getByRole("heading", { name: "Scheme accuracy" }).waitFor();
-    expect(await intake.getByText("Accuracy figures written by Verification.").isVisible()).toBe(true);
+    expect(await intake.getByText(/accuracy\.json|Accuracy figures written by Verification/).isVisible()).toBe(true);
     await keyboard.close();
     await intake.close();
   }, 180_000);

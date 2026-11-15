@@ -7,6 +7,11 @@
    PERTINENT DATA SECTION:
 
    Term of USC Entrance 20243  Current Class Level Second year
+   Expected Graduation 20273
+
+   PRIMARY POST:  DEGREE  MAJOR  UNIT  EFFECTIVE TERM
+
+       1002        BS     NEUR   DORN       20243
 
    MINOR:  Artificial Intelligence Applications                20253
 
@@ -18,3 +23,26 @@
          20261 QBIO305    G  4.0 A     Invented statistics
          20263 BISC220  L G  4.0 RG >IPInvented cell biology
          20241 TR-NOTACODE   3.0 TR    Invented external credit
+
+   UNIT SUMMARY
+   Earned 14.0
+   In-process 4.0
+   Transfer 6.0
+
+   REQUIREMENTS
+   OK  Chemistry
+   +        20243 CHEM105A L G  4.0 B+    Invented chemistry
+   NO  Physics
+   -        NEEDS: 4.0 UNITS
+            SELECT FROM: PHYS 135aLg, PHYS 135bL
+   IP  Cell biology
+   +        20263 BISC220  L G  4.0 RG >IPInvented cell biology
+
+   CURRENT REGISTRATION
+         20263 BISC220  L G  4.0 RG >IPInvented cell biology
+
+   FREE ELECTIVES
+   Earned 0.0
+
+   EXCESS ELECTIVES
+   None

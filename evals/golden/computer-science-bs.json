@@ -1,0 +1,610 @@
+{
+  "catalogueYear": "2026-2027",
+  "degreeSentence": "5 units",
+  "gradeCodes": [
+    "CSCI 102L",
+    "CSCI 103",
+    "CSCI 170",
+    "CSCI 104",
+    "CSCI 201"
+  ],
+  "gradeSentence": "A grade of C (2.0) or better is required for each of the core courses CSCI 102L , CSCI 103 , CSCI 170 , CSCI 104 and CSCI 201 .",
+  "id": "computer-science-bs",
+  "kind": "major",
+  "name": "Computer Science (BS)",
+  "nodes": [
+    {
+      "children": [],
+      "heading": "Composition/Writing Requirements (8 Units)",
+      "minCount": null,
+      "minUnits": 8,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "WRIT 150",
+              "line": "WRIT 150 Writing and Critical Reasoning–Thematic Approaches Units: 4",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        },
+        {
+          "all": [
+            {
+              "code": "WRIT 340",
+              "line": "WRIT 340 Advanced Writing and Critical Engagement Units: 4 *",
+              "unitChoices": [
+                4
+              ],
+              "units": 4
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Composition/Writing Requirements (8 Units)",
+      "rule": "all",
+      "statedMax": 8,
+      "statedMin": 8,
+      "statedUnits": 8
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "General Education Units: 20",
+          "minCount": null,
+          "minUnits": null,
+          "picks": [],
+          "quote": "General Education Units: 20",
+          "rule": "prose",
+          "statedMax": null,
+          "statedMin": null,
+          "statedUnits": null
+        }
+      ],
+      "heading": "General Education (20 Units)",
+      "minCount": null,
+      "minUnits": 20,
+      "picks": [],
+      "quote": "General Education (20 Units)",
+      "rule": "all",
+      "statedMax": 20,
+      "statedMin": 20,
+      "statedUnits": 20
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "Engineering (2 units)",
+          "minCount": null,
+          "minUnits": 2,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "ENGR 102",
+                  "line": "ENGR 102 Viterbi First-Year Academy Units: 2",
+                  "unitChoices": [
+                    2
+                  ],
+                  "units": 2
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Engineering (2 units)",
+          "rule": "all",
+          "statedMax": 2,
+          "statedMin": 2,
+          "statedUnits": 2
+        },
+        {
+          "children": [],
+          "heading": "Mathematics (16 units)",
+          "minCount": null,
+          "minUnits": 16,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "MATH 125g",
+                  "line": "MATH 125g Calculus I Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "MATH 126g",
+                    "line": "MATH 126g Calculus II Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 129",
+                    "line": "MATH 129 Calculus II for Engineers and Scientists Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "MATH 225",
+                    "line": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 235",
+                    "line": "MATH 235 Linear Algebra and Applications Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            },
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "MATH 226g",
+                    "line": "MATH 226g Calculus III Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "MATH 229",
+                    "line": "MATH 229 Calculus III for Engineers and Scientists Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Mathematics (16 units) Note: Both MATH 125 and MATH 126 satisfy the GE-F Quantitative Reasoning general education requirement.",
+          "rule": "all",
+          "statedMax": 16,
+          "statedMin": 16,
+          "statedUnits": 16
+        },
+        {
+          "children": [],
+          "heading": "Statistics and Probability (4 units)",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "EE 364",
+                  "line": "EE 364 Probability and Statistics for Engineers and Computer Scientists Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Statistics and Probability (4 units)",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Life Sciences (4 units)",
+          "minCount": 1,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "BISC 120Lg",
+                    "line": "BISC 120Lg General Biology: Organismal Biology and Evolution Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BISC 121Lg",
+                    "line": "BISC 121Lg Advanced General Biology: Organismal Biology and Evolution Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "BISC 220Lg",
+                    "line": "BISC 220Lg General Biology: Cell Biology and Physiology Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Life Sciences (4 units) Take one of the following life science courses, each of which satisfies the GE-D Life Sciences requirement.",
+          "rule": "one",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Physical Sciences (4 units)",
+          "minCount": 1,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [],
+              "oneOf": [
+                [
+                  {
+                    "code": "CHEM 105aLg",
+                    "line": "CHEM 105aLg General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "CHEM 115aLg",
+                    "line": "CHEM 115aLg Advanced General Chemistry Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 151Lg",
+                    "line": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4 or",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  },
+                  {
+                    "code": "PHYS 161Lg",
+                    "line": "PHYS 161Lg Advanced Principles of Physics I Units: 4",
+                    "unitChoices": [
+                      4
+                    ],
+                    "units": 4
+                  }
+                ]
+              ]
+            }
+          ],
+          "quote": "Physical Sciences (4 units) Take one of the following science courses, each of which satisfies the GE-E Physical Sciences requirement.",
+          "rule": "one",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        }
+      ],
+      "heading": "Pre-Major Requirements (30 Units)",
+      "minCount": null,
+      "minUnits": 30,
+      "picks": [],
+      "quote": "Pre-Major Requirements (30 Units)",
+      "rule": "all",
+      "statedMax": 30,
+      "statedMin": 30,
+      "statedUnits": 30
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "heading": "Computer Science (46 units)",
+          "minCount": null,
+          "minUnits": 46,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "CSCI 102L",
+                  "line": "CSCI 102L Introduction to Programming Units: 2",
+                  "unitChoices": [
+                    2
+                  ],
+                  "units": 2
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 103L",
+                  "line": "CSCI 103L Object Oriented Programming Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 104L",
+                  "line": "CSCI 104L Data Structures Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 170",
+                  "line": "CSCI 170 Discrete Methods in Computer Science Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 201",
+                  "line": "CSCI 201 Principles of Software Development Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 270",
+                  "line": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 310",
+                  "line": "CSCI 310 Software Engineering Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 350",
+                  "line": "CSCI 350 Fundamentals of Operating Systems Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 353",
+                  "line": "CSCI 353 Internetworking Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 356",
+                  "line": "CSCI 356 Computer Systems Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 360",
+                  "line": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            },
+            {
+              "all": [
+                {
+                  "code": "CSCI 401",
+                  "line": "CSCI 401 Capstone: Design and Construction of Large Software Systems Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Computer Science (46 units)",
+          "rule": "all",
+          "statedMax": 46,
+          "statedMin": 46,
+          "statedUnits": 46
+        },
+        {
+          "children": [],
+          "heading": "Electrical Engineering (4 units)",
+          "minCount": null,
+          "minUnits": 4,
+          "picks": [
+            {
+              "all": [
+                {
+                  "code": "EE 109L",
+                  "line": "EE 109L Introduction to Embedded Systems Units: 4",
+                  "unitChoices": [
+                    4
+                  ],
+                  "units": 4
+                }
+              ],
+              "oneOf": []
+            }
+          ],
+          "quote": "Electrical Engineering (4 units)",
+          "rule": "all",
+          "statedMax": 4,
+          "statedMin": 4,
+          "statedUnits": 4
+        },
+        {
+          "children": [],
+          "heading": "Core Electives (16 units)",
+          "minCount": 4,
+          "minUnits": 16,
+          "picks": [],
+          "quote": "Core Electives (16 units) Take at least four 300- or 400- level CSCI courses for a minimum of 16 units.",
+          "rule": "prose",
+          "statedMax": 16,
+          "statedMin": 16,
+          "statedUnits": 16
+        }
+      ],
+      "heading": "Major Requirements (66 Units)",
+      "minCount": null,
+      "minUnits": 66,
+      "picks": [],
+      "quote": "Major Requirements (66 Units)",
+      "rule": "all",
+      "statedMax": 66,
+      "statedMin": 66,
+      "statedUnits": 66
+    },
+    {
+      "children": [],
+      "heading": "Practicum (0 units)",
+      "minCount": null,
+      "minUnits": 0,
+      "picks": [
+        {
+          "all": [
+            {
+              "code": "ENGR 495",
+              "line": "ENGR 495 Practicum Units: 0",
+              "unitChoices": [
+                0
+              ],
+              "units": 0
+            }
+          ],
+          "oneOf": []
+        }
+      ],
+      "quote": "Practicum (0 units)",
+      "rule": "all",
+      "statedMax": 0,
+      "statedMin": 0,
+      "statedUnits": 0
+    },
+    {
+      "children": [],
+      "heading": "Free Electives (4 Units)",
+      "minCount": null,
+      "minUnits": 4,
+      "picks": [],
+      "quote": "Free Electives (4 Units)",
+      "rule": "prose",
+      "statedMax": 4,
+      "statedMin": 4,
+      "statedUnits": 4
+    },
+    {
+      "children": [],
+      "heading": "Total Units: 128",
+      "minCount": null,
+      "minUnits": 128,
+      "picks": [],
+      "quote": "Total Units: 128 * WRIT 340 Advanced Writing and Critical Engagement (Communication for Engineers) is strongly recommended for CSCI majors.​​​​​​​",
+      "rule": "total",
+      "statedMax": 128,
+      "statedMin": 128,
+      "statedUnits": 128
+    }
+  ],
+  "school": "USC Viterbi School of Engineering",
+  "sourceFile": "data/raw/2026-2027/catalogue_usc_edu_preview_program_php_catoid_22_poid_32086.html",
+  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32086"
+}
