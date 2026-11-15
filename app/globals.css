@@ -1,52 +1,319 @@
 :root {
-  color: #1a1a1a;
-  background: #ffffff;
-  font-family: ui-sans-serif, system-ui, sans-serif;
-  line-height: 1.5;
+  color-scheme: light;
+  --cardinal: #990000;
+  --gold: #ffcc00;
+  --ink: #000000;
+  --muted: #767676;
+  --paper: #ffffff;
+  --line: #cccccc;
 }
 
 * {
   box-sizing: border-box;
 }
 
+html,
 body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
 
-a {
-  color: #990000;
-}
-
-.frame {
-  max-width: 42rem;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
-}
-
-.frame header {
-  border-top: 4px solid #ffcc00;
-  padding-top: 1.25rem;
-}
-
 h1 {
-  font-size: 2.5rem;
-  font-weight: 650;
-  letter-spacing: -0.03em;
-  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 700;
 }
 
-.card {
-  margin-top: 1.5rem;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid #e6e6e6;
+h2 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+h3,
+h4 {
+  font-size: 1.15rem;
+}
+
+a {
+  color: var(--cardinal);
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--cardinal);
+  outline-offset: 3px;
+}
+
+.skip {
+  position: absolute;
+  left: 12px;
+  top: -48px;
+  background: #fff;
+  color: #000;
+  padding: 8px 12px;
+  z-index: 2;
+}
+
+.skip:focus {
+  top: 12px;
+}
+
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 8px 16px 48px;
+}
+
+.mast {
+  border-top: 8px solid var(--gold);
+  border-bottom: 4px solid var(--cardinal);
+  padding: 16px 0;
+  margin-bottom: 16px;
+}
+
+.lede {
+  margin: 8px 0 16px;
+  max-width: 40rem;
+}
+
+.banner {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--cardinal);
+  padding: 12px 14px;
+  margin: 12px 16px 20px;
+}
+
+.wrap .banner,
+.card .banner {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: #000;
+}
+
+button {
+  min-height: 44px;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.primary {
+  background: var(--cardinal);
+  color: #fff;
+  border-color: var(--cardinal);
+}
+
+button:disabled {
+  cursor: wait;
+}
+
+.actions,
+.picker,
+.stack,
+.plan {
+  display: grid;
+  gap: 12px;
+}
+
+.actions button,
+.picker button,
+.card > button {
+  width: 100%;
+}
+
+.picker button {
+  text-align: left;
+}
+
+[role="tablist"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+[role="tab"][aria-selected="true"] {
+  border-width: 3px;
+  font-weight: 700;
+}
+
+label {
+  display: grid;
+  gap: 4px;
+  margin: 12px 0;
+}
+
+input,
+select {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px;
+  background: #fff;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.chips {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.chips li,
+.card,
+.plan li {
+  background: #fff;
+  border: 1px solid var(--line);
   border-radius: 12px;
+  padding: 12px 14px;
 }
 
-.card ul {
-  margin: 0.75rem 0 0;
-  padding-left: 1.25rem;
+.plan {
+  list-style: decimal;
+  padding-left: 1.4rem;
+  margin: 0;
 }
 
-footer {
-  margin-top: 2.5rem;
+.card-head {
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.stat-num {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--cardinal);
+  font-weight: 700;
+}
+
+.stat-label {
+  color: var(--ink);
+}
+
+.alert {
+  margin: 12px 0;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.alert ol {
+  padding-left: 1.2rem;
+}
+
+.colophon {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.advisor-sheet {
+  max-width: 800px;
+}
+
+.advisor-sheet h1,
+.advisor-sheet h2 {
+  margin-top: 20px;
+}
+
+.screen-name {
+  font-weight: 700;
+}
+
+@media (min-width: 800px) {
+  .wrap {
+    padding: 16px 24px 64px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .picker {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card > button {
+    width: auto;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .advisor-sheet,
+  .advisor-sheet * {
+    color: #000 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .advisor-sheet a {
+    text-decoration: underline;
+  }
 }

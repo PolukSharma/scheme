@@ -1,0 +1,20 @@
+   PREPARED: 11/14/26 - 12:00
+   PROGRAM: 1002                                  CATALOG YEAR: 20263
+   STARS - DEGREE PROGRESS REPORT
+   BACHELOR OF SCIENCE
+   COMPUTATIONAL NEUROSCIENCE
+   _________________________________________________________________
+   PERTINENT DATA SECTION:
+
+   Term of USC Entrance 20243  Current Class Level Second year
+
+   MINOR:  Artificial Intelligence Applications                20253
+
+         20241 CSCI102  L    2.0 TR    AP Invented placement
+         20242 WRIT150       4.0 TR    Invented transfer writing
+         20243 CHEM105A L G  4.0 B+    Invented chemistry
+         20251 BISC120  L G  4.0 A-    Invented biology
+         20253 TAC 115       2.0 A     Invented python
+         20261 QBIO305    G  4.0 A     Invented statistics
+         20263 BISC220  L G  4.0 RG >IPInvented cell biology
+         20241 TR-NOTACODE   3.0 TR    Invented external credit

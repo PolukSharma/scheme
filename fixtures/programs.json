@@ -1,0 +1,371 @@
+[
+  {
+    "id": "demo-applied-widgets",
+    "name": "Applied Widgets",
+    "school": "School of Demonstration",
+    "kind": "major",
+    "description": "Invented fixture: students build a widget core and then choose two upper-division studios or a 400-level set.",
+    "catalogueYear": "2026-2027",
+    "verified": false,
+    "humanChecked": false,
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/programs/applied-widgets",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture: the Applied Widgets major requires the core sequence and a choose-two upper-division group."
+    },
+    "requirements": {
+      "verified": false,
+      "source": {
+        "url": "https://example.edu/demo-catalogue/2026/requirements/aw-all",
+        "catalogueYear": "2026-2027",
+        "text": "Invented fixture: complete every child of the Applied Widgets major."
+      },
+      "type": "all_of",
+      "id": "aw-all",
+      "children": [
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/aw-101",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: take DEMO 101 Introduction to Widgets."
+          },
+          "type": "course",
+          "id": "aw-101",
+          "code": "DEMO 101"
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/aw-201",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: take DEMO 201 Widget Structures."
+          },
+          "type": "course",
+          "id": "aw-201",
+          "code": "DEMO 201"
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/aw-301",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: take DEMO 301 Applied Widget Design."
+          },
+          "type": "course",
+          "id": "aw-301",
+          "code": "DEMO 301"
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/aw-choose",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: choose two options totaling at least 8 units from the studios or a 400-level set."
+          },
+          "type": "n_of",
+          "id": "aw-choose",
+          "minCount": 2,
+          "minUnits": 8,
+          "options": [
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-360",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 360 Capstone Studio I."
+              },
+              "type": "course",
+              "id": "aw-360",
+              "code": "DEMO 360"
+            },
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-370",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 370 Capstone Studio II."
+              },
+              "type": "course",
+              "id": "aw-370",
+              "code": "DEMO 370"
+            },
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/aw-400",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: one DEMO course at level 400 or above, at least 4 units, may fill this choice."
+              },
+              "type": "course_set",
+              "id": "aw-400",
+              "match": {
+                "dept": "DEMO",
+                "levelMin": 400
+              },
+              "minCount": 1,
+              "minUnits": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-widget-policy",
+    "name": "Widget Policy",
+    "school": "College of Examples",
+    "kind": "minor",
+    "description": "Invented fixture: the Widget Policy minor studies rules of assembly and how gadgets meet a public rulebook.",
+    "catalogueYear": "2026-2027",
+    "verified": false,
+    "humanChecked": false,
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/programs/widget-policy",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture: the Widget Policy minor limits how many units may be shared with the major."
+    },
+    "requirements": {
+      "verified": false,
+      "source": {
+        "url": "https://example.edu/demo-catalogue/2026/requirements/wp-all",
+        "catalogueYear": "2026-2027",
+        "text": "Invented fixture: complete every child of the Widget Policy minor."
+      },
+      "type": "all_of",
+      "id": "wp-all",
+      "children": [
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/wp-210",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: take DEMO 210 Widget Policy."
+          },
+          "type": "course",
+          "id": "wp-210",
+          "code": "DEMO 210",
+          "constraints": {
+            "maxUnitsSharedWithMajor": 0
+          }
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/wp-choose",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: choose two policy courses, at least 6 units, with at most 4 units shared with the major."
+          },
+          "type": "n_of",
+          "id": "wp-choose",
+          "minCount": 2,
+          "minUnits": 6,
+          "constraints": {
+            "minGrade": "C",
+            "maxUnitsSharedWithMajor": 4
+          },
+          "options": [
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-220",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 220 Rules of Assembly."
+              },
+              "type": "course",
+              "id": "wp-220",
+              "code": "DEMO 220"
+            },
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-230",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 230 Public Gadgets."
+              },
+              "type": "course",
+              "id": "wp-230",
+              "code": "DEMO 230"
+            },
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/wp-240",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: take DEMO 240 Ethics of Automation."
+              },
+              "type": "course",
+              "id": "wp-240",
+              "code": "DEMO 240"
+            }
+          ]
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/wp-300",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: at least 4 units of DEMO courses numbered 300 through 399."
+          },
+          "type": "course_set",
+          "id": "wp-300",
+          "match": {
+            "dept": "DEMO",
+            "levelMin": 300,
+            "levelMax": 399
+          },
+          "minUnits": 4,
+          "constraints": {
+            "minGrade": "C"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-widget-systems",
+    "name": "Widget Systems",
+    "school": "School of Demonstration",
+    "kind": "major",
+    "description": "Invented fixture: a second major path through operating gadgets or compiled widgets, plus a 400-level course.",
+    "catalogueYear": "2026-2027",
+    "verified": false,
+    "humanChecked": false,
+    "source": {
+      "url": "https://example.edu/demo-catalogue/2026/programs/widget-systems",
+      "catalogueYear": "2026-2027",
+      "text": "Invented fixture: Widget Systems requires a studio, a nested choice of two tracks, and a 400-level set."
+    },
+    "requirements": {
+      "verified": false,
+      "source": {
+        "url": "https://example.edu/demo-catalogue/2026/requirements/ws-all",
+        "catalogueYear": "2026-2027",
+        "text": "Invented fixture: complete every child of the Widget Systems major."
+      },
+      "type": "all_of",
+      "id": "ws-all",
+      "children": [
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/ws-102",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: take DEMO 102 Widget Studio."
+          },
+          "type": "course",
+          "id": "ws-102",
+          "code": "DEMO 102"
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/ws-110",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: take DEMO 110 Discrete Gadgets."
+          },
+          "type": "course",
+          "id": "ws-110",
+          "code": "DEMO 110"
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/ws-track",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: complete one of the two nested tracks."
+          },
+          "type": "n_of",
+          "id": "ws-track",
+          "minCount": 1,
+          "options": [
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-operating",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the operating-gadgets track is DEMO 320 and DEMO 330."
+              },
+              "type": "all_of",
+              "id": "ws-operating",
+              "children": [
+                {
+                  "verified": false,
+                  "source": {
+                    "url": "https://example.edu/demo-catalogue/2026/requirements/ws-320",
+                    "catalogueYear": "2026-2027",
+                    "text": "Invented fixture: take DEMO 320 Operating Gadgets."
+                  },
+                  "type": "course",
+                  "id": "ws-320",
+                  "code": "DEMO 320"
+                },
+                {
+                  "verified": false,
+                  "source": {
+                    "url": "https://example.edu/demo-catalogue/2026/requirements/ws-330",
+                    "catalogueYear": "2026-2027",
+                    "text": "Invented fixture: take DEMO 330 Gadget Networks."
+                  },
+                  "type": "course",
+                  "id": "ws-330",
+                  "code": "DEMO 330"
+                }
+              ]
+            },
+            {
+              "verified": false,
+              "source": {
+                "url": "https://example.edu/demo-catalogue/2026/requirements/ws-compiled",
+                "catalogueYear": "2026-2027",
+                "text": "Invented fixture: the compiled-widgets track is DEMO 340 and DEMO 350."
+              },
+              "type": "all_of",
+              "id": "ws-compiled",
+              "children": [
+                {
+                  "verified": false,
+                  "source": {
+                    "url": "https://example.edu/demo-catalogue/2026/requirements/ws-340",
+                    "catalogueYear": "2026-2027",
+                    "text": "Invented fixture: take DEMO 340 Compiled Widgets."
+                  },
+                  "type": "course",
+                  "id": "ws-340",
+                  "code": "DEMO 340"
+                },
+                {
+                  "verified": false,
+                  "source": {
+                    "url": "https://example.edu/demo-catalogue/2026/requirements/ws-350",
+                    "catalogueYear": "2026-2027",
+                    "text": "Invented fixture: take DEMO 350 Widget Runtimes."
+                  },
+                  "type": "course",
+                  "id": "ws-350",
+                  "code": "DEMO 350"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "verified": false,
+          "source": {
+            "url": "https://example.edu/demo-catalogue/2026/requirements/ws-400",
+            "catalogueYear": "2026-2027",
+            "text": "Invented fixture: one DEMO course at level 400 or above."
+          },
+          "type": "course_set",
+          "id": "ws-400",
+          "match": {
+            "dept": "DEMO",
+            "levelMin": 400
+          },
+          "minCount": 1,
+          "minUnits": 4
+        }
+      ]
+    }
+  }
+]

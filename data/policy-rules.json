@@ -1,0 +1,86 @@
+[
+  {
+    "id": "undergraduate-normal-term-load",
+    "name": "Normal undergraduate term load",
+    "summary": "A normal undergraduate load is 16 units in a semester.",
+    "value": 16,
+    "confirmed": true,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9131",
+      "catalogueYear": "2026-2027",
+      "text": "A normal academic load is 16 units per semester for undergraduate students and 8 units (500-level) for graduate students."
+    }
+  },
+  {
+    "id": "undergraduate-recommended-maximum",
+    "name": "Recommended undergraduate maximum",
+    "summary": "The university recommends that undergraduates register for no more than 18 units.",
+    "value": 18,
+    "confirmed": true,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9131",
+      "catalogueYear": "2026-2027",
+      "text": "The university recommends that undergraduate students register for no more than 18 units and graduate students for no more than 16 units."
+    }
+  },
+  {
+    "id": "undergraduate-permission-above-20",
+    "name": "Permission above 20 units",
+    "summary": "More than 20 units needs approval from the school or home department.",
+    "value": 20,
+    "confirmed": true,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9131",
+      "catalogueYear": "2026-2027",
+      "text": "Permission to enroll in more than 20 units requires approval from the school or home department of the student’s major."
+    }
+  },
+  {
+    "id": "minor-units-unique-to-the-minor",
+    "name": "Units unique to a minor",
+    "summary": "At least 16 units must count only toward the minor.",
+    "value": 16,
+    "confirmed": true,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9115",
+      "catalogueYear": "2026-2027",
+      "text": "Students must take at least 16 units, which are unique to the minor (i."
+    }
+  },
+  {
+    "id": "catalogue-year",
+    "name": "Catalogue year",
+    "summary": "A student follows one catalogue year, with the exceptions printed on the graduation page.",
+    "value": "2026-2027",
+    "confirmed": true,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9115",
+      "catalogueYear": "2026-2027",
+      "text": "Undergraduate students may elect to follow (a) the degree requirements in the catalogue current in their first term of enrollment after admission or readmission at USC or (b) degree requirements in a subsequent catalogue as long as they were enrolled in a term in which it was in effect. However, students may not mix catalogues. An exception is that students may follow the requirements for a minor from a different catalogue year than the major; and students pursuing two majors may follow major requirements from different catalogue years."
+    }
+  },
+  {
+    "id": "per-term-unit-cap",
+    "name": "Per-term unit cap",
+    "summary": "The registration page states a normal load, a recommended maximum, and a permission threshold. It does not state one hard cap.",
+    "value": null,
+    "confirmed": false,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9131",
+      "catalogueYear": "2026-2027",
+      "text": "A normal academic load is 16 units per semester for undergraduate students and 8 units (500-level) for graduate students. The university recommends that undergraduate students register for no more than 18 units and graduate students for no more than 16 units. Permission to enroll in more than 20 units requires approval from the school or home department of the student’s major. The page states a normal load, a recommended maximum, and a permission threshold. It does not state one hard cap."
+    }
+  },
+  {
+    "id": "courses-shared-by-two-majors",
+    "name": "Courses shared by two majors",
+    "summary": "The graduation page does not state a unit limit on courses shared by two majors.",
+    "value": null,
+    "confirmed": false,
+    "source": {
+      "url": "https://catalogue.usc.edu/content.php?catoid=22&navoid=9115",
+      "catalogueYear": "2026-2027",
+      "text": "Students must take at least 16 units, which are unique to the minor (i. Undergraduate students may elect to follow (a) the degree requirements in the catalogue current in their first term of enrollment after admission or readmission at USC or (b) degree requirements in a subsequent catalogue as long as they were enrolled in a term in which it was in effect. However, students may not mix catalogues. An exception is that students may follow the requirements for a minor from a different catalogue year than the major; and students pursuing two majors may follow major requirements from different catalogue years. Neither sentence states a unit limit on courses shared by two majors."
+    }
+  }
+]

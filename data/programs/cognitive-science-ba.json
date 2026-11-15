@@ -1,0 +1,1466 @@
+{
+  "id": "cognitive-science-ba",
+  "name": "Cognitive Science (BA)",
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "kind": "major",
+  "description": "Director: Toben Mintz, PhDCognitive science is an interdisciplinary major that focuses on the mind and cognition from a variety of perspectives and approaches. The core and electives sample from courses in psychology, philosophy, linguistics, human and evolutionary biology, and computer science.Cognitive Science Major with Honors The cognitive science major with honors requires the student to complete the requirements for the major with a GPA of 3.5 or above and to complete in addition CGSC 498 Honors Thesis with a grade of B or better. Intent to complete the cognitive science major with honors should be registered with the undergraduate adviser no later than the second semester of the junior year. The major consists of four fixed core courses, plus two tiers of flexible core courses. Tier 1 generally consists of more introductory courses, and Tier 2 consists of more advanced courses. Students must take two courses from Tier 1 and three courses from Tier 2. We provide suggested tracks through these tiers that allow students to concentrate on one or two subspecialities in this broad interdisciplinary field. Students may choose to focus on one of these tracks, or they may opt to tailor an interdisciplinary curriculum that provides in-depth exploration of a combination of areas. Electives allow students to take courses related to the core areas, but may cover a more specialized or applied area of study.Students are encouraged to refer to the suggested tracks below, and to consult with their academic adviser.",
+  "catalogueYear": "2026-2027",
+  "requirements": {
+    "type": "all_of",
+    "id": "cognitive-science-ba-all",
+    "children": [
+      {
+        "type": "all_of",
+        "id": "cognitive-science-ba-6",
+        "children": [
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-1",
+            "code": "PHIL 246Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 246Lg Foundations of Cognitive Science Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-2",
+            "code": "PSYC 100Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 100Lg Introduction to Psychology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-3",
+            "code": "PSYC 274Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 274Lg Statistics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-4",
+            "code": "PSYC 301L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 301L Cognitive Processes Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+          "catalogueYear": "2026-2027",
+          "text": "Core Requirements (Four Courses)"
+        },
+        "verified": true
+      },
+      {
+        "type": "n_of",
+        "id": "cognitive-science-ba-56",
+        "minCount": 5,
+        "options": [
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-7",
+            "code": "BISC 230Lgx",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 230Lgx The Biology of the Brain Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-8",
+            "code": "CSCI 103L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 103L Object Oriented Programming Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-9",
+            "code": "HBIO 200Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 200Lg The Human Animal Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-10",
+            "code": "LING 210g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 210g Introduction to Linguistics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-11",
+            "code": "LING 275Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 275Lg Language and Mind Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-12",
+            "code": "LING 285Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 285Lg Human Language and Technology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-13",
+            "code": "LING 301",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 301 Introduction to Phonology and Morphology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-14",
+            "code": "LING 302",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 302 Introduction to Syntax Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "cognitive-science-ba-21-orSuffix",
+            "minCount": 1,
+            "options": [
+              {
+                "type": "course",
+                "id": "cognitive-science-ba-15",
+                "code": "PHIL 220",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+                  "catalogueYear": "2026-2027",
+                  "text": "PHIL 220 Introduction to Logic Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "cognitive-science-ba-16",
+                "code": "PHIL 222g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+                  "catalogueYear": "2026-2027",
+                  "text": "PHIL 222g Logic and Language Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "The page prints these as alternatives."
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-17",
+            "code": "PHIL 240g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 240g Mind, Self, and Consciousness Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-18",
+            "code": "PHIL 254gp",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 254gp Science, Knowledge and Objectivity Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-19",
+            "code": "PHIL 258g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 258g Probability and Rational Choice Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-20",
+            "code": "PSYC 304L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 304L Sensation and Perception Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-22",
+            "code": "BISC 421",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 421 Neurobiology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-23",
+            "code": "CSCI 170",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 170 Discrete Methods in Computer Science Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-24",
+            "code": "CSCI 270",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-25",
+            "code": "CSCI 360",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-26",
+            "code": "ECON 405",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 405 Neuroeconomics Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-27",
+            "code": "HBIO 306",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 306 Biology of the Non-Human Primates Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-28",
+            "code": "HBIO 308",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 308 Origins and Evolution of Human Behavior Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-29",
+            "code": "LING 385Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 385Lg Human Language as Computation Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-30",
+            "code": "LING 405",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 405 Child Language Acquisition Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-31",
+            "code": "LING 406",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 406 Psycholinguistics Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-32",
+            "code": "LING 407",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 407 Atypical Language Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-33",
+            "code": "LING 412",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 412 Language and Law Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-34",
+            "code": "LING 486",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 486 Natural Language Processing Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-35",
+            "code": "LING 487",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 487 Speech Synthesis and Recognition Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-36",
+            "code": "PHIL 336",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 336 Philosophy of Mind and Language Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-37",
+            "code": "PHIL 363",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 363 Philosophy of Perception Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-38",
+            "code": "PHIL 462",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 462 Philosophy of Mind Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-39",
+            "code": "PHIL 463",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 463 Theories of Action Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-40",
+            "code": "PHIL 465",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 465 Philosophy of Language Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-41",
+            "code": "PHIL 470",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 470 Theory of Knowledge Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-42",
+            "code": "PSYC 305",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 305 Learning and Memory Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-43",
+            "code": "PSYC 326",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 326 Behavioral Neuroscience Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-44",
+            "code": "PSYC 336L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 336L Developmental Psychology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-45",
+            "code": "PSYC 339Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 339Lg Origins of the Mind Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-46",
+            "code": "PSYC 422",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 422 Human Judgment and Decision Making Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-47",
+            "code": "PSYC 423",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 423 User Experience Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-48",
+            "code": "PSYC 424",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 424 Neuropsychology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-49",
+            "code": "PSYC 425",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 425 Functional Imaging of the Human Brain Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-50",
+            "code": "PSYC 433",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 433 Children’s Learning and Cognitive Development Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-51",
+            "code": "PSYC 440",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-52",
+            "code": "PSYC 450",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-53",
+            "code": "PSYC 454",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 454 Social Cognition Units: 4 *"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+          "catalogueYear": "2026-2027",
+          "text": "Flexible Core Requirements (Five Courses)"
+        },
+        "verified": false
+      },
+      {
+        "type": "n_of",
+        "id": "cognitive-science-ba-133",
+        "minCount": 3,
+        "options": [
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-57",
+            "code": "BISC 230Lgx",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 230Lgx The Biology of the Brain Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-58",
+            "code": "BISC 421",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 421 Neurobiology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-59",
+            "code": "BISC 424",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "BISC 424 Brain Architecture Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-60",
+            "code": "CGSC 490x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CGSC 490x Directed Research Units: 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-61",
+            "code": "CGSC 498",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CGSC 498 Honors Thesis Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-62",
+            "code": "CSCI 103L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 103L Object Oriented Programming Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-63",
+            "code": "CSCI 104L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 104L Data Structures Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-64",
+            "code": "CSCI 113x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 113x Programming Fundamentals for Computing Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-65",
+            "code": "CSCI 114x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 114x Programming for Applications of Computing Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-66",
+            "code": "CSCI 170",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 170 Discrete Methods in Computer Science Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-67",
+            "code": "CSCI 270",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-68",
+            "code": "CSCI 360",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-69",
+            "code": "ECON 405",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 405 Neuroeconomics Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-70",
+            "code": "HBIO 200Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 200Lg The Human Animal Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-71",
+            "code": "HBIO 306",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 306 Biology of the Non-Human Primates Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-72",
+            "code": "HBIO 308",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 308 Origins and Evolution of Human Behavior Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-73",
+            "code": "HBIO 406",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "HBIO 406 Theory and Method in Human Evolutionary Biology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-74",
+            "code": "LING 210g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 210g Introduction to Linguistics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-75",
+            "code": "LING 275Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 275Lg Language and Mind Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-76",
+            "code": "LING 285Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 285Lg Human Language and Technology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-77",
+            "code": "LING 301",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 301 Introduction to Phonology and Morphology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-78",
+            "code": "LING 302",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 302 Introduction to Syntax Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-79",
+            "code": "LING 307",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 307 Linguistic Theory and Communication Disorders Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-80",
+            "code": "LING 405",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 405 Child Language Acquisition Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-81",
+            "code": "LING 406",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 406 Psycholinguistics Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-82",
+            "code": "LING 407",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 407 Atypical Language Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-83",
+            "code": "LING 412",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 412 Language and Law Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-84",
+            "code": "LING 415",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 415 Phonetics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-85",
+            "code": "LING 450",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 450 Forensic Speaker Identification Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-86",
+            "code": "LING 486",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 486 Natural Language Processing Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-87",
+            "code": "LING 487",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "LING 487 Speech Synthesis and Recognition Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-88",
+            "code": "PHIL 220",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 220 Introduction to Logic Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-89",
+            "code": "PHIL 222g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 222g Logic and Language Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-90",
+            "code": "PHIL 240g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 240g Mind, Self, and Consciousness Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-91",
+            "code": "PHIL 254gp",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 254gp Science, Knowledge and Objectivity Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-92",
+            "code": "PHIL 258g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 258g Probability and Rational Choice Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-93",
+            "code": "PHIL 336",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 336 Philosophy of Mind and Language Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-94",
+            "code": "PHIL 363",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 363 Philosophy of Perception Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-95",
+            "code": "PHIL 385",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 385 Science and Rationality Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-96",
+            "code": "PHIL 422",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 422 British Empiricism Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-97",
+            "code": "PHIL 423",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 423 The Critical Philosophy of Kant Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-98",
+            "code": "PHIL 427",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 427 Twentieth Century Anglo-American Philosophy Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-99",
+            "code": "PHIL 428",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 428 Anglo-American Philosophy Since 1950 Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-100",
+            "code": "PHIL 450",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 450 The Limits of Logic Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-101",
+            "code": "PHIL 452",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 452 Modal Logic Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-102",
+            "code": "PHIL 462",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 462 Philosophy of Mind Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-103",
+            "code": "PHIL 463",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 463 Theories of Action Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-104",
+            "code": "PHIL 465",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 465 Philosophy of Language Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-105",
+            "code": "PHIL 470",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 470 Theory of Knowledge Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-106",
+            "code": "PHIL 486",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PHIL 486 Methodologies of the Sciences Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-107",
+            "code": "PSYC 215Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 215Lg Music, Mind and the Brain Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-108",
+            "code": "PSYC 304L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 304L Sensation and Perception Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-109",
+            "code": "PSYC 305",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 305 Learning and Memory Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-110",
+            "code": "PSYC 314L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 314L Experimental Research Methods Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-111",
+            "code": "PSYC 320",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 320 Principles of Psychobiology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-112",
+            "code": "PSYC 326",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 326 Behavioral Neuroscience Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-113",
+            "code": "PSYC 336L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 336L Developmental Psychology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-114",
+            "code": "PSYC 339Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 339Lg Origins of the Mind Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-115",
+            "code": "PSYC 360",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 360 Psychological Disorders Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-116",
+            "code": "PSYC 421L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 421L Data Analysis for Psychological Research Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-117",
+            "code": "PSYC 422",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 422 Human Judgment and Decision Making Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-118",
+            "code": "PSYC 423",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 423 User Experience Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-119",
+            "code": "PSYC 424",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 424 Neuropsychology Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-120",
+            "code": "PSYC 425",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 425 Functional Imaging of the Human Brain Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-121",
+            "code": "PSYC 428",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 428 Advanced Psychobiology Seminar Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-122",
+            "code": "PSYC 433",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 433 Children’s Learning and Cognitive Development Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-123",
+            "code": "PSYC 434",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 434 Intelligence, Problem Solving and Creativity Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-124",
+            "code": "PSYC 436",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 436 Developmental Neuroscience of Human Behavior Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-125",
+            "code": "PSYC 438",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 438 Behavioral Genetics Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-126",
+            "code": "PSYC 440",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 440 Foundations of Cognitive Neuroscience Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-127",
+            "code": "PSYC 450",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 450 Neural Network Models of Social and Cognitive Processes Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-128",
+            "code": "PSYC 452",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 452 Social Neuroscience Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-129",
+            "code": "PSYC 454",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 454 Social Cognition Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-130",
+            "code": "TAC 115",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 115 Programming in Python Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-131",
+            "code": "TAC 116",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 116 Accelerated Programming in Python Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "cognitive-science-ba-132",
+            "code": "TAC 310",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 310 Design for User Experience Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+          "catalogueYear": "2026-2027",
+          "text": "Electives (Three Courses) Note: Students that are interested in focusing on aspects of Cognitive Science that draw from Computer Science will need to take CSCI 103L , and CSCI 104L , in order to take the more advanced Computer Science offerings in the curriculum. In considering how many CSCI courses to take, students should consider that units from these courses are outside of the Dornsife College, and will not be counted toward the required Dornsife College units. Students may not complete more than one of the following courses: TAC 115 , TAC 116 , CSCI 103L and CSCI 113x"
+        },
+        "verified": true
+      }
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+      "catalogueYear": "2026-2027",
+      "text": "Requirements as printed on the catalogue page."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31909",
+    "catalogueYear": "2026-2027",
+    "text": "Director: Toben Mintz, PhDCognitive science is an interdisciplinary major that focuses on the mind and cognition from a variety of perspectives and approaches. The core and electives sample from courses in psychology, philosophy, linguistics, human and evolutionary biology, and computer science.Cognitive Science Major with Honors The cognitive science major with honors requires the student to complete the requirements for the major with a GPA of 3.5 or above and to complete in addition CGSC 498  The page prints 46 units. The built tree accounts for 39 units. Blocks without a course list: none. Built course lines sum to 39."
+  },
+  "verified": false,
+  "humanChecked": false,
+  "unitCheck": "The page prints 46 units. The built tree accounts for 39 units. Blocks without a course list: none. Built course lines sum to 39.",
+  "unexpanded": []
+}

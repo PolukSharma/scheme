@@ -1,0 +1,1121 @@
+{
+  "id": "applied-and-computational-mathematics-ba",
+  "name": "Applied and Computational Mathematics (BA)",
+  "school": "USC Dornsife College of Letters, Arts and Sciences",
+  "kind": "major",
+  "description": "The catalogue page does not print a description above the requirements.",
+  "catalogueYear": "2026-2027",
+  "requirements": {
+    "type": "all_of",
+    "id": "applied-and-computational-mathematics-ba-all",
+    "children": [
+      {
+        "type": "all_of",
+        "id": "applied-and-computational-mathematics-ba-10",
+        "children": [
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-1",
+            "code": "MATH 125g",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "MATH 125g Calculus I Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "applied-and-computational-mathematics-ba-10-orSuffix",
+            "minCount": 1,
+            "options": [
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-2",
+                "code": "MATH 126g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 126g Calculus II Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-3",
+                "code": "MATH 127",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 127 Enhanced Calculus II Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-4",
+                "code": "MATH 129",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 129 Calculus II for Engineers and Scientists Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "The page prints these as alternatives."
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "applied-and-computational-mathematics-ba-10-orSuffix",
+            "minCount": 1,
+            "options": [
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-5",
+                "code": "MATH 225",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 225 Linear Algebra and Linear Differential Equations Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-6",
+                "code": "MATH 245",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 245 Mathematics of Physics and Engineering I Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "The page prints these as alternatives."
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "applied-and-computational-mathematics-ba-10-orSuffix",
+            "minCount": 1,
+            "options": [
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-7",
+                "code": "MATH 226g",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 226g Calculus III Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-8",
+                "code": "MATH 227",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 227 Enhanced Calculus III Units: 4 or"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-9",
+                "code": "MATH 229",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 229 Calculus III for Engineers and Scientists Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "The page prints these as alternatives."
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+          "catalogueYear": "2026-2027",
+          "text": "Pre-major Requirements"
+        },
+        "verified": true
+      },
+      {
+        "type": "all_of",
+        "id": "applied-and-computational-mathematics-ba-28",
+        "children": [
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-11",
+            "code": "MATH 407",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "MATH 407 Probability Theory Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-12",
+            "code": "MATH 458",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "MATH 458 Numerical Methods Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "n_of",
+            "id": "applied-and-computational-mathematics-ba-27",
+            "minCount": 4,
+            "options": [
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-13",
+                "code": "MATH 408",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 408 Mathematical Statistics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-14",
+                "code": "MATH 410",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 410 Fundamental Concepts of Modern Algebra Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-15",
+                "code": "MATH 425a",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 425a Fundamental Concepts of Analysis Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-16",
+                "code": "MATH 425b",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 425b Fundamental Concepts of Analysis Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-17",
+                "code": "MATH 430",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 430 Theory of Numbers Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-18",
+                "code": "MATH 432",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 432 Applied Combinatorics Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-19",
+                "code": "MATH 435",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 435 Introduction to Differential Geometry Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-20",
+                "code": "MATH 445",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 445 Mathematics of Physics and Engineering II Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-21",
+                "code": "MATH 446",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 446 Data Science with Python Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-22",
+                "code": "MATH 447",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 447 Mathematics of Machine Learning Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-23",
+                "code": "MATH 466",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 466 Dynamic Modeling Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-24",
+                "code": "MATH 467",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 467 Theory and Computational Methods for Optimization Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-25",
+                "code": "MATH 471",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 471 Topics in Linear Algebra Units: 4"
+                },
+                "verified": true
+              },
+              {
+                "type": "course",
+                "id": "applied-and-computational-mathematics-ba-26",
+                "code": "MATH 475",
+                "source": {
+                  "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+                  "catalogueYear": "2026-2027",
+                  "text": "MATH 475 Introduction to Theory of Complex Variables Units: 4"
+                },
+                "verified": true
+              }
+            ],
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "Upper-Division Math Electives Four MATH courses at the 400-level or above are required, chosen from the following list:"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+          "catalogueYear": "2026-2027",
+          "text": "Upper-Division Math Requirements The following two courses are required with a grade of C or better:"
+        },
+        "verified": true
+      },
+      {
+        "type": "n_of",
+        "id": "applied-and-computational-mathematics-ba-37",
+        "minCount": 1,
+        "options": [
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-29",
+            "code": "CSCI 102L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 102L Introduction to Programming Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-30",
+            "code": "CSCI 103L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 103L Object Oriented Programming Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-31",
+            "code": "CSCI 113x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 113x Programming Fundamentals for Computing Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-32",
+            "code": "CSCI 114x",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 114x Programming for Applications of Computing Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-33",
+            "code": "TAC 115",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 115 Programming in Python Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-34",
+            "code": "TAC 116",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 116 Accelerated Programming in Python Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-35",
+            "code": "TAC 165",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 165 Introduction to C++ Programming Units: 2"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-36",
+            "code": "TAC 168",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "TAC 168 Introduction to MATLAB Units: 2"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+          "catalogueYear": "2026-2027",
+          "text": "In Computing At least one dedicated programming course. Students may choose from a variety of languages. Other programming courses may be approved, contact your academic advisor for requests."
+        },
+        "verified": false
+      },
+      {
+        "type": "n_of",
+        "id": "applied-and-computational-mathematics-ba-98",
+        "minCount": 3,
+        "options": [
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-38",
+            "code": "AME 301",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "AME 301 Dynamics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-39",
+            "code": "AME 404",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "AME 404 Computational Solutions to Engineering Problems Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-40",
+            "code": "ASTE 331a",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTE 331a Spacecraft Systems Engineering Units: 3"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-41",
+            "code": "ASTE 331b",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTE 331b Spacecraft Systems Engineering Units: 3"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-42",
+            "code": "ASTR 400",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTR 400 The Solar System Units: 4, 2 years"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-43",
+            "code": "ASTR 422",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTR 422 Galaxies and Large-Scale Structures in the Universe Units: 4, 2 years"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-44",
+            "code": "ASTR 424",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTR 424 Cosmology Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-45",
+            "code": "BUAD 311",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "BUAD 311 Operations Management Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-46",
+            "code": "BUAD 313",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "BUAD 313 Advanced Operations Management and Analytics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-47",
+            "code": "CHE 330",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CHE 330 Chemical Engineering Thermodynamics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-48",
+            "code": "CHEM 430",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CHEM 430 Physical Chemistry: Thermodynamics and Kinetics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-49",
+            "code": "CHEM 431",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CHEM 431 Physical Chemistry: Quantum Mechanics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-50",
+            "code": "CHEM 432",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CHEM 432 Physical Chemistry for the Life Sciences Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-51",
+            "code": "CSCI 360",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 360 Artificial Intelligence: Principles and Foundations Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-52",
+            "code": "CSCI 467",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 467 Foundations of Machine Learning Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-53",
+            "code": "CSCI 475",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 475 Theory of Computation Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-54",
+            "code": "DSO 424",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "DSO 424 Business Forecasting Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-55",
+            "code": "DSO 428",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "DSO 428 Essentials and Digital Frontiers of Big Data Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-56",
+            "code": "ECON 303",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 303 Intermediate Microeconomic Theory Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-57",
+            "code": "ECON 305",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 305 Intermediate Macroeconomic Theory Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-58",
+            "code": "ECON 318",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 318 Introduction to Econometrics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-59",
+            "code": "ECON 401",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 401 Mathematical Methods in Economics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-60",
+            "code": "ECON 404",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 404 Games and Economics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-61",
+            "code": "ECON 419",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 419 Advanced Econometrics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-62",
+            "code": "ECON 457",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ECON 457 Financial Markets Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-63",
+            "code": "FBE 435",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "FBE 435 Applied Finance in Fixed Income Securities Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-64",
+            "code": "FBE 441",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "FBE 441 Investments Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-65",
+            "code": "FBE 459",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "FBE 459 Financial Derivatives Units: 4 *"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-66",
+            "code": "GEOL 425L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "GEOL 425L Data Analysis in the Earth and Environmental Sciences Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-67",
+            "code": "GEOL 440L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "GEOL 440L Geophysics and Geoengineering Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-68",
+            "code": "GEOL 450L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "GEOL 450L Geosystems Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-69",
+            "code": "ISE 330",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ISE 330 Optimization Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-70",
+            "code": "ISE 331",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ISE 331 Introduction to Operations Research: Stochastic Models Units: 3"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-71",
+            "code": "PHYS 304",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 304 Mechanics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-72",
+            "code": "PHYS 316",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 316 Thermodynamics and Statistical Mechanics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-73",
+            "code": "PHYS 408a",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 408a Electricity and Magnetism Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-74",
+            "code": "PHYS 408b",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 408b Electricity and Magnetism Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-75",
+            "code": "PSYC 421L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PSYC 421L Data Analysis for Psychological Research Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-76",
+            "code": "QBIO 401",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 401 Introduction to Computational Analysis of Biological Data Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-77",
+            "code": "QBIO 478",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "QBIO 478 Computational Genome Analysis Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-80",
+            "code": "AME 201",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "AME 201 Statics Units: 4.0"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-81",
+            "code": "AME 204",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "AME 204 Mechanics of Materials and Structures Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-82",
+            "code": "ASTE 101L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTE 101L Introduction to Astronautics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-83",
+            "code": "ASTE 280",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ASTE 280 Foundations of Astronautical Engineering Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-84",
+            "code": "BME 210",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "BME 210 Biomedical Computer Simulation Methods Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-85",
+            "code": "CE 215",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CE 215 Statics and Dynamics Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-86",
+            "code": "CE 225",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CE 225 Mechanics of Deformable Bodies Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-87",
+            "code": "CHE 120",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CHE 120 Introduction to Chemical Engineering Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-88",
+            "code": "CSCI 170",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 170 Discrete Methods in Computer Science Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-89",
+            "code": "CSCI 270",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "CSCI 270 Introduction to Algorithms and Theory of Computing Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-90",
+            "code": "EE 202L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "EE 202L Linear Circuits Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-91",
+            "code": "ISE 220",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ISE 220 Foundations of Probability Modeling Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-92",
+            "code": "ISE 225",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "ISE 225 Foundations of Data Analysis Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-93",
+            "code": "MATH 290",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "MATH 290 Mathematical Reasoning and Problem Solving Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-94",
+            "code": "PHYS 151Lg",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 151Lg Fundamentals of Physics I: Mechanics, Oscillations and Waves Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-95",
+            "code": "PHYS 152L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 152L Fundamentals of Physics II: Electricity and Magnetism Units: 4"
+            },
+            "verified": true
+          },
+          {
+            "type": "course",
+            "id": "applied-and-computational-mathematics-ba-96",
+            "code": "PHYS 153L",
+            "source": {
+              "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+              "catalogueYear": "2026-2027",
+              "text": "PHYS 153L Fundamentals of Physics III: Optics, Thermo, Modern Physics Units: 4"
+            },
+            "verified": true
+          }
+        ],
+        "source": {
+          "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+          "catalogueYear": "2026-2027",
+          "text": "Three Electives with Significant Quantitative Content At least three additional courses with significant quantitative content, in mathematics, natural sciences, computer science, engineering, economics or other fields approved by the department. At least two of these must be outside the mathematics department; one of which must be an upper-division course. Courses to be chosen from following lists:"
+        },
+        "verified": false
+      }
+    ],
+    "source": {
+      "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+      "catalogueYear": "2026-2027",
+      "text": "Requirements as printed on the catalogue page."
+    },
+    "verified": false
+  },
+  "source": {
+    "url": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31854",
+    "catalogueYear": "2026-2027",
+    "text": "Applied and Computational Mathematics (BA) The page does not print a single total. verified is false."
+  },
+  "verified": false,
+  "humanChecked": false,
+  "unitCheck": "The page does not print a single total. verified is false.",
+  "unexpanded": []
+}

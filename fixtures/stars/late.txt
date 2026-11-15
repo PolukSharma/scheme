@@ -1,0 +1,20 @@
+   PREPARED: 11/14/26 - 12:00
+   PROGRAM: 1003                                  CATALOG YEAR: 20263
+   STARS - DEGREE PROGRESS REPORT
+   BACHELOR OF SCIENCE
+   COMPUTER SCIENCE/BUSINESS ADMINISTRATION
+   _________________________________________________________________
+   PERTINENT DATA SECTION:
+
+   Term of USC Entrance 20233  Current Class Level Senior
+
+   MINOR:  Law and Regulation of Artificial Intelligence       20261
+
+         20233 CSCI102  L    2.0 A     Invented fundamentals
+         20241 CSCI103  L    4.0 A     Invented objects
+         20243 CSCI170       4.0 B+    Invented discrete
+         20251 CSCI104  L    4.0 B     Invented structures
+         20253 TAC 115       2.0 A     Invented python
+         20261 WRIT150       4.0 A-    Invented writing
+         20261 LAW 210     P 4.0 A     Invented legal foundations
+         20263 WRIT340       4.0 RG >IPInvented advanced writing

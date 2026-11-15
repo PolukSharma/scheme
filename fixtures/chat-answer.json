@@ -1,0 +1,14 @@
+{
+  "text": "The stub treats an in-progress course as unfinished.",
+  "citations": [
+    {
+      "label": "DEMO 201",
+      "source": {
+        "url": "https://example.edu/demo-catalogue/2026/courses/demo-201",
+        "catalogueYear": "2026-2027",
+        "text": "Invented fixture, not a USC course: DEMO 201 Widget Structures is 4 units."
+      }
+    }
+  ],
+  "fallback": true
+}
