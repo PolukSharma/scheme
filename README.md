@@ -2,7 +2,7 @@
 
 USC students work out whether they can add a minor or switch a major by reading a STARS report against the catalogue, or by waiting for an advising appointment. Scheme is a planning aid: a student enters a major and start year, adds a STARS report or picks a sample student, and sees which programs add the least extra time. It supports advisors and does not replace them. STARS remains the official audit.
 
-This repository is the skeleton. Rankings on the home page come from an engine stub and from invented `DEMO` courses, so nothing on that page is a USC rule. Real catalogue data, the degree engine, the in-browser STARS parser, and the AI features land in later pull requests.
+The home page ranks programs with the engine and the catalogue files in `data/`. A sample student is two taps from the landing page. A STARS report is parsed in the browser and is not uploaded. Career matching and chat call `/api/career` and `/api/chat` when those routes exist, and stay on the engine when they do not.
 
 ## Run it
 
@@ -11,9 +11,9 @@ npm install
 npm run dev
 ```
 
-Open the local URL Next prints. `npm test` checks the fixtures and the stub. `npm run lint`, `npm run typecheck`, and `npm run build` are the same checks CI runs.
+Open the local URL Next prints. `npm test` checks the fixtures, the engine, and the screens. `npm run lint`, `npm run typecheck`, and `npm run build` are the same checks CI runs.
 
-Copy `.env.example` to `.env` when the AI layer needs `AI_API_KEY`. The skeleton does not call a model, and sample students work with the key missing.
+Copy `.env.example` to `.env` when the AI layer needs `AI_API_KEY`. Sample students work with the key missing.
 
 ## What is here
 
@@ -30,7 +30,7 @@ Shared types and validators live in `lib/types/`. The engine signatures live in 
 | `evals/` | Verification |
 | `docs/submission/` | Submission pack |
 
-Colours other than cardinal `#990000` on the letters “Sc” in the Scheme title are placeholders. The Web experience agent should replace type and colour from USC’s published brand guidelines and link the page they used.
+Colour and type follow USC’s published brand guidelines. [Colour](https://identity.usc.edu/identity/color/) sets USC Cardinal `#990000`, USC Gold `#FFCC00`, black `#000000`, white `#FFFFFF`, and gray `#767676` (70K). In every title, the letters “Sc” in Scheme are cardinal and the rest of the word is black. Gold is a bar, not text, because gold on white does not meet WCAG AA. [Typography](https://identity.usc.edu/identity/typography/) names Adobe Caslon Pro and National 2, and names Source Sans 3 as the digital substitute for National 2. This app uses Source Sans 3. Adobe Caslon Pro is not embedded. Tertiary colours are not used for text.
 
 ## Privacy
 
